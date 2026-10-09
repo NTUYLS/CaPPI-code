@@ -1,0 +1,852 @@
+[
+  {
+    "epoch": 1,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 4,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 6,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 8,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 9,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 11,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 12,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 13,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 14,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 16,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 17,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 18,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 19,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 21,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 22,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 23,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 24,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "probability": 0,
+    "n_nodes": 582,
+    "original_present_nodes": 405,
+    "effective_present_nodes": 405,
+    "artificially_masked_nodes": 0,
+    "by_label": {
+      "positive": {
+        "n_pairs": 11892,
+        "original_present_endpoints": 23784,
+        "effective_present_endpoints": 23784,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 0,
+        "original_1_present": 0,
+        "original_2_present": 11892,
+        "effective_0_present": 0,
+        "effective_1_present": 0,
+        "effective_2_present": 11892
+      },
+      "negative": {
+        "n_pairs": 11657,
+        "original_present_endpoints": 23124,
+        "effective_present_endpoints": 23124,
+        "artificially_masked_endpoints": 0,
+        "original_0_present": 1,
+        "original_1_present": 188,
+        "original_2_present": 11468,
+        "effective_0_present": 1,
+        "effective_1_present": 188,
+        "effective_2_present": 11468
+      }
+    }
+  }
+]

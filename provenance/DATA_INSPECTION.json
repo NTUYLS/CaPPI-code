@@ -1,0 +1,212 @@
+{
+  "status": "passed",
+  "scope": "prepared-data integrity and all saved fold contracts",
+  "n_proteins": 582,
+  "n_positive_associations": 23707,
+  "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+  "manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+  "verified_folds": 20,
+  "folds": [
+    {
+      "negative": "random",
+      "protocol": "pair",
+      "fold": 0,
+      "split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da",
+      "training_pairs": 33188,
+      "validation_pairs": 4742,
+      "test_pairs": 9484,
+      "train_positive_graph_edges": 16594
+    },
+    {
+      "negative": "random",
+      "protocol": "pair",
+      "fold": 1,
+      "split_hash": "581959128e949421d0d88b75f0ac8a2b0843397fa822d9d9abe5da5a115faf06",
+      "training_pairs": 33188,
+      "validation_pairs": 4742,
+      "test_pairs": 9484,
+      "train_positive_graph_edges": 16594
+    },
+    {
+      "negative": "random",
+      "protocol": "pair",
+      "fold": 2,
+      "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+      "training_pairs": 33190,
+      "validation_pairs": 4742,
+      "test_pairs": 9482,
+      "train_positive_graph_edges": 16595
+    },
+    {
+      "negative": "random",
+      "protocol": "pair",
+      "fold": 3,
+      "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad",
+      "training_pairs": 33190,
+      "validation_pairs": 4742,
+      "test_pairs": 9482,
+      "train_positive_graph_edges": 16595
+    },
+    {
+      "negative": "random",
+      "protocol": "pair",
+      "fold": 4,
+      "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883",
+      "training_pairs": 33190,
+      "validation_pairs": 4742,
+      "test_pairs": 9482,
+      "train_positive_graph_edges": 16595
+    },
+    {
+      "negative": "random",
+      "protocol": "protein",
+      "fold": 0,
+      "split_hash": "749e27d3067c1143aeb6a5729c540d59b7c0b5f33f937e72863bf4764bae3bdc",
+      "training_pairs": 22797,
+      "validation_pairs": 516,
+      "test_pairs": 2015,
+      "train_positive_graph_edges": 10996
+    },
+    {
+      "negative": "random",
+      "protocol": "protein",
+      "fold": 1,
+      "split_hash": "d9933562c9040c15cc34343378711f2c772e8a17e1fc171819803b259343070c",
+      "training_pairs": 22857,
+      "validation_pairs": 458,
+      "test_pairs": 1981,
+      "train_positive_graph_edges": 11265
+    },
+    {
+      "negative": "random",
+      "protocol": "protein",
+      "fold": 2,
+      "split_hash": "6177d12a1e8030d2927a0a3234b3baadb13264cf41473ae37d31be973d972a07",
+      "training_pairs": 23720,
+      "validation_pairs": 401,
+      "test_pairs": 1937,
+      "train_positive_graph_edges": 12067
+    },
+    {
+      "negative": "random",
+      "protocol": "protein",
+      "fold": 3,
+      "split_hash": "07bcdb691a5dc4dac42acd60954d778c5c0f4b24a1bfc77a33237c8ee964b36d",
+      "training_pairs": 23054,
+      "validation_pairs": 520,
+      "test_pairs": 1840,
+      "train_positive_graph_edges": 11482
+    },
+    {
+      "negative": "random",
+      "protocol": "protein",
+      "fold": 4,
+      "split_hash": "9c4cf64687786d721013ae094925e9b37748a72368a1d536bae6085d029a37e5",
+      "training_pairs": 23549,
+      "validation_pairs": 517,
+      "test_pairs": 1722,
+      "train_positive_graph_edges": 11892
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "pair",
+      "fold": 0,
+      "split_hash": "9cabae29af8d3bafb5457ad9d0c93445a84fdfd1aa486a2b8417ef28743f5a21",
+      "training_pairs": 33188,
+      "validation_pairs": 4742,
+      "test_pairs": 9484,
+      "train_positive_graph_edges": 16594
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "pair",
+      "fold": 1,
+      "split_hash": "ef6cd6ca09260f3a2bac2e8059102261651975f2349e08cfec9726e79027ef44",
+      "training_pairs": 33188,
+      "validation_pairs": 4742,
+      "test_pairs": 9484,
+      "train_positive_graph_edges": 16594
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "pair",
+      "fold": 2,
+      "split_hash": "c12043856aca5415f9a11e8c73db86464f5537b2fae6fdc3516d0a65ce55a443",
+      "training_pairs": 33190,
+      "validation_pairs": 4742,
+      "test_pairs": 9482,
+      "train_positive_graph_edges": 16595
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "pair",
+      "fold": 3,
+      "split_hash": "9d4fdfb548d1e0df1457daee7e76f6d3aaf021c50beda085cdc5a4de588b4536",
+      "training_pairs": 33190,
+      "validation_pairs": 4742,
+      "test_pairs": 9482,
+      "train_positive_graph_edges": 16595
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "pair",
+      "fold": 4,
+      "split_hash": "22c851218ef7bd8e7da80026bcfb46daee62f692afee93605c1e18168631021e",
+      "training_pairs": 33190,
+      "validation_pairs": 4742,
+      "test_pairs": 9482,
+      "train_positive_graph_edges": 16595
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "protein",
+      "fold": 0,
+      "split_hash": "7cb9a39a3bf1cf81d3925963baabfdf81f8e0b14c83fefe4ff20e03c38ac3895",
+      "training_pairs": 22558,
+      "validation_pairs": 534,
+      "test_pairs": 1932,
+      "train_positive_graph_edges": 10996
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "protein",
+      "fold": 1,
+      "split_hash": "1fc7f023acaeb8e8678094e63f7d342722a310ea85df209453f6e2078cfa1957",
+      "training_pairs": 22723,
+      "validation_pairs": 442,
+      "test_pairs": 2082,
+      "train_positive_graph_edges": 11265
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "protein",
+      "fold": 2,
+      "split_hash": "967d1b3aabcb6808c4842eb2414342ea636dde17c383b9b6220cdb9257890bb2",
+      "training_pairs": 23692,
+      "validation_pairs": 326,
+      "test_pairs": 2074,
+      "train_positive_graph_edges": 12067
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "protein",
+      "fold": 3,
+      "split_hash": "700bc8c9ba7203cc9455c5b26ca5e5c89c0ad1bc1387adf8de14644108efde41",
+      "training_pairs": 23117,
+      "validation_pairs": 530,
+      "test_pairs": 1773,
+      "train_positive_graph_edges": 11482
+    },
+    {
+      "negative": "degree_matched",
+      "protocol": "protein",
+      "fold": 4,
+      "split_hash": "38fcc264077d94ba25f25d166174a58ff107ee83ac1e4c6d3f4755b2ff1c198e",
+      "training_pairs": 24125,
+      "validation_pairs": 478,
+      "test_pairs": 1583,
+      "train_positive_graph_edges": 11892
+    }
+  ],
+  "raw_source_paths": "Informational original paths retained; no manifest rewriting"
+}

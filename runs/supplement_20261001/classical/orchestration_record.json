@@ -1,0 +1,13 @@
+{
+  "strategy": "Three bounded CPU workers, each at most two threads, on distinct folds; original runner/configuration unchanged throughout",
+  "main_worker": "pair folds 0, 1, 2 completed, then intentional FileExistsError at pair fold 3 reservation before any duplicate fitting",
+  "main_exit_code": 1,
+  "main_exit_interpretation": "Expected reservation safety stop, not a model training or evaluation failure",
+  "pair_fold_4_worker": "Four completed runs verified and atomically moved into the primary output; see classical_shards/pair_fold4/merge_record.json",
+  "pair_fold_3_worker": "Four completed runs independently verified; primary process confirmed stopped before publishing original artifacts into reservations; see classical_shards/pair_fold3/publication_record.json",
+  "protein_worker": "Twenty completed runs independently verified and atomically merged; see classical_shards/protein/merge_record.json",
+  "final_completion_authority": "classical/verification.json from the independent --verify-only full 40-run pass",
+  "duplicate_fitting": false,
+  "active_training_interrupted": false,
+  "final_status": "All 40 runs verified successfully from saved predictions, frozen folds, graph hashes, and shared-feature LR/RF replays"
+}

@@ -1,0 +1,11 @@
+{
+  "graph_unique_undirected_edges": 16594,
+  "expected_train_positive_edges": 16594,
+  "missing_train_positive_edges": 0,
+  "unexpected_nontrain_edges": 0,
+  "validation_positive_edges_already_in_train": 0,
+  "test_positive_edges_already_in_train": 0,
+  "validation_only_edges_in_graph": 0,
+  "test_only_edges_in_graph": 0,
+  "graph_source": "training positive edges only"
+}

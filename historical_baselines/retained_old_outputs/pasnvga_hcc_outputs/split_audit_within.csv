@@ -1,0 +1,4 @@
+﻿scope,split,positive_rows,negative_rows,positive_ordered_unique,negative_ordered_unique,positive_undirected_unique,negative_undirected_unique,positive_self_pairs,negative_self_pairs,positive_negative_ordered_conflicts,positive_negative_undirected_conflicts
+within_split,train,16594,16594,16594,16594,16594,16224,0,22,0,969
+within_split,validation,2371,2371,2371,2371,2371,2360,0,5,0,16
+within_split,test,4742,4742,4742,4742,4742,4702,0,16,0,91

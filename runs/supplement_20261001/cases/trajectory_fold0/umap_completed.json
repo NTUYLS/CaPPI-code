@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "umap_version": "0.5.7",
+  "epochs": [
+    50,
+    150,
+    300,
+    600
+  ],
+  "seed": 20260930,
+  "n_validation_pairs_per_epoch": 4742,
+  "representation": "32-dimensional penultimate ReLU of pair head; average forward/reverse endpoint order",
+  "projection": "one joint unsupervised UMAP fit to concatenated four snapshots; shared axes; no per-panel fit; no feature rescaling",
+  "umap_parameters": {
+    "n_neighbors": 15,
+    "min_dist": 0.1,
+    "metric": "euclidean",
+    "n_jobs": 1
+  },
+  "interpretation": "exploratory validation-set visualization only; early stopping disabled for trajectory; no test samples; no choice of model or epoch from cluster separation; not evidence of biological or unseen-protein generalization",
+  "artifacts": {
+    "joint_umap_coordinates.npz": "576e748dabe7eca821651b98cad6a959a604b131ab37b6a551b736c8a7a96e20",
+    "validation_trajectory.png": "5258b83a1f55d69a6d5fde8bef96e419bc7930ca2022431cb4fb4b627d0d27f8",
+    "validation_trajectory.pdf": "28a757bf4f348908c7f91e119bf29c65159f78f8d63aa696f8f50caac5002153"
+  }
+}

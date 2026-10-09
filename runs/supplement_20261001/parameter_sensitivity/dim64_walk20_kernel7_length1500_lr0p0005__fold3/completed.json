@@ -1,0 +1,48 @@
+{
+  "name": "dim64_walk20_kernel7_length1500_lr0p0005__fold3",
+  "config_name": "dim64_walk20_kernel7_length1500_lr0p0005",
+  "settings": {
+    "dim": 64,
+    "walk_length": 20,
+    "kernel": 7,
+    "max_length": 1500,
+    "learning_rate": 0.0005
+  },
+  "fold": 3,
+  "run_signature": "181c5959807ac5c0458fcfe62afb378d5f28bb2a8199085ca5ce1597d07016ff",
+  "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad",
+  "graph_hash": "5647b6461a672abf8f91062c71df37eca0e4f210b2c3e2f6a680632ce2281965",
+  "checkpoint_sha256": "5a21e79faaa737b4caea2b23ae5fdde1a843accf42ae1f76f80c7acb37e81cc3",
+  "evaluation_partition": "validation",
+  "test_evaluated": false,
+  "test_labels_or_scores_loaded": false,
+  "baseline_reused": true,
+  "best_epoch": 273,
+  "epochs_in_history": 293,
+  "best_validation_bce": 0.3137027323246002,
+  "elapsed_seconds": 0.4839999999385327,
+  "validation_metrics": {
+    "n": 4742,
+    "positive_n": 2371,
+    "accuracy": 0.8599746942218474,
+    "sensitivity": 0.8899198650358499,
+    "specificity": 0.8300295234078447,
+    "precision": 0.8396339037007561,
+    "f1": 0.864045864045864,
+    "mcc": 0.7212440486226331,
+    "auroc": 0.9403399292128403,
+    "average_precision": 0.9361359827144141,
+    "pr_trapezoid_area": 0.9361185028349639,
+    "threshold": 0.5
+  },
+  "artifact_sha256": {
+    "best.pt": "5a21e79faaa737b4caea2b23ae5fdde1a843accf42ae1f76f80c7acb37e81cc3",
+    "topology.npz": "9a20526d77150857c204446d5e851b6dedaad2296430ef96d358e819783eb2bd",
+    "run_config.json": "3fef4dedf26d7d8e29235dcc047d3bf704bbc6455f0e2b6c047260d77009f868",
+    "history.json": "7907e26babe0069ca21b46d063e935c035688c956fcc725022b1233d87b6e0f6",
+    "validation_predictions.csv": "e6d6e3a5d90870196bc06f5293f649ab5c9ba08bf670f0a7e763f8610ec334f0",
+    "validation_metrics.json": "14b641266f769be44fece9a104d13cfcac960202d786c1180405569bed804f72",
+    "parameters.json": "8c3690d4f202566c6b9c9cce1d644c37cfa3a3197fee13fc28e1848d25a66a98",
+    "source_provenance.json": "db008170143fe663f225ca9883cfb1f6e8022c15ff378dcbeecc0568d35faaee"
+  }
+}

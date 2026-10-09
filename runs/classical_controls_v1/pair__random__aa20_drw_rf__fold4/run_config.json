@@ -1,0 +1,62 @@
+{
+  "code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+  "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+  "protocol": "pair",
+  "negative_sampling": "random",
+  "base_seed": 20260930,
+  "graph": {
+    "method": "drw",
+    "dim": 64,
+    "walks_per_node": 10,
+    "walk_length": 20,
+    "window": 5,
+    "epochs": 5,
+    "negative_samples": 5,
+    "p": 1.0,
+    "q": 0.5
+  },
+  "environment": {
+    "python": "3.10.20",
+    "numpy": "1.26.4",
+    "sklearn": "1.3.2",
+    "joblib": "1.3.2"
+  },
+  "control_category": "feature-based controls; not published deep-model reproductions",
+  "selection": "Fixed hyperparameters; training pairs only; no validation/test model or threshold tuning.",
+  "feature_definition": "Full-sequence canonical AA20 frequencies plus raw 64D DRW; pair = concat(abs(u-v), u*v), 168 dimensions.",
+  "aa20_unknown_policy": "Unknown residues count toward full sequence length but have no AA20 bin.",
+  "unseen_topology": "All-zero for nodes absent from the training graph.",
+  "heuristic_metrics": "Raw degree-product/common-neighbor ranking scores; only AUROC/AP; no classifier threshold.",
+  "method": "aa20_drw_rf",
+  "model": {
+    "algorithm": "RandomForestClassifier",
+    "n_estimators": 200,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "n_jobs": 4,
+    "criterion": "gini",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "bootstrap": true,
+    "class_weight": null,
+    "standardization": "none"
+  },
+  "seed": 20260934,
+  "fold": 4,
+  "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883",
+  "split_array_hashes": {
+    "train": "f78d4888ca2c00088d149082ffebd36c0be23395a7a1f3d20e14e52d3f6149ff",
+    "val": "e6246b9808e00f88450637f896818fe852db633d2bdb18778b36adf052ee7c25",
+    "test": "0fabe5ea06248b80211707c018e389e6e9675a5b5d4268de2b89b1fb9825e787"
+  },
+  "prepared_artifact_hashes": {
+    "train": "3b0f31743a7d65bc22a9baaa2188d7d9c21fb16a1b9787e22f5038c814b86a3a",
+    "val": "98b622514e9ca1e746889fd4d9f73f8570d051812775db4255b3236449bbd1fe",
+    "test": "bd30c2369e72b349239d4182433728242f06381e5afe9e00d0ca18a63dd55661",
+    "graph": "3455e57f3a057587431740de43ed8c7da34b686651cb54c6c7d8fc914efdc9fa"
+  },
+  "graph_hash": "bf6a142e43f8ab20315effaf0e3da8b86e712a3b31b1df7711c5b36b73645b74",
+  "run_signature": "2541eebd3cd0865dea92e0f0de340b9ffadd4206eb964463e2f6912f4e585ed4",
+  "campaign_signature": "c815d00138b185e92ffe4a96e8d15bad1fd2e7105a0019af79798d7f1176805b",
+  "python_executable": "D:\\Anaconda\\envs\\arg_gpu\\python.exe"
+}

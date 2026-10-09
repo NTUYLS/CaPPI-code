@@ -1,0 +1,7 @@
+{
+  "ordered_cross_group_overlap_total": 0,
+  "undirected_cross_group_overlap_total": 2388,
+  "undirected_cross_group_label_conflicts": 2004,
+  "within_split_undirected_label_conflicts": 1076,
+  "rows_modified_or_removed": 0
+}

@@ -1,0 +1,43 @@
+{
+  "config": {
+    "topo_dim": 64,
+    "seq_dim": 256,
+    "filters": 64,
+    "kernel": 7,
+    "max_length": 1500,
+    "fusion": "topology_only",
+    "dropout": 0.3,
+    "pair_dropout": [
+      0.4,
+      0.4,
+      0.1
+    ]
+  },
+  "total": 101057,
+  "trainable": 101057,
+  "modules": {
+    "sequence_encoder": {
+      "total": 0,
+      "trainable": 0
+    },
+    "topology_projection": {
+      "total": 16640,
+      "trainable": 16640
+    },
+    "fusion": {
+      "total": 0,
+      "trainable": 0
+    },
+    "pair_head": {
+      "total": 84417,
+      "trainable": 84417
+    }
+  },
+  "reference_residual_fusion_trainable": 1447680,
+  "fusion_capacity_relative_difference": 1.0,
+  "fusion_capacity_signed_difference": -1447680,
+  "matched_hidden_width": null,
+  "capacity_match_applies": false,
+  "pair_output": "mean_of_forward_and_reverse_binary_logits",
+  "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+}

@@ -1,0 +1,45 @@
+{
+  "core_code_sha256": "76593480cfb156c8817d6bd12b522f09b50f4219c28720af2f2e93d89f381e91",
+  "supplement_code_sha256": "0be613bcddf9be6b9e0d372e0044b218d82bca4855a4fccc47857a0f70f62f97",
+  "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+  "split_hash": "a4a845ded95fa76ed1c9366a38f2d3716077019a6be1d2b8dc1851b4feebd4a8",
+  "model": {
+    "topo_dim": 64,
+    "seq_dim": 256,
+    "filters": 64,
+    "kernel": 7,
+    "max_length": 1500,
+    "fusion": "residual",
+    "dropout": 0.3,
+    "pair_dropout": [
+      0.4,
+      0.4,
+      0.1
+    ]
+  },
+  "graph": {
+    "method": "drw",
+    "dim": 64,
+    "walks_per_node": 10,
+    "walk_length": 20,
+    "window": 5,
+    "epochs": 5,
+    "negative_samples": 5,
+    "p": 1.0,
+    "q": 0.5
+  },
+  "seed": 20260930,
+  "max_epochs": 300,
+  "early_stopping_patience": 20,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "pair_chunk": 4096,
+  "torch_threads": 2,
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "numpy": "1.26.4",
+  "selection": "validation minimum BCE only; no test selection",
+  "purpose": "exploratory single-target holdout; no external or experimental validation",
+  "run_signature": "84c2f6c6766984a16a291f364fbf4faff759bb48c79fa04889236c15be05605b",
+  "python": "D:\\Anaconda\\envs\\arg_gpu\\python.exe"
+}

@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "created_for": "2026-10-07",
+  "purpose": "Controlled investigation of missing-topology adaptation and modality contributions; preserve original results.",
+  "workspace": "D:/1.肝癌/CaPPI_revised",
+  "output_root": "D:/1.肝癌/CaPPI_revised/runs/repair_20261007",
+  "results_root": "D:/1.肝癌/CaPPI_revised/results/repair_20261007",
+  "families": {
+    "residual": {
+      "fusion": "residual",
+      "topology_dropout": 0,
+      "missing_policy": "original"
+    },
+    "topology_dropout": {
+      "fusion": "residual",
+      "topology_dropout": 0.5,
+      "missing_policy": "original"
+    },
+    "topology_dropout_bypass": {
+      "fusion": "residual",
+      "topology_dropout": 0.5,
+      "missing_policy": "bypass"
+    },
+    "sequence_only": {
+      "fusion": "sequence_only",
+      "topology_dropout": 0,
+      "missing_policy": "original"
+    },
+    "topology_only": {
+      "fusion": "topology_only",
+      "topology_dropout": 0,
+      "missing_policy": "original"
+    },
+    "concat_matched": {
+      "fusion": "concat_matched",
+      "topology_dropout": 0,
+      "missing_policy": "original"
+    }
+  },
+  "conditions": [
+    {
+      "protocol": "pair",
+      "negative": "random",
+      "families": [
+        "residual",
+        "topology_dropout",
+        "topology_dropout_bypass",
+        "sequence_only",
+        "topology_only",
+        "concat_matched"
+      ]
+    },
+    {
+      "protocol": "protein",
+      "negative": "random",
+      "families": [
+        "residual",
+        "topology_dropout",
+        "topology_dropout_bypass",
+        "sequence_only",
+        "topology_only",
+        "concat_matched"
+      ]
+    },
+    {
+      "protocol": "pair",
+      "negative": "degree_matched",
+      "families": [
+        "residual",
+        "sequence_only",
+        "topology_only"
+      ]
+    }
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "model_seed_formula": "20260930 + repeat*1000 + fold",
+  "repeat_indices": [
+    0,
+    1,
+    2
+  ],
+  "graph_seed_formula": "20260930 + fold (fixed across model repeats and model families)",
+  "validation_grid": {
+    "learning_rate": [
+      0.0005,
+      0.001
+    ],
+    "repeat": 0,
+    "selection": "per condition-family-fold: minimum best validation BCE, ties choose lower LR",
+    "test_access": "none in training/selection; test pair IDs only for graph leakage audit"
+  },
+  "selected_repeats": {
+    "repeat": [
+      1,
+      2
+    ],
+    "learning_rate": "freeze repeat-0 selected LR separately for each condition-family-fold; no retuning"
+  },
+  "training": {
+    "epochs": 300,
+    "early_stopping_patience": 20,
+    "checkpoint": "minimum validation BCE; min_delta 1e-6",
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "scheduler": "ReduceLROnPlateau factor0.5 patience10",
+    "gradient_clip": 5,
+    "pair_chunk": 4096,
+    "seq_length": 1500,
+    "model_dropout": 0.3,
+    "pair_dropout": [
+      0.4,
+      0.4,
+      0.1
+    ]
+  },
+  "topology_dropout": {
+    "unit": "node",
+    "probability": 0.5,
+    "label_independent": true,
+    "train_only": true,
+    "separate_rng": true
+  },
+  "evaluation": {
+    "threshold": 0.5,
+    "metric_display": "AUPR = trapezoidal PR curve area; Average Precision stored separately",
+    "comparison": "same test pairs, fold, model repeat and graph representation",
+    "test_status": "Existing benchmark was previously examined and motivated this change. These are adaptive same-benchmark comparisons, not a new blind or independent external evaluation."
+  },
+  "capacity_control": {
+    "family": "concat_matched",
+    "visibility": "retain numerical results and verification; existing figures/manuscript not edited"
+  },
+  "counts": {
+    "validation_training_runs": 150,
+    "selected_additional_seed_training_runs": 150,
+    "total_training_runs": 300,
+    "selected_test_evaluations": 225
+  },
+  "source_policy": "Original core files, prepared benchmark, source sequences, previous runs, figures and manuscripts are read-only. New code and artifacts only.",
+  "pilot": "Run one protein-disjoint fold before full campaign; verify masks, finite training, checkpoint restore and IDs. Pilot runs meeting the final contract may be reused within this campaign.",
+  "scope_exclusions": [
+    "protein docking",
+    "ARGScope figures",
+    "manuscript edits",
+    "new external dataset",
+    "organism relabeling"
+  ],
+  "acceptance": "Completed jobs, independent numerical/provenance verification and a source-backed report, regardless of whether the proposed repairs improve performance."
+}

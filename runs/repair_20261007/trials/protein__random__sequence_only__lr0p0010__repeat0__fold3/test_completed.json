@@ -1,0 +1,33 @@
+{
+  "schema": "cappi-missing-topology-selected-test-v1",
+  "name": "protein__random__sequence_only__lr0p0010__repeat0__fold3",
+  "run_signature": "1f55db8c0e533a9ff69f24e5aef3f4ce81df25459a0b53b4aeb22dc211b0c000",
+  "split_hash": "07bcdb691a5dc4dac42acd60954d778c5c0f4b24a1bfc77a33237c8ee964b36d",
+  "checkpoint_sha256": "2af3f7aee2c6e02a751106010449403c5409d9aea1069dc5649feefa4c8e7672",
+  "graph_hash": "f7d2cc4d122fc55ccafbe3340aa80b087a396b11c5d4b4142187a06b29b2b7e8",
+  "selection_declaration_sha256": "a994b44ef3eb44ea4042503dacc1f372fbc527388895ea7f101988b3f28a7395",
+  "selection_rule": "per condition-family-fold: minimum best validation BCE, ties choose lower LR",
+  "evaluation_partition": "test",
+  "test_evaluated": true,
+  "test_metrics": {
+    "n": 1840,
+    "positive_n": 896,
+    "accuracy": 0.7125,
+    "sensitivity": 0.6160714285714286,
+    "specificity": 0.8040254237288136,
+    "precision": 0.7489823609226595,
+    "f1": 0.6760563380281691,
+    "mcc": 0.42851687518032816,
+    "auroc": 0.7902991638922519,
+    "average_precision": 0.7752707038645983,
+    "pr_trapezoid_area": 0.7747440635742824,
+    "threshold": 0.5
+  },
+  "elapsed_seconds": 0.07799999999406282,
+  "device": "cuda",
+  "artifact_sha256": {
+    "test_predictions.csv": "5d3e733f6eca6abe957cfd6618165859fe5b1383326f49f4a7dcc0b528f2ea1b",
+    "test_metrics.json": "1f47cc1f6614e0e101cfee695ad38cb75ee08ee5594bc97db919546db25d01a8",
+    "selection_frozen.json": "a994b44ef3eb44ea4042503dacc1f372fbc527388895ea7f101988b3f28a7395"
+  }
+}

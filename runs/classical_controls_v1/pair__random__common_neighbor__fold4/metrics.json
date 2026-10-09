@@ -1,0 +1,47 @@
+{
+  "train": {
+    "accuracy": null,
+    "sensitivity": null,
+    "specificity": null,
+    "precision": null,
+    "f1": null,
+    "mcc": null,
+    "auroc": 0.9228947214813394,
+    "average_precision": 0.9154116057859153,
+    "pr_trapezoid_area": null,
+    "n": 33190,
+    "positive_n": 16595,
+    "threshold": null,
+    "metric_scope": "ranking_only"
+  },
+  "val": {
+    "accuracy": null,
+    "sensitivity": null,
+    "specificity": null,
+    "precision": null,
+    "f1": null,
+    "mcc": null,
+    "auroc": 0.9212817929853578,
+    "average_precision": 0.911660724274475,
+    "pr_trapezoid_area": null,
+    "n": 4742,
+    "positive_n": 2371,
+    "threshold": null,
+    "metric_scope": "ranking_only"
+  },
+  "test": {
+    "accuracy": null,
+    "sensitivity": null,
+    "specificity": null,
+    "precision": null,
+    "f1": null,
+    "mcc": null,
+    "auroc": 0.9241847506800371,
+    "average_precision": 0.9156726296996456,
+    "pr_trapezoid_area": null,
+    "n": 9482,
+    "positive_n": 4741,
+    "threshold": null,
+    "metric_scope": "ranking_only"
+  }
+}

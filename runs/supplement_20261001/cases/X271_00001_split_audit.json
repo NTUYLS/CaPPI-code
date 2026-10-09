@@ -1,0 +1,17 @@
+{
+  "base_split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da",
+  "target_index": 0,
+  "excluded_pairs": {
+    "train": 137,
+    "val": 25
+  },
+  "all_candidates": 581,
+  "training_pair_count": 33051,
+  "validation_pair_count": 4717,
+  "training_positive_edges": 16508,
+  "target_train_or_val_pair_count": 0,
+  "target_graph_degree": 0,
+  "candidate_graph_overlap": 0,
+  "policy": "fold-0 non-target membership retained; target absent from train and validation; all other nodes ranked",
+  "split_hash": "0182f078b0cf3b2b821cf747a28f2015e424a2eb0b1954a60fbcb6a78ee072b8"
+}

@@ -1,0 +1,11 @@
+test_all_metrics_include_ap_and_trapezoid_separately (test_supplement_neural.SupplementContractTests) ... ok
+test_grid_is_exactly_28_with_shared_base (test_supplement_neural.SupplementContractTests) ... ok
+test_loader_never_reads_test_labels (test_supplement_neural.SupplementContractTests) ... ok
+test_only_declared_hyperparameters_change (test_supplement_neural.SupplementContractTests) ... ok
+test_original_contract_still_intact (test_supplement_neural.SupplementContractTests) ... ok
+test_stale_checkpoint_or_predictions_are_rejected (test_supplement_neural.SupplementContractTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.258s
+
+OK

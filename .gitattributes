@@ -1,0 +1,7 @@
+# Preserve byte identity: code and frozen CSV/JSON hashes are part of the audits.
+# Do not normalize CRLF/LF when committing or checking out the archive.
+* -text
+*.npz binary
+*.npy binary
+*.png binary
+*.pdf binary

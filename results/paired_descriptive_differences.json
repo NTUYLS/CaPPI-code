@@ -1,0 +1,254 @@
+[
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__concat_matched",
+    "metric": "auroc",
+    "mean_delta": -0.0007975337852720976,
+    "fold_delta_sd": 0.0051655759527692476,
+    "fold_deltas": [
+      -0.0048052250223734605,
+      0.006350881352971571,
+      0.0004030550052294135,
+      -0.0067567492415943065,
+      0.000820368979406294
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__concat_matched",
+    "metric": "average_precision",
+    "mean_delta": -0.0007626329363436879,
+    "fold_delta_sd": 0.005507310056822546,
+    "fold_deltas": [
+      -0.003689648423414571,
+      0.006492383381919931,
+      -0.00011557399434081184,
+      -0.0081145682162157,
+      0.0016142425703327135
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__concat_matched",
+    "metric": "mcc",
+    "mean_delta": -0.0009218861891765906,
+    "fold_delta_sd": 0.014218780916911178,
+    "fold_deltas": [
+      -0.012097491483448852,
+      0.016442678526942145,
+      0.007317528502294501,
+      -0.01839023623810032,
+      0.0021180897464295745
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__concat_linear",
+    "metric": "auroc",
+    "mean_delta": 0.0032271176491805997,
+    "fold_delta_sd": 0.002687555817948036,
+    "fold_deltas": [
+      -0.0007702599650174502,
+      0.006156320725567377,
+      0.005135208615389297,
+      0.0032188788214981834,
+      0.0023954400484655913
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__concat_linear",
+    "metric": "average_precision",
+    "mean_delta": 0.0025908542858449567,
+    "fold_delta_sd": 0.002605604695700809,
+    "fold_deltas": [
+      -0.0005447797654883901,
+      0.006175127949715642,
+      0.00414788117228293,
+      0.001732594446754221,
+      0.0014434476259603812
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__concat_linear",
+    "metric": "mcc",
+    "mean_delta": 0.010752813788579774,
+    "fold_delta_sd": 0.008418269267406934,
+    "fold_deltas": [
+      -0.0033183684086020016,
+      0.01095248712474306,
+      0.018756787536819086,
+      0.012245503266852142,
+      0.015127659423086581
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__sequence_only",
+    "metric": "auroc",
+    "mean_delta": 0.14313644425078748,
+    "fold_delta_sd": 0.007689411861780483,
+    "fold_deltas": [
+      0.14354636395315878,
+      0.1501099278662582,
+      0.15130272031319358,
+      0.1351102262789372,
+      0.13561298284238965
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__sequence_only",
+    "metric": "average_precision",
+    "mean_delta": 0.1472307528499966,
+    "fold_delta_sd": 0.011288379457758775,
+    "fold_deltas": [
+      0.1517142135234063,
+      0.1580701766497945,
+      0.15589238077871204,
+      0.13741373218263353,
+      0.13306326111543654
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__sequence_only",
+    "metric": "mcc",
+    "mean_delta": 0.24289909762454998,
+    "fold_delta_sd": 0.015440437590435348,
+    "fold_deltas": [
+      0.23583762046439039,
+      0.25628496882906104,
+      0.2622788160219707,
+      0.2331014039375116,
+      0.22699267886981628
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__topology_only",
+    "metric": "auroc",
+    "mean_delta": -0.0010628515049384113,
+    "fold_delta_sd": 0.00209604001881216,
+    "fold_deltas": [
+      -0.0033914252084046304,
+      0.001071150754734962,
+      0.0012468700895813534,
+      -0.002007355848386183,
+      -0.0022334973122175583
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__topology_only",
+    "metric": "average_precision",
+    "mean_delta": -0.0016597885197179752,
+    "fold_delta_sd": 0.002389001643274006,
+    "fold_deltas": [
+      -0.0031579992279702207,
+      0.00045168169478726483,
+      0.0013780041063720105,
+      -0.0038267078616941452,
+      -0.003143921310084785
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__drw__topology_only",
+    "metric": "mcc",
+    "mean_delta": -0.0034763484252882558,
+    "fold_delta_sd": 0.010322589973985831,
+    "fold_deltas": [
+      -0.018897913149135692,
+      0.002430473867876093,
+      0.00849700453342439,
+      -0.0065930703114496225,
+      -0.0028182370671564483
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__deepwalk__residual",
+    "metric": "auroc",
+    "mean_delta": 0.00232779882500056,
+    "fold_delta_sd": 0.0017270888645033963,
+    "fold_deltas": [
+      0.001562844372310468,
+      0.0018523505858876188,
+      0.00388771566912971,
+      0.0042459917281962856,
+      9.009176947871733e-05
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__deepwalk__residual",
+    "metric": "average_precision",
+    "mean_delta": 0.0023119250452384053,
+    "fold_delta_sd": 0.0015700516634605459,
+    "fold_deltas": [
+      0.002016689659726012,
+      0.002617150726418438,
+      0.003716058284909396,
+      0.003436318902622859,
+      -0.0002265923474846776
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__deepwalk__residual",
+    "metric": "mcc",
+    "mean_delta": 0.0046796634445674945,
+    "fold_delta_sd": 0.0015583945989057907,
+    "fold_deltas": [
+      0.0038061172374707075,
+      0.005398183030244974,
+      0.007066742121467184,
+      0.003914243131101447,
+      0.0032130317025531596
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__node2vec__residual",
+    "metric": "auroc",
+    "mean_delta": -1.1161132929293771e-05,
+    "fold_delta_sd": 0.004138070048816272,
+    "fold_deltas": [
+      -0.0030611390873234168,
+      0.0067886983533810286,
+      0.0010836149053339295,
+      -0.0025338699451231683,
+      -0.0023331098909148418
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__node2vec__residual",
+    "metric": "average_precision",
+    "mean_delta": 0.0003900733415222124,
+    "fold_delta_sd": 0.004537780609660275,
+    "fold_deltas": [
+      -0.0020703894092533037,
+      0.008166580844487847,
+      0.0006324490015492401,
+      -0.002796015749483849,
+      -0.001982257979688873
+    ]
+  },
+  {
+    "reference": "pair__random__drw__residual",
+    "comparator": "pair__random__node2vec__residual",
+    "metric": "mcc",
+    "mean_delta": 0.002465724213545961,
+    "fold_delta_sd": 0.012350068777237815,
+    "fold_deltas": [
+      -0.010390732013274562,
+      0.019565606256289447,
+      0.009619016967907235,
+      0.001027069631044375,
+      -0.007492339774236689
+    ]
+  }
+]

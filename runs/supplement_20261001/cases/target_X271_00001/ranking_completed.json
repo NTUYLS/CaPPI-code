@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "target": {
+    "index": 0,
+    "node_id": 1,
+    "source_id": "1427984.X271_00001",
+    "sequence_sha256": "b40e3a07ef5c5d915820337edaa99f88e3c0ee0cc57ca7585d1d1bb376cc8151"
+  },
+  "n_candidates": 581,
+  "known_associations": 125,
+  "auroc": 0.601842105263158,
+  "average_precision": 0.26455845608735473,
+  "hits_at_20_count": 5,
+  "precision_at_20": 0.25,
+  "recall_at_20": 0.04,
+  "metrics_scope": "retrospective recovery of supplied database associations among all nonself candidates",
+  "limitations": "single target and seed; unknown pairs are not verified negatives; sigmoid score is not calibrated binding probability; no external or experimental validation",
+  "checkpoint_sha256": "4ee23eefa8192946eaf1976a2004d13bf29a33e5af14a43c01b294eddd9e44dc",
+  "split_hash": "0182f078b0cf3b2b821cf747a28f2015e424a2eb0b1954a60fbcb6a78ee072b8",
+  "all_candidates_sha256": "cacbdf0854933ab7b9e612843e06031449acab7d5e1ad3126d5ce4381b92e48e",
+  "top20_sha256": "203415c022009e4faa0cae772a73d161b4498d484dacdd3a88b4212e9c9913df"
+}

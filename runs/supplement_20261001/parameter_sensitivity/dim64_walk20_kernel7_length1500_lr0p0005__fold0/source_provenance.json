@@ -1,0 +1,22 @@
+{
+  "best.pt": {
+    "path": "D:\\1.肝癌\\CaPPI_revised\\runs\\reviewer_v1\\pair__random__drw__residual__fold0\\best.pt",
+    "sha256": "acb77863b5831192a263ba4274784b2838d8211f20bfb1a841fc1b8784255755"
+  },
+  "topology.npz": {
+    "path": "D:\\1.肝癌\\CaPPI_revised\\runs\\reviewer_v1\\pair__random__drw__residual__fold0\\topology.npz",
+    "sha256": "1be009ab0a270f22849df3f1daa84eab6953619e0c307c0ed59b7328502aed37"
+  },
+  "run_config.json": {
+    "path": "D:\\1.肝癌\\CaPPI_revised\\runs\\reviewer_v1\\pair__random__drw__residual__fold0\\run_config.json",
+    "sha256": "06e8c80b6441e57e885a0b0cc1c9efab0443ebc40cc62dff1236627684f41771"
+  },
+  "completed.json": {
+    "path": "D:\\1.肝癌\\CaPPI_revised\\runs\\reviewer_v1\\pair__random__drw__residual__fold0\\completed.json",
+    "sha256": "046036a4c84115e4f7c025d76a152c4f39e2dd915246793aa70ceddcf43b98b9"
+  },
+  "history.json": {
+    "path": "D:\\1.肝癌\\CaPPI_revised\\runs\\reviewer_v1\\pair__random__drw__residual__fold0\\history.json",
+    "sha256": "e56feb92718d5f31a1909b5abe27cd3746b30d2f2d80dc6568e8c00d5183e3c3"
+  }
+}

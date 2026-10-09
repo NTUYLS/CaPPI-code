@@ -1,0 +1,1836 @@
+{
+  "schema_version": "cappi-data-v1",
+  "seed": 20260930,
+  "n_folds": 5,
+  "source_sha256": {
+    "肝癌 sequence.csv": "bd8ee069993c3dcd74a25da6c36f61fd7f53b4cb60582e4e9d91983037425cba",
+    "肝癌 interact.csv": "db52ed0c2f8ba2ab4462fdab2f1f4a730f5bde7c8fbc3ac88b7792c4efbf6678"
+  },
+  "request_hash": "493da75f8758fde2f5646d3dc5be4dec235974487fca5205efde8234af85d57c",
+  "sources": {
+    "肝癌 sequence.csv": {
+      "path": "D:\\1.肝癌\\肝癌 sequence.csv",
+      "sha256": "bd8ee069993c3dcd74a25da6c36f61fd7f53b4cb60582e4e9d91983037425cba"
+    },
+    "肝癌 interact.csv": {
+      "path": "D:\\1.肝癌\\肝癌 interact.csv",
+      "sha256": "db52ed0c2f8ba2ab4462fdab2f1f4a730f5bde7c8fbc3ac88b7792c4efbf6678"
+    }
+  },
+  "n_nodes": 582,
+  "n_positives": 23707,
+  "cleaning": {
+    "raw_interaction_rows": 23707,
+    "canonical_positive_count": 23707,
+    "self_loops_removed": 0,
+    "duplicate_undirected_rows_removed": 0,
+    "sequence_whitespace_or_case_normalizations": 0,
+    "distinct_sequences": 582,
+    "duplicate_sequence_groups": 0,
+    "proteins_in_duplicate_sequence_groups": 0,
+    "sequence_duplicates_policy": "Retained as distinct original IDs; protein-ID disjointness is not sequence-similarity OOD."
+  },
+  "negative_sampling": {
+    "ratio_negative_to_positive": 1,
+    "label_interpretation": "Putative negatives: unobserved undirected pairs in the supplied positive network; absence is not experimentally verified non-interaction.",
+    "excluded": [
+      "every supplied known positive",
+      "self loops",
+      "within-pool duplicates"
+    ],
+    "candidate_count": 145364,
+    "degree_definition": "Undirected endpoint degree in the complete canonical supplied positive network.",
+    "benchmark_design_disclosure": "The degree-matched pool is pre-specified using the complete positive network, including held-out positives. This is a benchmark sampling design, not a deployable unknown-edge selection procedure. Full-network degrees must not enter graph construction, learned preprocessing, or model inputs.",
+    "degree_bins": "floor(log2(degree + 1)); match sorted endpoint-bin pairs without replacement; nearest available bin pairs fill shortfalls.",
+    "matching_is_exact": false,
+    "exact_bin_matches": 17527,
+    "fallback_count": 6180,
+    "strata": [
+      {
+        "endpoint_degree_bins": [
+          1,
+          1
+        ],
+        "requested": 6,
+        "candidate_count": 147,
+        "exact_matches": 6,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          1,
+          3
+        ],
+        "requested": 1,
+        "candidate_count": 755,
+        "exact_matches": 1,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          1,
+          4
+        ],
+        "requested": 3,
+        "candidate_count": 1761,
+        "exact_matches": 3,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          1,
+          5
+        ],
+        "requested": 8,
+        "candidate_count": 1414,
+        "exact_matches": 8,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          1,
+          7
+        ],
+        "requested": 1,
+        "candidate_count": 3131,
+        "exact_matches": 1,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          2,
+          2
+        ],
+        "requested": 63,
+        "candidate_count": 1315,
+        "exact_matches": 63,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          2,
+          3
+        ],
+        "requested": 19,
+        "candidate_count": 2207,
+        "exact_matches": 19,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          2,
+          4
+        ],
+        "requested": 29,
+        "candidate_count": 5165,
+        "exact_matches": 29,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          2,
+          5
+        ],
+        "requested": 27,
+        "candidate_count": 4160,
+        "exact_matches": 27,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          2,
+          6
+        ],
+        "requested": 20,
+        "candidate_count": 5969,
+        "exact_matches": 20,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          2,
+          7
+        ],
+        "requested": 22,
+        "candidate_count": 9200,
+        "exact_matches": 22,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          3,
+          3
+        ],
+        "requested": 47,
+        "candidate_count": 814,
+        "exact_matches": 47,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          3,
+          4
+        ],
+        "requested": 42,
+        "candidate_count": 4074,
+        "exact_matches": 42,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          3,
+          5
+        ],
+        "requested": 72,
+        "candidate_count": 3246,
+        "exact_matches": 72,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          3,
+          6
+        ],
+        "requested": 126,
+        "candidate_count": 4620,
+        "exact_matches": 126,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          3,
+          7
+        ],
+        "requested": 123,
+        "candidate_count": 7185,
+        "exact_matches": 123,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          3,
+          8
+        ],
+        "requested": 4,
+        "candidate_count": 80,
+        "exact_matches": 4,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          4,
+          4
+        ],
+        "requested": 208,
+        "candidate_count": 4545,
+        "exact_matches": 208,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          4,
+          5
+        ],
+        "requested": 288,
+        "candidate_count": 7454,
+        "exact_matches": 288,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          4,
+          6
+        ],
+        "requested": 497,
+        "candidate_count": 10577,
+        "exact_matches": 497,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          4,
+          7
+        ],
+        "requested": 885,
+        "candidate_count": 16167,
+        "exact_matches": 885,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          4,
+          8
+        ],
+        "requested": 22,
+        "candidate_count": 174,
+        "exact_matches": 22,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          5,
+          5
+        ],
+        "requested": 266,
+        "candidate_count": 2815,
+        "exact_matches": 266,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          5,
+          6
+        ],
+        "requested": 930,
+        "candidate_count": 7997,
+        "exact_matches": 930,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          5,
+          7
+        ],
+        "requested": 1567,
+        "candidate_count": 12179,
+        "exact_matches": 1567,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          5,
+          8
+        ],
+        "requested": 56,
+        "candidate_count": 102,
+        "exact_matches": 56,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          6,
+          6
+        ],
+        "requested": 1446,
+        "candidate_count": 4882,
+        "exact_matches": 1446,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          6,
+          7
+        ],
+        "requested": 6026,
+        "candidate_count": 13636,
+        "exact_matches": 6026,
+        "shortfall": 0
+      },
+      {
+        "endpoint_degree_bins": [
+          6,
+          8
+        ],
+        "requested": 168,
+        "candidate_count": 58,
+        "exact_matches": 58,
+        "shortfall": 110
+      },
+      {
+        "endpoint_degree_bins": [
+          7,
+          7
+        ],
+        "requested": 10413,
+        "candidate_count": 4638,
+        "exact_matches": 4638,
+        "shortfall": 5775
+      },
+      {
+        "endpoint_degree_bins": [
+          7,
+          8
+        ],
+        "requested": 321,
+        "candidate_count": 27,
+        "exact_matches": 27,
+        "shortfall": 294
+      },
+      {
+        "endpoint_degree_bins": [
+          8,
+          8
+        ],
+        "requested": 1,
+        "candidate_count": 0,
+        "exact_matches": 0,
+        "shortfall": 1
+      }
+    ],
+    "fallback_allocations": [
+      {
+        "requested_bins": [
+          6,
+          8
+        ],
+        "actual_bins": [
+          5,
+          8
+        ],
+        "count": 46
+      },
+      {
+        "requested_bins": [
+          6,
+          8
+        ],
+        "actual_bins": [
+          6,
+          7
+        ],
+        "count": 64
+      },
+      {
+        "requested_bins": [
+          7,
+          7
+        ],
+        "actual_bins": [
+          6,
+          7
+        ],
+        "count": 5775
+      },
+      {
+        "requested_bins": [
+          7,
+          8
+        ],
+        "actual_bins": [
+          6,
+          7
+        ],
+        "count": 294
+      },
+      {
+        "requested_bins": [
+          8,
+          8
+        ],
+        "actual_bins": [
+          6,
+          7
+        ],
+        "count": 1
+      }
+    ],
+    "positive_endpoint_degree": {
+      "mean": 140.03176277048973,
+      "std": 59.177634023420154,
+      "quantiles_0_25_50_75_100": [
+        1.0,
+        99.0,
+        152.0,
+        185.0,
+        290.0
+      ]
+    },
+    "pools": {
+      "random": {
+        "count": 23707,
+        "endpoint_degree": {
+          "mean": 71.85675117054035,
+          "std": 65.6574123112598,
+          "quantiles_0_25_50_75_100": [
+            0.0,
+            16.0,
+            45.0,
+            125.0,
+            290.0
+          ]
+        },
+        "endpoint_bin_pair_total_variation": 0.6192685704644197,
+        "bin_pair_counts": [
+          {
+            "bins": [
+              0,
+              0
+            ],
+            "count": 1
+          },
+          {
+            "bins": [
+              0,
+              1
+            ],
+            "count": 12
+          },
+          {
+            "bins": [
+              0,
+              2
+            ],
+            "count": 25
+          },
+          {
+            "bins": [
+              0,
+              3
+            ],
+            "count": 20
+          },
+          {
+            "bins": [
+              0,
+              4
+            ],
+            "count": 46
+          },
+          {
+            "bins": [
+              0,
+              5
+            ],
+            "count": 47
+          },
+          {
+            "bins": [
+              0,
+              6
+            ],
+            "count": 51
+          },
+          {
+            "bins": [
+              0,
+              7
+            ],
+            "count": 79
+          },
+          {
+            "bins": [
+              0,
+              8
+            ],
+            "count": 3
+          },
+          {
+            "bins": [
+              1,
+              1
+            ],
+            "count": 24
+          },
+          {
+            "bins": [
+              1,
+              2
+            ],
+            "count": 154
+          },
+          {
+            "bins": [
+              1,
+              3
+            ],
+            "count": 114
+          },
+          {
+            "bins": [
+              1,
+              4
+            ],
+            "count": 297
+          },
+          {
+            "bins": [
+              1,
+              5
+            ],
+            "count": 225
+          },
+          {
+            "bins": [
+              1,
+              6
+            ],
+            "count": 336
+          },
+          {
+            "bins": [
+              1,
+              7
+            ],
+            "count": 507
+          },
+          {
+            "bins": [
+              1,
+              8
+            ],
+            "count": 9
+          },
+          {
+            "bins": [
+              2,
+              2
+            ],
+            "count": 220
+          },
+          {
+            "bins": [
+              2,
+              3
+            ],
+            "count": 344
+          },
+          {
+            "bins": [
+              2,
+              4
+            ],
+            "count": 818
+          },
+          {
+            "bins": [
+              2,
+              5
+            ],
+            "count": 688
+          },
+          {
+            "bins": [
+              2,
+              6
+            ],
+            "count": 984
+          },
+          {
+            "bins": [
+              2,
+              7
+            ],
+            "count": 1510
+          },
+          {
+            "bins": [
+              2,
+              8
+            ],
+            "count": 16
+          },
+          {
+            "bins": [
+              3,
+              3
+            ],
+            "count": 129
+          },
+          {
+            "bins": [
+              3,
+              4
+            ],
+            "count": 654
+          },
+          {
+            "bins": [
+              3,
+              5
+            ],
+            "count": 533
+          },
+          {
+            "bins": [
+              3,
+              6
+            ],
+            "count": 778
+          },
+          {
+            "bins": [
+              3,
+              7
+            ],
+            "count": 1174
+          },
+          {
+            "bins": [
+              3,
+              8
+            ],
+            "count": 13
+          },
+          {
+            "bins": [
+              4,
+              4
+            ],
+            "count": 726
+          },
+          {
+            "bins": [
+              4,
+              5
+            ],
+            "count": 1220
+          },
+          {
+            "bins": [
+              4,
+              6
+            ],
+            "count": 1769
+          },
+          {
+            "bins": [
+              4,
+              7
+            ],
+            "count": 2615
+          },
+          {
+            "bins": [
+              4,
+              8
+            ],
+            "count": 37
+          },
+          {
+            "bins": [
+              5,
+              5
+            ],
+            "count": 444
+          },
+          {
+            "bins": [
+              5,
+              6
+            ],
+            "count": 1305
+          },
+          {
+            "bins": [
+              5,
+              7
+            ],
+            "count": 2030
+          },
+          {
+            "bins": [
+              5,
+              8
+            ],
+            "count": 16
+          },
+          {
+            "bins": [
+              6,
+              6
+            ],
+            "count": 791
+          },
+          {
+            "bins": [
+              6,
+              7
+            ],
+            "count": 2203
+          },
+          {
+            "bins": [
+              6,
+              8
+            ],
+            "count": 10
+          },
+          {
+            "bins": [
+              7,
+              7
+            ],
+            "count": 726
+          },
+          {
+            "bins": [
+              7,
+              8
+            ],
+            "count": 4
+          }
+        ]
+      },
+      "degree_matched": {
+        "count": 23707,
+        "endpoint_degree": {
+          "mean": 122.7680642848104,
+          "std": 54.73587407701092,
+          "quantiles_0_25_50_75_100": [
+            1.0,
+            81.0,
+            128.0,
+            162.0,
+            290.0
+          ]
+        },
+        "endpoint_bin_pair_total_variation": 0.26068249884000505,
+        "bin_pair_counts": [
+          {
+            "bins": [
+              1,
+              1
+            ],
+            "count": 6
+          },
+          {
+            "bins": [
+              1,
+              3
+            ],
+            "count": 1
+          },
+          {
+            "bins": [
+              1,
+              4
+            ],
+            "count": 3
+          },
+          {
+            "bins": [
+              1,
+              5
+            ],
+            "count": 8
+          },
+          {
+            "bins": [
+              1,
+              7
+            ],
+            "count": 1
+          },
+          {
+            "bins": [
+              2,
+              2
+            ],
+            "count": 63
+          },
+          {
+            "bins": [
+              2,
+              3
+            ],
+            "count": 19
+          },
+          {
+            "bins": [
+              2,
+              4
+            ],
+            "count": 29
+          },
+          {
+            "bins": [
+              2,
+              5
+            ],
+            "count": 27
+          },
+          {
+            "bins": [
+              2,
+              6
+            ],
+            "count": 20
+          },
+          {
+            "bins": [
+              2,
+              7
+            ],
+            "count": 22
+          },
+          {
+            "bins": [
+              3,
+              3
+            ],
+            "count": 47
+          },
+          {
+            "bins": [
+              3,
+              4
+            ],
+            "count": 42
+          },
+          {
+            "bins": [
+              3,
+              5
+            ],
+            "count": 72
+          },
+          {
+            "bins": [
+              3,
+              6
+            ],
+            "count": 126
+          },
+          {
+            "bins": [
+              3,
+              7
+            ],
+            "count": 123
+          },
+          {
+            "bins": [
+              3,
+              8
+            ],
+            "count": 4
+          },
+          {
+            "bins": [
+              4,
+              4
+            ],
+            "count": 208
+          },
+          {
+            "bins": [
+              4,
+              5
+            ],
+            "count": 288
+          },
+          {
+            "bins": [
+              4,
+              6
+            ],
+            "count": 497
+          },
+          {
+            "bins": [
+              4,
+              7
+            ],
+            "count": 885
+          },
+          {
+            "bins": [
+              4,
+              8
+            ],
+            "count": 22
+          },
+          {
+            "bins": [
+              5,
+              5
+            ],
+            "count": 266
+          },
+          {
+            "bins": [
+              5,
+              6
+            ],
+            "count": 930
+          },
+          {
+            "bins": [
+              5,
+              7
+            ],
+            "count": 1567
+          },
+          {
+            "bins": [
+              5,
+              8
+            ],
+            "count": 102
+          },
+          {
+            "bins": [
+              6,
+              6
+            ],
+            "count": 1446
+          },
+          {
+            "bins": [
+              6,
+              7
+            ],
+            "count": 12160
+          },
+          {
+            "bins": [
+              6,
+              8
+            ],
+            "count": 58
+          },
+          {
+            "bins": [
+              7,
+              7
+            ],
+            "count": 4638
+          },
+          {
+            "bins": [
+              7,
+              8
+            ],
+            "count": 27
+          }
+        ]
+      }
+    }
+  },
+  "protocols": {
+    "pair": "Stratified fixed outer pair folds; every positive and every negative pool pair is tested exactly once. Within each outer training set, 1/8 of each class is held out for validation. With five folds this is approximately 70/10/20. Both negative modes use the same positive memberships and the same negative pool-index memberships. All node identities are available: transductive evaluation.",
+    "protein": "Fixed outer node folds, with 1/8 of remaining nodes (at least two) held out for validation. Train/validation/test node IDs are mutually disjoint; only pairs with both endpoints inside a partition are retained. Cross-partition pairs are excluded and counted. Every node is a test node once; some pairs are never tested because their endpoints fall in different outer folds. Negative pools and node assignments are fixed before evaluation. This is ID-disjoint both-protein holdout, not sequence-homology OOD."
+  },
+  "graph_policy": "Each graph.npz contains exactly the corresponding training positives as canonical E x 2 undirected edges. Message-passing code may expand these edges in both directions; validation/test edges and full-positive degrees must never be added.",
+  "identity_scope": "Original numeric CSV protein IDs are preserved verbatim as integers. This preparation does not assert or certify species, disease association, interaction evidence type, or STRING confidence threshold.",
+  "folds": {
+    "random/pair/fold_0": {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da"
+    },
+    "random/pair/fold_1": {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "581959128e949421d0d88b75f0ac8a2b0843397fa822d9d9abe5da5a115faf06"
+    },
+    "random/pair/fold_2": {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92"
+    },
+    "random/pair/fold_3": {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad"
+    },
+    "random/pair/fold_4": {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883"
+    },
+    "random/protein/fold_0": {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 22797,
+          "positives": 10996,
+          "negatives": 11801,
+          "assigned_nodes": 407,
+          "observed_nodes": 407,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 516,
+          "positives": 306,
+          "negatives": 210,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 2015,
+          "positives": 1003,
+          "negatives": 1012,
+          "assigned_nodes": 117,
+          "observed_nodes": 117,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 10996,
+      "cross_partition_pairs_excluded": {
+        "positives": 11402,
+        "negatives": 10684
+      },
+      "split_hash": "749e27d3067c1143aeb6a5729c540d59b7c0b5f33f937e72863bf4764bae3bdc"
+    },
+    "random/protein/fold_1": {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 22857,
+          "positives": 11265,
+          "negatives": 11592,
+          "assigned_nodes": 407,
+          "observed_nodes": 407,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 458,
+          "positives": 224,
+          "negatives": 234,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1981,
+          "positives": 1051,
+          "negatives": 930,
+          "assigned_nodes": 117,
+          "observed_nodes": 117,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11265,
+      "cross_partition_pairs_excluded": {
+        "positives": 11167,
+        "negatives": 10951
+      },
+      "split_hash": "d9933562c9040c15cc34343378711f2c772e8a17e1fc171819803b259343070c"
+    },
+    "random/protein/fold_2": {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 23720,
+          "positives": 12067,
+          "negatives": 11653,
+          "assigned_nodes": 408,
+          "observed_nodes": 408,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 401,
+          "positives": 163,
+          "negatives": 238,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1937,
+          "positives": 1031,
+          "negatives": 906,
+          "assigned_nodes": 116,
+          "observed_nodes": 116,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 12067,
+      "cross_partition_pairs_excluded": {
+        "positives": 10446,
+        "negatives": 10910
+      },
+      "split_hash": "6177d12a1e8030d2927a0a3234b3baadb13264cf41473ae37d31be973d972a07"
+    },
+    "random/protein/fold_3": {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 23054,
+          "positives": 11482,
+          "negatives": 11572,
+          "assigned_nodes": 408,
+          "observed_nodes": 408,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 520,
+          "positives": 274,
+          "negatives": 246,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1840,
+          "positives": 896,
+          "negatives": 944,
+          "assigned_nodes": 116,
+          "observed_nodes": 116,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11482,
+      "cross_partition_pairs_excluded": {
+        "positives": 11055,
+        "negatives": 10945
+      },
+      "split_hash": "07bcdb691a5dc4dac42acd60954d778c5c0f4b24a1bfc77a33237c8ee964b36d"
+    },
+    "random/protein/fold_4": {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 23549,
+          "positives": 11892,
+          "negatives": 11657,
+          "assigned_nodes": 408,
+          "observed_nodes": 408,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 517,
+          "positives": 298,
+          "negatives": 219,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1722,
+          "positives": 719,
+          "negatives": 1003,
+          "assigned_nodes": 116,
+          "observed_nodes": 116,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11892,
+      "cross_partition_pairs_excluded": {
+        "positives": 10798,
+        "negatives": 10828
+      },
+      "split_hash": "9c4cf64687786d721013ae094925e9b37748a72368a1d536bae6085d029a37e5"
+    },
+    "degree_matched/pair/fold_0": {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 579,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 529,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 560,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "9cabae29af8d3bafb5457ad9d0c93445a84fdfd1aa486a2b8417ef28743f5a21"
+    },
+    "degree_matched/pair/fold_1": {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 579,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 528,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 559,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "ef6cd6ca09260f3a2bac2e8059102261651975f2349e08cfec9726e79027ef44"
+    },
+    "degree_matched/pair/fold_2": {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 575,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 535,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 565,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "c12043856aca5415f9a11e8c73db86464f5537b2fae6fdc3516d0a65ce55a443"
+    },
+    "degree_matched/pair/fold_3": {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 579,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 543,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 563,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "9d4fdfb548d1e0df1457daee7e76f6d3aaf021c50beda085cdc5a4de588b4536"
+    },
+    "degree_matched/pair/fold_4": {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 577,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 539,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 562,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "22c851218ef7bd8e7da80026bcfb46daee62f692afee93605c1e18168631021e"
+    },
+    "degree_matched/protein/fold_0": {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 22558,
+          "positives": 10996,
+          "negatives": 11562,
+          "assigned_nodes": 407,
+          "observed_nodes": 404,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 534,
+          "positives": 306,
+          "negatives": 228,
+          "assigned_nodes": 58,
+          "observed_nodes": 55,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1932,
+          "positives": 1003,
+          "negatives": 929,
+          "assigned_nodes": 117,
+          "observed_nodes": 114,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 10996,
+      "cross_partition_pairs_excluded": {
+        "positives": 11402,
+        "negatives": 10988
+      },
+      "split_hash": "7cb9a39a3bf1cf81d3925963baabfdf81f8e0b14c83fefe4ff20e03c38ac3895"
+    },
+    "degree_matched/protein/fold_1": {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 22723,
+          "positives": 11265,
+          "negatives": 11458,
+          "assigned_nodes": 407,
+          "observed_nodes": 404,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 442,
+          "positives": 224,
+          "negatives": 218,
+          "assigned_nodes": 58,
+          "observed_nodes": 56,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 2082,
+          "positives": 1051,
+          "negatives": 1031,
+          "assigned_nodes": 117,
+          "observed_nodes": 112,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11265,
+      "cross_partition_pairs_excluded": {
+        "positives": 11167,
+        "negatives": 11000
+      },
+      "split_hash": "1fc7f023acaeb8e8678094e63f7d342722a310ea85df209453f6e2078cfa1957"
+    },
+    "degree_matched/protein/fold_2": {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 23692,
+          "positives": 12067,
+          "negatives": 11625,
+          "assigned_nodes": 408,
+          "observed_nodes": 406,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 326,
+          "positives": 163,
+          "negatives": 163,
+          "assigned_nodes": 58,
+          "observed_nodes": 52,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 2074,
+          "positives": 1031,
+          "negatives": 1043,
+          "assigned_nodes": 116,
+          "observed_nodes": 114,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 12067,
+      "cross_partition_pairs_excluded": {
+        "positives": 10446,
+        "negatives": 10876
+      },
+      "split_hash": "967d1b3aabcb6808c4842eb2414342ea636dde17c383b9b6220cdb9257890bb2"
+    },
+    "degree_matched/protein/fold_3": {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 23117,
+          "positives": 11482,
+          "negatives": 11635,
+          "assigned_nodes": 408,
+          "observed_nodes": 405,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 530,
+          "positives": 274,
+          "negatives": 256,
+          "assigned_nodes": 58,
+          "observed_nodes": 53,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1773,
+          "positives": 896,
+          "negatives": 877,
+          "assigned_nodes": 116,
+          "observed_nodes": 115,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11482,
+      "cross_partition_pairs_excluded": {
+        "positives": 11055,
+        "negatives": 10939
+      },
+      "split_hash": "700bc8c9ba7203cc9455c5b26ca5e5c89c0ad1bc1387adf8de14644108efde41"
+    },
+    "degree_matched/protein/fold_4": {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 24125,
+          "positives": 11892,
+          "negatives": 12233,
+          "assigned_nodes": 408,
+          "observed_nodes": 406,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 478,
+          "positives": 298,
+          "negatives": 180,
+          "assigned_nodes": 58,
+          "observed_nodes": 55,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1583,
+          "positives": 719,
+          "negatives": 864,
+          "assigned_nodes": 116,
+          "observed_nodes": 111,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11892,
+      "cross_partition_pairs_excluded": {
+        "positives": 10798,
+        "negatives": 10430
+      },
+      "split_hash": "38fcc264077d94ba25f25d166174a58ff107ee83ac1e4c6d3f4755b2ff1c198e"
+    }
+  },
+  "files": {
+    "nodes.csv": "9b8f7c1e625900e1e4cca960b8c129c3b8b54e2b761c95e728e80d56afae6b8c",
+    "interaction_cleaning.csv": "599d099dba136fbaf8b28d6d233d84264b29df8ad9adccf65c399b47b48a2b7b",
+    "positives.npz": "d91a32da116465650be6ddd2599dedf259fb44492bb1cb5d18e4bb1216d334ee",
+    "negatives_random.npz": "ee7e0e47e86ddeed380f4963fbbb7129e3ea5c7fc2b4474689d4b1c82a908278",
+    "random/pair/fold_0/train.npz": "397ea302a755abd6a97212487ae5960e0c7168c42dc36946a24c0e86af232e4f",
+    "random/pair/fold_0/validation.npz": "94fbd69a5ebdaf138c449b3e4481de1ec535c6e66e0f344c11314b2f631a09d9",
+    "random/pair/fold_0/test.npz": "ddbf2aade61897c45f0e7261aae0d1b7f08c57360fa7d5feb1b3fd5d078438ef",
+    "random/pair/fold_0/graph.npz": "38f77fa277ede03dbc626d1e217c8f5c22b89b9f71287c91f12defc6a7360cfa",
+    "random/pair/fold_1/train.npz": "9578300b469d62f02d2392a60f4c0d5e5bf5c65f7e65ee0fc441e7c1308e3c4d",
+    "random/pair/fold_1/validation.npz": "4ce96f3bc19eb18911714e06d1b75b2ea947fdc4d4012ded680f47fdc09865d8",
+    "random/pair/fold_1/test.npz": "234e2a848bdffdf0c91f7085a9a1f7c1a3f58e71aa18b3159e7a0e8934d19bb1",
+    "random/pair/fold_1/graph.npz": "33c3061be80141347a3f3dad5cd0b54cc6ab7aabb5216b7d8a5c07a360a4e1cc",
+    "random/pair/fold_2/train.npz": "2fb7e4b9083602de9096a7cb474b0352f01792267f043f1fbeeade141324257c",
+    "random/pair/fold_2/validation.npz": "a0bc8cd980d3837f15043208795bd1ef732f348ccf1fb65bf10859e3e3aae3cd",
+    "random/pair/fold_2/test.npz": "2b4555c4c040ce60ced18fa6f9517eba18acc4bf18e100a6c31255c962016cba",
+    "random/pair/fold_2/graph.npz": "5af0721d076c0c28c9a326da6e4e6bd3083f6e98f0e63cf2f8185aae7001ab5a",
+    "random/pair/fold_3/train.npz": "5154980a761a43d6b48a959789b61aa1877d54a8b990efe15a7d402b67a11a4c",
+    "random/pair/fold_3/validation.npz": "1835f3c53b3c0a9201edfbe590a284678654e8901ae96188d363ef9428b0d728",
+    "random/pair/fold_3/test.npz": "e1170bf796c53da1f9ec91fab80eb2c94062ec4c41c9cf6a048d0d5ff11c8d81",
+    "random/pair/fold_3/graph.npz": "bc47deb65f4f0b4f1f608e944c8957211234b6c4720c9fb7265383cc97409e04",
+    "random/pair/fold_4/train.npz": "3b0f31743a7d65bc22a9baaa2188d7d9c21fb16a1b9787e22f5038c814b86a3a",
+    "random/pair/fold_4/validation.npz": "98b622514e9ca1e746889fd4d9f73f8570d051812775db4255b3236449bbd1fe",
+    "random/pair/fold_4/test.npz": "bd30c2369e72b349239d4182433728242f06381e5afe9e00d0ca18a63dd55661",
+    "random/pair/fold_4/graph.npz": "3455e57f3a057587431740de43ed8c7da34b686651cb54c6c7d8fc914efdc9fa",
+    "random/protein/fold_0/train.npz": "e2b89875ed1f01ff18116fa7b9228096459cdc4843513061bbec6d0d3cfd9a37",
+    "random/protein/fold_0/validation.npz": "e6b896605375a8738e479a25f0245d6aaeb0064ccd193a3b5c745fdf4a4b0597",
+    "random/protein/fold_0/test.npz": "e4d10c2731faaf74e1c5084c97adbaafd2629d6aebdf4a37e771278824233cf5",
+    "random/protein/fold_0/graph.npz": "b4f8101eaa39e6a233fe079c64c805f74ac1268fac9e8d91c78f5f3fdcbe7bb5",
+    "random/protein/fold_1/train.npz": "fa792e85f2fef0f16b759c3745f05168a0aabb6608e77a38fbc1fe1c9d1dcea9",
+    "random/protein/fold_1/validation.npz": "b990e1ca436bbaba8e68ae943168c45c3da804943ffbd775625a7fcacc772996",
+    "random/protein/fold_1/test.npz": "5850f74fd8ec8cb2373dc89529d549fe8028f7dd22f3865f056a77cb499145e3",
+    "random/protein/fold_1/graph.npz": "cd6d94c09ac5119507a49860f4a5774d0d628e122f5b8b63af495da7ccfd6ebb",
+    "random/protein/fold_2/train.npz": "b39f4054e41d77e6c2ef949c8a4883244f18a280db523798cb529d64e284a6d5",
+    "random/protein/fold_2/validation.npz": "466c460db4e78391e9c4ec505315b8a8d0799749c72fa928bec4004a9f1aac5a",
+    "random/protein/fold_2/test.npz": "7b9173f41005bd8ca6c543672250755ffb180efe8ffb8f177139d371608bd4da",
+    "random/protein/fold_2/graph.npz": "41066234cc35d63be43ead0f06918b1b61a4bd72fc1ea4ef016b988d0f5f5573",
+    "random/protein/fold_3/train.npz": "bcf88344bd080e08c8aed5c4b794c02d53633859ae1d9aaad4cf9bdc22ebc7b8",
+    "random/protein/fold_3/validation.npz": "d2777b044e04c58aba6927820d598e5746aa833bc147a29aad139257c318dde2",
+    "random/protein/fold_3/test.npz": "b424d99e27c2bbf3a74f867a5c7713624cd6e4cd48c54ac1adb3b251264942fd",
+    "random/protein/fold_3/graph.npz": "c2e848bbcf623218b456f714b679438cc68f76dd5a34f50619ff5f2c0dca4616",
+    "random/protein/fold_4/train.npz": "2eeff6f01a1a897de77313966d0a98b92c8070a4614016b880871c036118cd67",
+    "random/protein/fold_4/validation.npz": "05ec0e3b4a751e19ffc7d79952ea0c0982e5d7e11607121474865613658ad2b5",
+    "random/protein/fold_4/test.npz": "cb74b240e44ebdc81971358c4730be8e39f6b4548156d0a6c2fa45ae3b65f1f2",
+    "random/protein/fold_4/graph.npz": "09f3dbfade10e189369cd586f275cc8be10514082e42e9d6aa304d813704ff7a",
+    "negatives_degree_matched.npz": "8904f3600dc87f60ce7ed372cdaf088cc7cdd5b7d433444fcae89f35555aac3e",
+    "degree_matched/pair/fold_0/train.npz": "cd757d33cd606b02e434079547192a1f83203595025eb4b9b3e0d350020ce85f",
+    "degree_matched/pair/fold_0/validation.npz": "2308cb04cca02f3e5065b4e921d93e29efeb6bd88a0169e9f8c3dbae25e19433",
+    "degree_matched/pair/fold_0/test.npz": "359adb363a94dae9e55024b7f6cc3c2316735fcb4778c69c3b50b73f224d4ea0",
+    "degree_matched/pair/fold_0/graph.npz": "38f77fa277ede03dbc626d1e217c8f5c22b89b9f71287c91f12defc6a7360cfa",
+    "degree_matched/pair/fold_1/train.npz": "0b5745a5ed3313fe4785184fd781221f167bbc3a8aca66d2600844fa8c137dc6",
+    "degree_matched/pair/fold_1/validation.npz": "7659bec3b1047a71cea0b466f7225b28fc89d100a0366dd8e04cd03ac152a831",
+    "degree_matched/pair/fold_1/test.npz": "58adf0407317cd59bc092c840b756edb1f63b8065cd41d3c2c96591fad61364d",
+    "degree_matched/pair/fold_1/graph.npz": "33c3061be80141347a3f3dad5cd0b54cc6ab7aabb5216b7d8a5c07a360a4e1cc",
+    "degree_matched/pair/fold_2/train.npz": "d70f9b3ba95a97ff8bfa522955c1f42c1e0294017f605a506b7ac6c1f037a9a7",
+    "degree_matched/pair/fold_2/validation.npz": "45c0a6c7989a60ba73a70b385d6c2f40fc605cad3d20c7d739bfe72c98417e40",
+    "degree_matched/pair/fold_2/test.npz": "91b98850f34ac4e9d50f6a05bc4d050803d76dc61f214de26e6641ae1e3f83ec",
+    "degree_matched/pair/fold_2/graph.npz": "5af0721d076c0c28c9a326da6e4e6bd3083f6e98f0e63cf2f8185aae7001ab5a",
+    "degree_matched/pair/fold_3/train.npz": "1446a1a65a98726cc1605ac7b8798bdebcd083ab201227bb1b49957847a8808f",
+    "degree_matched/pair/fold_3/validation.npz": "95863df3ef172fe123a873ba56341b7ab6217d62f18234bf91b4c0751eab231b",
+    "degree_matched/pair/fold_3/test.npz": "2c69b8cf97fed3498322170c8197f66df85996be97fead703bc7b9d9080f7da4",
+    "degree_matched/pair/fold_3/graph.npz": "bc47deb65f4f0b4f1f608e944c8957211234b6c4720c9fb7265383cc97409e04",
+    "degree_matched/pair/fold_4/train.npz": "d3a6bd9609446ea47a290752c90d7d4fc98369181031175dbdc5fdcc31906d96",
+    "degree_matched/pair/fold_4/validation.npz": "b7bbf3196c8fc25fe5fb6d784ec1bdce25bf2410d48196ddee101158cc23ce26",
+    "degree_matched/pair/fold_4/test.npz": "0fc5f228fabe81959ce382fe39a6c38e2af79b3cb995ded70c66b5b3f65c7e85",
+    "degree_matched/pair/fold_4/graph.npz": "3455e57f3a057587431740de43ed8c7da34b686651cb54c6c7d8fc914efdc9fa",
+    "degree_matched/protein/fold_0/train.npz": "311c84cb515a7d6ad5620b7165e9553f59e6377cf2a2709022e95713588285ae",
+    "degree_matched/protein/fold_0/validation.npz": "e5e8eb7812a87ce169334fb39a3ba2d500fb14a55b64696ffe6b5d78308479d7",
+    "degree_matched/protein/fold_0/test.npz": "672eb42f37ec5a4a533470c8dc60f841778270c310ebe0c9374e073b208609de",
+    "degree_matched/protein/fold_0/graph.npz": "b4f8101eaa39e6a233fe079c64c805f74ac1268fac9e8d91c78f5f3fdcbe7bb5",
+    "degree_matched/protein/fold_1/train.npz": "fb552f01c315e09c1a9130f821c80e2ee2c90cfb546655dd12451d11ddfa8e2e",
+    "degree_matched/protein/fold_1/validation.npz": "2738464454a3986c2f619a2508e26feacecf2cf63c3e8b0dc7507271b36583c6",
+    "degree_matched/protein/fold_1/test.npz": "d072db8a69edf9e1a0c33124557810f07b88a5bdda5fbb6675d78c72f5197380",
+    "degree_matched/protein/fold_1/graph.npz": "cd6d94c09ac5119507a49860f4a5774d0d628e122f5b8b63af495da7ccfd6ebb",
+    "degree_matched/protein/fold_2/train.npz": "757e01f63de487b35cfb182d813ed91655894d5992c88fe89a49bda8fe7b924b",
+    "degree_matched/protein/fold_2/validation.npz": "2395595d7823579065e90ed0c7182c5dd5e7ce0a355ac1ad4740a7eb7dc92d1d",
+    "degree_matched/protein/fold_2/test.npz": "587a60daaf61bcb40a34fb4605e70d3073eb6372a0cb0b42e8420746bd957e19",
+    "degree_matched/protein/fold_2/graph.npz": "41066234cc35d63be43ead0f06918b1b61a4bd72fc1ea4ef016b988d0f5f5573",
+    "degree_matched/protein/fold_3/train.npz": "4abc01b5ef582d5083c877131878ae52da3af7b6e2cd78ac3804667d62edbba4",
+    "degree_matched/protein/fold_3/validation.npz": "30db1f5c4105bc0718188a76eb3f4005ed25273ad121030c5331b93491ffea0b",
+    "degree_matched/protein/fold_3/test.npz": "40182141ae9559f06bbc9a0eb03a60f5821796b8de73013f4a873bbbc56004f1",
+    "degree_matched/protein/fold_3/graph.npz": "c2e848bbcf623218b456f714b679438cc68f76dd5a34f50619ff5f2c0dca4616",
+    "degree_matched/protein/fold_4/train.npz": "5f1953a8713e4f9232c5bb3c4aedf65746e2e370aeb26270bba5434c2ef69902",
+    "degree_matched/protein/fold_4/validation.npz": "3b13821fb8ef85ad7455051769271b4a907683a4fdecb51b6b9cc3fa022b2ab7",
+    "degree_matched/protein/fold_4/test.npz": "16d1898ad14f9b6417d3a2916062c46560cdb07760efe83042690ea78aad8f94",
+    "degree_matched/protein/fold_4/graph.npz": "09f3dbfade10e189369cd586f275cc8be10514082e42e9d6aa304d813704ff7a"
+  },
+  "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b"
+}

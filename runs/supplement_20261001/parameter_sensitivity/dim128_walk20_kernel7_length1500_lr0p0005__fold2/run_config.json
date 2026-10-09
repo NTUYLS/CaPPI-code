@@ -1,0 +1,46 @@
+{
+  "campaign_signature": "8ccb5d6ad27d21eb1dfe5bb1f7fb6e7af73f5b2f6a9647b9fdc0a7546b76ac09",
+  "settings": {
+    "dim": 128,
+    "walk_length": 20,
+    "kernel": 7,
+    "max_length": 1500,
+    "learning_rate": 0.0005
+  },
+  "model": {
+    "topo_dim": 128,
+    "seq_dim": 256,
+    "filters": 64,
+    "kernel": 7,
+    "max_length": 1500,
+    "fusion": "residual",
+    "dropout": 0.3,
+    "pair_dropout": [
+      0.4,
+      0.4,
+      0.1
+    ]
+  },
+  "graph": {
+    "method": "drw",
+    "dim": 128,
+    "walks_per_node": 10,
+    "walk_length": 20,
+    "window": 5,
+    "epochs": 5,
+    "negative_samples": 5,
+    "p": 1.0,
+    "q": 0.5
+  },
+  "seed": 20260932,
+  "fold": 2,
+  "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+  "epochs": 300,
+  "patience": 20,
+  "pair_chunk": 4096,
+  "weight_decay": 0.0001,
+  "device": "cuda",
+  "evaluation_partition": "validation",
+  "baseline_reuse": false,
+  "run_signature": "56a35b0fcafc83aebb4baf533b1d6ffd71a7224c5adb0e2add8d1ece5e488454"
+}

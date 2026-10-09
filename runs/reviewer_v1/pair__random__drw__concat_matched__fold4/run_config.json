@@ -1,0 +1,60 @@
+{
+  "code_sha256": "76593480cfb156c8817d6bd12b522f09b50f4219c28720af2f2e93d89f381e91",
+  "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883",
+  "seed": 20260934,
+  "model": {
+    "topo_dim": 64,
+    "seq_dim": 256,
+    "filters": 64,
+    "kernel": 7,
+    "max_length": 1500,
+    "fusion": "concat_matched",
+    "dropout": 0.3,
+    "pair_dropout": [
+      0.4,
+      0.4,
+      0.1
+    ]
+  },
+  "graph": {
+    "method": "drw",
+    "dim": 64,
+    "walks_per_node": 10,
+    "walk_length": 20,
+    "window": 5,
+    "epochs": 5,
+    "negative_samples": 5,
+    "p": 1.0,
+    "q": 0.5
+  },
+  "max_epochs": 300,
+  "learning_rate": 0.0005,
+  "patience": 20,
+  "weight_decay": 0.0001,
+  "pair_chunk": 4096,
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "numpy": "1.26.4",
+  "protocol": "pair",
+  "negative_sampling": "random",
+  "variant": "concat_matched",
+  "fold": 4,
+  "optimizer": "AdamW; explicit weight decay replaces old activity regularization",
+  "selection": "minimum validation BCE; held-out metadata audited; test labels/scores never used for training or selection",
+  "hyperparameters": "fixed before campaign; no search or optimality claim",
+  "epoch_definition": "one full training-set gradient update with loss-weighted pair chunks",
+  "node_encoder_training": "GCNN, topology projection, fusion and pair head jointly optimized",
+  "changes_from_legacy": [
+    "one-hot plus unknown channel and masked pooling",
+    "joint upstream supervised training",
+    "symmetric endpoint prediction",
+    "explicit AdamW weight decay",
+    "full training loss per optimizer step",
+    "true outer folds and train-only topology"
+  ],
+  "topology_training": "fold training positive graph only; frozen SGNS embeddings",
+  "inductive_policy": "zero topology for unseen/isolated nodes; sequence available; no test edges",
+  "evaluation_enabled": true,
+  "run_signature": "6fc0487b0440f3744fc622b1b36936e111f2da936a61aad8916c4d4c35540b6d",
+  "python": "D:\\Anaconda\\envs\\arg_gpu\\python.exe"
+}

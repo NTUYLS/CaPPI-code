@@ -1,0 +1,73 @@
+{
+  "root": "D:\\1.肝癌\\CaPPI_revised\\CaPPI_GitHub_Code_Data_20261009",
+  "file_count": 7138,
+  "total_bytes": 1191896707,
+  "source_manifest_entries": 7126,
+  "missing_destinations": [],
+  "destination_hash_mismatches": [],
+  "source_files_missing": [],
+  "source_hashes_changed": [],
+  "files_over_50_MiB": [],
+  "files_over_100_MiB": [],
+  "unexpected_vcs_or_cache_files": [
+    "__pycache__/cappi_data.cpython-310.pyc"
+  ],
+  "word_files": [],
+  "docking_or_structure_files": [],
+  "credential_like_filenames": [],
+  "credential_text_files_scanned": 5152,
+  "high_confidence_credential_hits": [],
+  "raw_taxon_1427984_evidence": {
+    "data/raw/1427984.protein.links.v12.0.txt": {
+      "sha256": "899c7ff25c962b7c9765d36dd2e5206cd7136e8864280f6e3e84b9c5061dacc2",
+      "head_taxon_1427984": true
+    },
+    "data/raw/1427984.protein.sequences.v12.0.fa": {
+      "sha256": "31b537d113931630a2200a7b2f7b5744dc7f90aa4724674f7bc688c539d0fcb2",
+      "head_taxon_1427984": true
+    }
+  },
+  "elapsed_seconds": 39.32,
+  "frozen_training_sources": {
+    "cappi_data.py": {
+      "expected": "b5b5047c9981c486ca48c46250c2bd70785142f5c4dbcc8d517392356cf620ac",
+      "actual": "b5b5047c9981c486ca48c46250c2bd70785142f5c4dbcc8d517392356cf620ac",
+      "identical": true
+    },
+    "cappi_graph.py": {
+      "expected": "79dcbd7ea057df06a3ea1dbb32624fccbe9af4f1a6ef44d15db8d0c2acc25cda",
+      "actual": "79dcbd7ea057df06a3ea1dbb32624fccbe9af4f1a6ef44d15db8d0c2acc25cda",
+      "identical": true
+    },
+    "cappi_model.py": {
+      "expected": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+      "actual": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+      "identical": true
+    },
+    "legacy_skipgram.py": {
+      "expected": "ee9f98b422b386b4415b86a9ecf687a5a84ac2c117e6bbdda88178eee273e2b3",
+      "actual": "ee9f98b422b386b4415b86a9ecf687a5a84ac2c117e6bbdda88178eee273e2b3",
+      "identical": true
+    },
+    "run_experiments.py": {
+      "expected": "d2695c5dde113ede82202869f814e4ad74206c826185a9297b491d1212edb8fd",
+      "actual": "d2695c5dde113ede82202869f814e4ad74206c826185a9297b491d1212edb8fd",
+      "identical": true
+    },
+    "cappi_missing_topology.py": {
+      "expected": "842730d6602b764a90dad0c1d3382b890ae4e173687eacfeb66e71069ca0fabb",
+      "actual": "842730d6602b764a90dad0c1d3382b890ae4e173687eacfeb66e71069ca0fabb",
+      "identical": true
+    },
+    "run_missing_topology.py": {
+      "expected": "84c6aa67ab89b66a8fc038a310a146009ff81e486df8f23d106e27e13edf1368",
+      "actual": "84c6aa67ab89b66a8fc038a310a146009ff81e486df8f23d106e27e13edf1368",
+      "identical": true
+    }
+  },
+  "validation_limitations": [
+    "No training was run.",
+    "Saved probabilities were used for numerical verification; checkpoint inference was not run.",
+    "This audit does not establish cross-platform training reproducibility."
+  ]
+}

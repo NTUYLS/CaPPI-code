@@ -1,0 +1,11 @@
+{
+  "selected_before_test": true,
+  "run_signature": "fcbf1b6a6f797c2d837e286d6aafdb5606d781a17eb09133ec58e85649bd0410",
+  "checkpoint_sha256": "e90422c1f63866ddc4671a7ad7ad0a7f3a02a90046a71ea82c38a72c12b15484",
+  "selection_rule": "Repeat-0 validation-selected learning rate; no retuning.",
+  "selection_registry_sha256": "182240cfbb4813b92a2be213f1a1c7f033eb6ddb31c08352532fa8a216b288be",
+  "selection_signature": "a992c2a6338f4c0b95d1608e879e95702da39cd7a704154f748cf0cf4a4e7bb9",
+  "repeat": 1,
+  "learning_rate": 0.0005,
+  "test_status": "Previously inspected benchmark; adaptive comparison, not fresh blind test."
+}

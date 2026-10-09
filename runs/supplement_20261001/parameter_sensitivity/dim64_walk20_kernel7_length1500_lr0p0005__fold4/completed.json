@@ -1,0 +1,48 @@
+{
+  "name": "dim64_walk20_kernel7_length1500_lr0p0005__fold4",
+  "config_name": "dim64_walk20_kernel7_length1500_lr0p0005",
+  "settings": {
+    "dim": 64,
+    "walk_length": 20,
+    "kernel": 7,
+    "max_length": 1500,
+    "learning_rate": 0.0005
+  },
+  "fold": 4,
+  "run_signature": "eade3d705a0d3f2f9c5532437d3fc11b915937e9ba52e586bbfa90c9322e3814",
+  "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883",
+  "graph_hash": "bf6a142e43f8ab20315effaf0e3da8b86e712a3b31b1df7711c5b36b73645b74",
+  "checkpoint_sha256": "965463642d85d522b8c577da86a9b7eaec4c48e60c825f5529e683edd37a0ec4",
+  "evaluation_partition": "validation",
+  "test_evaluated": false,
+  "test_labels_or_scores_loaded": false,
+  "baseline_reused": true,
+  "best_epoch": 247,
+  "epochs_in_history": 267,
+  "best_validation_bce": 0.32523030042648315,
+  "elapsed_seconds": 0.5310000000754371,
+  "validation_metrics": {
+    "n": 4742,
+    "positive_n": 2371,
+    "accuracy": 0.8667229017292282,
+    "sensitivity": 0.8945592576971741,
+    "specificity": 0.8388865457612822,
+    "precision": 0.8473831402317219,
+    "f1": 0.8703323758719738,
+    "mcc": 0.7345850921315545,
+    "auroc": 0.9399639713741949,
+    "average_precision": 0.9352647670396596,
+    "pr_trapezoid_area": 0.9352467072215385,
+    "threshold": 0.5
+  },
+  "artifact_sha256": {
+    "best.pt": "965463642d85d522b8c577da86a9b7eaec4c48e60c825f5529e683edd37a0ec4",
+    "topology.npz": "d50c6520139478ddb28e8b175b57dd6741a59dda2881c71ad422aafba42aa3f4",
+    "run_config.json": "6b440d6f1b68c0383977418482ee2c252ea024a0ff90364ae4b87f0c54200931",
+    "history.json": "5f7cad2e3a05242011d67def1876a976956077756c970d4d3f9131921b8a1267",
+    "validation_predictions.csv": "2876a079f1a85a12bd222cb8d7fccfbdabd0ec445394b80c53dff432b50412a8",
+    "validation_metrics.json": "dcb158e34447f3892795fe7a63a4bc9b03a35332a155fbab7d7eeb581f3bbad7",
+    "parameters.json": "8c3690d4f202566c6b9c9cce1d644c37cfa3a3197fee13fc28e1848d25a66a98",
+    "source_provenance.json": "512ded7810f793e231e4e13cff653e075e38acb005fd69ded9e6cecb1b972524"
+  }
+}

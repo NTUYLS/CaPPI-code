@@ -1,0 +1,130 @@
+{
+  "name": "protein__random__aa20_drw_xgboost__fold0",
+  "method": "aa20_drw_xgboost",
+  "protocol": "protein",
+  "fold": 0,
+  "config": {
+    "code_sha256": "f14c1e559da9d478f375ea980ca6fb0c999765eb09fcc2e47a62829ef2a55297",
+    "original_classical_code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "base_seed": 20260930,
+    "negative_sampling": "random",
+    "protocol": "protein",
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "scipy": "1.11.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2",
+      "xgboost": "2.1.1",
+      "torch": "2.11.0+cu128"
+    },
+    "feature_definition": "Full-sequence canonical AA20 plus raw DRW64; concat(abs(u-v),u*v); 168D.",
+    "selection": "Fixed prespecified settings; train-only fit/calibration; no validation/test tuning or early stopping.",
+    "threshold": 0.5,
+    "cpu_threads": 2,
+    "category": "feature-based classical controls; not published model reproductions",
+    "method": "aa20_drw_xgboost",
+    "model": {
+      "algorithm": "XGBClassifier",
+      "n_estimators": 200,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "min_child_weight": 1,
+      "reg_alpha": 0.0,
+      "reg_lambda": 1.0,
+      "objective": "binary:logistic",
+      "eval_metric": "logloss",
+      "tree_method": "hist",
+      "device": "cpu",
+      "n_jobs": 2,
+      "standardization": "none",
+      "early_stopping": "none"
+    },
+    "seed": 20260930,
+    "fold": 0,
+    "split_hash": "749e27d3067c1143aeb6a5729c540d59b7c0b5f33f937e72863bf4764bae3bdc",
+    "split_array_hashes": {
+      "train": "4192cad1a74ff59b0f56a51f72f96fbcbb4fbe9f3ec54e109c26deaae6da9fb9",
+      "val": "c1d852664699f61e4ad5b362dc7d72cba9d9535035bb2f7d1f7964f35b20c0bb",
+      "test": "73cd3645c6bd4bf1339b8c40db9957e94af027e1527dcc83ee022dc35c4ac0f9"
+    },
+    "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+    "feature_proof": {
+      "graph_hash": "02be7e062deb58d050e87d884cf28dba18c9c6487f637b3c7bdecdf34ffee9dc",
+      "graph_cache_sha256": "3806caa034f88977c34fabf6e89cf76be857fc545b49d18ecb2b75ad7ae683c7",
+      "graph_metadata_sha256": "efb0fb7fe96cac1040a6c41e8f947954fe32cb7d21e0b6bcc90881e0b05d4ae5",
+      "graph_feature_hash": "7bdf79ee0d7ce49a74a010d543c0c5eeb19c1238dcf7e771406c07393e24e8d6",
+      "node_feature_hash": "8bb71e78e565b5347de0fbc68fd73e9a0a3e71a0407e4180d3f06cb83c0b65af",
+      "feature_hashes": {
+        "train": "b5c1118a57ce11d30f21e5e4ca1b00220eb6e41f93e0f4c6acc60ac1f371b94e",
+        "val": "b2b7d86dc778b6c38175fb0e684dbac2fbe87cee1ddcbacd2b9d18afbbc156d7",
+        "test": "47729e0551be6f979744bbb37a25812db357ed4e92c73126f24da6c6def09081"
+      }
+    },
+    "original_control_replay": [
+      {
+        "method": "aa20_drw_lr",
+        "completed_sha256": "5e05bc9cf37bd7c2afb659cd6f82b8d4d30031886378c70be06e6998f0b78c95",
+        "prediction_sha256": "e91073301adfd58155aaaa65bcc79f24308887a2d7b5373d7c93b577faac3f76",
+        "checkpoint_sha256": "e88d4ebf8413611002a93a5064b97b9f186d80a1d1c44a760c0e6b8cc8857af2",
+        "n": 2015,
+        "max_abs_prediction_difference": 3.3306690738754696e-16
+      },
+      {
+        "method": "aa20_drw_rf",
+        "completed_sha256": "42ef1c40a49bf6419929acd6b83d4cda5d93df2760c5e9aadbc37a4adb8b86c5",
+        "prediction_sha256": "e97d8646f375deb25196d4c2d13de28c4298c8534531c6236ce87cc47fd4c8a3",
+        "checkpoint_sha256": "502494b22fc5a68a7d422dcd26dcd124f6cdc099c888ee800ba6e3d7bee6b009",
+        "n": 2015,
+        "max_abs_prediction_difference": 1.1102230246251565e-16
+      }
+    ]
+  },
+  "run_signature": "87a3801782cb1bc2bb92b168263ead01411774b32e3b46bf4616ccfce3487487",
+  "campaign_signature": "1f388b6b03e0d5150511fd8cd48209a1bd926b95d65160c59c9fd0c605c6964c",
+  "split_hash": "749e27d3067c1143aeb6a5729c540d59b7c0b5f33f937e72863bf4764bae3bdc",
+  "split_array_hashes": {
+    "train": "4192cad1a74ff59b0f56a51f72f96fbcbb4fbe9f3ec54e109c26deaae6da9fb9",
+    "val": "c1d852664699f61e4ad5b362dc7d72cba9d9535035bb2f7d1f7964f35b20c0bb",
+    "test": "73cd3645c6bd4bf1339b8c40db9957e94af027e1527dcc83ee022dc35c4ac0f9"
+  },
+  "checkpoint_sha256": "ef051b3edf142791a38b1e4fd5b505023d62fae6f5c8af5c08495cad24b9296a",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": 0.5027295285359802,
+    "sensitivity": 0.0009970089730807576,
+    "specificity": 1.0,
+    "precision": 1.0,
+    "f1": 0.0019920318725099597,
+    "mcc": 0.0223825754237679,
+    "auroc": 0.722857120338589,
+    "average_precision": 0.71214949845921,
+    "pr_trapezoid_area": 0.7118478041684887,
+    "n": 2015,
+    "positive_n": 1003,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "elapsed_seconds": 6.827999999979511,
+  "artifacts_sha256": {
+    "run_config.json": "e286a18d2fcb04e1896ad50c35ef6b428db0b43d173c55e49d11af02fcef55dc",
+    "model.joblib": "ef051b3edf142791a38b1e4fd5b505023d62fae6f5c8af5c08495cad24b9296a",
+    "predictions.csv": "bd65a4aeba3bd0e9bb918cc568a0efe6e288cb0d4022a41772f9b1d69bdcc967",
+    "test_predictions.csv": "3dd90ffc77149f5d7733de43f14f4f616651936ccf0cd9e8edbfbf6c048dfd73",
+    "metrics.json": "b3998590ef3139e75ebca27a77bd1fd6110133cb0983c021e35215fc61ceb011"
+  }
+}

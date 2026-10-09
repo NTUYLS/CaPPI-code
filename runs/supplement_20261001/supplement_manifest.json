@@ -1,0 +1,150 @@
+{
+  "created_at": "2026-10-01T04:47:21.754508+00:00",
+  "request": "Run the missing experiments identified from the nine original-result screenshots",
+  "status": "completed",
+  "base_seed": 20260930,
+  "preserved_files_sha256": {
+    "cappi_data.py": "b5b5047c9981c486ca48c46250c2bd70785142f5c4dbcc8d517392356cf620ac",
+    "cappi_graph.py": "79dcbd7ea057df06a3ea1dbb32624fccbe9af4f1a6ef44d15db8d0c2acc25cda",
+    "cappi_model.py": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+    "legacy_skipgram.py": "ee9f98b422b386b4415b86a9ecf687a5a84ac2c117e6bbdda88178eee273e2b3",
+    "run_experiments.py": "d2695c5dde113ede82202869f814e4ad74206c826185a9297b491d1212edb8fd",
+    "run_classical_baselines.py": "9be6026945c6f549f79b0110742b2979be18043b72201cea9cb34f69431afb27",
+    "prepared/manifest.json": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+    "results/verified_summary.csv": "d48197e139f8deb7f8caf037e4b75645e6e82083fd0a5337e4939d2378d72513",
+    "results/verified_classical_summary.csv": "02240f1b7d06e44053bed079c6f051f4211b5b3fb424c060c0e0a8c624cb9248",
+    "historical_baselines/source_table.json": "5228750c1c37193b2cd5c7b84532e2d8687c11df99f6d0c35fb622e30cdf6db9",
+    "delivery_manifest.json": "2fc74cdc093b2330dc66f1dd3e6c178fecebac692aba8b7bfee51e028622aeb9"
+  },
+  "parameter_sensitivity": {
+    "unique_configurations": 28,
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "new_training_runs": 135,
+    "reused_base_checkpoints": 5,
+    "embedding_dimensions": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "walk_lengths": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "kernels": [
+      3,
+      5,
+      7
+    ],
+    "maximum_lengths": [
+      1000,
+      1500,
+      2000
+    ],
+    "initial_learning_rates": [
+      0.0001,
+      0.0005,
+      0.001,
+      0.005,
+      0.01
+    ],
+    "selection_and_report": "Validation only; same validation set selects checkpoint, so sensitivity estimates are descriptive; outer test outcomes are not used to choose hyperparameters; original main experiment is not replaced"
+  },
+  "classical_controls": {
+    "methods": [
+      "AdaBoost",
+      "KNN",
+      "SVM",
+      "XGBoost"
+    ],
+    "protocols": [
+      "pair",
+      "protein"
+    ],
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "new_evaluations": 40,
+    "features": "Same AA20 plus DRW features as completed LR/RF controls; train-only preprocessing"
+  },
+  "umap_trajectory": {
+    "fold": 0,
+    "epochs": [
+      50,
+      150,
+      300,
+      600
+    ],
+    "early_stopping": false,
+    "purpose": "Separate descriptive trajectory on fixed validation pairs; not a replacement or test-based model selection"
+  },
+  "target_holdout": {
+    "requested_target_ids": [
+      "X271_00001",
+      "X271_00015"
+    ],
+    "mapping": "Must be verified against exact source sequences and immutable prepared data",
+    "purpose": "Retrospective target holdout ranking; no target incident training or validation pairs; unavailable topology is zero; not independent external validation"
+  },
+  "preserved_historical_baselines": [
+    "PASNVGA",
+    "SDNN-PPI"
+  ],
+  "docking": {
+    "status": "excluded_by_user",
+    "instruction": "蛋白质对接那部分不用管",
+    "recorded_at": "2026-10-01T04:51:35.311231+00:00"
+  },
+  "last_checked_at": "2026-10-01T06:43:51.627378+00:00",
+  "parameter_progress": {
+    "status": "complete",
+    "completed_folds": 140,
+    "expected_folds": 140,
+    "new_training_completed": 135,
+    "baseline_reuse_completed": 5,
+    "campaign_signature": "8ccb5d6ad27d21eb1dfe5bb1f7fb6e7af73f5b2f6a9647b9fdc0a7546b76ac09",
+    "test_evaluated": false
+  },
+  "completed_cases": {
+    "trajectory_training_epochs": 600,
+    "umap": "completed",
+    "targets_completed": 2,
+    "independent_verification": "D:\\1.肝癌\\CaPPI_revised\\results\\supplement_20261001\\cases_independent_verification.json"
+  },
+  "implementation_tests": {
+    "passed": 68,
+    "report": "D:\\1.肝癌\\CaPPI_revised\\results\\supplement_20261001\\implementation_tests_full.json"
+  },
+  "classical_progress": {
+    "status": "completed",
+    "completed_unique_evaluations": 40,
+    "expected_evaluations": 40
+  },
+  "completed_at": "2026-10-01T06:43:51.627378+00:00",
+  "final_verification": {
+    "status": "passed",
+    "numerical_report": "D:\\1.肝癌\\CaPPI_revised\\results\\supplement_20261001\\verification_all.json",
+    "visual_report": "D:\\1.肝癌\\CaPPI_revised\\results\\supplement_20261001\\visual_qa.json",
+    "final_figures": 9
+  },
+  "new_fits_completed": {
+    "parameter_models": 135,
+    "classical_models": 40,
+    "trajectory_model": 1,
+    "target_holdout_models": 2,
+    "total": 178
+  },
+  "manuscript_editing_this_campaign": false
+}

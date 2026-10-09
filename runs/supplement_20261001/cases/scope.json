@@ -1,0 +1,8 @@
+{
+  "docking": "user_excluded",
+  "tasks": [
+    "validation trajectory",
+    "target-withheld candidate ranking"
+  ],
+  "no_structure_or_docking_services": true
+}

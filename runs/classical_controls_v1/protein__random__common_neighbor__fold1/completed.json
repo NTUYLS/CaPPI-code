@@ -1,0 +1,89 @@
+{
+  "name": "protein__random__common_neighbor__fold1",
+  "method": "common_neighbor",
+  "protocol": "protein",
+  "fold": 1,
+  "run_signature": "0a4a2c765c726358a10197db0578019aa957cf3464feb9dc0901d0201b5b2bd4",
+  "campaign_signature": "1f9b8b09ff5ab2aeb2aae4999a8177da5948910ebdd8ff576bad8ac928614dd6",
+  "config": {
+    "code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "protocol": "protein",
+    "negative_sampling": "random",
+    "base_seed": 20260930,
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2"
+    },
+    "control_category": "feature-based controls; not published deep-model reproductions",
+    "selection": "Fixed hyperparameters; training pairs only; no validation/test model or threshold tuning.",
+    "feature_definition": "Number of shared neighbors in training adjacency.",
+    "aa20_unknown_policy": "Unknown residues count toward full sequence length but have no AA20 bin.",
+    "unseen_topology": "All-zero for nodes absent from the training graph.",
+    "heuristic_metrics": "Raw degree-product/common-neighbor ranking scores; only AUROC/AP; no classifier threshold.",
+    "method": "common_neighbor",
+    "model": {
+      "algorithm": "common_neighbor",
+      "calibration": "none",
+      "decision_threshold": null
+    },
+    "seed": 20260931,
+    "fold": 1,
+    "split_hash": "d9933562c9040c15cc34343378711f2c772e8a17e1fc171819803b259343070c",
+    "split_array_hashes": {
+      "train": "fb4f9555863dd57ee18b83d6c346c1f9a9d77d196742a995859e935dcf834fd9",
+      "val": "0ec4e506b101cb8140d3916eea975d6cec3596182bedabe3d5b213925e144c16",
+      "test": "5e1ff483798ed8548866acadfc59fdfdeb5155e69c003c10ca5ef53c0f0063bd"
+    },
+    "prepared_artifact_hashes": {
+      "train": "fa792e85f2fef0f16b759c3745f05168a0aabb6608e77a38fbc1fe1c9d1dcea9",
+      "val": "b990e1ca436bbaba8e68ae943168c45c3da804943ffbd775625a7fcacc772996",
+      "test": "5850f74fd8ec8cb2373dc89529d549fe8028f7dd22f3865f056a77cb499145e3",
+      "graph": "cd6d94c09ac5119507a49860f4a5774d0d628e122f5b8b63af495da7ccfd6ebb"
+    },
+    "graph_hash": "de7f10613d8f0f8670140a19a494de50e6016b897c0c1818cf19a4d2c92b9d29"
+  },
+  "split_hash": "d9933562c9040c15cc34343378711f2c772e8a17e1fc171819803b259343070c",
+  "split_array_hashes": {
+    "train": "fb4f9555863dd57ee18b83d6c346c1f9a9d77d196742a995859e935dcf834fd9",
+    "val": "0ec4e506b101cb8140d3916eea975d6cec3596182bedabe3d5b213925e144c16",
+    "test": "5e1ff483798ed8548866acadfc59fdfdeb5155e69c003c10ca5ef53c0f0063bd"
+  },
+  "checkpoint_sha256": "3254c898414c78a0a75e3574bf78638ccfe765a5c02795e111f256872104233b",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": null,
+    "sensitivity": null,
+    "specificity": null,
+    "precision": null,
+    "f1": null,
+    "mcc": null,
+    "auroc": 0.5,
+    "average_precision": 0.5305401312468451,
+    "pr_trapezoid_area": null,
+    "n": 1981,
+    "positive_n": 1051,
+    "threshold": null,
+    "metric_scope": "ranking_only"
+  },
+  "elapsed_seconds": 0.18799999996554106,
+  "artifacts_sha256": {
+    "run_config.json": "d3f91cdcef212a1bdd82bf095aebcf83172e74c74b9edb3551add61b90d146fc",
+    "heuristic.json": "3254c898414c78a0a75e3574bf78638ccfe765a5c02795e111f256872104233b",
+    "test_predictions.csv": "666090a8c5e38ef674937c3a4fc9e487376e4e67da3e224d22af7f5708b24563",
+    "metrics.json": "6da7b30fb478af131deaa3392d2c79a1ece331874fc5101969d38a6a877d8e41"
+  }
+}

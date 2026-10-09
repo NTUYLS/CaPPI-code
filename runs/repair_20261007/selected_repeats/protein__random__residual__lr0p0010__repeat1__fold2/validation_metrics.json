@@ -1,0 +1,14 @@
+{
+  "n": 401,
+  "positive_n": 163,
+  "accuracy": 0.5935162094763092,
+  "sensitivity": 0.0,
+  "specificity": 1.0,
+  "precision": 0.0,
+  "f1": 0.0,
+  "mcc": 0.0,
+  "auroc": 0.46910604732690625,
+  "average_precision": 0.4009743679822674,
+  "pr_trapezoid_area": 0.39623493988746084,
+  "threshold": 0.5
+}

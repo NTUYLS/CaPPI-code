@@ -1,0 +1,20 @@
+{
+  "graph_hash": "3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000",
+  "source_cache_reused": true,
+  "copied_artifacts": {
+    "3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000.npz": {
+      "source_path": "D:\\1.肝癌\\CaPPI_revised\\runs\\reviewer_v1\\graph_cache\\3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000.npz",
+      "source_sha256": "852866da5e776edc8c2499c206b0ce6e77f007483e019f14231c683b6f1d3ad0",
+      "destination_path": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\graph_cache\\3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000.npz",
+      "destination_sha256": "852866da5e776edc8c2499c206b0ce6e77f007483e019f14231c683b6f1d3ad0"
+    },
+    "3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000.json": {
+      "source_path": "D:\\1.肝癌\\CaPPI_revised\\runs\\reviewer_v1\\graph_cache\\3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000.json",
+      "source_sha256": "394c4a564f7fc6a0bec715d8d2d8edc1d822802b65bb93b21620928a26d77510",
+      "destination_path": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\graph_cache\\3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000.json",
+      "destination_sha256": "394c4a564f7fc6a0bec715d8d2d8edc1d822802b65bb93b21620928a26d77510"
+    }
+  },
+  "local_cache": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\graph_cache",
+  "source_cache_modified": false
+}

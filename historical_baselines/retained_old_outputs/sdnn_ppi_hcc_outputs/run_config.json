@@ -1,0 +1,19 @@
+{
+  "data_dir": "C:\\Users\\Jie Pan\\Desktop\\肝癌\\SDNN_PPI_reproduction_complete\\SDNN_PPI_reproduction",
+  "sequence_file": "肝癌 sequence.csv",
+  "output_dir": "C:\\Users\\Jie Pan\\Desktop\\肝癌\\SDNN_PPI_reproduction_complete\\SDNN_PPI_reproduction\\sdnn_ppi_hcc_outputs",
+  "epochs": 50,
+  "batch_size": 64,
+  "learning_rate": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 0.001,
+  "dropout": 0.12,
+  "patience": 0,
+  "seeds": "42,52,62,72,82",
+  "num_workers": 0,
+  "threshold": 0.5,
+  "device": "auto",
+  "recompute_features": false,
+  "deterministic": false,
+  "device_used": "cuda"
+}

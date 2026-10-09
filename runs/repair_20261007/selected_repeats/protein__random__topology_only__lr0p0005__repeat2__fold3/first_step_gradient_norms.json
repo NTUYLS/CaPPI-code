@@ -1,0 +1,16 @@
+{
+  "topology_projection.weight": 0.0033007520250976086,
+  "topology_projection.bias": 0.0005570591310970485,
+  "pair_head.left.0.weight": 0.004195421002805233,
+  "pair_head.left.0.bias": 0.0005591255612671375,
+  "pair_head.right.0.weight": 0.005772677715867758,
+  "pair_head.right.0.bias": 0.0007877874304540455,
+  "pair_head.classifier.0.weight": 0.006856685038655996,
+  "pair_head.classifier.0.bias": 0.002183126052841544,
+  "pair_head.classifier.3.weight": 0.005861752666532993,
+  "pair_head.classifier.3.bias": 0.003616556990891695,
+  "pair_head.classifier.6.weight": 0.005085156299173832,
+  "pair_head.classifier.6.bias": 0.005913358181715012,
+  "pair_head.classifier.9.weight": 0.003956011962145567,
+  "pair_head.classifier.9.bias": 0.00861928891390562
+}

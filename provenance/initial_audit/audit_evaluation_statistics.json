@@ -1,0 +1,2988 @@
+{
+  "raw": {
+    "肝癌 interact.csv": {
+      "rows": 23707,
+      "unique_directed": 23707,
+      "unique_undirected": 23707,
+      "duplicate_undirected_rows": 0,
+      "self_pairs": 0,
+      "reverse_pair_groups": 0,
+      "nodes": 579
+    },
+    "dataset 分开/肝癌_interact.csv": {
+      "rows": 23707,
+      "unique_directed": 23707,
+      "unique_undirected": 23707,
+      "duplicate_undirected_rows": 0,
+      "self_pairs": 0,
+      "reverse_pair_groups": 0,
+      "nodes": 579
+    },
+    "STRING": {
+      "raw_rows": 47414,
+      "unique_undirected": 23707,
+      "gt700_unique": 3771,
+      "min_combined_score": 150,
+      "pair_csv_unique": 23707,
+      "pair_csv_equals_STRING_all": true
+    },
+    "graph_overlap": {
+      "dataset 分开": {
+        "Train": 16594,
+        "Validation": 2371,
+        "Test": 4742
+      },
+      "degree-matched negative sampling\\degree_matched_negative_sampling_outputs": {
+        "Train": 16594,
+        "Validation": 2371,
+        "Test": 4742
+      }
+    },
+    "label_conflict_examples": [
+      {
+        "negative_file": "dataset 分开/NegativeSample_Train_肝癌.csv",
+        "negative_line": 4,
+        "negative_pair": [
+          104,
+          80
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Validation_肝癌.csv",
+        "positive_line": 1322,
+        "positive_pair": [
+          80,
+          104
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Train_肝癌.csv",
+        "negative_line": 23,
+        "negative_pair": [
+          446,
+          92
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Test_肝癌.csv",
+        "positive_line": 1838,
+        "positive_pair": [
+          92,
+          446
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Train_肝癌.csv",
+        "negative_line": 46,
+        "negative_pair": [
+          444,
+          307
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Validation_肝癌.csv",
+        "positive_line": 489,
+        "positive_pair": [
+          307,
+          444
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Validation_肝癌.csv",
+        "negative_line": 18,
+        "negative_pair": [
+          463,
+          384
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Train_肝癌.csv",
+        "positive_line": 3309,
+        "positive_pair": [
+          384,
+          463
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Validation_肝癌.csv",
+        "negative_line": 28,
+        "negative_pair": [
+          159,
+          158
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Train_肝癌.csv",
+        "positive_line": 1972,
+        "positive_pair": [
+          158,
+          159
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Validation_肝癌.csv",
+        "negative_line": 42,
+        "negative_pair": [
+          577,
+          51
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Train_肝癌.csv",
+        "positive_line": 14756,
+        "positive_pair": [
+          51,
+          577
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Test_肝癌.csv",
+        "negative_line": 2,
+        "negative_pair": [
+          498,
+          333
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Train_肝癌.csv",
+        "positive_line": 5033,
+        "positive_pair": [
+          333,
+          498
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Test_肝癌.csv",
+        "negative_line": 20,
+        "negative_pair": [
+          327,
+          201
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Train_肝癌.csv",
+        "positive_line": 15473,
+        "positive_pair": [
+          201,
+          327
+        ]
+      },
+      {
+        "negative_file": "dataset 分开/NegativeSample_Test_肝癌.csv",
+        "negative_line": 29,
+        "negative_pair": [
+          459,
+          158
+        ],
+        "positive_file": "dataset 分开\\PositiveSample_Train_肝癌.csv",
+        "positive_line": 15116,
+        "positive_pair": [
+          158,
+          459
+        ]
+      }
+    ]
+  },
+  "split_groups": [
+    {
+      "directory": "dataset 分开",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "degree-matched negative sampling\\degree_matched_negative_sampling_outputs",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 502,
+          "sha256": "cad4b769291cf107633d98fb6a1d7b1cdcce84af6f7624a3dd83c043190585df"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 443,
+          "sha256": "6eee5e6f465e83bd0f82fdedd4121eaaf1d60802c37b23e12808ccf5995ca12c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 462,
+          "sha256": "deaa1de6b26c3b19e0ad9a721c926fa6a3c5bcdfc8de8f230f4d726b39f7dffc"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 0,
+        "Negative_Train_Test": 0,
+        "Negative_Validation_Test": 0
+      },
+      "label_conflicts": {
+        "Negative_Train": 0,
+        "Negative_Validation": 0,
+        "Negative_Test": 0
+      },
+      "test_nodes_seen_in_train": 538,
+      "test_nodes_total": 541
+    },
+    {
+      "directory": "消融实验",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\3\\1000",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\3\\1500",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\3\\2000",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\5\\1000",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\5\\1500",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\5\\2000",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\7",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\7\\1000",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\7\\1500",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\max_length\\7\\2000",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\128\\10",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\128\\20",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\128\\30",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\128\\40",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\256\\10",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\256\\20",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\256\\30",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\256\\40",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\32\\10",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\32\\20",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\32\\30",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\32\\40",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\64\\10",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\64\\20",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\64\\30",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "参数分析\\嵌入维度和walk length\\64\\40",
+      "run": "HCC",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 574,
+          "sha256": "6342139ea5e497c3690edace1ce81905346b39db47fac334280b56e7d77354c8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 512,
+          "sha256": "e0bd41a8aa32206bd6e70f742c24aad869e6db6f72e57af74a14bb264c2065a2"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 539,
+          "sha256": "58605b3ac4b55fa6b6240d6afc591b2eb64c272a4109077de6f64f2cc48c11b4"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16224,
+          "duplicate_undirected_rows": 370,
+          "self_pairs": 22,
+          "reverse_pair_groups": 370,
+          "nodes": 579,
+          "sha256": "ee3840b061ac1045db06ed097388c479f461f6d3d5a2e32a80382fa17d26f30e"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2360,
+          "duplicate_undirected_rows": 11,
+          "self_pairs": 5,
+          "reverse_pair_groups": 11,
+          "nodes": 579,
+          "sha256": "c992b0998dd50d79bd399a9cd7c320a8ffcc227dedb3d224b589795f6bcfa16c"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4702,
+          "duplicate_undirected_rows": 40,
+          "self_pairs": 16,
+          "reverse_pair_groups": 40,
+          "nodes": 579,
+          "sha256": "11a185a6e0ae9ce265c781906fad90a74eaf4f22d51cd4f443f9d6566f3019b0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 237,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1405,
+        "Negative_Validation": 204,
+        "Negative_Test": 395
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "机器学习分类器",
+      "run": "run1",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 573,
+          "sha256": "1df518a289e4ac62b570657266bd795e9091a98dda84c6b6c75d209a3a4dd9d6"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 506,
+          "sha256": "d2e963dd97710bcd74b94c48a4b5ef41bb6f48ec95d2683d6564d0993db15f72"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 549,
+          "sha256": "b2412a77ac346a044112a28e92c052766067d4c6eca61e4445bf334fb5586f02"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16183,
+          "duplicate_undirected_rows": 411,
+          "self_pairs": 21,
+          "reverse_pair_groups": 411,
+          "nodes": 579,
+          "sha256": "1dcac23a2fe6bb75047f46706b2da2cbec688533a95c831ea424fad8d6fdfeae"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2363,
+          "duplicate_undirected_rows": 8,
+          "self_pairs": 7,
+          "reverse_pair_groups": 8,
+          "nodes": 578,
+          "sha256": "bb0af46a442ce03e99a66cd69060c977f87c7d74f75b7f6c48ec82ab52de3103"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4709,
+          "duplicate_undirected_rows": 33,
+          "self_pairs": 9,
+          "reverse_pair_groups": 33,
+          "nodes": 579,
+          "sha256": "fa689f029bb06955c6666c5257e317ad0544c0fea184e17ea7b474b2b0feb43d"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 116,
+        "Negative_Train_Test": 260,
+        "Negative_Validation_Test": 31
+      },
+      "label_conflicts": {
+        "Negative_Train": 1379,
+        "Negative_Validation": 188,
+        "Negative_Test": 406
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "机器学习分类器",
+      "run": "run2",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 576,
+          "sha256": "52c6a431372ec91c10ffe17b892b79f7a8396a21cf7a022ae814707df65b9011"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 508,
+          "sha256": "c738335c01ed8ef063ba3e8ac1b18cb2b0d3f837e6f0eb23432f21ebf45cdc90"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 543,
+          "sha256": "37ffb6d3b41b612520f803c6e474231767c213e7ba5bb3f5b56273fd92b0f6b6"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16165,
+          "duplicate_undirected_rows": 429,
+          "self_pairs": 32,
+          "reverse_pair_groups": 429,
+          "nodes": 579,
+          "sha256": "e9c214cca61b435c1884de1a30f510e576b9586582d92771aa43f8066c292be9"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2368,
+          "duplicate_undirected_rows": 3,
+          "self_pairs": 6,
+          "reverse_pair_groups": 3,
+          "nodes": 578,
+          "sha256": "3574e2eecefe8b0e6ab5ce258aaa52e86ba2b7a576c9a632dde73b6737608bdb"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4714,
+          "duplicate_undirected_rows": 28,
+          "self_pairs": 17,
+          "reverse_pair_groups": 28,
+          "nodes": 579,
+          "sha256": "a7d8d76a978fbd8530bd39f41e6e1e7f7d7ce7beb1793bb66d0f2c317f0f8843"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 125,
+        "Negative_Train_Test": 224,
+        "Negative_Validation_Test": 38
+      },
+      "label_conflicts": {
+        "Negative_Train": 1308,
+        "Negative_Validation": 195,
+        "Negative_Test": 404
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "机器学习分类器",
+      "run": "run3",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 572,
+          "sha256": "5ed5b450c2fa8c6281711ba13ce1012845f8992a00c7077ae5bfc2072fcdcac5"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 505,
+          "sha256": "70345ce242a3d58c488c064f674e106237940098df134d4a25a65096874dc828"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 542,
+          "sha256": "01a4ac0b6ab1e92ab0791b96dfc356f348dec5968f67cdf304c9e391db88ffe7"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16179,
+          "duplicate_undirected_rows": 415,
+          "self_pairs": 33,
+          "reverse_pair_groups": 415,
+          "nodes": 579,
+          "sha256": "794b7a6964f48c43570b4eea072d76fb6f3c724b4ea926871f0942d49d5409e4"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2361,
+          "duplicate_undirected_rows": 10,
+          "self_pairs": 2,
+          "reverse_pair_groups": 10,
+          "nodes": 578,
+          "sha256": "42329f575e6b73ef01461f10ade08c59f500269153015418a56c4564879431de"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4709,
+          "duplicate_undirected_rows": 33,
+          "self_pairs": 12,
+          "reverse_pair_groups": 33,
+          "nodes": 579,
+          "sha256": "32e94c2ffe97d45e3e35e0a310e7d922d1f55d6c35ce9a9c5b9ef3b2d6da51c0"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 110,
+        "Negative_Train_Test": 242,
+        "Negative_Validation_Test": 25
+      },
+      "label_conflicts": {
+        "Negative_Train": 1372,
+        "Negative_Validation": 214,
+        "Negative_Test": 382
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "机器学习分类器",
+      "run": "run4",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 573,
+          "sha256": "a577e5fff765bf412ccecc4625adfeab5229f86438cf1f4036a75fa10b5772da"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 511,
+          "sha256": "2181c19708329d05898857deb7af7bbe3e8512851f02c0c39d75f9f44dfe446e"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 540,
+          "sha256": "b26d3e3ae9d625999c6712889753d6ee70dca535052656393fc4b2441d0232dc"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16186,
+          "duplicate_undirected_rows": 408,
+          "self_pairs": 32,
+          "reverse_pair_groups": 408,
+          "nodes": 579,
+          "sha256": "1d0afed1a8bd9c982f2e2b6e0f8da29e3265884700826e52704353042a6e94c7"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2363,
+          "duplicate_undirected_rows": 8,
+          "self_pairs": 3,
+          "reverse_pair_groups": 8,
+          "nodes": 579,
+          "sha256": "77acc56ffb926844b05adf3f3b15d859da5d3207d1b5219bf7b9e1fe9d4bf91e"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4713,
+          "duplicate_undirected_rows": 29,
+          "self_pairs": 6,
+          "reverse_pair_groups": 29,
+          "nodes": 579,
+          "sha256": "a559fc6e7548ad2e8a2452ba567305266ed8a56547e09f23f70a8aa26fa57b2b"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 92,
+        "Negative_Train_Test": 216,
+        "Negative_Validation_Test": 28
+      },
+      "label_conflicts": {
+        "Negative_Train": 1319,
+        "Negative_Validation": 198,
+        "Negative_Test": 401
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    },
+    {
+      "directory": "机器学习分类器",
+      "run": "run5",
+      "files": {
+        "Positive_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16594,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 573,
+          "sha256": "07e323d17fbd6ff6bf23bc29432ef46799a29457c9ea60c969e92234ed1ba8f8"
+        },
+        "Positive_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2371,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 506,
+          "sha256": "02cf32e1d78e3b11eaee7588d342df4bd2e84809f30de57a72d0a87a21d19a34"
+        },
+        "Positive_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4742,
+          "duplicate_undirected_rows": 0,
+          "self_pairs": 0,
+          "reverse_pair_groups": 0,
+          "nodes": 544,
+          "sha256": "d84927e0d1b975188d85e36f77f48e72d2cff7c1a9aa6ef9775fcc95c3be319b"
+        },
+        "Negative_Train": {
+          "rows": 16594,
+          "unique_directed": 16594,
+          "unique_undirected": 16218,
+          "duplicate_undirected_rows": 376,
+          "self_pairs": 30,
+          "reverse_pair_groups": 376,
+          "nodes": 579,
+          "sha256": "11ae7e70c351e9595e01b6581be9389f8395afb87d1cf1974ff6b03bf4e908db"
+        },
+        "Negative_Validation": {
+          "rows": 2371,
+          "unique_directed": 2371,
+          "unique_undirected": 2363,
+          "duplicate_undirected_rows": 8,
+          "self_pairs": 5,
+          "reverse_pair_groups": 8,
+          "nodes": 579,
+          "sha256": "242521e7738cc2830da8921b3a3ac27826ee6f400ab4ea811dfcc4d2dbffe856"
+        },
+        "Negative_Test": {
+          "rows": 4742,
+          "unique_directed": 4742,
+          "unique_undirected": 4707,
+          "duplicate_undirected_rows": 35,
+          "self_pairs": 10,
+          "reverse_pair_groups": 35,
+          "nodes": 579,
+          "sha256": "7ae26442a947e41f7d24d49396d265ade2d4fd410be3dcb6a81a17cd708fc3df"
+        }
+      },
+      "cross_split": {
+        "Positive_Train_Validation": 0,
+        "Positive_Train_Test": 0,
+        "Positive_Validation_Test": 0,
+        "Negative_Train_Validation": 101,
+        "Negative_Train_Test": 228,
+        "Negative_Validation_Test": 29
+      },
+      "label_conflicts": {
+        "Negative_Train": 1417,
+        "Negative_Validation": 202,
+        "Negative_Test": 414
+      },
+      "test_nodes_seen_in_train": 579,
+      "test_nodes_total": 579
+    }
+  ],
+  "ML_loader": [
+    {
+      "run": 1,
+      "Positive_Train": 16594,
+      "Positive_Validation": 2371,
+      "Positive_Test": 4742,
+      "Negative_Train": 16594,
+      "Negative_Validation": 2371,
+      "Negative_Test": 4742,
+      "script_test_rows_after_header_drop": 11852,
+      "script_true_positive_rows_after_header_drop": 4741,
+      "script_assigned_positive_rows": 5926
+    },
+    {
+      "run": 2,
+      "Positive_Train": 16594,
+      "Positive_Validation": 2371,
+      "Positive_Test": 4742,
+      "Negative_Train": 16594,
+      "Negative_Validation": 2371,
+      "Negative_Test": 4742,
+      "script_test_rows_after_header_drop": 11852,
+      "script_true_positive_rows_after_header_drop": 4741,
+      "script_assigned_positive_rows": 5926
+    },
+    {
+      "run": 3,
+      "Positive_Train": 16594,
+      "Positive_Validation": 2371,
+      "Positive_Test": 4742,
+      "Negative_Train": 16594,
+      "Negative_Validation": 2371,
+      "Negative_Test": 4742,
+      "script_test_rows_after_header_drop": 11852,
+      "script_true_positive_rows_after_header_drop": 4741,
+      "script_assigned_positive_rows": 5926
+    },
+    {
+      "run": 4,
+      "Positive_Train": 16594,
+      "Positive_Validation": 2371,
+      "Positive_Test": 4742,
+      "Negative_Train": 16594,
+      "Negative_Validation": 2371,
+      "Negative_Test": 4742,
+      "script_test_rows_after_header_drop": 11852,
+      "script_true_positive_rows_after_header_drop": 4741,
+      "script_assigned_positive_rows": 5926
+    },
+    {
+      "run": 5,
+      "Positive_Train": 16594,
+      "Positive_Validation": 2371,
+      "Positive_Test": 4742,
+      "Negative_Train": 16594,
+      "Negative_Validation": 2371,
+      "Negative_Test": 4742,
+      "script_test_rows_after_header_drop": 11852,
+      "script_true_positive_rows_after_header_drop": 4741,
+      "script_assigned_positive_rows": 5926
+    }
+  ]
+}

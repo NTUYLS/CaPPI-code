@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-01T05:01:51.157406+00:00",
+  "tasks": [
+    {
+      "task": "trajectory_fold0",
+      "verified": true,
+      "epochs": 600,
+      "snapshots": [
+        50,
+        150,
+        300,
+        600
+      ],
+      "validation_pairs_each": 4742
+    },
+    {
+      "task": "target_X271_00001",
+      "verified": true,
+      "auroc": 0.601842105263158,
+      "average_precision": 0.26455845608735473,
+      "hits_at_20_count": 5,
+      "candidate_n": 581
+    },
+    {
+      "task": "target_X271_00015",
+      "verified": true,
+      "auroc": 0.584446190102121,
+      "average_precision": 0.3960262858869619,
+      "hits_at_20_count": 4,
+      "candidate_n": 581
+    }
+  ],
+  "docking": "user_excluded",
+  "test_metrics_recomputed_from_saved_predictions": true,
+  "checkpoint_source_and_split_hashes_verified": true,
+  "limitation": "Checks verify computational provenance; they do not establish biological validation."
+}

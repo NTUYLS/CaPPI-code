@@ -1,0 +1,61 @@
+{
+  "run_signature": "8dafa1dbf25b875b6ff56ae886ab616604a543eafdee028cf02248349ecbeb3e",
+  "split_hash": "0182f078b0cf3b2b821cf747a28f2015e424a2eb0b1954a60fbcb6a78ee072b8",
+  "graph_hash": "3a38e67d8fa03b91b2362deef29858899fbb0c8459c10ffa0e72da4657965d99",
+  "best_epoch": 290,
+  "epochs_completed": 300,
+  "best_validation_bce": 0.31920763850212097,
+  "trajectory": false,
+  "elapsed_seconds_this_invocation": 44.26599999994505,
+  "test_used_for_selection": false,
+  "artifacts": {
+    "best.pt": "4ee23eefa8192946eaf1976a2004d13bf29a33e5af14a43c01b294eddd9e44dc",
+    "last.pt": "681194ee76889ce098d4d7b17330fa63fbd8d7ae307e8e0ed9e66a7dfbe8c00b",
+    "history.json": "ef7976acb796651b185d80b3edc24e0d06383e1e834acef07a6591074c5b1c4f",
+    "split_arrays.npz": "be908f81772ac2246cdd392cd4322964d7a088f2271df7f74ef7f9a9decacc34",
+    "topology.npz": "ea31fdeaaf730d35064b3236094cb042c364c96d9923299bb221114b31956e4b"
+  },
+  "config": {
+    "core_code_sha256": "76593480cfb156c8817d6bd12b522f09b50f4219c28720af2f2e93d89f381e91",
+    "supplement_code_sha256": "0be613bcddf9be6b9e0d372e0044b218d82bca4855a4fccc47857a0f70f62f97",
+    "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+    "split_hash": "0182f078b0cf3b2b821cf747a28f2015e424a2eb0b1954a60fbcb6a78ee072b8",
+    "model": {
+      "topo_dim": 64,
+      "seq_dim": 256,
+      "filters": 64,
+      "kernel": 7,
+      "max_length": 1500,
+      "fusion": "residual",
+      "dropout": 0.3,
+      "pair_dropout": [
+        0.4,
+        0.4,
+        0.1
+      ]
+    },
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "seed": 20260930,
+    "max_epochs": 300,
+    "early_stopping_patience": 20,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "pair_chunk": 4096,
+    "torch_threads": 2,
+    "device": "cuda",
+    "torch": "2.11.0+cu128",
+    "numpy": "1.26.4",
+    "selection": "validation minimum BCE only; no test selection",
+    "purpose": "exploratory single-target holdout; no external or experimental validation"
+  }
+}

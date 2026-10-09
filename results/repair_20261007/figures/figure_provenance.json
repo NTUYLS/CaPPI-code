@@ -1,0 +1,2142 @@
+{
+  "status": "verified_predictions_rendered",
+  "figures": [
+    {
+      "name": "pair_random_repair",
+      "protocol": "pair",
+      "negative": "random",
+      "curves": {
+        "residual": {
+          "auc": 0.9394704256300671,
+          "aupr": 0.9340998018470791,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "af840576e1b6094619244b7b05bedcaaef106890f9be72659d37184e4321a978",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "8d392a6aa32fb0fd6381bb3763bc78a5e1186b7328778b23f6c334f4e91384c9",
+              "auc": 0.9426893988783702,
+              "aupr": 0.9370436320364187,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "3c35b973f8edeb67704d0cd3fb7b00f20415e4b8827ac9ab795657e761390dfe",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "d2736db0dba4aad1692e20ed27ce46eb53904708b2b7b89f7a0aa57fb668f766",
+              "auc": 0.9396902968368133,
+              "aupr": 0.9320939443207641,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold2",
+              "prediction_sha256": "94d69f358789ba2ef7a7661dc2bb643a6358ce468fff56e7697ab3ec6c176d60",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "fd1de0b63a4d2641a1283643706271f84787ada3ac410f34400e7fa84dd84628",
+              "auc": 0.9443308274771087,
+              "aupr": 0.9397911616391281,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "56772f87d37e6df20cbc338d076e37c1104eb084807598e14448d33abdf24cd0",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "928f68e5bbe0273b4532d22acfc03d227f0e5ff3195b34202203dd3a08fd2fd3",
+              "auc": 0.9399018271100237,
+              "aupr": 0.936051019928773,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "a6cea24c2063a4a7d0d92dd5b1c737b01c8c46b0310e61f2bf887312bcbdf039",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "5873f4ea97030d434c6cbfa925872254c27afaa9370303e48b8018c1d348d056",
+              "auc": 0.9374516646534309,
+              "aupr": 0.9314876873170745,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "d9313a2161392fd5f4d7395da12bc7ef44a33e8862c5b2c861fd310988f4e0af",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "9eb766d5201c298890af04081133eeb0863a8a88361f8987e20537193e51fe4f",
+              "auc": 0.9391210902652802,
+              "aupr": 0.9334549293639501,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "f231bee85ee027071680acbb65051d96038a5c61baf8f56e44a1671790acac06",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "e929acf41d3faa0b6d64f66a93141941b1a2fb50604469cb2e67145fe430b353",
+              "auc": 0.9373723348751726,
+              "aupr": 0.930832432341548,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0005__repeat1__fold2",
+              "prediction_sha256": "4b2a6b3db7d83d54594c7a6e60a6d8703df2ea6185ac1f015f628a486577c1f1",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "a20ee82e3a2bb9f34ff02fb92cbd99784e67f0071ac83936b470ca0f68f8d49f",
+              "auc": 0.938870131757767,
+              "aupr": 0.9344578927186393,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "94f930f8adedc1b915297cf3f4713a7b1850d04e6d65e34b19e9bef8ab1f518c",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "2434ee81a6a9bff7b2569157c6932f8cadb0d2631014e43ea7f9b9704ada39fe",
+              "auc": 0.9394775504879836,
+              "aupr": 0.9356560469415287,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "e1b47002a4df6e35273653dfdac44ff225717ff9f83b1027e49291532cc5cc11",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "84fb0300630121b08c52cb2d4286af54e0998eb7896d1334492bf07863f6110f",
+              "auc": 0.936527567792277,
+              "aupr": 0.931245507035913,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "061d19b4ecc5784161a22ddcb4784f2e0fb5ff90093fb2ad06e846454bf0cb0b",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "593248aecc3d1563e3dd52e88d9a348242499d82aa74eda24bcd6d271af0522e",
+              "auc": 0.9439112396184672,
+              "aupr": 0.9386099302160502,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "5bc5523b9d8fa96e93fe7b26993b7725e05edd56dbc313eaa5782ed368a7000c",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "cac88de45b3e7ffc2ef405bcc06daf732e21750a77773bc2d98ce3cb257d6f46",
+              "auc": 0.9369066790284188,
+              "aupr": 0.930128004154119,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0005__repeat2__fold2",
+              "prediction_sha256": "bde7c3e224bc54e259f48667d51c61c714646a7cd1f762f104c9203356ef29fb",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "93f22e6ae8f5213b30e022135a9ce75dc443dbda6f82610874a275c289f97292",
+              "auc": 0.9369640568541797,
+              "aupr": 0.9318754874443991,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "f0bb9598f6c425707b8218eefb1eda9a6c2d9a4b8011aac60981ab27c1050286",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "62d9a8321b3f1fb069ebf902cf1858cb6ba69ba9fb9f760ae31c744c9fb8fa5e",
+              "auc": 0.9410605852245671,
+              "aupr": 0.9370898782081845,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "db4be93f48341abd25da8ce36d7c7c83376eeaaa5c8e1524c813b81671ca319a",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "8c290f6daa7a4cbe2e93e8d6f183591a248c4f4074361b9cb69521cb37b03c95",
+              "auc": 0.9377811335911455,
+              "aupr": 0.9316794740396943,
+              "positive_prevalence": 0.5
+            }
+          ]
+        },
+        "topology_dropout": {
+          "auc": 0.920743974072337,
+          "aupr": 0.9171606758354073,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "41f9af757e9392d6bec3a9b16c1fa0e354173440552eedf4931edc0dce52661d",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "13f653476688ec24d9d37329ebcf25678726f07a49e29ce1d5aba355da7b7c9b",
+              "auc": 0.9244870403499618,
+              "aupr": 0.9201792723363414,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "2f507f0216839210952029306efffb93bb5be682e108c42b658c09409c359b71",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "d82e04f59938139ce1bff3b177b01542efe552ead7dd004997757de7f0f3309b",
+              "auc": 0.9059128153149585,
+              "aupr": 0.9017374059935275,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "f4f0173e85564ae394510edd0ef5c2de784038ac199d39e8fd874aa11bd7f334",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "44a5bf14d974833bf96fa0079b854d187e8b4788415dd0a3d38dbeb8c300666a",
+              "auc": 0.9290321105307224,
+              "aupr": 0.9247957162028706,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "74d7d8f422e25cac16dc969e41fa1e65c268e9c37f77ba7ec844ab4aff190e0f",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "4b0435953013bab2446e0835a6ab244717acea17a2bda557c99cf14ad6639d09",
+              "auc": 0.9168602008419153,
+              "aupr": 0.9163358635003903,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "78d82d2e720af3d262efea5ff831e5a32359c41076b4b34435ae5a2a49df270a",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "18d58ad2d4e9b6b9d237bc976bfc9dc6d905d7c2148e8a7e76d12e53f7cd07da",
+              "auc": 0.9260483378602409,
+              "aupr": 0.9217148407948824,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "13544347aba52354408a0ac97789c68d78fb4163568f201ce9ad90bdd06a3636",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "82dd0e70d458b2a337358bb6cafab823e0602a69a9050839cc0fbf2c4e9bc872",
+              "auc": 0.9204712200583425,
+              "aupr": 0.9169120414599833,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "e8e113486e96abb854fd47f31e7f561d4e991bd65d29c6524d4698d84744aea0",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "35e46053aaac2555ad7814cca350662271f8affdb2ca8c32a399e12babb96a08",
+              "auc": 0.9161948664100037,
+              "aupr": 0.9095795820985624,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "b4f0d7b7c53d9cc30aac3c8026c468475a73ef67838d141213e1e5f8ffec1066",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "8d86aad146cf67e7fef4953058844f946d7bd7126b81b19f489f71a90de0b1f5",
+              "auc": 0.9187572888134362,
+              "aupr": 0.9164613122769136,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "5040d1bb9a2b8b14e4db66e3ca2586c0b56cdb2eed3494d4177557790c3caae1",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "197f81576a5aca3dd4168dea51dba81d8dff85c855b25ea625f61870fa6ae033",
+              "auc": 0.9248790356719362,
+              "aupr": 0.922411327087808,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "b8c9e37dc272f30086571d42ea33deb930c731feb5394aac360e7b09cf21ae93",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "b0df718b7344ac4fa885653795f4376e943059450909609986f863123b8c5816",
+              "auc": 0.9243395972991333,
+              "aupr": 0.9203134666953732,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "55f4160d5b15fae3dd369bd5257ea63bf4a51fe8f685f023688bc456d05d2994",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "7de24947187e42051ad660c95f9b71674546d7abf2c18a081ce809d826d6c7b7",
+              "auc": 0.9213730919494858,
+              "aupr": 0.9184129069908744,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "348a17a5705c71035da4d28cd8d8e9e876a1f4c7cb12f717f035964ce26eaf2a",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "2b4230a98c62198d061235f5e817ef80c146faaadd380b05c7c6cf4c236ab6e4",
+              "auc": 0.9068385903688976,
+              "aupr": 0.9029407176073903,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "3366312dbe5ff5daa8f4ad2651e4817c2b16f5353c3d176ca478fe272f64f33c",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "6ad7a86cf196fbd1181f895fc76b92a44826b7ff38d25e913284b4013f93c121",
+              "auc": 0.927744754757079,
+              "aupr": 0.9239577502338058,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "dffb852aff5f8d1fac93ed35453a05bf150ae1976a6ef2ffb65e26dffc021885",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "0c28dd65013be63648147483c18c89129d0d41b629c6c6c3ac1604cf7574228b",
+              "auc": 0.9235669880799913,
+              "aupr": 0.9212174588392763,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "d992da97f59fd7693ff2a32ab81658804073199b4556f7b19c04a23eedf5495b",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "1bdfa11f96ffd370f766e79461cb3c0c128482f4de84f4c4d8945a87134f70ae",
+              "auc": 0.924653672778952,
+              "aupr": 0.9204404754131101,
+              "positive_prevalence": 0.5
+            }
+          ]
+        },
+        "topology_dropout_bypass": {
+          "auc": 0.9291773231450886,
+          "aupr": 0.9249512645996679,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "3bc24905e069bf3594b3af7149c408095f2b54509a50c00e748cfc476383e196",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "2094006a7ef36eca4d803cc0b4af879a0492e4e54da009f31c6bd1df3489f984",
+              "auc": 0.9249382875925376,
+              "aupr": 0.9211117382885262,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "f6099072bb02963b2808f3975bc20ffe8712db6baa5d5ca3f5b630b7bda2731c",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "fd4132c52677337a8a2765a6a2817f10ebcbda1a2c6f6b89cbf8dfdea7c7ea97",
+              "auc": 0.9225982235436236,
+              "aupr": 0.9154549498996689,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "55922c59e059740d3cee0e77fa1d514b9a51fb5c53edb0ce6f05a5ca59a0c34e",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "3709e06aac762148de6af42891b10c9b05889fa25fb19aec1356d2199ebe34b8",
+              "auc": 0.93873599512321,
+              "aupr": 0.9342905272398206,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "7c962a6faa6b3f0b2656b2830090440d64df60296b574d796ba4dab61fd9de48",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "064515ded032b405e762e142332c84d16b782063e2efa160580989ff22ba7092",
+              "auc": 0.9244333817189163,
+              "aupr": 0.9246766859331746,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "bc4b07d36bacf9964c82239c0551bf6682ca0054aef7bb61bc01ff7eb921d6a7",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "3985f7a226a61b0f3f5b9691a8333ee12fd4fd7007a2fb53b150d713476f2440",
+              "auc": 0.9324461214514466,
+              "aupr": 0.9277993903940067,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "f512bca3473320e8a32ebd9af002a2547f055366b852bb1e33bd5fc658eb9ed4",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "c94ece968fa625d90d0c830b5fd099a0b5ad6aa64fe38f151420cfe9bd032615",
+              "auc": 0.9250364350907502,
+              "aupr": 0.9208648159529406,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "aea30064a04e597871df146fe63fb6727d2a8ad6a3f084af658efe91ffb78af8",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "4dc4984eff033e577e0e7b6f0c263daaa335181a91da715b20dcd302bb2e2731",
+              "auc": 0.9236786909729737,
+              "aupr": 0.917654629075881,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "eef2375210acf5510232e7bc522f709d69576fce9fdab58b883d058ddb859d51",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "0c2445e0763e3927a4152cfc05f363e1e0b4368fb05750f540769889d59e7d49",
+              "auc": 0.9380580156293425,
+              "aupr": 0.9334510758851174,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "63193421306cedfaaaea7b13a07b0ce1558179541413aa06842d89405bb4800a",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "c2146f2c6ff16d7239a544d44c1c7001756703fe39906fe777c1a9a1ea0a75cb",
+              "auc": 0.9262387317997386,
+              "aupr": 0.9238685301729259,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "2307521a7d8dd26abd74be6450a0f31e7406a5ab244c0d30c5c4bf86acf2dd1b",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "43233e988d9f1ee85a0ece1d9d75d104a21124646e03398a4d814849a6ef8fa9",
+              "auc": 0.9310353510760584,
+              "aupr": 0.926850319601235,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "8fec499bb5bf0a834df310eacb827b1536f98e7383f0983e3739e1a38f8e9abf",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "15dbe9a03411bf5685bc8ff0cb93675360c30a7aa2ec08b4333b3f057fa2d9ee",
+              "auc": 0.9270484365686105,
+              "aupr": 0.922573887176357,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "dfab447fd51b9f742fec00f4656a9db64824740f8a25ca00e5bf4fa004813373",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "86cacc6e5cfab8ea7eb2a2db3bba2ea5d278ffd9376679990be4cbe040ca62a4",
+              "auc": 0.9301813740863211,
+              "aupr": 0.9226808061488505,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "116be7f1343ba343ab0adf2d3cbf5b1f735286d7c3aba8e63ff33f9df4b6e5af",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "b40f5839322641992a21dd9c914959aa38c8761424b0e57e60dbdd69523dd42f",
+              "auc": 0.9341201377527623,
+              "aupr": 0.9302953117573582,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "0491ab178e8dd9c37fec3557e48f31ac9f12fef7afb6499f69e5ca57347a20b9",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "7b0c382938c7a5342c2bffd404ddc0fa6db303ad9ec27ddb5319573dcf6e47b8",
+              "auc": 0.9309666811273225,
+              "aupr": 0.9290321610772081,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_dropout_bypass__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "342a59d7cc3d2bbee55b907b259964132669ab62ed308f720f8bdb55d9114d80",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "a653d2b5cb02fac2935c770d22476477dbd305c394610c9ae237c471486f900e",
+              "auc": 0.9281439836427159,
+              "aupr": 0.9236641403919469,
+              "positive_prevalence": 0.5
+            }
+          ]
+        }
+      },
+      "outputs": {
+        "png": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_random_repair.png",
+          "sha256": "c37ce289783547fbd8486590ba0655d128412b74a509f6a2a560210f71be5062"
+        },
+        "pdf": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_random_repair.pdf",
+          "sha256": "78d4b3f8119eabd22e50ab14f08b770aa6ef76753cca6212ed0e8a8c21d7b5a6"
+        },
+        "svg": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_random_repair.svg",
+          "sha256": "2cae97a4ebe5110f54df0fffca873f00c9d1e8c8dff7490a18c615beb1ee1171"
+        }
+      }
+    },
+    {
+      "name": "protein_random_repair",
+      "protocol": "protein",
+      "negative": "random",
+      "curves": {
+        "residual": {
+          "auc": 0.5927580996653802,
+          "aupr": 0.5805485847227821,
+          "prevalence": 0.4930135080996923,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "dc7afcebd46ef69ab27ca00a9a967a47535aa512f0e16fc165c5b9f140cb8e54",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "195c7a2f377a2614d03d36bda3df72f6c84bb04a03d7603b000ca5d9ef7e1e82",
+              "auc": 0.5179865541714777,
+              "aupr": 0.4971879513752867,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold1",
+              "prediction_sha256": "c3b3087c5f31ec1401927e28b00b4351c07a37d24143ca2df7e478f3d250c1d6",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "8f2e6995ca1932d91327b143ca7a789865c10c1c235bea828d86588cc346bf7d",
+              "auc": 0.5892861892923278,
+              "aupr": 0.5692433917533201,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "de34024bde7fbecd0c40ec1af56406ddbbe6a492977318bf1dff72a7b6c7311d",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "99b43e83612f2b70835d93c89fdb04c91e5cc62fe15833b704974129c69d17fd",
+              "auc": 0.716667951344951,
+              "aupr": 0.7283281283606129,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold3",
+              "prediction_sha256": "f26546d40bfb8b7800fee2acbbb5df8f5e7bb2e5001cebaa6c8c23a6060f0330",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "dcb2b130a251b665915ba5ced55e49af6f5fa380099ce0851a60e9fd9cd0bcb9",
+              "auc": 0.5459078957324456,
+              "aupr": 0.5224228022611108,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "17bc80f6579f0c0173d4b365074500d0b5bdbdc192be16051bdd737cff5f2a70",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "2762cd2c4a20e93af7c053eef490d8413c7f128cdf239c02452cf54bd5a6ea75",
+              "auc": 0.7177979274970638,
+              "aupr": 0.6564483757021575,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "7898227c3791801513d0b3ffaff9757232f592b144197f556821751a873ee955",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "8b49ccc57af715cd030ce3ef3a33e742cee9a6f4361789297323a4bed434f8f9",
+              "auc": 0.3056187169716148,
+              "aupr": 0.38484810594991853,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0005__repeat1__fold1",
+              "prediction_sha256": "1036c48594bdd4e6bfb2074763def80d08c435dbca89929e57f103fa358bd740",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "71b740d03767b0a2bfa5b03fedf479422f889c1fce98734193760694592ead18",
+              "auc": 0.5854930787882507,
+              "aupr": 0.5949363107212893,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "1ecce4e40acd861b13490737c09d50b44f383abf70c80a093944995a0ae87fc1",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "55fb5a948402beeb12dd84643f8d7224c49d2de81bca9ca27fc7fe33619b21b8",
+              "auc": 0.543563975908,
+              "aupr": 0.5602530881733092,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0005__repeat1__fold3",
+              "prediction_sha256": "e75c14d77ad3bb330b7a1305fc4871560a87e0317e3670b5e1eb8c241655690c",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "0cdf52af68856c8c961e9ed13a4d57b265235eed1830fe5896c0875105951173",
+              "auc": 0.697975583572942,
+              "aupr": 0.6882842270118636,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "88591e9c317add8b4221395344559e500e5c96a354704fe8739a1b2aea76dd58",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "3ec08feeea022bd073faf030673565103f4bf5af6dc331c8cab7c632bc03be88",
+              "auc": 0.6215241618676655,
+              "aupr": 0.5464005982080065,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "8c160cf76aa2b37baf9d8c763082a6a482e129d66bda473a8b6b94cf67be6a86",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "5ae0c8890c85ca34756c7f42cebaedfcef88d49d1c71c75607ec1e3825fcbb4d",
+              "auc": 0.6898775018817067,
+              "aupr": 0.6712884677340363,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0005__repeat2__fold1",
+              "prediction_sha256": "b912070488f069449c2a3e79fa6886b1cee4c3e8b63280786b5cb031d1af8a65",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "9a663b1476710835ff9a6decae254010d33e8f3d1557da5d5da8ed4765cd096f",
+              "auc": 0.3758146363422445,
+              "aupr": 0.4346561867217246,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "3b7b93c6aafb82b337e7a32d40db199f1499f06eabcdc6d3023bef0026f03688",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "d976810c5781acb79fdadd9366b74a49539336721cbd33107e74ed50522597ac",
+              "auc": 0.6423519890031539,
+              "aupr": 0.6549154599477263,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0005__repeat2__fold3",
+              "prediction_sha256": "819dd30651e2c68a8705ee753f9cd5a8737e9d6aecaccc4e7d821f7535675dc0",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "749a6e72339368b9f0cb3f46140e44b1ad27242823257b69db8c8d2f1348f342",
+              "auc": 0.7357523550998788,
+              "aupr": 0.7210975316806298,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__residual__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "5739fe519577344aac617f9db0b8e84e9f95eb510cbb7559263745bfb0fa6289",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "ba99acfb86ff3dcb3fa5390c2ccfc0a35aee0e6287c44dc388b77b9c2b5c370a",
+              "auc": 0.6057529775069783,
+              "aupr": 0.47791814524073994,
+              "positive_prevalence": 0.4175377468060395
+            }
+          ]
+        },
+        "topology_dropout": {
+          "auc": 0.7393513963246195,
+          "aupr": 0.7315070398151313,
+          "prevalence": 0.4930135080996923,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold0",
+              "prediction_sha256": "e32f5131c04b45e2e4ec18167875f105e4b194812f17fb4c51183ccb7db05178",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "0364b98232db759e41a90a0db966db3094ac54b994d93b576bc4b08f7635479b",
+              "auc": 0.7617202739607266,
+              "aupr": 0.7752658168899759,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold1",
+              "prediction_sha256": "ea173bf73735ccf346176c6dd0eeb5d212e2a59e2779b4255a37f64485314ff8",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "154dfa74251d70eaca8300f22aa3beb9ce90cdcecee02878a3371f6d54138df2",
+              "auc": 0.7006905865381664,
+              "aupr": 0.692397735058714,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "91df1c1db8ca104a9b35f1bdb272525d9cf890477fff6af2af5cc351d169d5b0",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "d9c5415b3c2a36a57319f69315d8ac910630f54f548cbe0171dea53d745e307f",
+              "auc": 0.7296640780399235,
+              "aupr": 0.7477633675832498,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold3",
+              "prediction_sha256": "3745a513a8ee1f3efc6997054aeadb290febbeb1a91ad168c69b2a7737760bb3",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "7e0f231b00b20ca5767a2b15cd78cc3628084b3180205f9ee773b4d15cfec0ab",
+              "auc": 0.7756850124848669,
+              "aupr": 0.7698093573312501,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "19b922de42c5b48e8b91dda2af2ed55d4fc51c0b785866b44015d95da1bf1ecd",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "8fa57366ba38b66fd05cac514ce636f960e562bbeede94dda67439ef98681daf",
+              "auc": 0.7511318617166581,
+              "aupr": 0.6984690264533996,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0005__repeat1__fold0",
+              "prediction_sha256": "e99da04ddf4d705d18455b406f596c659232deceddc46ab4b93df7a0fcad41c3",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "e90422c1f63866ddc4671a7ad7ad0a7f3a02a90046a71ea82c38a72c12b15484",
+              "auc": 0.7515615209706848,
+              "aupr": 0.758025530494328,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0005__repeat1__fold1",
+              "prediction_sha256": "f40a1149cc81110d8216cb56785b1d3fe0f789f9f664ff97d892498af7e736c4",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "f5dc29af685920bc6c496284b1ceb8ecd2ca1352350eb29c7a82c83fe281d1a6",
+              "auc": 0.6965511596738384,
+              "aupr": 0.6898416674789618,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "c44ec93b0a0dd738f1880e1561b55f4bfb35dcd7a342ea176e80270c8b60baa2",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "c243fac2852380c91f9c49bc3924b7b9a1cd22accad5b986234f6f41b56806d3",
+              "auc": 0.730121209396137,
+              "aupr": 0.7457444154213544,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0005__repeat1__fold3",
+              "prediction_sha256": "2ea8289d9bd704bacceed1db7a32ccdb1a6c67522cef44753b4fdea19db8f286",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "fcca172b4ba5414b8d34cce4d3c05594421fdf7ae01fb5f91b7ac22b94e08f34",
+              "auc": 0.7728451781930994,
+              "aupr": 0.7671787275830952,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "0f009ef0f7c45226da898614ef1d515f59938429a5b4a24d1117b0fefc3b4dde",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "d8c39e2253b9538d0b778917897155696564197140adcec98ea671d540a5d1d6",
+              "auc": 0.7506728770572842,
+              "aupr": 0.6942279212492897,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0005__repeat2__fold0",
+              "prediction_sha256": "fad2a8488848ba18903016c2d81e0ab0f5dd5def9f2929b11d80e0c5e1e8b6d6",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "ad2c3eaae51c9bf58b418632f82b4ae184e5e0d5c1ea2cda93232c1a750e76e5",
+              "auc": 0.7520442624695084,
+              "aupr": 0.7658566638270417,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0005__repeat2__fold1",
+              "prediction_sha256": "ba297d902da8d831020b42f183770c053afd233b6be401fd180378a6b3e057ce",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "c3e6c438724df1296d8d35208bc007ec757260f7e3252f5d5a29b7c0491d5acd",
+              "auc": 0.6614816406289965,
+              "aupr": 0.6611564212596373,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "5f9c2e3111234d2cebca31a433b063b755f09253ad42e30a6578389a6d022ad9",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "1a643305d5701b90015f588d5ab9936bf8e1e92ac61f31f2084744c4ea00c160",
+              "auc": 0.7135263776568752,
+              "aupr": 0.7319025664000147,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0005__repeat2__fold3",
+              "prediction_sha256": "a096ef58f151463ef6d69a2daaa9dff651c307af47372e1618d782ebb2f379ea",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "d37948a45984ad892b62dd0eef7192c4651c045738dda8c5e0d9f2ba6413f459",
+              "auc": 0.7820137522699757,
+              "aupr": 0.772155855519189,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "0fc514d0d9e05ccc614079e3efbc5e4a797cfe6b9b0fa5232e80ae18939c6362",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "ca6abfbeea2ccdf687b493a63155b2f2e2c16cf294ea571ce95fd786822f6408",
+              "auc": 0.7605611538125538,
+              "aupr": 0.7028105246774687,
+              "positive_prevalence": 0.4175377468060395
+            }
+          ]
+        },
+        "topology_dropout_bypass": {
+          "auc": 0.643827221708925,
+          "aupr": 0.6276928637010174,
+          "prevalence": 0.4930135080996923,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "9946bbcc441a26686e93da05d2ee18c614ed8f33de332268508fe33cdb03e816",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "e1a71521f9a9d6d63a14f2123ac5ca64c59632296acb55aa9e4e415551433589",
+              "auc": 0.6535206633065231,
+              "aupr": 0.649626971471645,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "17f10b331f817568127320bc3ef793fa47d67179d81eee7a4b4d05f12aa68885",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "0e9b04b9da6e6b7b4120bc75c85675b756a87c541dd7e1bdb1dc4225abfc555a",
+              "auc": 0.6863790757394391,
+              "aupr": 0.6893806393700461,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold2",
+              "prediction_sha256": "cd66a0a7616ee7156a08ab84f2ce6cfc5e0a85074a614387af5c53f34c0e731a",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "0a47c5e77007286b0ced22d4ec67f74c2b26e8c82830b462b701700dc12a2efb",
+              "auc": 0.7443854206143761,
+              "aupr": 0.7550220388113095,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold3",
+              "prediction_sha256": "7fd3af953d06ee009cad03d110fa985c4b6b7c121ec52fe6748297b2c717bcc9",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "653787d33064242ed39770da60678ac25e1c25507e1af72a74034f93fae64677",
+              "auc": 0.7350240712015738,
+              "aupr": 0.7335863026955805,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold4",
+              "prediction_sha256": "e423a25a6f946433500aad1fb969399e9ad3be60976a79fed1310cc920f1f18f",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "19545680d735be74983c21da537e452077d3a051928f737dfe49e576ce005ed1",
+              "auc": 0.7460996703907748,
+              "aupr": 0.6923332878744997,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "dd42588e70a4b7e472f4bd5a04718c2d41c12e7627e0896a854e9ba61f28ddd9",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "86b4af1853983918ce5e306b12dfa2c546f96f1204cafbd89a7100b7281cac84",
+              "auc": 0.44015532454021333,
+              "aupr": 0.44443284931482036,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "689d882c987b575392f82b88e14bdeef7863ee648877c273a41d89d6f4a8643e",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "32ccbb71f4d5251ab73e51b0dcd74e36d713eb7dff29c1eaf1d869b1a38c363f",
+              "auc": 0.6929202091198345,
+              "aupr": 0.6916604919204259,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0005__repeat1__fold2",
+              "prediction_sha256": "78f29703c2e102226c25ec232203c3b847526949868db45aaca882065dc7f831",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "5ab179d38cf3dd193858b411466c66aae45f54f213af7a8b32a523b1a1ec5f15",
+              "auc": 0.6297278837280507,
+              "aupr": 0.6463445857107819,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0005__repeat1__fold3",
+              "prediction_sha256": "554deb87e7c2260686f55d80d137d79b83f87380e9f6f2ec127fdc68f1848c5d",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "6ed57c63590752828bb60be53c51be2a5e385489923b8c83392ac55a36fd1d6e",
+              "auc": 0.7223872815148306,
+              "aupr": 0.678809205643949,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0005__repeat1__fold4",
+              "prediction_sha256": "2996487e05785e6f293da203a89431d9ae5c9b6cd0b8bfb858440c29e6179198",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "cb513dd8ef0c9c80b754b3767d0796bec03f07112e9b3e387c22a46346f48a4b",
+              "auc": 0.384362905719559,
+              "aupr": 0.3363065553298347,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "6f1ba7e6064165074fc5fbb525878d8b2069bbf2cedfcaf7306de449607953f0",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "8e0fd238890c23ea22def0d739a8981b13c94534bf340894da15b8b6b2b55e69",
+              "auc": 0.6694166512320744,
+              "aupr": 0.661571131957088,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "37d8f49a99b67b64deb34bdd2219e988f209b158e826a140a9ce4bbb18f8c625",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "e7c49d6ca201d243a2df3e517cdfb39e34627f5494c8c4d1ddcc1ff77764e88d",
+              "auc": 0.6976039204853545,
+              "aupr": 0.6885694248396603,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0005__repeat2__fold2",
+              "prediction_sha256": "9e272a1a0e756b4c0a40aa4921b0dc15ded9e970385850ece7c3bebd081d198a",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "a12d3800354ca6a756eb3ae0cf1bce5ca7559ff1193ee6726209d34e9b909e77",
+              "auc": 0.4725598071269669,
+              "aupr": 0.4875594613501313,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0005__repeat2__fold3",
+              "prediction_sha256": "f3a1efa3ef927a96535d50470b9b95a4f35bf807147631894c7072d7da3e6fb9",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "766767ce674cf39dc0ca9dd3e01a94ed20d527248bdba927f13bd341ee4c4c3e",
+              "auc": 0.7600801112288136,
+              "aupr": 0.75716308318594,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__topology_dropout_bypass__lr0p0005__repeat2__fold4",
+              "prediction_sha256": "2fa77e160f7ae2063948f03dc2d6e1d9808cdb7ffa035d8e8659be6ed700d537",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "28c8eac592f7c2a2c81be65216be583daaace58c9661fbae8ff16fd74c3c3d2c",
+              "auc": 0.6227853296854915,
+              "aupr": 0.5030269260395495,
+              "positive_prevalence": 0.4175377468060395
+            }
+          ]
+        },
+        "sequence_only": {
+          "auc": 0.7265918764788557,
+          "aupr": 0.7118396263170356,
+          "prevalence": 0.4930135080996923,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "34c32e02e27fda1cd09db388b9046e22f1f69fa7894f66f3c9b00f8c854c77c5",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "54e46cba241c071f77bba2be23d3741cd3b0ff8387b347149d5326b13528f520",
+              "auc": 0.7782196887598075,
+              "aupr": 0.7863666939570073,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "f02b0360ee4e3676bfa1470df170266b1cd74d86ce751f1f8c44856f50a4c907",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "768cd26160ee557008ec558c4f10862a9a2461a675d3eb308a006b17b96492eb",
+              "auc": 0.6884329312585045,
+              "aupr": 0.6945382311462633,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0005__repeat0__fold2",
+              "prediction_sha256": "83aa16e006aa02ca20b233b438a1ac7214937fbad5f8470f0cebd907fb269953",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "5d8b368b7e203d700eea4f973745354ee6e66e136e28a00655cfc86d32050004",
+              "auc": 0.6656480238436289,
+              "aupr": 0.680244618487228,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "5d3e733f6eca6abe957cfd6618165859fe5b1383326f49f4a7dcc0b528f2ea1b",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "2af3f7aee2c6e02a751106010449403c5409d9aea1069dc5649feefa4c8e7672",
+              "auc": 0.7902991638922519,
+              "aupr": 0.7747440635742824,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "b8ed4553d67ec28ebe67e8d931826d94c4ccd316acb439959e57a5f8edb5351c",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "77880946a9eaa0faa6ea5888354252aa59c5a2940b40c5a8cf3d4c644944128e",
+              "auc": 0.7683625063613055,
+              "aupr": 0.7148374600643097,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "aff2c740d1ce6477ed32373c9d65096fb966413edba07d1f74a73f47a39fe0d5",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "ed0daaa0022e43f52d419b7a14fca32c10d1440a037961714854e0724165caa9",
+              "auc": 0.5994792302933099,
+              "aupr": 0.5977612017332734,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "15a868022739d26450338381fa56f82c74fc3264589362922ecc05ba04596c95",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "9edae1e382a0b12be65dd5e23dbddb247f9aeb7f9d303b0be43c35ae7afe4361",
+              "auc": 0.7069181424756761,
+              "aupr": 0.6927603568606057,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0005__repeat1__fold2",
+              "prediction_sha256": "f2fe9ab9c06b18a21a7e62863c10937b0223221ce3330ecdd1ff4960d9c9955e",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "2b022270060e57d542ed5da17970a1ee263c687956c1d039d46df67df1e6ef6d",
+              "auc": 0.7031697295538099,
+              "aupr": 0.7149899100522215,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "cab4b676ba4b089a83b45e4fbfffe8ccc77b07185be21e84435c98994c61568a",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "7ff08cd91248e9cd0b30f5512e0f7281670ec984c7222b2361f9c15e1de6af26",
+              "auc": 0.7914684378783292,
+              "aupr": 0.7759305108249284,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "a7274ace38bc8ebd166e273afe574a1f5ff6fb7bdd09a4aecd1e30a39d03225a",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "46baf028e38020753ff30682d63a2e00d9a9275eae5e11f4c0955742003adeeb",
+              "auc": 0.7657465711349956,
+              "aupr": 0.7088901782604049,
+              "positive_prevalence": 0.4175377468060395
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "0625503483119ef6ea5ccd8428e501c3cbe05e5f85b2faaeef9421582798ba76",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "dc95565b9cdf805eec25217f2e453250330012c017f401da8e51f54cb59a951f",
+              "auc": 0.698150114872773,
+              "aupr": 0.6831061251610613,
+              "positive_prevalence": 0.4977667493796526
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "32455ecad8bdab8cf1273b65b53b67dea3612496c3cffd4b9bc48c075d51e36c",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "35fe668c3717798cdd4a2dc75c8a81aa95864e10c5b6fd67c9a6a109cb0336b9",
+              "auc": 0.7085827118054491,
+              "aupr": 0.6955738269936806,
+              "positive_prevalence": 0.5305401312468451
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0005__repeat2__fold2",
+              "prediction_sha256": "008729465bc343338b13c2b3cccdad3213d075b3863fa951bdf3a89052bae844",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "d6b64ef0180280522092b53e29d86b953f48c6448a1d5c0f0303fc4eecf5a8d0",
+              "auc": 0.7325000053528262,
+              "aupr": 0.753243614972933,
+              "positive_prevalence": 0.532266391326794
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "209240c67ae43ee2921f1e62683fe38eec14f8f1805ddf0cb6db9feed2c471f5",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "92a842c3913cf5fa7dabe93ff895008362603db5ec2c9a00371f43d732c0b675",
+              "auc": 0.7915299163892251,
+              "aupr": 0.776840017778629,
+              "positive_prevalence": 0.48695652173913045
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\protein__random__sequence_only__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "3c712b546aff121c97e667326ecf4f0648c5dcc75f241d02a1478230d28cb711",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "f7adeff6cb61795eaa9a9e364e19b70f75740165d1767d372f8949c94b2f69ce",
+              "auc": 0.7103709733109433,
+              "aupr": 0.6277675848887047,
+              "positive_prevalence": 0.4175377468060395
+            }
+          ]
+        }
+      },
+      "outputs": {
+        "png": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\protein_random_repair.png",
+          "sha256": "2a168e5d663365bc0ce8df628b67bd025f0870095e12899a0b8b82e9b13c127f"
+        },
+        "pdf": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\protein_random_repair.pdf",
+          "sha256": "adcc8a0e71890389af43030f1b6fb46070f8e11f5a2c297059a779ffacd5f08f"
+        },
+        "svg": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\protein_random_repair.svg",
+          "sha256": "702885db3d5d7b584fe3066556a43f2f58909e038417281c73c8e46e319320a3"
+        }
+      }
+    },
+    {
+      "name": "pair_random_modalities",
+      "protocol": "pair",
+      "negative": "random",
+      "curves": {
+        "residual": {
+          "auc": 0.9394704256300671,
+          "aupr": 0.9340998018470791,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "af840576e1b6094619244b7b05bedcaaef106890f9be72659d37184e4321a978",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "8d392a6aa32fb0fd6381bb3763bc78a5e1186b7328778b23f6c334f4e91384c9",
+              "auc": 0.9426893988783702,
+              "aupr": 0.9370436320364187,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "3c35b973f8edeb67704d0cd3fb7b00f20415e4b8827ac9ab795657e761390dfe",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "d2736db0dba4aad1692e20ed27ce46eb53904708b2b7b89f7a0aa57fb668f766",
+              "auc": 0.9396902968368133,
+              "aupr": 0.9320939443207641,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold2",
+              "prediction_sha256": "94d69f358789ba2ef7a7661dc2bb643a6358ce468fff56e7697ab3ec6c176d60",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "fd1de0b63a4d2641a1283643706271f84787ada3ac410f34400e7fa84dd84628",
+              "auc": 0.9443308274771087,
+              "aupr": 0.9397911616391281,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "56772f87d37e6df20cbc338d076e37c1104eb084807598e14448d33abdf24cd0",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "928f68e5bbe0273b4532d22acfc03d227f0e5ff3195b34202203dd3a08fd2fd3",
+              "auc": 0.9399018271100237,
+              "aupr": 0.936051019928773,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "a6cea24c2063a4a7d0d92dd5b1c737b01c8c46b0310e61f2bf887312bcbdf039",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "5873f4ea97030d434c6cbfa925872254c27afaa9370303e48b8018c1d348d056",
+              "auc": 0.9374516646534309,
+              "aupr": 0.9314876873170745,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "d9313a2161392fd5f4d7395da12bc7ef44a33e8862c5b2c861fd310988f4e0af",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "9eb766d5201c298890af04081133eeb0863a8a88361f8987e20537193e51fe4f",
+              "auc": 0.9391210902652802,
+              "aupr": 0.9334549293639501,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "f231bee85ee027071680acbb65051d96038a5c61baf8f56e44a1671790acac06",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "e929acf41d3faa0b6d64f66a93141941b1a2fb50604469cb2e67145fe430b353",
+              "auc": 0.9373723348751726,
+              "aupr": 0.930832432341548,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0005__repeat1__fold2",
+              "prediction_sha256": "4b2a6b3db7d83d54594c7a6e60a6d8703df2ea6185ac1f015f628a486577c1f1",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "a20ee82e3a2bb9f34ff02fb92cbd99784e67f0071ac83936b470ca0f68f8d49f",
+              "auc": 0.938870131757767,
+              "aupr": 0.9344578927186393,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "94f930f8adedc1b915297cf3f4713a7b1850d04e6d65e34b19e9bef8ab1f518c",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "2434ee81a6a9bff7b2569157c6932f8cadb0d2631014e43ea7f9b9704ada39fe",
+              "auc": 0.9394775504879836,
+              "aupr": 0.9356560469415287,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "e1b47002a4df6e35273653dfdac44ff225717ff9f83b1027e49291532cc5cc11",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "84fb0300630121b08c52cb2d4286af54e0998eb7896d1334492bf07863f6110f",
+              "auc": 0.936527567792277,
+              "aupr": 0.931245507035913,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "061d19b4ecc5784161a22ddcb4784f2e0fb5ff90093fb2ad06e846454bf0cb0b",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "593248aecc3d1563e3dd52e88d9a348242499d82aa74eda24bcd6d271af0522e",
+              "auc": 0.9439112396184672,
+              "aupr": 0.9386099302160502,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "5bc5523b9d8fa96e93fe7b26993b7725e05edd56dbc313eaa5782ed368a7000c",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "cac88de45b3e7ffc2ef405bcc06daf732e21750a77773bc2d98ce3cb257d6f46",
+              "auc": 0.9369066790284188,
+              "aupr": 0.930128004154119,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0005__repeat2__fold2",
+              "prediction_sha256": "bde7c3e224bc54e259f48667d51c61c714646a7cd1f762f104c9203356ef29fb",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "93f22e6ae8f5213b30e022135a9ce75dc443dbda6f82610874a275c289f97292",
+              "auc": 0.9369640568541797,
+              "aupr": 0.9318754874443991,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "f0bb9598f6c425707b8218eefb1eda9a6c2d9a4b8011aac60981ab27c1050286",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "62d9a8321b3f1fb069ebf902cf1858cb6ba69ba9fb9f760ae31c744c9fb8fa5e",
+              "auc": 0.9410605852245671,
+              "aupr": 0.9370898782081845,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__residual__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "db4be93f48341abd25da8ce36d7c7c83376eeaaa5c8e1524c813b81671ca319a",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "8c290f6daa7a4cbe2e93e8d6f183591a248c4f4074361b9cb69521cb37b03c95",
+              "auc": 0.9377811335911455,
+              "aupr": 0.9316794740396943,
+              "positive_prevalence": 0.5
+            }
+          ]
+        },
+        "sequence_only": {
+          "auc": 0.8118574497903491,
+          "aupr": 0.8029964143529753,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "dcef2d5b5199cc0828ff62ce91bcfcd5e3ea6af9c62006e17c15c49e82456143",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "2ab72d2f4b77a212b17ba1e73d5e3a8308b5e5e982b1622ba2189ce0e1d5807b",
+              "auc": 0.8197596796024506,
+              "aupr": 0.8100847260277539,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "26ad0f040861c326058c4aa2162316d3580662d971a648edbf69d87b5ff154d1",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "b29159ed92e329e7e4ea8eb95a6d6fdec2ca1f15980aae78c06c72972e9bd17a",
+              "auc": 0.8008544569103577,
+              "aupr": 0.7972015711743643,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "448c78766a25fc4777b6ad8832d2518a7185fdbaa657336676b42af42c397fee",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "7519690f06adbe04f865c0825476e9204261ac464b9197c9b2bfe7b65644b71a",
+              "auc": 0.8059418614009533,
+              "aupr": 0.7951680446971023,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "cf56b1d8beb130dd78d36a251f4c44055b280ab97273fd5fc1312cf37aeb7d96",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "db3a92792cc1ee3153e2e21df50997bd8ea0d3af938e5602311552adedeb9c93",
+              "auc": 0.8100237526394107,
+              "aupr": 0.8000712305441728,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "e0138e021d20a534c07bd5e69f571317a4bda6b9d613358f917044227394eca1",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "5950f997ddd697361a18333d39feaea69a637fa5580f2e7d6d9580aee8406bc6",
+              "auc": 0.8101283703164126,
+              "aupr": 0.8077565968312528,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "c8c4d0ece85feb8bc55760187685649cc64de7193c542a8b98c105043fff2c79",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "dcf0b928f9abb29f0da9ebf6e7599e4a7f1248cf920b73dcdb033821c305a636",
+              "auc": 0.8259485086294198,
+              "aupr": 0.8124460201785658,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "c7f6eaec5226d47830ddd0cf3b8c796c29285e828530c140222e9d95c0149382",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "e26265e13f0b365f060b34e2f15a6173c457cf5ebee0bc68d623b32647d54882",
+              "auc": 0.8014747828970225,
+              "aupr": 0.792815633460801,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "f850c62a80415bf2d653ceb3dfca2dc551f4c55365935116693c948f206d3982",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "2e044e5cbd718b4f14aab7d30b24d06c1ba910a4a014916c47803b34de52b341",
+              "auc": 0.8016385223686298,
+              "aupr": 0.7956273827387369,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "59da2aa4275aadc4ee600ba0e79c1803a4d2cf8a0c1a7d66822f247a728072bc",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "d345e9ed54e4b5977e94a5dd8e647dbe59e041e5cae1a45923e9085a1db3f288",
+              "auc": 0.810009137752362,
+              "aupr": 0.799248414777313,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "283f1ffbddecffaeabadfd69c15092647bca6f72b1b79d9c6000622a2618f348",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "3a1dd7e11bdf5cc7346e55374bebfefda28f8ce849eb0f744f763f4e27c7b946",
+              "auc": 0.8218737788950441,
+              "aupr": 0.8162336319059594,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "efd352f45f30a505a2118b0dd545e7f2e855cec5f362601f5d9c0808a9acf931",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "3abf9001481c7df380cc90fde09c17038b2af3887f4adc65a4ffcbb8c19a5cbd",
+              "auc": 0.819930070241056,
+              "aupr": 0.809037967322776,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "6117cdf468f46c82dc352958ee1a0c351fa9c79db6eb2fde2c1f33e9df0c091f",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "c9ce23064b3ce5fed222ab20cbdae5d9bff19e91f33158ad4b3001de6a7aeed5",
+              "auc": 0.8016000577055704,
+              "aupr": 0.7916032292450037,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "31474710f67a687508abe027f3e152d6d57ba1eccb9c2f5e83a7fa72cb1b27b8",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "699c0e74147e95b6d8da0e2257e36a9af5453ee3f1e18dc716837e596e4bf00f",
+              "auc": 0.8244369453489089,
+              "aupr": 0.8070060141821005,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "979078c51062f7fe75ad952dc4b352e57473c0e6b5c601cedfcfecfb015ad790",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "39a06b189a7ef851f134fcc7315fb7ff6ff7ffcb327ea673d493b886b9be36aa",
+              "auc": 0.8064981391489403,
+              "aupr": 0.7987662144334311,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__sequence_only__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "a383d49a0269c82afe314c3df89605c96244be6967e110f762bcd69d3f11b316",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "705734d063d5cb2d4019a87f69230950da41250bc40bca13f4ea4ca418ee8a40",
+              "auc": 0.8177436829986955,
+              "aupr": 0.8118795377752963,
+              "positive_prevalence": 0.5
+            }
+          ]
+        },
+        "topology_only": {
+          "auc": 0.9400351923836049,
+          "aupr": 0.9352004113709437,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "d675a38988d9ca7a13505dd82bc5321ebf91b61d883d8afc471b7961cf22d53e",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "0832ad572d60364a55083d43f929fe8757ddd55692dea3e7857336e1fefe3efe",
+              "auc": 0.943902790128363,
+              "aupr": 0.9373207165441748,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold1",
+              "prediction_sha256": "67acd1faaceba2edace1dd7eb3c2f0f23d484ddd0d226a55934fa4256ec8084e",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "367a77c5a920caa6d27de9870d7bbcce15bc89763b67b57884a767404515fa7f",
+              "auc": 0.9376422738485081,
+              "aupr": 0.932456776204396,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "bc663d514a8f25d4bf14c62aa51b80f973584ac6c1f25193fa8f5721a3374153",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "fade0f37fcf69cc9f8556b3dc81bc8c1a35e185d8f31715c8491808425c43798",
+              "auc": 0.9426342326212198,
+              "aupr": 0.93756966006444,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "f0abed7270fa7060b454355ad975c299e51c52757bac716155543fc2e13132a4",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "95cfeff40e44375aaa1f0ca911edaf85cb466b40b15bd0c421797380b2cae9df",
+              "auc": 0.9389047892829144,
+              "aupr": 0.9360847281942432,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold4",
+              "prediction_sha256": "f8a2a5b18e91eea442e31984cf7d6544ffcb662f84c87c3ae0d3ac3d018962d8",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "11c8cf4b4a5a02a3648835103808bd8dac6d383e5169e535716ca5e073eba693",
+              "auc": 0.9393248171326161,
+              "aupr": 0.934688912820327,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "c52ebb6d664501f358b4fb724cecef9d5fbd5f7cba6b31521fb7896f40b42850",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "d5f7b16a63f003f91c972915cba06e7c7ad0a2b2ea2dd0c9cacb6a35227c5a66",
+              "auc": 0.9441240555915967,
+              "aupr": 0.9386011896235806,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0005__repeat1__fold1",
+              "prediction_sha256": "1c11e8e3674c7766712b9f7567451f355100d69aa32d6c76235f6ecb21c8798c",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "6ef4b0ffe1bd6db5e34a5d706f6e7575514e261ef33a2845648cc4178f225fe1",
+              "auc": 0.9375424364522743,
+              "aupr": 0.9328323258395054,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "850e801cc1e183997a2a26f9e47676097ba168adb685e26e0afe94b3dba8e302",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "e1aaec05d96f86f02f4d14b07c3fcf20f2a41ea882c11347a26d0e9e0213d484",
+              "auc": 0.9405214805249845,
+              "aupr": 0.9346090407311924,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "8733bb08d4651deb53410f2d03fee7f2327414e9e0e5d563eecf1216b0ee698d",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "5ae26ad4b88860c6daac21799aff0793577d45f40dee482a0ca10ed109432633",
+              "auc": 0.9400813210576586,
+              "aupr": 0.9376487559307052,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0005__repeat1__fold4",
+              "prediction_sha256": "ef85f824c8329415e5f22b1e1983cdb483b8866deb86299d59f1fd84d84666b3",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "07e0dca6c3f00656dcad60990afde63a5dacb6f93edb6fb7ef30e7f6a757b5ed",
+              "auc": 0.938587510540181,
+              "aupr": 0.9340704026459423,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "e48ea79136c35f18ddeaa1c789dc92cf529f10b092d786d53daf67a84700c374",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "128f54e5744e54661f95f80ff531f1af69024298ccb6f058597a1952b372d754",
+              "auc": 0.9405059172223912,
+              "aupr": 0.9348132396401747,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0005__repeat2__fold1",
+              "prediction_sha256": "b9692b14c35251c57afff6444aa6d612e4d4b0923ede369bf17e4ae5d004cbba",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "7166a9494f1100557a50fa48e4d02a9676628b6ae1f64f5a0b74c0636ab8fdd7",
+              "auc": 0.9373844087518218,
+              "aupr": 0.9325609697193542,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "dfcc2fd5c0e051b1f10321cf92060f015ba2a271682c7add8e93966360b7dd72",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "b877a0d4a06d712f7108017cb6035f6355b9bf0afe0eafbcda2898d63c034373",
+              "auc": 0.9418665172759756,
+              "aupr": 0.9361578950835626,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "17c94987370d39f569266a85b7e978c17626e9eb20e87ee068b4c2b5e2051927",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "cc04e5c280b8549450a6089cb6763fe7b933409b6fb620ca2b697c661e0120a3",
+              "auc": 0.9398947977275163,
+              "aupr": 0.9362393700266076,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__random__topology_only__lr0p0005__repeat2__fold4",
+              "prediction_sha256": "a685f132bd89d6ea1593efd8e21489de055e2901cd952eb2ffe5dccffe6f8fd9",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "6226768a5e0b470a4ebd0dc9bd4fac0b7c328a9cac059d7e49074f8bff725ad1",
+              "auc": 0.9376105375960517,
+              "aupr": 0.9323521874959491,
+              "positive_prevalence": 0.5
+            }
+          ]
+        }
+      },
+      "outputs": {
+        "png": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_random_modalities.png",
+          "sha256": "a3e64114431ad9b5777c07466c9196792e277c3c5352c1da97cff0a1fd263d5d"
+        },
+        "pdf": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_random_modalities.pdf",
+          "sha256": "514a19ba6bf7d8bede326a381bf33aa2305cd2bf5c377af1d136374b9539906e"
+        },
+        "svg": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_random_modalities.svg",
+          "sha256": "eb30b938db30d83728cd74c5af360e8d0a470fff399ab3c4644fb4d8fa9ecb54"
+        }
+      }
+    },
+    {
+      "name": "pair_degree_modalities",
+      "protocol": "pair",
+      "negative": "degree_matched",
+      "curves": {
+        "residual": {
+          "auc": 0.8407277952316942,
+          "aupr": 0.8554387874364272,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "e627c65c0a2db26c4601529bcd303cda2ee6056f09a5754bb83aba603d0c3651",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "9db478a328f143381912af408915a14faee9ff81f1eb19b4cdfc7be7bb800dc8",
+              "auc": 0.8392308624830365,
+              "aupr": 0.8524175157935281,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "0ea07bb78cb0a9fa557f0d454ce6ef42fc4e5574bbc1ad3abceba7dfabe0b19d",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "46450f2ed31f03efb12bef23ac8a2b2f02805d10510c327533b73ec0c9b2539a",
+              "auc": 0.8415618099768378,
+              "aupr": 0.8555904949780493,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "627aacffb5295151e1f388982c9b14241c31d65fd649a961c81ad985a3b879a1",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "f5c7caec21ae216066d74992997efd9d85483011304e80a7e368ceab6765db8b",
+              "auc": 0.8453968956200317,
+              "aupr": 0.8586349933206522,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "d569e599f22b5d00d069bd6afb21b885586e88a5cfc1e60222e42f09cfe7c0b4",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "65ec16c4187b4a492f2c6acffa325568e33f9df46fbdbd723ae9e1a2c90dc659",
+              "auc": 0.8396219242169389,
+              "aupr": 0.8555470232773832,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "bbc5c1b81d24b19a0b3001f356c2b2bb52728f7f99da100c18081760b30f144d",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "a189130c11990f8c03e507355b42f360addd4c58d0e2f36187f0961506a563d7",
+              "auc": 0.8451219488865125,
+              "aupr": 0.8612362913178098,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "755c6cc5872d71ebfb6ab0a1da0a72e6d41b9b51fc98c3055df8b061affa67bf",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "0664c1bdd65906fcecdbf0d6d6d0f7f7c8fe3995189f048b115a40393436225d",
+              "auc": 0.8429805016008671,
+              "aupr": 0.856802886647283,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "4539858652d0068fa22ccd32a23c8b999cc25c72f77817190818569a4a5ea815",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "ab1db0d207991d4eae240cf9eee8cb95953b1f43b83ff2e3559a983ae1d5d6bc",
+              "auc": 0.8398083406606719,
+              "aupr": 0.8555436758942006,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "d80ed2d8862ffa3ebff7fc257ff506f0928a3fb1eb3149800d7ac51ab4817a36",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "49c76a3797d22617fb0082a532535801f40aa4ccb7f2541c6ae5230f327590b7",
+              "auc": 0.8340946495677086,
+              "aupr": 0.8497681486451873,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "ae41c7ee27d6bc78098ffa7fe7828f7293b462293989100739b33e15721babee",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "624bd8d94597c6ffe855106bd7f5e0ab0e1b7de6c4cb813d0d9250b4c1bbb5ed",
+              "auc": 0.8351499467390805,
+              "aupr": 0.8507336900993798,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "b0d12fc1b08157614e1e8df7405d9892ba97d5793167548df4e8a1bde7c7076c",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "9f6e1c86ac880a0bf726f2b03f15644eb18f3f261fc65fa2ff3ef34ea6c57a71",
+              "auc": 0.8423622266610152,
+              "aupr": 0.8580812861454484,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "8bc641d66308fb046cfcc09b777c4427d3ad38631e28572390e374fa4c650da5",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "c464ea51832e20bd4a78bbbab50eb112eec922bc7201a470c677ad6f8081a15c",
+              "auc": 0.8431867136304151,
+              "aupr": 0.8568934427900315,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "e786a4bd252dcdf10aaa2fb46c0242c0d49a083f24bf04374f2c14ade8849dcd",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "e4365fa3c12eb393c8e57f9b49810cc95af0028e7f1329353bb69ddff87b2348",
+              "auc": 0.8331679086231227,
+              "aupr": 0.846645403564077,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "2699d9ea042ad698f562b6e1df4949de6cf80c41b93216b4c6ef6c3688bd41cf",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "088c8a0c90b3184f0caa2c799c269051afeb954c834aae55bba22b39cb753f98",
+              "auc": 0.8478221215646284,
+              "aupr": 0.862876702686598,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "104ab654070a0ba08ed97dba4008744afe88d8c04defe2724fc3aa3ddf1b93e2",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "1426160d26a7254cab08a375103db0802944fd56ca86f441045ef1303bb8fc40",
+              "auc": 0.8357712462752616,
+              "aupr": 0.8509882897506944,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__residual__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "7b97a18ab05b6415b98a0d193bfe7bfada66e75b07b512bf1e2a2a1388439569",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "fe76abd3d910fdc3e8c1965f2f753aa8168aaf69c32137e2fb5c641d80f7f379",
+              "auc": 0.8456398319692846,
+              "aupr": 0.8598219666360863,
+              "positive_prevalence": 0.5
+            }
+          ]
+        },
+        "sequence_only": {
+          "auc": 0.5997890465248651,
+          "aupr": 0.6297585277635278,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold0",
+              "prediction_sha256": "aec96eee2a222156b0bd84ba4c03ecde6c765c733f5ba17192ae8fe745475931",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "f33ad8c0b54b682e2d3ba77fc5f0a70657a9561df71557092b59619ad7cb6f7a",
+              "auc": 0.5984653546891379,
+              "aupr": 0.6294720799765781,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold1",
+              "prediction_sha256": "55e8fcc30292afcc8b19571fbd832ab164573b6c66900329d374903c0e338238",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "e8b36fb175f5edfa1c3a85316305596adf46e1dd4b63ae741be0504fb60abcd4",
+              "auc": 0.5957830640554955,
+              "aupr": 0.6192746240084592,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold2",
+              "prediction_sha256": "1b85b5ea7a1cc290e7a5d6edc7433cd3d294f087c906253009be00b6d0008407",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "4e512a69bcb617fd6580c4741b15c0a9f86a5cdc6084140760a8fb74b6c77244",
+              "auc": 0.6028690291234879,
+              "aupr": 0.6352964364104791,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "b2ec6aa429a3c444f3f8950678da3d3fdd736da74ffc83007e47f9b3b41e4866",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "b4bd7f34350e3d27a26d2fa35df69780a01a762861373b1e7802b3fa182aaaec",
+              "auc": 0.636596340067467,
+              "aupr": 0.6708372179040818,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "9ee1500e275f08738bddaa8a6450948b6ba1926448eab519da22e25790be4277",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "2f9992b7be07cf43a51c407b0795e096f0e31d4a2cc2b8a595fe9e58a97d1f0c",
+              "auc": 0.6078756623246586,
+              "aupr": 0.6390804999425941,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat1__fold0",
+              "prediction_sha256": "803818e9595899f78d1976142c797937da9f559f5b560847532b8e068315d856",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "0ca6095b402033f2d445e270e6caa4331d579c33452e60683f78a2926fda7e6d",
+              "auc": 0.609699907909452,
+              "aupr": 0.6403908245227508,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat1__fold1",
+              "prediction_sha256": "b88dc90e6b9a28c23cb63494a08098f8f86bc8e83ae5fd1c4e640520202fb8ad",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "db31639f5ba8bce3038de98db86d43a72f9f81a7ce1dcc6d445d7c9d1cdc0700",
+              "auc": 0.5988032231158126,
+              "aupr": 0.6272076314615316,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat1__fold2",
+              "prediction_sha256": "3956b1427ac1523c432c2e8a91ca8c10ba1889e7a05f178c149918415bdb4ca1",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "42dddd5499711fbcd12dd047adfe2e62afcf593ef4dcbd8122a7548c9d0c8241",
+              "auc": 0.6043620165803558,
+              "aupr": 0.639981219534939,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "015e904326e8a0d178b2507bbcbdfb882603d323c9ce541004938bb3a4b090ab",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "38449dc6593545c5a8541a98dce913334b857b0aee412734c4f259b3ebe6a570",
+              "auc": 0.6082003708577639,
+              "aupr": 0.6391519878806736,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "6b63ae532ec31933e7c4e646b1632de48e068825bb480ccd82e57b56243d54ed",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "b8bb6a4ecad62555223b28e762ce7c9349e50cb71796dccf85fbb9013610cfcd",
+              "auc": 0.6056462135808471,
+              "aupr": 0.639397258082739,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat2__fold0",
+              "prediction_sha256": "8d81030d0e58cc334098cefddd007d522838ebbb57b13eed7aa444861a781a3f",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "809701a8e509119bd6744d3a3a1f283f615d72f89497dad1f261aa38b38652b4",
+              "auc": 0.610536185074785,
+              "aupr": 0.6401055096264643,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat2__fold1",
+              "prediction_sha256": "cde29f953d01d10967a1822125ce1db457dfa100960b048215dc1859f09e4043",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "b8fea154fbf1ad919ae38c8f23c780c4b3409a6604ecf37ee6151ff237fd28c1",
+              "auc": 0.5480615446628484,
+              "aupr": 0.5669150260558553,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat2__fold2",
+              "prediction_sha256": "09cadea232a7dcf47cc9570f39c59344e2aec31bd085573608405a228ba4ae10",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "ae271361b24b2abfa768e2f3eecd2435fb6348ee58a4e732f5409cc95e62bd9f",
+              "auc": 0.606923514668119,
+              "aupr": 0.6388404648454524,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "a398d4748c1ec5cd6d0ede0f94d8194c074f2ea255fefc4f22141afcabdc7412",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "4d1f8bf84805d9383c23f2ca0c0e3a76548bbe17d341446f3bfc5b902409862b",
+              "auc": 0.6060910889630198,
+              "aupr": 0.6377542586959152,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__sequence_only__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "90ad37ddce6753ceb9f2fb2b61d68037f2c0e91b4f1be5290713788a7573837f",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "819b0e692c8637e1adc217b98ccfebc4f7f68de16bbf81e18f500eed827a0f2f",
+              "auc": 0.556922182199726,
+              "aupr": 0.582672877504404,
+              "positive_prevalence": 0.5
+            }
+          ]
+        },
+        "topology_only": {
+          "auc": 0.8411130901991445,
+          "aupr": 0.8560693403601652,
+          "prevalence": 0.5,
+          "source_runs": [
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold0",
+              "prediction_sha256": "c168ee6e94ca8117ef61c6af2d3bf05cb194323f10a9beac914948cbb330cf13",
+              "fold": 0,
+              "repeat": 0,
+              "checkpoint_sha256": "d05c9f0b237211243979ce786cb09c1bb75496ab91e0c2f2f82abed24036bcd1",
+              "auc": 0.8417609955882988,
+              "aupr": 0.8559140013396483,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold1",
+              "prediction_sha256": "bb742320a1b02f044bdbf959729a85f812fb952c39c240ff9b88389c13d0ea5e",
+              "fold": 1,
+              "repeat": 0,
+              "checkpoint_sha256": "9ef887dfac984edc67e4a504dc96dc41510f27c8388259dc6595dcbe5ebdcf6d",
+              "auc": 0.8405821805412333,
+              "aupr": 0.8552255959427865,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold2",
+              "prediction_sha256": "bc35507be4d7a4fbfb7c8a31d13bb1f66f79d9bd10b607cba08ff892626b5908",
+              "fold": 2,
+              "repeat": 0,
+              "checkpoint_sha256": "9be459349e4f3b438fe086825067cd68dd63f58d0e84babf1b8f3f7beb6483e0",
+              "auc": 0.8430246124930546,
+              "aupr": 0.8572335680028182,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold3",
+              "prediction_sha256": "37824ba18febb6cf12a28dd2ddf8472ebf3856d1a5bb39735704ffd37f3c2c67",
+              "fold": 3,
+              "repeat": 0,
+              "checkpoint_sha256": "8d6c3ee7ad19bb0672cf6ace715d69eb68bac6f8442656e5c4389da3417346f1",
+              "auc": 0.8400531189970797,
+              "aupr": 0.8551714632551435,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold4",
+              "prediction_sha256": "debde1e8e79af614ef5cd027c9702d3efb72a3a7e8c332a010fdc12a32482506",
+              "fold": 4,
+              "repeat": 0,
+              "checkpoint_sha256": "2086a0f804226398c3407059b8432131e5d54315a3b1eee033456a743325a80d",
+              "auc": 0.844249282191046,
+              "aupr": 0.8599460009762019,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0005__repeat1__fold0",
+              "prediction_sha256": "2fd4119da562f67e4ad93500e5a311ae945d39ff2f1aa92acf83e2099ecbe423",
+              "fold": 0,
+              "repeat": 1,
+              "checkpoint_sha256": "ba96c28ca49d746fb0c46bd5971f9157630fcf16e87d66c50663bbdbe0b36466",
+              "auc": 0.8455237981222922,
+              "aupr": 0.8590486133429589,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0005__repeat1__fold1",
+              "prediction_sha256": "fc9ab1238ac7e43ed9d3ad58a4f283e5f00211d404146c2797b039287e4147ae",
+              "fold": 1,
+              "repeat": 1,
+              "checkpoint_sha256": "00abee0b1c2f4f83dc2a1dc45595625de02acdb4be0a18418da12b02fb2eba2f",
+              "auc": 0.8370949425621451,
+              "aupr": 0.8528779026392339,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0005__repeat1__fold2",
+              "prediction_sha256": "bffb31e6447fbb60c9a26a06411b01c9cca0e979b87477202f8e4ed49a4632f2",
+              "fold": 2,
+              "repeat": 1,
+              "checkpoint_sha256": "55f8ffa46086812a5e6dc2ad98959bd4169bbc2c9154ed907da591e501062a8f",
+              "auc": 0.8455521204021108,
+              "aupr": 0.8595192896656088,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0010__repeat1__fold3",
+              "prediction_sha256": "9a1223f8c37b394022909d25e191c84fe59e73d839b0318504d9b53876b68225",
+              "fold": 3,
+              "repeat": 1,
+              "checkpoint_sha256": "7c0be6eac2bdf350e04fc26aed0735475d5dfed32b260707df7971d0926a3869",
+              "auc": 0.837873988174888,
+              "aupr": 0.8538152413035045,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0010__repeat1__fold4",
+              "prediction_sha256": "2978e1bfdbee14cb1d127493d33a26e72f4d1bfe4337059dfb9bbe46c69a3240",
+              "fold": 4,
+              "repeat": 1,
+              "checkpoint_sha256": "06af7e346b0f7a89a3e39851e60be6e7502210a6390318c0e819aaf59ef3e6ae",
+              "auc": 0.8403204802260579,
+              "aupr": 0.8565593500016733,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0005__repeat2__fold0",
+              "prediction_sha256": "71c01e2ebf8bfab375e877a8f319907882a3d5732192296226c23e5b51d9f12b",
+              "fold": 0,
+              "repeat": 2,
+              "checkpoint_sha256": "5cc4464aa099f36513bccd822f7c78d87cb970ffb1e39c0b0cc8aee75e7556c2",
+              "auc": 0.8413834812646344,
+              "aupr": 0.8560626937757243,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0005__repeat2__fold1",
+              "prediction_sha256": "5090458dba793dc571f6ce05c63988791ff5782dfb4ef62a0b8252a57e47f388",
+              "fold": 1,
+              "repeat": 2,
+              "checkpoint_sha256": "b69eff533b29fa39265c63d98fb57854d70187821f22d2eb84d9762cefb05bb6",
+              "auc": 0.8387480853010714,
+              "aupr": 0.8537623317087142,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0005__repeat2__fold2",
+              "prediction_sha256": "1b198578fc4c25b201630976fca2a9cb10df1fd23f9c03576590e1ab94f07507",
+              "fold": 2,
+              "repeat": 2,
+              "checkpoint_sha256": "c7b8c06e749556fba6514427faa035c26e90846f2f2e71398a40daffccfee6eb",
+              "auc": 0.8407701605026026,
+              "aupr": 0.8551819970765984,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0010__repeat2__fold3",
+              "prediction_sha256": "96f3b88aa4f0e939b5a3e201b08758a87b922f6e47583cabe218304dd135f075",
+              "fold": 3,
+              "repeat": 2,
+              "checkpoint_sha256": "597902bb9f4594aef2141e810565b8e6e931c59fec861a98bb1e0e9632ab521f",
+              "auc": 0.8400563889946386,
+              "aupr": 0.8544540246628751,
+              "positive_prevalence": 0.5
+            },
+            {
+              "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\selected_repeats\\pair__degree_matched__topology_only__lr0p0010__repeat2__fold4",
+              "prediction_sha256": "40d63790ce27082fc51ca7cd772225634369160126342de4e5c94bfe15cf785e",
+              "fold": 4,
+              "repeat": 2,
+              "checkpoint_sha256": "efc8a9ee9ce7e168f322bccd9a940b0395285188c26373b7d5b73d33bba3709d",
+              "auc": 0.839702717626012,
+              "aupr": 0.8562680317089906,
+              "positive_prevalence": 0.5
+            }
+          ]
+        }
+      },
+      "outputs": {
+        "png": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_degree_modalities.png",
+          "sha256": "89e3fdf3c252600b104db50ed37bdb0ec14bac4a36697625913a7e5914348234"
+        },
+        "pdf": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_degree_modalities.pdf",
+          "sha256": "eb0c6d792f8e15f0ad721ecd633f30f77ccd8793dd9fe1f928d901a14aff0f7d"
+        },
+        "svg": {
+          "path": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\figures\\pair_degree_modalities.svg",
+          "sha256": "1c317193f2c0100be08ce6670379ee91b721270f07305ea17ccb0530ef27e489"
+        }
+      }
+    }
+  ],
+  "script_sha256": "163e1472b1a78633b08194219da7fff4a89fa1e3370aaed76f07bcdb4bcd8f72",
+  "verification_sha256": "c0e5a3eacd3b1b36d533d6b8b9903b3aead2c9c08d57d7d4203d64a8c0dd8da3",
+  "collection_status_sha256": "735af94b4ebc0711ace9062c7d6d44b3aa1ab290954d575c75d4081fa5a8c6f3",
+  "selected_index_sha256": "a542b6a9004699647afee3d5ad53187448cc0f9467d032f8bc52106f410c2958",
+  "summary_sha256": "121fb7ce78bd3a472e8c701b95f56d7fac01d2dd492a18193dbc83884d7faa17",
+  "run_metrics_sha256": "0cc2b183f3f6ba43aee3e7b2a2c1e602004f51ddb6cc7599d682dbe762f16874",
+  "legend_definition": "Mean of each repeat five-fold metric mean across three model repeats; AUPR is trapezoid PR area.",
+  "curve_definition": "1001-point linear interpolation per fold, mean within repeat, then mean across three repeats.",
+  "curve_area_equals_legend": false,
+  "endpoint_definition": "ROC origin fixed0/0; PR recall0/precision1 follows the source curve terminal convention; recall1 endpoint is empirical positive prevalence; no artificial recall1/precision0 segment.",
+  "benchmark_scope": "Adaptive reuse of the previously inspected benchmark; not a fresh blind external evaluation.",
+  "capacity_control": "Retained in numerical summaries; omitted from these figures as requested."
+}

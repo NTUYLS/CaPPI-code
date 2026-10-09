@@ -1,0 +1,2411 @@
+{
+  "rule": "per condition-family-fold: minimum best validation BCE, ties choose lower LR",
+  "choices": [
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "residual",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.48881426453590393,
+      "run_signature": "d9fd83416688c7cf210433a376e63971118a79e5b8c098275d46a353f22d092d",
+      "checkpoint_sha256": "9db478a328f143381912af408915a14faee9ff81f1eb19b4cdfc7be7bb800dc8",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5035679936408997,
+          "checkpoint_sha256": "6b324b43fd8684de6f43707621905e14f7e83d0128883a878965239023fdfd7f"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.48881426453590393,
+          "checkpoint_sha256": "9db478a328f143381912af408915a14faee9ff81f1eb19b4cdfc7be7bb800dc8"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "residual",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.4902660846710205,
+      "run_signature": "fd455ac2cbb4c47a5d7430f05c7e67363dc383d089186964ac611a1d1dfb885c",
+      "checkpoint_sha256": "46450f2ed31f03efb12bef23ac8a2b2f02805d10510c327533b73ec0c9b2539a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.501031756401062,
+          "checkpoint_sha256": "b595bc9980dc121a7cb27913e561cafc51e382bf254b38494006f1840fb4d7bc"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.4902660846710205,
+          "checkpoint_sha256": "46450f2ed31f03efb12bef23ac8a2b2f02805d10510c327533b73ec0c9b2539a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "residual",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.4881066679954529,
+      "run_signature": "4b3cfe8b595fc539245b7bf74a3664cff1f72edc125d4a19a31ad0bb48ce819c",
+      "checkpoint_sha256": "f5c7caec21ae216066d74992997efd9d85483011304e80a7e368ceab6765db8b",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.49359503388404846,
+          "checkpoint_sha256": "d5fe59058f0165e37f3f070dffc85865fdcccab6ca1d43a799bd58801f0db302"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.4881066679954529,
+          "checkpoint_sha256": "f5c7caec21ae216066d74992997efd9d85483011304e80a7e368ceab6765db8b"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "residual",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.4777774214744568,
+      "run_signature": "f4a935035f6c54c20f7b5765372caf8ff978198c69d6db7aae3dea35cea75c19",
+      "checkpoint_sha256": "65ec16c4187b4a492f2c6acffa325568e33f9df46fbdbd723ae9e1a2c90dc659",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.4817569851875305,
+          "checkpoint_sha256": "3f43ea4a320183118337de9142fe51d5b31143e00fe5394345ec68208138d0fd"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.4777774214744568,
+          "checkpoint_sha256": "65ec16c4187b4a492f2c6acffa325568e33f9df46fbdbd723ae9e1a2c90dc659"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "residual",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.4835192561149597,
+      "run_signature": "3a576c4154efe74d0507b4a0ae799c0d73a70d4628a5cf7731cb6324a103c10a",
+      "checkpoint_sha256": "a189130c11990f8c03e507355b42f360addd4c58d0e2f36187f0961506a563d7",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.48517635464668274,
+          "checkpoint_sha256": "ba23bccceb7de88d214e9b158453e6d48e504e5057b3d1dc9abb294e7ae398c3"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__residual__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.4835192561149597,
+          "checkpoint_sha256": "a189130c11990f8c03e507355b42f360addd4c58d0e2f36187f0961506a563d7"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "sequence_only",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6671821475028992,
+      "run_signature": "b2319c17fb06336746d292ab131e434ee04baf0972837f3dec7db41b7b564c12",
+      "checkpoint_sha256": "f33ad8c0b54b682e2d3ba77fc5f0a70657a9561df71557092b59619ad7cb6f7a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6931013464927673,
+          "checkpoint_sha256": "936385334378671b16a8370caa96ddfd912cf736d3d3723242a9e307d28031f1"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6671821475028992,
+          "checkpoint_sha256": "f33ad8c0b54b682e2d3ba77fc5f0a70657a9561df71557092b59619ad7cb6f7a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "sequence_only",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6668148636817932,
+      "run_signature": "d5124968831d6ac0b9a4d6e820d5503f92803d20f87c9edfec5a124afc09a587",
+      "checkpoint_sha256": "e8b36fb175f5edfa1c3a85316305596adf46e1dd4b63ae741be0504fb60abcd4",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6930940747261047,
+          "checkpoint_sha256": "aa5ed850202bca04a6656724646ba4663673bfc9d0adc7fb22f4e977edb577b1"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6668148636817932,
+          "checkpoint_sha256": "e8b36fb175f5edfa1c3a85316305596adf46e1dd4b63ae741be0504fb60abcd4"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "sequence_only",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6662352681159973,
+      "run_signature": "dba82fe54472a35b8707551865f8eca1d0ddd8d0f2bb657ee484c5697a433620",
+      "checkpoint_sha256": "4e512a69bcb617fd6580c4741b15c0a9f86a5cdc6084140760a8fb74b6c77244",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.692862331867218,
+          "checkpoint_sha256": "dd97909923c73598d69aa48b70cab585a92d5c1dc4a45980c5171716127add2c"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6662352681159973,
+          "checkpoint_sha256": "4e512a69bcb617fd6580c4741b15c0a9f86a5cdc6084140760a8fb74b6c77244"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "sequence_only",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6410353183746338,
+      "run_signature": "a885c20b4f161be5bd098b534a3b7314ac4045d957dcbea53185a1a4dd86544b",
+      "checkpoint_sha256": "b4bd7f34350e3d27a26d2fa35df69780a01a762861373b1e7802b3fa182aaaec",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6929734349250793,
+          "checkpoint_sha256": "300b22640d8e5f675a4cc2dacb6d4bfa3ebc6f2f284155f947706f92061480dd"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6410353183746338,
+          "checkpoint_sha256": "b4bd7f34350e3d27a26d2fa35df69780a01a762861373b1e7802b3fa182aaaec"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "sequence_only",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6640489101409912,
+      "run_signature": "5df583a4aa878000fa4f29481135bf28caff4b633b30ca373379e26821a2fd32",
+      "checkpoint_sha256": "2f9992b7be07cf43a51c407b0795e096f0e31d4a2cc2b8a595fe9e58a97d1f0c",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6930102705955505,
+          "checkpoint_sha256": "bc4a6cb11146e6b29d858546412b0ddee0b91321331df5bbcfd3ef70ccab29ed"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__sequence_only__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6640489101409912,
+          "checkpoint_sha256": "2f9992b7be07cf43a51c407b0795e096f0e31d4a2cc2b8a595fe9e58a97d1f0c"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "topology_only",
+        "fold": 0,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.4902450740337372,
+      "run_signature": "9341ca64a23a50352de6aadd38477e89907c8893dfaf2fbac34eba75ca48ef1f",
+      "checkpoint_sha256": "d05c9f0b237211243979ce786cb09c1bb75496ab91e0c2f2f82abed24036bcd1",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.4902450740337372,
+          "checkpoint_sha256": "d05c9f0b237211243979ce786cb09c1bb75496ab91e0c2f2f82abed24036bcd1"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.4912393093109131,
+          "checkpoint_sha256": "25267b056f829386ba10b9be475adb5979899aa307f62a4f128d657bb27f767e"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "topology_only",
+        "fold": 1,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.4880315363407135,
+      "run_signature": "b08f110973530066e2d17684e0b83dc1ae265b8f90927513558b52130b372d18",
+      "checkpoint_sha256": "9ef887dfac984edc67e4a504dc96dc41510f27c8388259dc6595dcbe5ebdcf6d",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.4880315363407135,
+          "checkpoint_sha256": "9ef887dfac984edc67e4a504dc96dc41510f27c8388259dc6595dcbe5ebdcf6d"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.4902670085430145,
+          "checkpoint_sha256": "2842d1db902bd7bc37351a53d1e04f821de0a4d1159ae08fbbbaf3e51780e3d9"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "topology_only",
+        "fold": 2,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.49812090396881104,
+      "run_signature": "743a5af2219f02a21f1b67c5aa7251e4fb8ae5fd9308cb8f1b030b27d16b6985",
+      "checkpoint_sha256": "9be459349e4f3b438fe086825067cd68dd63f58d0e84babf1b8f3f7beb6483e0",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.49812090396881104,
+          "checkpoint_sha256": "9be459349e4f3b438fe086825067cd68dd63f58d0e84babf1b8f3f7beb6483e0"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5011197924613953,
+          "checkpoint_sha256": "c85c2ad3720eba6a1c12a870fac6f262ba062396a8203483f0dc3ee6526e54df"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "topology_only",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.4922330975532532,
+      "run_signature": "14c830c38c633a36575cb6e1ab086c027672e73acf8cf66548af82e40207924b",
+      "checkpoint_sha256": "8d6c3ee7ad19bb0672cf6ace715d69eb68bac6f8442656e5c4389da3417346f1",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.495109498500824,
+          "checkpoint_sha256": "e0d6a7d124cda29f208ecbf003851c147a9cf5ce53448657fcf0bbaf4a22c921"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.4922330975532532,
+          "checkpoint_sha256": "8d6c3ee7ad19bb0672cf6ace715d69eb68bac6f8442656e5c4389da3417346f1"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "degree_matched",
+        "family": "topology_only",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.48396414518356323,
+      "run_signature": "7dfafaa2dcde774330e7ebd80e00f4b7e75fbbd2fd9f0a2293dc17d793dec5a5",
+      "checkpoint_sha256": "2086a0f804226398c3407059b8432131e5d54315a3b1eee033456a743325a80d",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.48794087767601013,
+          "checkpoint_sha256": "1280e1173cadfdd6d1a069b77ad4701750bd1a39237e6840268cbe69f9ff6c1c"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__degree_matched__topology_only__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.48396414518356323,
+          "checkpoint_sha256": "2086a0f804226398c3407059b8432131e5d54315a3b1eee033456a743325a80d"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.30954378843307495,
+      "run_signature": "c86449af8b4b52a584951403ddbc809c6266d316f1b0c7d6e2443f71efc06f60",
+      "checkpoint_sha256": "d77ef86606e008f9134a7cfdd5d006a3a7be90ce961c7361936ae39e2528a0fc",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3096986711025238,
+          "checkpoint_sha256": "25cde304e09b70890cc0096671e80ab77882e4035a6914e8441ac8725daf2263"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.30954378843307495,
+          "checkpoint_sha256": "d77ef86606e008f9134a7cfdd5d006a3a7be90ce961c7361936ae39e2528a0fc"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.29630982875823975,
+      "run_signature": "b2222285f81acd78651faff816f46344b44029e2207d783e19e4434b213c29ae",
+      "checkpoint_sha256": "fffebeaac283f652872f557d64240a24b21f7d4991c61859e5a3bc48c0ca6a0a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.30831387639045715,
+          "checkpoint_sha256": "a38756960ff2f465870dd527b3f6406c7e4baf2ed93ebb07b9e0728aa74672ac"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.29630982875823975,
+          "checkpoint_sha256": "fffebeaac283f652872f557d64240a24b21f7d4991c61859e5a3bc48c0ca6a0a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.31815993785858154,
+      "run_signature": "851a07cfd701663b241259e4845714366d8793e3cd4175ea676618697a8cdd56",
+      "checkpoint_sha256": "25f9a78e874dee1bf031fd6d5f61b81838525f02debe54dfd6d695fcbefefc15",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3211507797241211,
+          "checkpoint_sha256": "935c170ecff38c45debec579b2222178ae31b040768977b73ab61c3f3ecb5752"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.31815993785858154,
+          "checkpoint_sha256": "25f9a78e874dee1bf031fd6d5f61b81838525f02debe54dfd6d695fcbefefc15"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.30706489086151123,
+      "run_signature": "0096479d472ea8a00823fde7d10c90bbbb46528a2ff79f0b136cbdae7989d397",
+      "checkpoint_sha256": "231e55dd4d5d9b443be3fb062a47b4ed874fbbf15ead23573c6aa0ccc23c433c",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.31126588582992554,
+          "checkpoint_sha256": "1588949aa2a9a5900d494f1aa947855fc0b1ab58bf59c9d4f4939129ca2442f9"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.30706489086151123,
+          "checkpoint_sha256": "231e55dd4d5d9b443be3fb062a47b4ed874fbbf15ead23573c6aa0ccc23c433c"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.3250950276851654,
+      "run_signature": "1064094631f2d2380395782de29f4892ab25ec21c55f8ef632bae6d9031150fd",
+      "checkpoint_sha256": "62c981a5b9cc3be9ed7805f6e8407d7c57ffa942493f3e72062d4611a0589690",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3297669291496277,
+          "checkpoint_sha256": "6e20c367b499f1d57031cdd9510834a6783fc008d2e982adf02fefc9232857be"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3250950276851654,
+          "checkpoint_sha256": "62c981a5b9cc3be9ed7805f6e8407d7c57ffa942493f3e72062d4611a0589690"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "residual",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.3111496567726135,
+      "run_signature": "74fd39cddcad283d5c2c563751d1e37084bddca874be3e33c510358d91f1967c",
+      "checkpoint_sha256": "8d392a6aa32fb0fd6381bb3763bc78a5e1186b7328778b23f6c334f4e91384c9",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3142322599887848,
+          "checkpoint_sha256": "e6e5f2caa12cbb94d623a3076dab1cfe33ec8739de55184e8748d6ef0c88f2d0"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3111496567726135,
+          "checkpoint_sha256": "8d392a6aa32fb0fd6381bb3763bc78a5e1186b7328778b23f6c334f4e91384c9"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "residual",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.2945975959300995,
+      "run_signature": "66464b2182af6194e0afaaa8b36d7631ef2e029cff64e872ae9b7a19e28fc023",
+      "checkpoint_sha256": "d2736db0dba4aad1692e20ed27ce46eb53904708b2b7b89f7a0aa57fb668f766",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.29647597670555115,
+          "checkpoint_sha256": "e0e6265537d6168d19b7ad3b4daa06457247f947b78c0eeb769b6760fac52af3"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.2945975959300995,
+          "checkpoint_sha256": "d2736db0dba4aad1692e20ed27ce46eb53904708b2b7b89f7a0aa57fb668f766"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "residual",
+        "fold": 2,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.31984415650367737,
+      "run_signature": "653b4ca31fa7cbeaddbc4dec8371b6e584e1073141fdaa0379d5f34fc085b7b3",
+      "checkpoint_sha256": "fd1de0b63a4d2641a1283643706271f84787ada3ac410f34400e7fa84dd84628",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.31984415650367737,
+          "checkpoint_sha256": "fd1de0b63a4d2641a1283643706271f84787ada3ac410f34400e7fa84dd84628"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.32090118527412415,
+          "checkpoint_sha256": "312b083bea930b43c5220e9e8e97980fdc6a821e6253470bd7e5909fa1087db9"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "residual",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.30416908860206604,
+      "run_signature": "b09eebb233b3e81efabf168d856e1dab3f332e3ec68d2b8eea130fa13fd596ac",
+      "checkpoint_sha256": "928f68e5bbe0273b4532d22acfc03d227f0e5ff3195b34202203dd3a08fd2fd3",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3137027323246002,
+          "checkpoint_sha256": "ee3b4718e77ff4ce9ca2b5a54af41dc7c2acac3ef5e7e3026c559d669ae2fa88"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.30416908860206604,
+          "checkpoint_sha256": "928f68e5bbe0273b4532d22acfc03d227f0e5ff3195b34202203dd3a08fd2fd3"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "residual",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.31789326667785645,
+      "run_signature": "4d776af95164f667412d0f5fa5394cc217a7ced999abbd88fbc7843ea8ecacf8",
+      "checkpoint_sha256": "5873f4ea97030d434c6cbfa925872254c27afaa9370303e48b8018c1d348d056",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.32523030042648315,
+          "checkpoint_sha256": "1674a41a6c6cd7fd19ddb0d0b93aff0116874ad59c6bd5cff5e2337545fc5289"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__residual__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.31789326667785645,
+          "checkpoint_sha256": "5873f4ea97030d434c6cbfa925872254c27afaa9370303e48b8018c1d348d056"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5244112014770508,
+      "run_signature": "6a196d109e75267a68d6b90b3fc96287190619b26c5d0c0e27901a3efa0c3edf",
+      "checkpoint_sha256": "2ab72d2f4b77a212b17ba1e73d5e3a8308b5e5e982b1622ba2189ce0e1d5807b",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5499907732009888,
+          "checkpoint_sha256": "aeede05d9d1f0cb6c179e0990377a2c40dfdebc8a1951640a165c0176b633dfb"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5244112014770508,
+          "checkpoint_sha256": "2ab72d2f4b77a212b17ba1e73d5e3a8308b5e5e982b1622ba2189ce0e1d5807b"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5326183438301086,
+      "run_signature": "b985a8683d31c7fbd343426784d4b28dc560e94c309718c3b09cb5c514bebf04",
+      "checkpoint_sha256": "b29159ed92e329e7e4ea8eb95a6d6fdec2ca1f15980aae78c06c72972e9bd17a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5442047119140625,
+          "checkpoint_sha256": "e9bece934b160bc35b726687f157fd1ad2983f2e5f34e62cb6ca0e2644a48876"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5326183438301086,
+          "checkpoint_sha256": "b29159ed92e329e7e4ea8eb95a6d6fdec2ca1f15980aae78c06c72972e9bd17a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5314280390739441,
+      "run_signature": "9de4f6b2186f6cd4262543b885b98c499456095871e1385225a171bc110cc5bc",
+      "checkpoint_sha256": "7519690f06adbe04f865c0825476e9204261ac464b9197c9b2bfe7b65644b71a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5458466410636902,
+          "checkpoint_sha256": "99576b66b8885d1e3c7b933b6b3f695613384a2b650900343eee3b62e042c513"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5314280390739441,
+          "checkpoint_sha256": "7519690f06adbe04f865c0825476e9204261ac464b9197c9b2bfe7b65644b71a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5351911187171936,
+      "run_signature": "de76a68bf42f820d4d0c1974316039b802f3995562c3c7a5c55419e2632e1334",
+      "checkpoint_sha256": "db3a92792cc1ee3153e2e21df50997bd8ea0d3af938e5602311552adedeb9c93",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.546639621257782,
+          "checkpoint_sha256": "529f3f452c62f653ab5d842d45bac1c22a5580e2a67141fe2907895ffd1ddc10"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5351911187171936,
+          "checkpoint_sha256": "db3a92792cc1ee3153e2e21df50997bd8ea0d3af938e5602311552adedeb9c93"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5320560336112976,
+      "run_signature": "208cc32dcf4f1f2cd8bce7cc816411109d93c498f92c7b60ddac7f70a731a110",
+      "checkpoint_sha256": "5950f997ddd697361a18333d39feaea69a637fa5580f2e7d6d9580aee8406bc6",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5404939651489258,
+          "checkpoint_sha256": "340ecad9c94d884d3af374e07e58a6a17cbf8e1c659fadbef47dcf7cc4e3394a"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__sequence_only__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5320560336112976,
+          "checkpoint_sha256": "5950f997ddd697361a18333d39feaea69a637fa5580f2e7d6d9580aee8406bc6"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.35075104236602783,
+      "run_signature": "a94975118623f5a8e2725f955ee7e4ae9ef7299a443b779b1dc364e1460219d5",
+      "checkpoint_sha256": "13f653476688ec24d9d37329ebcf25678726f07a49e29ce1d5aba355da7b7c9b",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.37601423263549805,
+          "checkpoint_sha256": "f6bd73e852cc6f9bf4ecabe30536a321100746a4b8aae145911c3adfc06a1f52"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.35075104236602783,
+          "checkpoint_sha256": "13f653476688ec24d9d37329ebcf25678726f07a49e29ce1d5aba355da7b7c9b"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.3649286925792694,
+      "run_signature": "bd2c7fcb50703f6dfe3ab23f19ebeb44abff7349b6057623dc6e3a0ef16bb20e",
+      "checkpoint_sha256": "d82e04f59938139ce1bff3b177b01542efe552ead7dd004997757de7f0f3309b",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.398979514837265,
+          "checkpoint_sha256": "d7e2ab3c3e6f4a8b4159e3467827062dc1c0311eefc22f01f74daa22838d1ffa"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3649286925792694,
+          "checkpoint_sha256": "d82e04f59938139ce1bff3b177b01542efe552ead7dd004997757de7f0f3309b"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.3475419878959656,
+      "run_signature": "56e9961c6065c3beca568345d0f4c79f3bfc8b81c9ef2fa74f3ab3d455960d57",
+      "checkpoint_sha256": "44a5bf14d974833bf96fa0079b854d187e8b4788415dd0a3d38dbeb8c300666a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3811508119106293,
+          "checkpoint_sha256": "ed18f231b5662ac3813630295ea0868fda8649d0752af970161433c4ca1da0fb"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3475419878959656,
+          "checkpoint_sha256": "44a5bf14d974833bf96fa0079b854d187e8b4788415dd0a3d38dbeb8c300666a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.3643566370010376,
+      "run_signature": "a488e40e419042d48f27ac5ed140e3002147843c2ba7a432e82287fce13c588b",
+      "checkpoint_sha256": "4b0435953013bab2446e0835a6ab244717acea17a2bda557c99cf14ad6639d09",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3884258270263672,
+          "checkpoint_sha256": "0889c834629a370a88a8fa153c74f51848907c54b3e48595c93be0bb071cf3cb"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3643566370010376,
+          "checkpoint_sha256": "4b0435953013bab2446e0835a6ab244717acea17a2bda557c99cf14ad6639d09"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.346355676651001,
+      "run_signature": "e3cb25c29d935e978ccee0575b8733794ada2995fabd5acab0673090dd6bbc0d",
+      "checkpoint_sha256": "18d58ad2d4e9b6b9d237bc976bfc9dc6d905d7c2148e8a7e76d12e53f7cd07da",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.36939477920532227,
+          "checkpoint_sha256": "eb1bbe4e896f3c51b0e13930a11784a6accec5f8b6f440d7a70b8be69c51b809"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.346355676651001,
+          "checkpoint_sha256": "18d58ad2d4e9b6b9d237bc976bfc9dc6d905d7c2148e8a7e76d12e53f7cd07da"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.34927669167518616,
+      "run_signature": "0bde81ee5ed85cebf00ae3eeae15f26524cecc49e3b9f3ee475e55e06ec5a4b6",
+      "checkpoint_sha256": "2094006a7ef36eca4d803cc0b4af879a0492e4e54da009f31c6bd1df3489f984",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.35259127616882324,
+          "checkpoint_sha256": "0be2266f6226def72393a08ecb22f49e99fce5c07eb586ec4c01ee87356853dc"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.34927669167518616,
+          "checkpoint_sha256": "2094006a7ef36eca4d803cc0b4af879a0492e4e54da009f31c6bd1df3489f984"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.3288005590438843,
+      "run_signature": "6eab4b956790b035f889352070e9409fc87203d89afb7c46d9c10ce231613d5f",
+      "checkpoint_sha256": "fd4132c52677337a8a2765a6a2817f10ebcbda1a2c6f6b89cbf8dfdea7c7ea97",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3516288995742798,
+          "checkpoint_sha256": "49fc6b00e50836b491d477974b16eef47dc76e58ac43a0d0a513bfa8a84ad234"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3288005590438843,
+          "checkpoint_sha256": "fd4132c52677337a8a2765a6a2817f10ebcbda1a2c6f6b89cbf8dfdea7c7ea97"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.33365121483802795,
+      "run_signature": "640edcc8209731e458201ebfd15209a3d7ce12b6459fbb3c7233bd1bba61a630",
+      "checkpoint_sha256": "3709e06aac762148de6af42891b10c9b05889fa25fb19aec1356d2199ebe34b8",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3518734574317932,
+          "checkpoint_sha256": "17a3f16535ed12bba71086afe2076e07789ec35fc7ff4fe4e38d1bc232a1ff06"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.33365121483802795,
+          "checkpoint_sha256": "3709e06aac762148de6af42891b10c9b05889fa25fb19aec1356d2199ebe34b8"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.35042738914489746,
+      "run_signature": "54bd89db4c18f39ecce48e46f69a8effa7aa34befde678d54b84d1e930df4a1e",
+      "checkpoint_sha256": "064515ded032b405e762e142332c84d16b782063e2efa160580989ff22ba7092",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.37151190638542175,
+          "checkpoint_sha256": "fbc75b8cef03fabae57d35ade4926ea5499b787b4fd3caa46e372abd69895c2b"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.35042738914489746,
+          "checkpoint_sha256": "064515ded032b405e762e142332c84d16b782063e2efa160580989ff22ba7092"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.3242272436618805,
+      "run_signature": "9c2d461adf0bf99d38269d110a94a3aad5e5805874aa7582d5d8266c0019f1b4",
+      "checkpoint_sha256": "3985f7a226a61b0f3f5b9691a8333ee12fd4fd7007a2fb53b150d713476f2440",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3375594913959503,
+          "checkpoint_sha256": "2992f131059cc768a728076386d4e89f4047fc88b7c2b22a69dcd2e3f4d0a619"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_dropout_bypass__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3242272436618805,
+          "checkpoint_sha256": "3985f7a226a61b0f3f5b9691a8333ee12fd4fd7007a2fb53b150d713476f2440"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.317641943693161,
+      "run_signature": "43fcc416ebfb45b740e0d62d44f4ea01b10f9053b55de29a4dad5d78a8ed762e",
+      "checkpoint_sha256": "0832ad572d60364a55083d43f929fe8757ddd55692dea3e7857336e1fefe3efe",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3183300197124481,
+          "checkpoint_sha256": "c5ea8aaab7ce17c2504d147b823d1c184a1a93e5888dfafece1dc9291c9e1b56"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.317641943693161,
+          "checkpoint_sha256": "0832ad572d60364a55083d43f929fe8757ddd55692dea3e7857336e1fefe3efe"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 1,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.30881762504577637,
+      "run_signature": "849d8e04154b8f96c1851100ac85b17785d1a5517b6500105a92b97cdb605de3",
+      "checkpoint_sha256": "367a77c5a920caa6d27de9870d7bbcce15bc89763b67b57884a767404515fa7f",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.30881762504577637,
+          "checkpoint_sha256": "367a77c5a920caa6d27de9870d7bbcce15bc89763b67b57884a767404515fa7f"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3137870132923126,
+          "checkpoint_sha256": "a7ff1343c15be8e1a7269bb1ecebdd0593768278f06d7285ca8d1081e222be0f"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.331109881401062,
+      "run_signature": "2f1fb84090e91eb47f822496f1323aa1aae1225685917b3e1bbd8db4197912fb",
+      "checkpoint_sha256": "fade0f37fcf69cc9f8556b3dc81bc8c1a35e185d8f31715c8491808425c43798",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.3317926228046417,
+          "checkpoint_sha256": "9e1c16ccd66745c04eb65d3e6c38ebde2d93165fc7384df4955617e2384dd95a"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.331109881401062,
+          "checkpoint_sha256": "fade0f37fcf69cc9f8556b3dc81bc8c1a35e185d8f31715c8491808425c43798"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.3222305476665497,
+      "run_signature": "4e9bd0b77e7717cd45194a3a543d1b9bd26e2c28078126005939176fdc0a287a",
+      "checkpoint_sha256": "95cfeff40e44375aaa1f0ca911edaf85cb466b40b15bd0c421797380b2cae9df",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.32446160912513733,
+          "checkpoint_sha256": "b37e86c58637f5205837431d8d97642c2e26023747385ab657c4595789e4daec"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.3222305476665497,
+          "checkpoint_sha256": "95cfeff40e44375aaa1f0ca911edaf85cb466b40b15bd0c421797380b2cae9df"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "pair",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 4,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.32310327887535095,
+      "run_signature": "d88e6e80ebcd8385d47ac1addfa39c9ce0679b2d50790a58b576e9c898a40e6a",
+      "checkpoint_sha256": "11c8cf4b4a5a02a3648835103808bd8dac6d383e5169e535716ca5e073eba693",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.32310327887535095,
+          "checkpoint_sha256": "11c8cf4b4a5a02a3648835103808bd8dac6d383e5169e535716ca5e073eba693"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__topology_only__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.32877784967422485,
+          "checkpoint_sha256": "9de7f9ed48b5eb170344da8c8ca6272fcebfe534af7a2d5fe06fb1cfa66b4622"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.7006941437721252,
+      "run_signature": "6f5f285f7a14cb77d9dd023769168cc54839a1a52e5d0d7f0992686276562229",
+      "checkpoint_sha256": "c19a7303dbbfb4f4b6a999abe90b85345cda85f67ca2b26294447395fb930529",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.7008619904518127,
+          "checkpoint_sha256": "584af02f6b084d65c97ae3d996287a59b549712b2dab058af1b6a7ab2d1a537d"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.7006941437721252,
+          "checkpoint_sha256": "c19a7303dbbfb4f4b6a999abe90b85345cda85f67ca2b26294447395fb930529"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6931926608085632,
+      "run_signature": "2aef13d51151fcf327bfc9b87daab76bf023b7fd3e8f3578aa79ceca51765db6",
+      "checkpoint_sha256": "11c70b26095cd8c20d899832fa1be8df1ec6cfd45130cd4dd5684e348ccc606a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6932240724563599,
+          "checkpoint_sha256": "f2444762128b8a228e06a8208590da8999cf2ce9f470ae5734750cc71adcd404"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6931926608085632,
+          "checkpoint_sha256": "11c70b26095cd8c20d899832fa1be8df1ec6cfd45130cd4dd5684e348ccc606a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 2,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0005__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6756374835968018,
+      "run_signature": "9edb2fdbe2816725e526312d12f82eee3cf5e67325b9723e97846e3be0f5f5f0",
+      "checkpoint_sha256": "11b001f0d2ea047a8050549c0bdcc2a66cf9cc086ca86298c65bc42914d2b8a4",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6756374835968018,
+          "checkpoint_sha256": "11b001f0d2ea047a8050549c0bdcc2a66cf9cc086ca86298c65bc42914d2b8a4"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.675761878490448,
+          "checkpoint_sha256": "d7d518404c604b5404c763d79317383776529e7c16ee4564a974094f83e1deae"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 3,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0005__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6915770769119263,
+      "run_signature": "69ebfcad4a0032654b66ca9bd3403b898747da21a026f657a8da0d09b91dcd47",
+      "checkpoint_sha256": "116ce99dbbba535ff155758b5e05dc1bcad6a364b8589235224a700bc65db699",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6915770769119263,
+          "checkpoint_sha256": "116ce99dbbba535ff155758b5e05dc1bcad6a364b8589235224a700bc65db699"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6916074156761169,
+          "checkpoint_sha256": "e648b1035b046173b0a048cc2c64a5ccdb851a246329cd2c591fe2d3f1be15a5"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "concat_matched",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6969612836837769,
+      "run_signature": "7e15c7beae2ff79ec38040fd374d473a1090169d1a3566e90c8cc5a778bdeab8",
+      "checkpoint_sha256": "4a9a44aee22c0d190117402a865f4a6ba116755340d1c51079c678f840ef2d80",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6989991664886475,
+          "checkpoint_sha256": "38f017d4b53f6fb4aea608e3108d631e6e70b225df8d2147332c4983b8e9241e"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__concat_matched__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6969612836837769,
+          "checkpoint_sha256": "4a9a44aee22c0d190117402a865f4a6ba116755340d1c51079c678f840ef2d80"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "residual",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.7002272009849548,
+      "run_signature": "6470c689d7653bdee443fd495b44da14688e433f43bee008530f5fd828577836",
+      "checkpoint_sha256": "195c7a2f377a2614d03d36bda3df72f6c84bb04a03d7603b000ca5d9ef7e1e82",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.7016636729240417,
+          "checkpoint_sha256": "51a5bb73d602d30fa0d6e3d185ca13d9b4b1530da0502b54ead62e6d1b1f4f29"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.7002272009849548,
+          "checkpoint_sha256": "195c7a2f377a2614d03d36bda3df72f6c84bb04a03d7603b000ca5d9ef7e1e82"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "residual",
+        "fold": 1,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6928820610046387,
+      "run_signature": "543209b32f1da7f86334d4c0981d69555d383a5a9f86bcffabef60a3c6ec7a08",
+      "checkpoint_sha256": "8f2e6995ca1932d91327b143ca7a789865c10c1c235bea828d86588cc346bf7d",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6928820610046387,
+          "checkpoint_sha256": "8f2e6995ca1932d91327b143ca7a789865c10c1c235bea828d86588cc346bf7d"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6929590702056885,
+          "checkpoint_sha256": "f55f96a34b19f24e6cb68cf10b1caf87f3417b7da4bf6ee53617bcef6856b203"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "residual",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.673082172870636,
+      "run_signature": "ec492a47316f91e494fc4925df044b37902bc03fd1082607c67880be57042ed8",
+      "checkpoint_sha256": "99b43e83612f2b70835d93c89fdb04c91e5cc62fe15833b704974129c69d17fd",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6758176684379578,
+          "checkpoint_sha256": "fc0688857bf459cd31b242690c4bc04ab64babf9225e4dd6e94eb173f40f0c62"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.673082172870636,
+          "checkpoint_sha256": "99b43e83612f2b70835d93c89fdb04c91e5cc62fe15833b704974129c69d17fd"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "residual",
+        "fold": 3,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6916832327842712,
+      "run_signature": "ccdbe8d571693c496183ba80b974060282ef989508db0e9c3ee68d78e6e42c78",
+      "checkpoint_sha256": "dcb2b130a251b665915ba5ced55e49af6f5fa380099ce0851a60e9fd9cd0bcb9",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6916832327842712,
+          "checkpoint_sha256": "dcb2b130a251b665915ba5ced55e49af6f5fa380099ce0851a60e9fd9cd0bcb9"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6917126774787903,
+          "checkpoint_sha256": "aa8c1200ea6d87993748b679766cd8b6c1c4071ab1aaf66e8adf1122d03cfab5"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "residual",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6962984204292297,
+      "run_signature": "6555e2fe6a91a6925ff65f26e09d4f15937bcedb3741126f8b5d4d56143bc22f",
+      "checkpoint_sha256": "2762cd2c4a20e93af7c053eef490d8413c7f128cdf239c02452cf54bd5a6ea75",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6999588012695312,
+          "checkpoint_sha256": "6e6436b3b9c4c3bc9855fcc1bef33955ad25b99239045e9b2c957f4bde7b3fa2"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__residual__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6962984204292297,
+          "checkpoint_sha256": "2762cd2c4a20e93af7c053eef490d8413c7f128cdf239c02452cf54bd5a6ea75"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5043630599975586,
+      "run_signature": "c0444e3cc9a2d6fd4700343b5ab6a33f898890208ca5ffabe20d42eae22910ff",
+      "checkpoint_sha256": "54e46cba241c071f77bba2be23d3741cd3b0ff8387b347149d5326b13528f520",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6976630687713623,
+          "checkpoint_sha256": "451aa1b23580b6fb571ff8800c1ad17ebebefb4b7fdfdeb45e001c63159a9f3f"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5043630599975586,
+          "checkpoint_sha256": "54e46cba241c071f77bba2be23d3741cd3b0ff8387b347149d5326b13528f520"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.565191924571991,
+      "run_signature": "68f67b6338edba831b4c2f3892263afb2f302ab8d5f2181c064bfca22980573f",
+      "checkpoint_sha256": "768cd26160ee557008ec558c4f10862a9a2461a675d3eb308a006b17b96492eb",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.567888081073761,
+          "checkpoint_sha256": "d3f3d4547120295f6603d35a0c2f89ca0656e04d1bbbbad103eaac976f663f4c"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.565191924571991,
+          "checkpoint_sha256": "768cd26160ee557008ec558c4f10862a9a2461a675d3eb308a006b17b96492eb"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 2,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0005__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6917974948883057,
+      "run_signature": "105ec79467535e2ec289c8ebb400e9434522a2633434377d3d0458847362768f",
+      "checkpoint_sha256": "5d8b368b7e203d700eea4f973745354ee6e66e136e28a00655cfc86d32050004",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6917974948883057,
+          "checkpoint_sha256": "5d8b368b7e203d700eea4f973745354ee6e66e136e28a00655cfc86d32050004"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6923481225967407,
+          "checkpoint_sha256": "bd0153dd885c026b3f737553a6226d9b711f95c99a61cef06a38daa3311bc99c"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 3,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5792269110679626,
+      "run_signature": "1f55db8c0e533a9ff69f24e5aef3f4ce81df25459a0b53b4aeb22dc211b0c000",
+      "checkpoint_sha256": "2af3f7aee2c6e02a751106010449403c5409d9aea1069dc5649feefa4c8e7672",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6920089721679688,
+          "checkpoint_sha256": "4377796d7580135dc303faeced4a47f142516b57f324ce2b41186041f04864b6"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5792269110679626,
+          "checkpoint_sha256": "2af3f7aee2c6e02a751106010449403c5409d9aea1069dc5649feefa4c8e7672"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "sequence_only",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5733160376548767,
+      "run_signature": "09b90913676c0b85002a30182f297f17e69d2e6e1a976d4d4e014146ff609b5c",
+      "checkpoint_sha256": "77880946a9eaa0faa6ea5888354252aa59c5a2940b40c5a8cf3d4c644944128e",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5771487951278687,
+          "checkpoint_sha256": "b80977a24daedefe42b1e9b7f9be5dd38a09645abded736ea530877ea5b94361"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__sequence_only__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5733160376548767,
+          "checkpoint_sha256": "77880946a9eaa0faa6ea5888354252aa59c5a2940b40c5a8cf3d4c644944128e"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 0,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold0",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5372046828269958,
+      "run_signature": "4cd9d0df18db3c92c9be1cf5321d0dbd9e8dbb4ccae0d6bf723d5b72bbeef675",
+      "checkpoint_sha256": "0364b98232db759e41a90a0db966db3094ac54b994d93b576bc4b08f7635479b",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5372046828269958,
+          "checkpoint_sha256": "0364b98232db759e41a90a0db966db3094ac54b994d93b576bc4b08f7635479b"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5418208837509155,
+          "checkpoint_sha256": "712ccdb1814809dfb848bf8013f9ff6dcd8de18182853ff9380f279b50a877d7"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 1,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold1",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5545463562011719,
+      "run_signature": "b68d3d3159051ee1c22c09cc5569ddd49e3380d6e23bca9b1dd132103edd7c35",
+      "checkpoint_sha256": "154dfa74251d70eaca8300f22aa3beb9ce90cdcecee02878a3371f6d54138df2",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5545463562011719,
+          "checkpoint_sha256": "154dfa74251d70eaca8300f22aa3beb9ce90cdcecee02878a3371f6d54138df2"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5549658536911011,
+          "checkpoint_sha256": "508ece491748b3404e002f7db0bdad80e1bb3efc82f4d8ee10d2b48fd7048b3c"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6081799268722534,
+      "run_signature": "69e0dae60f837052baac3486a4c2297210b3980ed5f48940051107ee24a16d07",
+      "checkpoint_sha256": "d9c5415b3c2a36a57319f69315d8ac910630f54f548cbe0171dea53d745e307f",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6099007725715637,
+          "checkpoint_sha256": "7354186510d2f351154f9a53fd060438df756eda55c0ea3583a6b973d0219ee3"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6081799268722534,
+          "checkpoint_sha256": "d9c5415b3c2a36a57319f69315d8ac910630f54f548cbe0171dea53d745e307f"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 3,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold3",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.594355046749115,
+      "run_signature": "a15e4368d4aea70e3ca07678904386b89a822e8bbc01d194e21f0c509f9653fa",
+      "checkpoint_sha256": "7e0f231b00b20ca5767a2b15cd78cc3628084b3180205f9ee773b4d15cfec0ab",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.594355046749115,
+          "checkpoint_sha256": "7e0f231b00b20ca5767a2b15cd78cc3628084b3180205f9ee773b4d15cfec0ab"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5961624383926392,
+          "checkpoint_sha256": "f70742423819ad50d91b85d96f2aaeb5874836982d93d4f9077abecb1d5d3e06"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0.5,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.5880076289176941,
+      "run_signature": "78daae50f20a61bd7368a3041edfc0df5da379376f2167f81c8a2fa6f64ab865",
+      "checkpoint_sha256": "8fa57366ba38b66fd05cac514ce636f960e562bbeede94dda67439ef98681daf",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5905467867851257,
+          "checkpoint_sha256": "108d033232a37e01b3cc4a683c5f91470e0da20d45488b324e384712bf9cce74"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5880076289176941,
+          "checkpoint_sha256": "8fa57366ba38b66fd05cac514ce636f960e562bbeede94dda67439ef98681daf"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 0,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold0",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.7013934254646301,
+      "run_signature": "241dee8dcae39e6630e8f6b11e7f9c6dea16364c9e54918cdf7d33ea0356c3d5",
+      "checkpoint_sha256": "e1a71521f9a9d6d63a14f2123ac5ca64c59632296acb55aa9e4e415551433589",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.7015653848648071,
+          "checkpoint_sha256": "d108115515a5b2701578506924c08c3bc272fd4f174293858706993768998060"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.7013934254646301,
+          "checkpoint_sha256": "e1a71521f9a9d6d63a14f2123ac5ca64c59632296acb55aa9e4e415551433589"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.5649776458740234,
+      "run_signature": "35d334ab61f74fea49a8ad7342967c1eb3ab9187432c2ef175b95e10b84f0716",
+      "checkpoint_sha256": "0e9b04b9da6e6b7b4120bc75c85675b756a87c541dd7e1bdb1dc4225abfc555a",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5659561157226562,
+          "checkpoint_sha256": "719fc9649dea2e0cbea1bcf30e0d4d6db34122a5bf401e7f720bd6286be16f8b"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.5649776458740234,
+          "checkpoint_sha256": "0e9b04b9da6e6b7b4120bc75c85675b756a87c541dd7e1bdb1dc4225abfc555a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 2,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold2",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.6137602925300598,
+      "run_signature": "7103e1733e65daa31c7a22475c0de2171df0aa8cfc88edda528f7791e0481978",
+      "checkpoint_sha256": "0a47c5e77007286b0ced22d4ec67f74c2b26e8c82830b462b701700dc12a2efb",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6137602925300598,
+          "checkpoint_sha256": "0a47c5e77007286b0ced22d4ec67f74c2b26e8c82830b462b701700dc12a2efb"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6149800419807434,
+          "checkpoint_sha256": "09e11a27d0841823caf6ccf719dc0710509ba8a7e719ca7d6c7afa642793226a"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 3,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold3",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.6916490793228149,
+      "run_signature": "dd4eec062bd789c2c000a8026db1f011851023689056b27910e1ba53aaacfae5",
+      "checkpoint_sha256": "653787d33064242ed39770da60678ac25e1c25507e1af72a74034f93fae64677",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6916490793228149,
+          "checkpoint_sha256": "653787d33064242ed39770da60678ac25e1c25507e1af72a74034f93fae64677"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.691684365272522,
+          "checkpoint_sha256": "2088e6ad02430b7d7edc483991942f1b627d6d040a9c7fc9ea7431d19ff57bd9"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_dropout_bypass",
+        "fold": 4,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold4",
+        "topology_dropout": 0.5,
+        "missing_policy": "bypass"
+      },
+      "best_validation_bce": 0.5960291624069214,
+      "run_signature": "0fc36e715ff4c87b63195080dd40748860f666575dbd458b259aa3de6f5dfed0",
+      "checkpoint_sha256": "19545680d735be74983c21da537e452077d3a051928f737dfe49e576ce005ed1",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.5960291624069214,
+          "checkpoint_sha256": "19545680d735be74983c21da537e452077d3a051928f737dfe49e576ce005ed1"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_dropout_bypass__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6031631231307983,
+          "checkpoint_sha256": "93e610c2a4f6882fab7ff63d9923f4d68677c74865be5872b12a485556db63e0"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 0,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260930,
+        "graph_seed": 20260930,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0005__repeat0__fold0",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.7000072598457336,
+      "run_signature": "3d5fa0c9479229a2aeb22e795d0fff38777a07336a723ba99e59686256971bea",
+      "checkpoint_sha256": "e6ab96c6148a14cb560d45382b6cb6555074ac27e92dd2d9d82e1f08763657d0",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0005__repeat0__fold0",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.7000072598457336,
+          "checkpoint_sha256": "e6ab96c6148a14cb560d45382b6cb6555074ac27e92dd2d9d82e1f08763657d0"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold0",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.7002212405204773,
+          "checkpoint_sha256": "335b19a2c0b1dbd493dfc42b50f104fa90b597c30090b14837c0408a06a5831b"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 1,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260931,
+        "graph_seed": 20260931,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold1",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6931379437446594,
+      "run_signature": "42611d1497d3364a5b27f5561947d752e65229504667eabdbebef0719177bcdb",
+      "checkpoint_sha256": "11eca7683df387797e50d115e396a5d58641ab9a4b6b566d1517b7aaefba7d13",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0005__repeat0__fold1",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6932682394981384,
+          "checkpoint_sha256": "4b70e89daa9a07a3e129e1c5485a38579f16c5778f734752cf1869ef4e9aae1f"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold1",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6931379437446594,
+          "checkpoint_sha256": "11eca7683df387797e50d115e396a5d58641ab9a4b6b566d1517b7aaefba7d13"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 2,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260932,
+        "graph_seed": 20260932,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold2",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6913008689880371,
+      "run_signature": "8b07ab4917f1823c84573f93fa9c87b894cdf4d348fe876ad8c27c464aaec008",
+      "checkpoint_sha256": "910072e6d3c976605ad4bb3b2bb57d3a74d161d63f78d0547c3756d2e32680a5",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0005__repeat0__fold2",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6925735473632812,
+          "checkpoint_sha256": "de105e8973d78bfc0c067ed833208bc55b41c3979ea6d24325860512db66e5ac"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold2",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6913008689880371,
+          "checkpoint_sha256": "910072e6d3c976605ad4bb3b2bb57d3a74d161d63f78d0547c3756d2e32680a5"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 3,
+        "learning_rate": 0.0005,
+        "repeat": 0,
+        "model_seed": 20260933,
+        "graph_seed": 20260933,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0005__repeat0__fold3",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6920161843299866,
+      "run_signature": "9e286020a47f2cd6cc039362df1ddc86a939b51f1c486b6348f7e5d46de20b05",
+      "checkpoint_sha256": "4f4fc2af28303baf60da78464ea2fad8ffe7340a7b42d465bdff98c837b5f37c",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0005__repeat0__fold3",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.6920161843299866,
+          "checkpoint_sha256": "4f4fc2af28303baf60da78464ea2fad8ffe7340a7b42d465bdff98c837b5f37c"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold3",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6920574903488159,
+          "checkpoint_sha256": "a0a352120d2ee3cf5c83ae8b73014f258e1ae6ade40f7799c33a91721ea9c99c"
+        }
+      ]
+    },
+    {
+      "job": {
+        "protocol": "protein",
+        "negative": "random",
+        "family": "topology_only",
+        "fold": 4,
+        "learning_rate": 0.001,
+        "repeat": 0,
+        "model_seed": 20260934,
+        "graph_seed": 20260934,
+        "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold4",
+        "topology_dropout": 0,
+        "missing_policy": "original"
+      },
+      "best_validation_bce": 0.6938652396202087,
+      "run_signature": "90c9a7e770b1f135e5b6baf96d0c8c8350b1696716529534fd38c50cf22aa574",
+      "checkpoint_sha256": "89d03714f8259439b0fbe7c52ffdd55bb8ee54ae6ef077701d1ceab8592d8e29",
+      "candidates": [
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0005__repeat0__fold4",
+          "learning_rate": 0.0005,
+          "best_validation_bce": 0.694022536277771,
+          "checkpoint_sha256": "b39d035d737187f410b9a47472afafc8eb42bfdf208a98a0443e511949e223e1"
+        },
+        {
+          "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\protein__random__topology_only__lr0p0010__repeat0__fold4",
+          "learning_rate": 0.001,
+          "best_validation_bce": 0.6938652396202087,
+          "checkpoint_sha256": "89d03714f8259439b0fbe7c52ffdd55bb8ee54ae6ef077701d1ceab8592d8e29"
+        }
+      ]
+    }
+  ],
+  "candidate_count": 150,
+  "choice_count": 75,
+  "contract_sha256": "e00eaee7a84dfb7929488601c3388f95bc695cceef22cf0a871c4e13ac16977f",
+  "selection_signature": "a992c2a6338f4c0b95d1608e879e95702da39cd7a704154f748cf0cf4a4e7bb9",
+  "frozen_at": "2026-10-07T06:26:20.853755+00:00",
+  "test_outcomes_used": false
+}

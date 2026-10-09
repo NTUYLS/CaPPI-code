@@ -1,0 +1,14 @@
+test_complete_225_run_schema_and_seed_aggregation (test_missing_collection.TestMissingCollection) ... ok
+test_final_collection_rejects_changed_prediction_after_verification (test_missing_collection.TestMissingCollection) ... ok
+test_final_collection_rejects_incomplete_verification (test_missing_collection.TestMissingCollection) ... ok
+test_average_precision_is_not_trapezoidal_pr_area (test_missing_verifier.TestMissingVerifier) ... ok
+test_lr_tie_selects_lower_lr_and_rejects_mixed_fold (test_missing_verifier.TestMissingVerifier) ... ok
+test_mask_coverage_distinguishes_both_labels (test_missing_verifier.TestMissingVerifier) ... ok
+test_nonfinite_or_one_class_probabilities_fail (test_missing_verifier.TestMissingVerifier) ... ok
+test_predictions_reject_changed_labels_and_ids (test_missing_verifier.TestMissingVerifier) ... ok
+test_validation_checkpoint_uses_declared_min_delta (test_missing_verifier.TestMissingVerifier) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 22.694s
+
+OK

@@ -1,0 +1,16 @@
+﻿scope,left_split,left_label,right_split,right_label,ordered_overlap,undirected_overlap,label_conflict
+cross_group,train,positive,train,negative,0,969,True
+cross_group,train,positive,validation,positive,0,0,False
+cross_group,train,positive,validation,negative,0,146,True
+cross_group,train,positive,test,positive,0,0,False
+cross_group,train,positive,test,negative,0,265,True
+cross_group,train,negative,validation,positive,0,151,True
+cross_group,train,negative,validation,negative,0,116,False
+cross_group,train,negative,test,positive,0,285,True
+cross_group,train,negative,test,negative,0,237,False
+cross_group,validation,positive,validation,negative,0,16,True
+cross_group,validation,positive,test,positive,0,0,False
+cross_group,validation,positive,test,negative,0,39,True
+cross_group,validation,negative,test,positive,0,42,True
+cross_group,validation,negative,test,negative,0,31,False
+cross_group,test,positive,test,negative,0,91,True

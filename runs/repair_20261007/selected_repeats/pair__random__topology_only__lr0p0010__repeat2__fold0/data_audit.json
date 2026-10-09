@@ -1,0 +1,11 @@
+{
+  "split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da",
+  "n_nodes": 582,
+  "training_pairs": 33188,
+  "validation_pairs": 4742,
+  "heldout_pair_ids_audited": 9484,
+  "test_labels_or_scores_loaded": false,
+  "graph_edges": 16594,
+  "graph_is_exactly_training_positives": true,
+  "protein_disjointness_checked": false
+}

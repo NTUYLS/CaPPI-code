@@ -1,0 +1,16 @@
+{
+  "prepared_date": "2026-10-09",
+  "target_repository": "https://github.com/NTUYLS/CaPPI-code",
+  "status": "repository copy prepared for publication; remote upload not verified in this record",
+  "source_package_name": "CaPPI_GitHub_Code_Data_20261009",
+  "scientific_sources_or_data_modified": false,
+  "publication_documents_updated": [
+    "README.md",
+    "RUNNING.md",
+    "阅读说明.txt",
+    "CITATION.cff"
+  ],
+  "initial_historical_provenance_unchanged": true,
+  "code_archive_DOI": null,
+  "new_training_executed": false
+}

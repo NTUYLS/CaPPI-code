@@ -1,0 +1,120 @@
+{
+  "name": "pair__random__aa20_drw_adaboost__fold3",
+  "method": "aa20_drw_adaboost",
+  "protocol": "pair",
+  "fold": 3,
+  "config": {
+    "code_sha256": "f14c1e559da9d478f375ea980ca6fb0c999765eb09fcc2e47a62829ef2a55297",
+    "original_classical_code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "base_seed": 20260930,
+    "negative_sampling": "random",
+    "protocol": "pair",
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "scipy": "1.11.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2",
+      "xgboost": "2.1.1",
+      "torch": "2.11.0+cu128"
+    },
+    "feature_definition": "Full-sequence canonical AA20 plus raw DRW64; concat(abs(u-v),u*v); 168D.",
+    "selection": "Fixed prespecified settings; train-only fit/calibration; no validation/test tuning or early stopping.",
+    "threshold": 0.5,
+    "cpu_threads": 2,
+    "category": "feature-based classical controls; not published model reproductions",
+    "method": "aa20_drw_adaboost",
+    "model": {
+      "algorithm": "AdaBoostClassifier",
+      "n_estimators": 200,
+      "learning_rate": 1.0,
+      "algorithm_variant": "SAMME.R",
+      "weak_learner": "DecisionTreeClassifier(max_depth=1)",
+      "standardization": "none"
+    },
+    "seed": 20260933,
+    "fold": 3,
+    "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad",
+    "split_array_hashes": {
+      "train": "0f53c4198633efec407c99445159be1e7d5f07aa4937234c32fe0487c89e1982",
+      "val": "60bde6f2ab3916098de0804aaae592bc614a67ba49e09f3bafe146bca5aeba4b",
+      "test": "489b6e0ddaf79b156eaf8fc82337b27a7a8407cdc736a25a0ef9343d4f38a12a"
+    },
+    "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+    "feature_proof": {
+      "graph_hash": "5647b6461a672abf8f91062c71df37eca0e4f210b2c3e2f6a680632ce2281965",
+      "graph_cache_sha256": "7c0a51ed1e31fc4498784dd2ad1660b8715d8cbaf8087cb022b2a017d5c44ec9",
+      "graph_metadata_sha256": "cd21918a45128a34e6b0a42a2f2c1f6a453bf730400996788fe42c482f382f55",
+      "graph_feature_hash": "80f9882805bbded01831382cde50a43b98c1e76cb60aae8a1363d22f08db615a",
+      "node_feature_hash": "6c8297e0d4d59dcac4c48ec1f90b65cc5b4ecd1112e10f52a213970f0cb8c1af",
+      "feature_hashes": {
+        "train": "cf599ca2b4c74f9f1fa5977bd1f013de62b4586481263b36cdecf400df0ffdaf",
+        "val": "170aba376a8c6348605d68caa374ea64a4ca3bfc359bc61db066437dfa36945d",
+        "test": "ffb0d5372f6a52ade318dd6219dd1dbe385d57366d229dcdbe063adcc0afea68"
+      }
+    },
+    "original_control_replay": [
+      {
+        "method": "aa20_drw_lr",
+        "completed_sha256": "05c9718ef07c610b0ec9e7869ee3586fd82a3e8cf5f78399b90cacbf5e0b5b85",
+        "prediction_sha256": "ad8599881acccf7d9baa8c44e37760cc674d94143a5c69c0c6f537ee33e12b6d",
+        "checkpoint_sha256": "f2a128bbabf6ec8592716b7ebe97048424b5e4d1ea45fd31c668d3a6cd57a77f",
+        "n": 9482,
+        "max_abs_prediction_difference": 5.551115123125783e-17
+      },
+      {
+        "method": "aa20_drw_rf",
+        "completed_sha256": "66d2f1ea66f4c674b2569d528c040859286f912d70cee740c5759b0400247d81",
+        "prediction_sha256": "ff88ef0f0b20440b9ae64eec653f277fa684a0ce2c6d962f8a79cd3f168ebb19",
+        "checkpoint_sha256": "bf645023534dc28b2881a245d8046b0e6a362bea8cc74d9a308facf7f7a39e1a",
+        "n": 9482,
+        "max_abs_prediction_difference": 2.220446049250313e-16
+      }
+    ]
+  },
+  "run_signature": "886b5f2c099170a8bc1e61f5d7f29d9431da2e92d7b36f5d49d06f729977085b",
+  "campaign_signature": "a0649c1d424a9cc6046da041cc9fbe94a98b835cc107e5bba6aa7d77f86d0c35",
+  "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad",
+  "split_array_hashes": {
+    "train": "0f53c4198633efec407c99445159be1e7d5f07aa4937234c32fe0487c89e1982",
+    "val": "60bde6f2ab3916098de0804aaae592bc614a67ba49e09f3bafe146bca5aeba4b",
+    "test": "489b6e0ddaf79b156eaf8fc82337b27a7a8407cdc736a25a0ef9343d4f38a12a"
+  },
+  "checkpoint_sha256": "9605bb56abfc4d23d0115a3e462f5b2d7a3f61ced05610c5636805b64a16e413",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": 0.8148070027420375,
+    "sensitivity": 0.7928707023834634,
+    "specificity": 0.8367433031006117,
+    "precision": 0.8292521508934481,
+    "f1": 0.8106534397239594,
+    "mcc": 0.6302208237522984,
+    "auroc": 0.8999545359114913,
+    "average_precision": 0.89391614392271,
+    "pr_trapezoid_area": 0.8938937082192346,
+    "n": 9482,
+    "positive_n": 4741,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "elapsed_seconds": 350.09399999992456,
+  "artifacts_sha256": {
+    "run_config.json": "db19716f0c5e478cf2ff1116d35420a6ce5c9ac1706a8cb22c68392a1fc149e1",
+    "model.joblib": "9605bb56abfc4d23d0115a3e462f5b2d7a3f61ced05610c5636805b64a16e413",
+    "predictions.csv": "abe4fd7ccb160ae0ba33432ce8d6478bee88b9e6d8ffa8c7085a971457fd66bb",
+    "test_predictions.csv": "9310d188da2db99e02df35e7974601d0f572fc072e2cc4ee43f110e82e74a8f9",
+    "metrics.json": "c156365e347ae78e4f6e1d685e3da89f1a4ed27a9d63821a3c8751c3024a3b9a"
+  }
+}

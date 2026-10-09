@@ -1,0 +1,22 @@
+{
+  "prepared_date": "2026-10-09",
+  "local_only": true,
+  "frozen_source_files_copied": 7138,
+  "all_original_copies_verified": true,
+  "extra_figure_and_snapshot_files_verified_after_independent_audit": 12,
+  "fixed_folds_verified": 20,
+  "selected_test_runs_verified": 225,
+  "validation_and_test_predictions_verified": 450,
+  "seed_fold_summary_groups_verified": 15,
+  "inspector_and_metric_functions_unchanged_in_final_wrapper": true,
+  "final_wrapper_changes": [
+    "freeze_repeat",
+    "select",
+    "evaluate",
+    "train"
+  ],
+  "checkpoints_included": false,
+  "new_training_or_checkpoint_inference_executed": false,
+  "cross_platform_training_verified": false,
+  "code_DOI": null
+}

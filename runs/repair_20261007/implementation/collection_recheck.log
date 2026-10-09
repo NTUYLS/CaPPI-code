@@ -1,0 +1,8 @@
+test_complete_225_run_schema_and_seed_aggregation (test_missing_collection.TestMissingCollection) ... ok
+test_final_collection_rejects_changed_prediction_after_verification (test_missing_collection.TestMissingCollection) ... ok
+test_final_collection_rejects_incomplete_verification (test_missing_collection.TestMissingCollection) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 22.502s
+
+OK

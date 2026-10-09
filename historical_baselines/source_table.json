@@ -1,0 +1,496 @@
+{
+  "schema_version": "historical-baseline-extraction-v1",
+  "status": "exact_table_extraction_completed",
+  "source_docx": {
+    "path": "D:\\1.肝癌\\CaPPI-code\\SR投稿\\CaPPI Manuscript_8.29.docx",
+    "sha256": "8d8dc91fd2ee80d01acd0acf9b2f95a38e40685f324ba0bceae0f7d72690968e",
+    "xml_part": "word/document.xml"
+  },
+  "crosscheck_text": {
+    "path": "D:\\1.肝癌\\revision_20260930\\manuscript_829_extracted.txt",
+    "sha256": "ff940972a5dcfda6e14dd974d9b70a1d19c52fc2d3b75dd9c6a895796dcb2eef",
+    "table_label_line_1based": 282,
+    "table_header_line_1based": 283,
+    "table_last_row_line_1based": 286,
+    "all_28_cell_strings_match_docx": true
+  },
+  "table": {
+    "caption_raw": "Table 3. Performance comparison of CaPPI and some existing models",
+    "caption_paragraph_index_zero_based": 127,
+    "caption_paragraph_locator": "P127",
+    "docx_table_index_zero_based": 3,
+    "docx_table_index_one_based": 4,
+    "docx_xml_xpath": "/w:document/w:body/w:tbl[4]",
+    "number_of_rows_including_header": 4,
+    "number_of_columns": 7,
+    "header_raw_cells": [
+      "Model",
+      "ACC",
+      "Sen",
+      "Spec",
+      "Prec",
+      "MCC",
+      "F1-Score"
+    ],
+    "raw_rows": [
+      [
+        "Model",
+        "ACC",
+        "Sen",
+        "Spec",
+        "Prec",
+        "MCC",
+        "F1-Score"
+      ],
+      [
+        "PASNVGA",
+        "0.7736±0.0025",
+        "0.7779±0.0295",
+        "0.7693±0.0327",
+        "0.7722±0.0179",
+        "0.5481±0.0044",
+        "0.7745±0.0057"
+      ],
+      [
+        "SDNN-PPI",
+        "0.8357±0.0049",
+        "0.8768±0.0198",
+        "0.7946±0.0110",
+        "0.8103±0.0049",
+        "0.6739±0.0118",
+        "0.8421±0.0068"
+      ],
+      [
+        "CaPPI",
+        "0.8920±0.0017",
+        "0.9231±0.0054",
+        "0.8609±0.0084",
+        "0.8691±0.0061",
+        "0.7856±0.0029",
+        "0.8953±0.0011"
+      ]
+    ],
+    "rows": [
+      {
+        "method_raw": "PASNVGA",
+        "row_role": "published_method_historical_baseline_result",
+        "reference_number_in_original_manuscript": 64,
+        "row_index_zero_based_including_header": 1,
+        "row_index_one_based_including_header": 2,
+        "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]",
+        "extracted_text_line_1based": 284,
+        "raw_cells": [
+          "PASNVGA",
+          "0.7736±0.0025",
+          "0.7779±0.0295",
+          "0.7693±0.0327",
+          "0.7722±0.0179",
+          "0.5481±0.0044",
+          "0.7745±0.0057"
+        ],
+        "cells": [
+          {
+            "column_index_zero_based": 0,
+            "column_header_raw": "Model",
+            "raw_text": "PASNVGA",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[1]"
+          },
+          {
+            "column_index_zero_based": 1,
+            "column_header_raw": "ACC",
+            "raw_text": "0.7736±0.0025",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[2]",
+            "mean_text": "0.7736",
+            "sd_text": "0.0025",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 2,
+            "column_header_raw": "Sen",
+            "raw_text": "0.7779±0.0295",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[3]",
+            "mean_text": "0.7779",
+            "sd_text": "0.0295",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 3,
+            "column_header_raw": "Spec",
+            "raw_text": "0.7693±0.0327",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[4]",
+            "mean_text": "0.7693",
+            "sd_text": "0.0327",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 4,
+            "column_header_raw": "Prec",
+            "raw_text": "0.7722±0.0179",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[5]",
+            "mean_text": "0.7722",
+            "sd_text": "0.0179",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 5,
+            "column_header_raw": "MCC",
+            "raw_text": "0.5481±0.0044",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[6]",
+            "mean_text": "0.5481",
+            "sd_text": "0.0044",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 6,
+            "column_header_raw": "F1-Score",
+            "raw_text": "0.7745±0.0057",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[7]",
+            "mean_text": "0.7745",
+            "sd_text": "0.0057",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          }
+        ],
+        "rerun_in_current_revision": false
+      },
+      {
+        "method_raw": "SDNN-PPI",
+        "row_role": "published_method_historical_baseline_result",
+        "reference_number_in_original_manuscript": 65,
+        "row_index_zero_based_including_header": 2,
+        "row_index_one_based_including_header": 3,
+        "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]",
+        "extracted_text_line_1based": 285,
+        "raw_cells": [
+          "SDNN-PPI",
+          "0.8357±0.0049",
+          "0.8768±0.0198",
+          "0.7946±0.0110",
+          "0.8103±0.0049",
+          "0.6739±0.0118",
+          "0.8421±0.0068"
+        ],
+        "cells": [
+          {
+            "column_index_zero_based": 0,
+            "column_header_raw": "Model",
+            "raw_text": "SDNN-PPI",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[1]"
+          },
+          {
+            "column_index_zero_based": 1,
+            "column_header_raw": "ACC",
+            "raw_text": "0.8357±0.0049",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[2]",
+            "mean_text": "0.8357",
+            "sd_text": "0.0049",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 2,
+            "column_header_raw": "Sen",
+            "raw_text": "0.8768±0.0198",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[3]",
+            "mean_text": "0.8768",
+            "sd_text": "0.0198",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 3,
+            "column_header_raw": "Spec",
+            "raw_text": "0.7946±0.0110",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[4]",
+            "mean_text": "0.7946",
+            "sd_text": "0.0110",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 4,
+            "column_header_raw": "Prec",
+            "raw_text": "0.8103±0.0049",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[5]",
+            "mean_text": "0.8103",
+            "sd_text": "0.0049",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 5,
+            "column_header_raw": "MCC",
+            "raw_text": "0.6739±0.0118",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[6]",
+            "mean_text": "0.6739",
+            "sd_text": "0.0118",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 6,
+            "column_header_raw": "F1-Score",
+            "raw_text": "0.8421±0.0068",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[7]",
+            "mean_text": "0.8421",
+            "sd_text": "0.0068",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          }
+        ],
+        "rerun_in_current_revision": false
+      },
+      {
+        "method_raw": "CaPPI",
+        "row_role": "historical_CaPPI_reference_row",
+        "reference_number_in_original_manuscript": null,
+        "row_index_zero_based_including_header": 3,
+        "row_index_one_based_including_header": 4,
+        "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]",
+        "extracted_text_line_1based": 286,
+        "raw_cells": [
+          "CaPPI",
+          "0.8920±0.0017",
+          "0.9231±0.0054",
+          "0.8609±0.0084",
+          "0.8691±0.0061",
+          "0.7856±0.0029",
+          "0.8953±0.0011"
+        ],
+        "cells": [
+          {
+            "column_index_zero_based": 0,
+            "column_header_raw": "Model",
+            "raw_text": "CaPPI",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[1]"
+          },
+          {
+            "column_index_zero_based": 1,
+            "column_header_raw": "ACC",
+            "raw_text": "0.8920±0.0017",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[2]",
+            "mean_text": "0.8920",
+            "sd_text": "0.0017",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 2,
+            "column_header_raw": "Sen",
+            "raw_text": "0.9231±0.0054",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[3]",
+            "mean_text": "0.9231",
+            "sd_text": "0.0054",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 3,
+            "column_header_raw": "Spec",
+            "raw_text": "0.8609±0.0084",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[4]",
+            "mean_text": "0.8609",
+            "sd_text": "0.0084",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 4,
+            "column_header_raw": "Prec",
+            "raw_text": "0.8691±0.0061",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[5]",
+            "mean_text": "0.8691",
+            "sd_text": "0.0061",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 5,
+            "column_header_raw": "MCC",
+            "raw_text": "0.7856±0.0029",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[6]",
+            "mean_text": "0.7856",
+            "sd_text": "0.0029",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          },
+          {
+            "column_index_zero_based": 6,
+            "column_header_raw": "F1-Score",
+            "raw_text": "0.8953±0.0011",
+            "docx_xml_xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[7]",
+            "mean_text": "0.8953",
+            "sd_text": "0.0011",
+            "separator_raw": "±",
+            "interpretation_basis": "Original paragraph P87 states mean and standard deviation across five held-out test folds; underlying fold values were not extracted or verified."
+          }
+        ],
+        "rerun_in_current_revision": false
+      }
+    ],
+    "metrics_absent_from_table": [
+      "AUC",
+      "AUPR"
+    ],
+    "cell_string_policy": "Original visible cell strings are preserved without numeric conversion, rounding, spacing normalization or correction. mean_text/sd_text are substring copies, not re-estimates."
+  },
+  "supplementary_narrative_ranking_metrics": [
+    {
+      "method_raw": "PASNVGA",
+      "row_role": "published_method_historical_baseline_result",
+      "AUC_raw": "0.8547",
+      "AUPR_raw": "0.8287",
+      "AUC_SD_raw": null,
+      "AUPR_SD_raw": null,
+      "source_paragraph_locator": "P122",
+      "extracted_text_line_1based": 123,
+      "source_kind": "narrative discussion of Figure 7, not Table 3 cells",
+      "metric_names_preserved": true,
+      "uncertainty": "No SD is stated for these values in P122; no SD has been filled in.",
+      "rerun_in_current_revision": false
+    },
+    {
+      "method_raw": "SDNN-PPI",
+      "row_role": "published_method_historical_baseline_result",
+      "AUC_raw": "0.9148",
+      "AUPR_raw": "0.9038",
+      "AUC_SD_raw": null,
+      "AUPR_SD_raw": null,
+      "source_paragraph_locator": "P122",
+      "extracted_text_line_1based": 123,
+      "source_kind": "narrative discussion of Figure 7, not Table 3 cells",
+      "metric_names_preserved": true,
+      "uncertainty": "No SD is stated for these values in P122; no SD has been filled in.",
+      "rerun_in_current_revision": false
+    },
+    {
+      "method_raw": "CaPPI",
+      "row_role": "historical_CaPPI_reference_row",
+      "AUC_raw": "0.9513",
+      "AUPR_raw": "0.9376",
+      "AUC_SD_raw": null,
+      "AUPR_SD_raw": null,
+      "source_paragraph_locator": "P122",
+      "extracted_text_line_1based": 123,
+      "source_kind": "narrative discussion of Figure 7, not Table 3 cells",
+      "metric_names_preserved": true,
+      "uncertainty": "No SD is stated for these values in P122; no SD has been filled in.",
+      "rerun_in_current_revision": false
+    }
+  ],
+  "protocol_verbatim_evidence": [
+    {
+      "paragraph_index_zero_based": 24,
+      "paragraph_locator": "P24",
+      "docx_xml_xpath": "/w:document/w:body/w:p[25]",
+      "extracted_text_line_1based": 25,
+      "verbatim_text": "In this study, the PPI dataset was obtained from the STRING database (https://cn.string-db.org/) 49. We first collected 582 proteins that had previously been reported to be associated with the initiation or progression of hepatocellular carcinoma (HCC). All STRING-recorded interaction pairs among these proteins were subsequently retrieved. After treating the interactions as undirected and removing self-interactions and duplicate pairs, 23,707 unique PPIs were retained as positive samples.  Because experimentally confirmed non-interacting protein pairs are rarely available, we constructed two alternative negative datasets to evaluate the influence of negative-sampling strategy. For the primary experiments, 23,707 negative pairs were randomly sampled from protein pairs that were not present in the positive interaction network. Candidate negative pairs were restricted to the same set of 582 HCC-associated proteins, while self-interactions, duplicate pairs, and STRING-recorded positive interactions were excluded. This produced a balanced dataset with a positive-to-negative ratio of 1:1 50. To examine degree-related sampling bias, we additionally constructed a degree-matched negative dataset. Specifically, 23,707 putative negative pairs were sampled while approximately matching the endpoint-degree distribution of the positive interaction pairs. Self-interactions, duplicate pairs, and all recorded positive interactions were excluded. The same positive samples and stratified five-fold partitioning protocol were used for both negative-sampling settings. The randomly sampled negative dataset was used for the primary evaluation of CaPPI, whereas the degree-matched dataset was used as an additional robustness analysis 51,52."
+    },
+    {
+      "paragraph_index_zero_based": 82,
+      "paragraph_locator": "P82",
+      "docx_xml_xpath": "/w:document/w:body/w:p[83]",
+      "extracted_text_line_1based": 83,
+      "verbatim_text": "To evaluate the predictive performance of the proposed approach, we compared CaPPI with several commonly used machine-learning algorithms, including Adaptive Boosting (AdaBoost), K-Nearest Neighbors (KNN), Logistic Regression (LR), Random Forest (RF), Support Vector Machine (SVM), and Extreme Gradient Boosting (XGBoost) 63. In addition, PASNVGA 64 and SDNN-PPI 65 were included as representative deep-learning baselines. PASNVGA integrates protein sequence descriptors and network-derived features through a variational graph autoencoder, whereas SDNN-PPI employs a deep neural network to learn discriminative representations for PPI prediction. All baseline models were implemented using their official open-source code or libraries and evaluated using the same dataset of interaction pairs among HCC-associated proteins and predefined data partitions as CaPPI. Identical evaluation metrics and experimental settings were applied wherever applicable to ensure reproducibility and fair comparison."
+    },
+    {
+      "paragraph_index_zero_based": 86,
+      "paragraph_locator": "P86",
+      "docx_xml_xpath": "/w:document/w:body/w:p[87]",
+      "extracted_text_line_1based": 87,
+      "verbatim_text": "To evaluate the predictive performance of CaPPI, we employed stratified five-fold cross-validation at the interaction-pair level. The positive and putative negative interaction pairs were divided into five approximately equal and mutually exclusive outer folds while preserving the class distribution. In each iteration, one outer fold, corresponding to approximately 20% of the complete dataset, was reserved exclusively for testing. The remaining four folds were further divided using a stratified internal split, with 87.5% used for training and 12.5% used for validation. This resulted in approximate training, validation, and test proportions of 70%, 10%, and 20%, respectively. The training subset was used to optimize the downstream MLP interaction classifier, whereas the validation subset was used for learning-rate scheduling and model selection. The outer test fold was not used during model training and was evaluated only after training had been completed. For topology representation learning, the DRW graph was independently reconstructed in each outer iteration using only the positive interaction edges assigned to the training subset, and the corresponding topology representations were recomputed from this training-edge graph. Positive interactions in the validation and test subsets, together with all putative negative pairs, were excluded from graph construction."
+    },
+    {
+      "paragraph_index_zero_based": 87,
+      "paragraph_locator": "P87",
+      "docx_xml_xpath": "/w:document/w:body/w:p[88]",
+      "extracted_text_line_1based": 88,
+      "verbatim_text": "This procedure was repeated until each outer fold had served as the test set exactly once. Performance metrics were calculated separately on the five held-out test folds and are reported as the mean and standard deviation. Because partitioning was performed at the interaction-pair level, individual proteins could occur in different subsets, whereas identical protein pairs remained mutually exclusive. Therefore, this evaluation assesses previously unobserved interaction pairs among proteins represented within the predefined HCC-associated protein set rather than generalization to entirely unseen proteins:"
+    },
+    {
+      "paragraph_index_zero_based": 121,
+      "paragraph_locator": "P121",
+      "docx_xml_xpath": "/w:document/w:body/w:p[122]",
+      "extracted_text_line_1based": 122,
+      "verbatim_text": "To comprehensively evaluate the predictive performance of CaPPI, we compared it with six conventional machine-learning classifiers—AdaBoost, KNN, logistic regression (LR), random forest (RF), support vector machine (SVM), and XGBoost, as well as two representative deep-learning-based PPI prediction methods, PASNVGA 64 and SDNN-PPI 65. All methods were evaluated using the same dataset to ensure a fair comparison."
+    },
+    {
+      "paragraph_index_zero_based": 122,
+      "paragraph_locator": "P122",
+      "docx_xml_xpath": "/w:document/w:body/w:p[123]",
+      "extracted_text_line_1based": 123,
+      "verbatim_text": "As shown in Figure 6, CaPPI consistently outperformed all conventional machine-learning classifiers in terms of both AUC and AUPR, achieving values of 0.9513 and 0.9376, respectively. Among the conventional classifiers, XGBoost showed the strongest performance, with an AUC of 0.8515 and an AUPR of 0.8660. Compared with XGBoost, CaPPI achieved absolute improvements of 0.0998 in AUC and 0.0716 in AUPR. LR produced the lowest AUC and AUPR values, at 0.7515 and 0.7601, respectively, corresponding to improvements of 0.1998 and 0.1775 with CaPPI. The relatively limited performance of LR may be attributed to its linear decision boundary, which restricts its ability to characterize the complex nonlinear relationships underlying PPI formation. The comparison with the deep-learning baselines further demonstrated the superior predictive ability of CaPPI. As illustrated in Figure 7, CaPPI achieved an AUC of 0.9513 and an AUPR of 0.9376, exceeding the corresponding values of 0.9148 and 0.9038 obtained by SDNN-PPI. PASNVGA achieved an AUC of 0.8547 and an AUPR of 0.8287. Thus, compared with the strongest deep-learning baseline, SDNN-PPI, CaPPI improved AUC and AUPR by 0.0365 and 0.0338, respectively."
+    },
+    {
+      "paragraph_index_zero_based": 123,
+      "paragraph_locator": "P123",
+      "docx_xml_xpath": "/w:document/w:body/w:p[124]",
+      "extracted_text_line_1based": 124,
+      "verbatim_text": "The threshold-dependent results presented in Table 3 were consistent with the AUC and AUPR comparisons. Compared with SDNN-PPI, CaPPI increased ACC from 0.8357 to 0.8920 and F1-score from 0.8421 to 0.8953. Its MCC increased from 0.6739 to 0.7856, indicating a more reliable and balanced classification performance. CaPPI also substantially outperformed PASNVGA, which achieved an ACC of 0.7736, an MCC of 0.5481, and an F1-score of 0.7745. Moreover, the concurrent improvements in sensitivity and specificity indicate that CaPPI enhanced the identification of interacting protein pairs while maintaining effective discrimination of non-interacting pairs. Although ensemble methods such as RF and XGBoost can model nonlinear feature interactions, they generally operate on fixed feature vectors and capture relationships between sequence- and topology-derived features only implicitly through successive decision-tree splits. Deep-learning-based methods can learn more complex representations, but their feature-integration mechanisms may not explicitly align heterogeneous biological information at the sample level. Because sequence and network representations differ in both their statistical distributions and biological meanings, simple concatenation or indirect integration may not adequately capture interaction signals jointly distributed across the two feature spaces."
+    },
+    {
+      "paragraph_index_zero_based": 127,
+      "paragraph_locator": "P127",
+      "docx_xml_xpath": "/w:document/w:body/w:p[128]",
+      "extracted_text_line_1based": 128,
+      "verbatim_text": "Table 3. Performance comparison of CaPPI and some existing models"
+    }
+  ],
+  "original_reference_entries": [
+    {
+      "reference_number_in_original_manuscript": 63,
+      "paragraph_index_zero_based": 230,
+      "paragraph_locator": "P230",
+      "docx_xml_xpath": "/w:document/w:body/w:p[231]",
+      "extracted_text_line_1based": 231,
+      "verbatim_text": "63\tSarkar, D. & Saha, S. Machine-learning techniques for the prediction of protein–protein interactions. Journal of biosciences 44, 104, doi:https://doi.org/10.1007/s12038-019-9909-z (2019).",
+      "used_for": [
+        "conventional machine-learning algorithms collectively; not a row-specific PASNVGA/SDNN reference"
+      ]
+    },
+    {
+      "reference_number_in_original_manuscript": 64,
+      "paragraph_index_zero_based": 231,
+      "paragraph_locator": "P231",
+      "docx_xml_xpath": "/w:document/w:body/w:p[232]",
+      "extracted_text_line_1based": 232,
+      "verbatim_text": "64\tLuo, X., Wang, L., Hu, P. & Hu, L. Predicting protein-protein interactions using sequence and network information via variational graph autoencoder. IEEE/ACM Transactions on Computational Biology and Bioinformatics 20, 3182–3194, doi:https://doi.org/10.1109/TCBB.2023.3273567 (2023).",
+      "used_for": [
+        "PASNVGA"
+      ]
+    },
+    {
+      "reference_number_in_original_manuscript": 65,
+      "paragraph_index_zero_based": 232,
+      "paragraph_locator": "P232",
+      "docx_xml_xpath": "/w:document/w:body/w:p[233]",
+      "extracted_text_line_1based": 233,
+      "verbatim_text": "65\tLi, X. et al. SDNN-PPI: self-attention with deep neural network effect on protein-protein interaction prediction. BMC genomics 23, 474, doi:https://doi.org/10.1186/s12864-022-08687-2 (2022).",
+      "used_for": [
+        "SDNN-PPI"
+      ]
+    }
+  ],
+  "provenance_assessment": {
+    "answer": "Yes. The original manuscript explicitly presents the baselines as implemented and evaluated by the authors, not as performance values copied from the cited method papers.",
+    "evidence_paragraph": "P82",
+    "key_sentence_verbatim": "All baseline models were implemented using their official open-source code or libraries and evaluated using the same dataset of interaction pairs among HCC-associated proteins and predefined data partitions as CaPPI.",
+    "additional_same_dataset_claim_paragraph": "P121",
+    "qualification": "This conclusion describes what the original manuscript claims. This extraction does not verify archived training logs, checkpoints, exact old split memberships, or whether the claimed old protocol was actually followed.",
+    "terminology_for_reuse": "Historical results of published baseline methods reported in the original manuscript; not results rerun in the present revision and not automatically numbers quoted from the original method publications.",
+    "historical_CaPPI_policy": "The Table 3 CaPPI row is retained as the original comparison context and is explicitly distinct from the revised CaPPI results.",
+    "cross_protocol_comparability": "Exact old fold membership and compatibility with the revised immutable folds are not established by the manuscript prose. Do not relabel these values as new-fold matched results."
+  },
+  "extraction_boundaries": [
+    "Read-only extraction from the specified original manuscript and its existing text extraction.",
+    "No baseline training, no external-paper retrieval, no figure digitization, no inferred SD or missing values.",
+    "The main Table 3 contains PASNVGA and SDNN-PPI only as published-method baselines; CaPPI is the original proposed-method row.",
+    "Other conventional classifiers mentioned around Figure 6 are not fabricated as extra Table 3 rows.",
+    "The original name AUPR is preserved; the extraction does not certify equivalence to revised Average Precision or trapezoidal PR area."
+  ]
+}

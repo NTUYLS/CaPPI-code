@@ -1,0 +1,40 @@
+{
+  "scope": "Synthetic contract checks; no real-data training",
+  "result": "passed",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds": 18.438,
+  "python": "D:/Anaconda/envs/arg_gpu/python.exe",
+  "torch": "2.11.0+cu128",
+  "cuda_available": true,
+  "bounded_update_device": "cuda",
+  "model_path": "D:/1.肝癌/CaPPI_revised/cappi_missing_topology.py",
+  "model_sha256": "842730d6602b764a90dad0c1d3382b890ae4e173687eacfeb66e71069ca0fabb",
+  "tests_path": "D:/1.肝癌/CaPPI_revised/tests/test_missing_topology.py",
+  "tests_sha256": "ae358a7e54a7a7c74a6c8fa90164cd01fff1007e2c3b5db773a3ab4e6c591cad",
+  "original_core_path": "D:/1.肝癌/CaPPI_revised/cappi_model.py",
+  "original_core_sha256": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+  "no_core_files_modified": true,
+  "policies": [
+    "original",
+    "bypass"
+  ],
+  "checks": [
+    "identical initialization state_dict and RNG",
+    "original exact output and RNG in every fusion mode",
+    "bypass adds no parameters",
+    "all-present output and RNG exact in train/eval",
+    "mixed-mask available nodes exact in train/eval",
+    "missing nodes equal sequence encoder output",
+    "masked NaN and large fusion/projection biases excluded",
+    "missing topology input gradient zero",
+    "all-missing shared pair head; zero fusion/topology gradient",
+    "finite CUDA backward and one optimizer update",
+    "p0/p1 endpoint masks without RNG consumption",
+    "reproducible nodewise label-independent topology dropout",
+    "probability, policy, config and input validation"
+  ],
+  "latent_bias_audit": "Missing topology is masked before/after projection; final torch.where selects sequence encoder output, excluding every projection/fusion bias for unavailable nodes. Full fusion batch preserves original dropout RNG; its missing-node gradient contribution is zero.",
+  "evidence": "Observed unittest output: Ran 11 tests in 18.438s; OK; process exit code 0."
+}

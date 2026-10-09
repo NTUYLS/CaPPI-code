@@ -1,0 +1,81 @@
+{
+  "schema": "cappi-missing-topology-run-v1",
+  "core_code_sha256": "76593480cfb156c8817d6bd12b522f09b50f4219c28720af2f2e93d89f381e91",
+  "repair_code_sha256": "5e34ff32d7991230c3a2a013cb20335b3bb8fa493741c7fbd6387363179f967c",
+  "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+  "settings": {
+    "family": "residual",
+    "learning_rate": 0.001,
+    "topology_dropout": 0,
+    "missing_policy": "original"
+  },
+  "model": {
+    "topo_dim": 64,
+    "seq_dim": 256,
+    "filters": 64,
+    "kernel": 7,
+    "max_length": 1500,
+    "fusion": "residual",
+    "dropout": 0.3,
+    "pair_dropout": [
+      0.4,
+      0.4,
+      0.1
+    ]
+  },
+  "graph": {
+    "method": "drw",
+    "dim": 64,
+    "walks_per_node": 10,
+    "walk_length": 20,
+    "window": 5,
+    "epochs": 5,
+    "negative_samples": 5,
+    "p": 1.0,
+    "q": 0.5
+  },
+  "prepared": "D:\\1.肝癌\\CaPPI_revised\\prepared",
+  "split_hash": "6177d12a1e8030d2927a0a3234b3baadb13264cf41473ae37d31be973d972a07",
+  "protocol": "protein",
+  "negative_sampling": "random",
+  "fold": 2,
+  "model_seed": 20261932,
+  "graph_seed": 20260932,
+  "mask_seed": 20269851,
+  "max_epochs": 300,
+  "patience": 20,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "pair_chunk": 4096,
+  "gradient_clip_norm": 5.0,
+  "optimizer": "AdamW",
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "mode": "min",
+    "factor": 0.5,
+    "patience": 10
+  },
+  "selection": "minimum validation BCE with improvement > 1e-6",
+  "threshold": 0.5,
+  "epoch_definition": "one encoder training pass and one loss-weighted full-training-set optimizer update",
+  "masking": "node-wise independent Bernoulli retention on originally present topology only, independent of labels; separate torch.Generator",
+  "evaluation_mask": "original availability; no stochastic evaluation masking",
+  "topology_training": "frozen SGNS on training-positive graph; centering/scaling uses present training nodes only",
+  "test_labels_or_scores_loaded": false,
+  "evaluation_partition": "validation",
+  "device": "cuda",
+  "environment": {
+    "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "D:\\Anaconda\\envs\\arg_gpu\\python.exe",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "torch": "2.11.0+cu128",
+    "numpy": "1.26.4",
+    "sklearn": "1.3.2",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "torch_threads": 4,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false
+  },
+  "run_signature": "f5f4b6bbc8b02c4de0f03074c5396062593155897f3abee18dc4d843ad708b29"
+}

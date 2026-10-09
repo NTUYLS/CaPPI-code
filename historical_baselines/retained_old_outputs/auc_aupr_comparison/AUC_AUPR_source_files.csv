@@ -1,0 +1,16 @@
+﻿model,run_index,run,n_samples,source_file
+PASNVGA,1,run_1_seed_42,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\pasnvga_hcc_outputs\run_1_seed_42\test_predictions.csv
+PASNVGA,2,run_2_seed_52,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\pasnvga_hcc_outputs\run_2_seed_52\test_predictions.csv
+PASNVGA,3,run_3_seed_62,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\pasnvga_hcc_outputs\run_3_seed_62\test_predictions.csv
+PASNVGA,4,run_4_seed_72,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\pasnvga_hcc_outputs\run_4_seed_72\test_predictions.csv
+PASNVGA,5,run_5_seed_82,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\pasnvga_hcc_outputs\run_5_seed_82\test_predictions.csv
+SDNN-PPI,1,run_1_seed_42,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\sdnn_ppi_hcc_outputs\run_1_seed_42\test_predictions.csv
+SDNN-PPI,2,run_2_seed_52,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\sdnn_ppi_hcc_outputs\run_2_seed_52\test_predictions.csv
+SDNN-PPI,3,run_3_seed_62,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\sdnn_ppi_hcc_outputs\run_3_seed_62\test_predictions.csv
+SDNN-PPI,4,run_4_seed_72,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\sdnn_ppi_hcc_outputs\run_4_seed_72\test_predictions.csv
+SDNN-PPI,5,run_5_seed_82,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\sdnn_ppi_hcc_outputs\run_5_seed_82\test_predictions.csv
+CaPPI,1,run_1,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\Cappi\肝癌_RealAndPredictionProbA+B0.csv
+CaPPI,2,run_2,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\Cappi\肝癌_RealAndPredictionProbA+B1.csv
+CaPPI,3,run_3,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\Cappi\肝癌_RealAndPredictionProbA+B2.csv
+CaPPI,4,run_4,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\Cappi\肝癌_RealAndPredictionProbA+B3.csv
+CaPPI,5,run_5,9484,C:\Users\Jie Pan\Desktop\肝癌\modelcompair\Cappi\肝癌_RealAndPredictionProbA+B4.csv

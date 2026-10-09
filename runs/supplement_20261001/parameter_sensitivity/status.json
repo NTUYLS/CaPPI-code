@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "completed_folds": 140,
+  "expected_folds": 140,
+  "new_training_completed": 135,
+  "baseline_reuse_completed": 5,
+  "campaign_signature": "8ccb5d6ad27d21eb1dfe5bb1f7fb6e7af73f5b2f6a9647b9fdc0a7546b76ac09",
+  "test_evaluated": false
+}

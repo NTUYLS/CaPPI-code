@@ -1,0 +1,781 @@
+{
+  "audited_manuscript": "CaPPI-code/SR投稿/CaPPI Manuscript_8.29.docx",
+  "sha256": {
+    "1427984.protein.sequences.v12.0.fa": "31b537d113931630a2200a7b2f7b5744dc7f90aa4724674f7bc688c539d0fcb2",
+    "1427984.protein.links.v12.0.txt": "899c7ff25c962b7c9765d36dd2e5206cd7136e8864280f6e3e84b9c5061dacc2",
+    "肝癌 sequence.csv": "bd8ee069993c3dcd74a25da6c36f61fd7f53b4cb60582e4e9d91983037425cba",
+    "肝癌 interact.csv": "db52ed0c2f8ba2ab4462fdab2f1f4a730f5bde7c8fbc3ac88b7792c4efbf6678",
+    "肝癌 pair.csv": "a9eaf0ac6d2ea05dbc42afa61b4d2e6e4d64140c4ffda39e3bf59c4083572954",
+    "肝癌pair不重复.csv": "55f9130e8560dc73fcc4ce6e97daeb496d3d2568b403fcd3836d9d29adeeaa6f",
+    "CaPPI-code\\SR投稿\\CaPPI Manuscript_8.29.docx": "8d8dc91fd2ee80d01acd0acf9b2f95a38e40685f324ba0bceae0f7d72690968e"
+  },
+  "stats": {
+    "fasta_count": 582,
+    "fasta_taxids": {
+      "1427984": 582
+    },
+    "fasta_unique_sequences": 582,
+    "source_links_rows": 47414,
+    "source_links_unique_ordered": 47414,
+    "source_links_unique_unordered": 23707,
+    "source_link_nodes": 579,
+    "source_scores_min_max": [
+      150,
+      999
+    ],
+    "source_self_edges": 0,
+    "source_threshold_counts": {
+      "150": {
+        "ordered_ge": 47414,
+        "unordered_ge": 23707,
+        "unordered_gt": 23530
+      },
+      "400": {
+        "ordered_ge": 15144,
+        "unordered_ge": 7572,
+        "unordered_gt": 7550
+      },
+      "700": {
+        "ordered_ge": 7550,
+        "unordered_ge": 3775,
+        "unordered_gt": 3771
+      },
+      "900": {
+        "ordered_ge": 4448,
+        "unordered_ge": 2224,
+        "unordered_gt": 2203
+      }
+    }
+  },
+  "csv_stats": {
+    "肝癌 sequence.csv": {
+      "rows": 582,
+      "header": [
+        "name",
+        "sequence"
+      ],
+      "exact_fasta_sequence_matches": 582,
+      "numeric_id_matches_fasta_order": 582
+    },
+    "肝癌 pair.csv": {
+      "rows": 47414,
+      "header": [
+        "node1",
+        "node2"
+      ],
+      "unique_unordered": 23707,
+      "exact_source_ordered_matches": 47414,
+      "same_order_as_source": true
+    },
+    "肝癌 interact.csv": {
+      "rows": 23707,
+      "header": [
+        "node1",
+        "node2"
+      ],
+      "mapped_source_edge_matches": 23707,
+      "mapped_unique_unordered": 23707
+    },
+    "肝癌pair不重复.csv": {
+      "rows": 23707,
+      "header": [
+        "node1",
+        "",
+        "node2",
+        "",
+        "",
+        "",
+        "name",
+        "",
+        "sequence"
+      ],
+      "pairs": 23707,
+      "unique_unordered": 23707,
+      "source_matches": 23707,
+      "source_threshold_ge700": 3775,
+      "source_threshold_gt700": 3771,
+      "mapping_rows": 582,
+      "mapping_exact_fasta_matches": 582
+    }
+  },
+  "alphafold": [
+    {
+      "path": "分子对接\\第一个\\fold_00001\\fold_00001_job_request.json",
+      "name": "00001",
+      "num_entities": 1,
+      "sequences": [
+        {
+          "length": 455,
+          "count": 1,
+          "fasta_exact_matches": [
+            "1427984.X271_00001"
+          ]
+        }
+      ],
+      "confidences": [
+        {
+          "file": "fold_00001_summary_confidences_0.json",
+          "ptm": 0.6,
+          "iptm": null,
+          "ranking_score": 0.61,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_00001_summary_confidences_1.json",
+          "ptm": 0.6,
+          "iptm": null,
+          "ranking_score": 0.6,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_00001_summary_confidences_2.json",
+          "ptm": 0.6,
+          "iptm": null,
+          "ranking_score": 0.6,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_00001_summary_confidences_3.json",
+          "ptm": 0.6,
+          "iptm": null,
+          "ranking_score": 0.6,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_00001_summary_confidences_4.json",
+          "ptm": 0.6,
+          "iptm": null,
+          "ranking_score": 0.6,
+          "has_clash": 0.0
+        }
+      ]
+    },
+    {
+      "path": "分子对接\\第一个\\fold_445\\fold_445_job_request.json",
+      "name": "445",
+      "num_entities": 1,
+      "sequences": [
+        {
+          "length": 350,
+          "count": 1,
+          "fasta_exact_matches": [
+            "1427984.X271_00463"
+          ]
+        }
+      ],
+      "confidences": [
+        {
+          "file": "fold_445_summary_confidences_0.json",
+          "ptm": 0.94,
+          "iptm": null,
+          "ranking_score": 0.94,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_445_summary_confidences_1.json",
+          "ptm": 0.94,
+          "iptm": null,
+          "ranking_score": 0.94,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_445_summary_confidences_2.json",
+          "ptm": 0.94,
+          "iptm": null,
+          "ranking_score": 0.94,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_445_summary_confidences_3.json",
+          "ptm": 0.94,
+          "iptm": null,
+          "ranking_score": 0.94,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_445_summary_confidences_4.json",
+          "ptm": 0.94,
+          "iptm": null,
+          "ranking_score": 0.94,
+          "has_clash": 0.0
+        }
+      ]
+    },
+    {
+      "path": "分子对接\\第二个\\fold_15\\fold_15_job_request.json",
+      "name": "15",
+      "num_entities": 1,
+      "sequences": [
+        {
+          "length": 718,
+          "count": 1,
+          "fasta_exact_matches": [
+            "1427984.X271_00015"
+          ]
+        }
+      ],
+      "confidences": [
+        {
+          "file": "fold_15_summary_confidences_0.json",
+          "ptm": 0.69,
+          "iptm": null,
+          "ranking_score": 0.78,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_15_summary_confidences_1.json",
+          "ptm": 0.69,
+          "iptm": null,
+          "ranking_score": 0.78,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_15_summary_confidences_2.json",
+          "ptm": 0.69,
+          "iptm": null,
+          "ranking_score": 0.78,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_15_summary_confidences_3.json",
+          "ptm": 0.69,
+          "iptm": null,
+          "ranking_score": 0.77,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_15_summary_confidences_4.json",
+          "ptm": 0.68,
+          "iptm": null,
+          "ranking_score": 0.77,
+          "has_clash": 0.0
+        }
+      ]
+    },
+    {
+      "path": "分子对接\\第二个\\fold_67\\fold_67_job_request.json",
+      "name": "67",
+      "num_entities": 1,
+      "sequences": [
+        {
+          "length": 421,
+          "count": 1,
+          "fasta_exact_matches": [
+            "1427984.X271_00076"
+          ]
+        }
+      ],
+      "confidences": [
+        {
+          "file": "fold_67_summary_confidences_0.json",
+          "ptm": 0.86,
+          "iptm": null,
+          "ranking_score": 0.86,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_67_summary_confidences_1.json",
+          "ptm": 0.86,
+          "iptm": null,
+          "ranking_score": 0.86,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_67_summary_confidences_2.json",
+          "ptm": 0.86,
+          "iptm": null,
+          "ranking_score": 0.86,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_67_summary_confidences_3.json",
+          "ptm": 0.85,
+          "iptm": null,
+          "ranking_score": 0.85,
+          "has_clash": 0.0
+        },
+        {
+          "file": "fold_67_summary_confidences_4.json",
+          "ptm": 0.85,
+          "iptm": null,
+          "ranking_score": 0.85,
+          "has_clash": 0.0
+        }
+      ]
+    }
+  ],
+  "docking_input_pdbs": [
+    {
+      "path": "分子对接\\第一个\\GRAMMresults-112718-No1\\ligand.pdb",
+      "chains": [
+        {
+          "chain": "C",
+          "length": 455,
+          "fasta_exact_matches": [
+            "1427984.X271_00001"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "分子对接\\第一个\\GRAMMresults-112718-No1\\receptor.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 350,
+          "fasta_exact_matches": [
+            "1427984.X271_00463"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "分子对接\\第二个\\GRAMMresults-112719-No2\\ligand.pdb",
+      "chains": [
+        {
+          "chain": "C",
+          "length": 421,
+          "fasta_exact_matches": [
+            "1427984.X271_00076"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "分子对接\\第二个\\GRAMMresults-112719-No2\\receptor.pdb",
+      "chains": [
+        {
+          "chain": "A",
+          "length": 718,
+          "fasta_exact_matches": [
+            "1427984.X271_00015"
+          ]
+        }
+      ]
+    }
+  ],
+  "case_study_summary": {
+    "1427984.X271_00001": {
+      "paper_confirmed": 19,
+      "literal_ID_source_edges": 2,
+      "row_mapped_ID_source_edges": 19,
+      "row_mapped_source_ge700": 0,
+      "source_score_range_after_row_mapping": [
+        150,
+        380
+      ]
+    },
+    "1427984.X271_00015": {
+      "paper_confirmed": 19,
+      "literal_ID_source_edges": 3,
+      "row_mapped_ID_source_edges": 19,
+      "row_mapped_source_ge700": 4,
+      "source_score_range_after_row_mapping": [
+        163,
+        817
+      ]
+    }
+  },
+  "case_study": [
+    {
+      "target": "1427984.X271_00001",
+      "rank": 1,
+      "partner": "1427984.X271_00478",
+      "paper_probability": 0.992952,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00500",
+      "remapped_source_score": 230
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 11,
+      "partner": "1427984.X271_00491",
+      "paper_probability": 0.962021,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00514",
+      "remapped_source_score": 255
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 2,
+      "partner": "1427984.X271_00455",
+      "paper_probability": 0.992328,
+      "paper_status": "Confirmed",
+      "source_score": 331,
+      "if_suffix_is_row_number": "1427984.X271_00473",
+      "remapped_source_score": 257
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 12,
+      "partner": "1427984.X271_00428",
+      "paper_probability": 0.956449,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00446",
+      "remapped_source_score": 212
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 3,
+      "partner": "1427984.X271_00580",
+      "paper_probability": 0.988289,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00618",
+      "remapped_source_score": 342
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 13,
+      "partner": "1427984.X271_00160",
+      "paper_probability": 0.925428,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00175",
+      "remapped_source_score": 151
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 4,
+      "partner": "1427984.X271_00358",
+      "paper_probability": 0.986148,
+      "paper_status": "Confirmed",
+      "source_score": 154,
+      "if_suffix_is_row_number": "1427984.X271_00375",
+      "remapped_source_score": 232
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 14,
+      "partner": "1427984.X271_00153",
+      "paper_probability": 0.924629,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00167",
+      "remapped_source_score": 218
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 5,
+      "partner": "1427984.X271_00389",
+      "paper_probability": 0.980814,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00407",
+      "remapped_source_score": 380
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 15,
+      "partner": "1427984.X271_00311",
+      "paper_probability": 0.923692,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00328",
+      "remapped_source_score": 150
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 6,
+      "partner": "1427984.X271_00532",
+      "paper_probability": 0.971652,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00555",
+      "remapped_source_score": 244
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 16,
+      "partner": "1427984.X271_00445",
+      "paper_probability": 0.919237,
+      "paper_status": "N/A",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00463",
+      "remapped_source_score": null
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 7,
+      "partner": "1427984.X271_00498",
+      "paper_probability": 0.968984,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00521",
+      "remapped_source_score": 257
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 17,
+      "partner": "1427984.X271_00161",
+      "paper_probability": 0.917254,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00176",
+      "remapped_source_score": 230
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 8,
+      "partner": "1427984.X271_00508",
+      "paper_probability": 0.968836,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00531",
+      "remapped_source_score": 281
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 18,
+      "partner": "1427984.X271_00466",
+      "paper_probability": 0.91034,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00484",
+      "remapped_source_score": 289
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 9,
+      "partner": "1427984.X271_00357",
+      "paper_probability": 0.967639,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00374",
+      "remapped_source_score": 232
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 19,
+      "partner": "1427984.X271_00393",
+      "paper_probability": 0.906858,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00411",
+      "remapped_source_score": 239
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 10,
+      "partner": "1427984.X271_00346",
+      "paper_probability": 0.965243,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00363",
+      "remapped_source_score": 183
+    },
+    {
+      "target": "1427984.X271_00001",
+      "rank": 20,
+      "partner": "1427984.X271_00107",
+      "paper_probability": 0.904163,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00121",
+      "remapped_source_score": 290
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 1,
+      "partner": "1427984.X271_00377",
+      "paper_probability": 0.999948,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00395",
+      "remapped_source_score": 774
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 11,
+      "partner": "1427984.X271_00335",
+      "paper_probability": 0.998303,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00352",
+      "remapped_source_score": 639
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 2,
+      "partner": "1427984.X271_00380",
+      "paper_probability": 0.999903,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00398",
+      "remapped_source_score": 765
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 12,
+      "partner": "1427984.X271_00247",
+      "paper_probability": 0.997489,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00264",
+      "remapped_source_score": 163
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 3,
+      "partner": "1427984.X271_00488",
+      "paper_probability": 0.999891,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00510",
+      "remapped_source_score": 223
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 13,
+      "partner": "1427984.X271_00141",
+      "paper_probability": 0.996914,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00155",
+      "remapped_source_score": 348
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 4,
+      "partner": "1427984.X271_00336",
+      "paper_probability": 0.999411,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00353",
+      "remapped_source_score": 492
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 14,
+      "partner": "1427984.X271_00203",
+      "paper_probability": 0.996801,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00217",
+      "remapped_source_score": 304
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 5,
+      "partner": "1427984.X271_00580",
+      "paper_probability": 0.99918,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00618",
+      "remapped_source_score": 349
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 15,
+      "partner": "1427984.X271_00182",
+      "paper_probability": 0.996565,
+      "paper_status": "Confirmed",
+      "source_score": 367,
+      "if_suffix_is_row_number": "1427984.X271_00197",
+      "remapped_source_score": 575
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 6,
+      "partner": "1427984.X271_00576",
+      "paper_probability": 0.99912,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00614",
+      "remapped_source_score": 321
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 16,
+      "partner": "1427984.X271_00326",
+      "paper_probability": 0.994859,
+      "paper_status": "Confirmed",
+      "source_score": 215,
+      "if_suffix_is_row_number": "1427984.X271_00343",
+      "remapped_source_score": 557
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 7,
+      "partner": "1427984.X271_00383",
+      "paper_probability": 0.998996,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00401",
+      "remapped_source_score": 762
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 17,
+      "partner": "1427984.X271_00154",
+      "paper_probability": 0.994446,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00168",
+      "remapped_source_score": 817
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 8,
+      "partner": "1427984.X271_00427",
+      "paper_probability": 0.998975,
+      "paper_status": "Confirmed",
+      "source_score": 205,
+      "if_suffix_is_row_number": "1427984.X271_00445",
+      "remapped_source_score": 194
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 18,
+      "partner": "1427984.X271_00109",
+      "paper_probability": 0.994198,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00123",
+      "remapped_source_score": 239
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 9,
+      "partner": "1427984.X271_00532",
+      "paper_probability": 0.998641,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00555",
+      "remapped_source_score": 190
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 19,
+      "partner": "1427984.X271_00282",
+      "paper_probability": 0.994115,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00299",
+      "remapped_source_score": 304
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 10,
+      "partner": "1427984.X271_00506",
+      "paper_probability": 0.998505,
+      "paper_status": "Confirmed",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00529",
+      "remapped_source_score": 222
+    },
+    {
+      "target": "1427984.X271_00015",
+      "rank": 20,
+      "partner": "1427984.X271_00067",
+      "paper_probability": 0.992372,
+      "paper_status": "N/A",
+      "source_score": null,
+      "if_suffix_is_row_number": "1427984.X271_00076",
+      "remapped_source_score": null
+    }
+  ]
+}

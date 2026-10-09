@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-09-30T09:26:47.089259+00:00",
+  "scope": "Bibliographic identity of two published historical methods only. No manuscript or reviewer text was sent to the search service. Historical benchmark values, reruns, code execution and comparability were not verified in this task.",
+  "references": [
+    {
+      "method": "PASNVGA",
+      "status": "verified",
+      "title": "Predicting Protein-Protein Interactions Using Sequence and Network Information via Variational Graph Autoencoder",
+      "authors": [
+        {
+          "family": "Luo",
+          "given": "Xin",
+          "initials": "X"
+        },
+        {
+          "family": "Wang",
+          "given": "Liwei",
+          "initials": "L"
+        },
+        {
+          "family": "Hu",
+          "given": "Pengwei",
+          "initials": "P"
+        },
+        {
+          "family": "Hu",
+          "given": "Lun",
+          "initials": "L"
+        }
+      ],
+      "journal": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+      "journal_abbreviation": "IEEE/ACM Trans. Comput. Biol. Bioinform.",
+      "year": 2023,
+      "volume": "20",
+      "issue": "5",
+      "pages": "3182–3194",
+      "article_number": null,
+      "publication_period": "2023 Sep-Oct",
+      "doi": "10.1109/TCBB.2023.3273567",
+      "doi_url": "https://doi.org/10.1109/TCBB.2023.3273567",
+      "pmid": "37155405",
+      "official_metadata_sources": [
+        {
+          "source": "PubMed / US National Library of Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37155405/",
+          "verified_fields": [
+            "title",
+            "author order and full names",
+            "journal",
+            "year",
+            "volume",
+            "issue",
+            "pages",
+            "DOI",
+            "PMID",
+            "method acronym PASNVGA in abstract"
+          ],
+          "retrieval": "The web search representation of the official PubMed record returned structured citation metadata and the abstract. Direct open returned no article body."
+        }
+      ],
+      "access_limitations": [
+        "Direct DOI opening failed in the web tool; the bibliographic identity was verified against the official PubMed metadata instead."
+      ],
+      "manuscript_citation": "Luo, X., Wang, L., Hu, P. & Hu, L. Predicting protein-protein interactions using sequence and network information via variational graph autoencoder. IEEE/ACM Trans. Comput. Biol. Bioinform. 20, 3182–3194 (2023). https://doi.org/10.1109/TCBB.2023.3273567",
+      "supplied_citation_matches_verified_record": true,
+      "notes": "Issue 5 is additionally confirmed. This verifies the identity of PASNVGA, not any historical comparison value in the CaPPI manuscript."
+    },
+    {
+      "method": "SDNN-PPI",
+      "status": "verified",
+      "title": "SDNN-PPI: self-attention with deep neural network effect on protein-protein interaction prediction",
+      "authors": [
+        {
+          "family": "Li",
+          "given": "Xue",
+          "initials": "X"
+        },
+        {
+          "family": "Han",
+          "given": "Peifu",
+          "initials": "P"
+        },
+        {
+          "family": "Wang",
+          "given": "Gan",
+          "initials": "G"
+        },
+        {
+          "family": "Chen",
+          "given": "Wenqi",
+          "initials": "W"
+        },
+        {
+          "family": "Wang",
+          "given": "Shuang",
+          "initials": "S"
+        },
+        {
+          "family": "Song",
+          "given": "Tao",
+          "initials": "T"
+        }
+      ],
+      "journal": "BMC Genomics",
+      "journal_abbreviation": "BMC Genomics",
+      "year": 2022,
+      "volume": "23",
+      "issue": "1",
+      "pages": null,
+      "article_number": "474",
+      "publication_date": "2022-06-27",
+      "doi": "10.1186/s12864-022-08687-2",
+      "doi_url": "https://doi.org/10.1186/s12864-022-08687-2",
+      "pmid": "35761175",
+      "pmcid": "PMC9235110",
+      "official_metadata_sources": [
+        {
+          "source": "BMC Genomics / Springer Nature publisher article page",
+          "url": "https://link.springer.com/article/10.1186/s12864-022-08687-2",
+          "verified_fields": [
+            "title",
+            "author order and full names",
+            "journal",
+            "year",
+            "volume",
+            "article number",
+            "publication date",
+            "DOI"
+          ],
+          "retrieval": "Publisher page opened successfully; its citation header and author list were inspected."
+        },
+        {
+          "source": "PubMed / US National Library of Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35761175/",
+          "verified_fields": [
+            "title",
+            "author order and full names",
+            "journal",
+            "year",
+            "volume",
+            "issue",
+            "article number",
+            "publication date",
+            "DOI",
+            "PMID",
+            "PMCID"
+          ],
+          "retrieval": "The web search representation of the official PubMed record returned structured metadata; direct open exposed only a footer."
+        }
+      ],
+      "access_limitations": [
+        "Direct DOI opening failed in the web tool; the publisher article URL was retrieved successfully. The PMC page displayed a browser verification page and was not used as substantive evidence."
+      ],
+      "manuscript_citation": "Li, X., Han, P., Wang, G., Chen, W., Wang, S. & Song, T. SDNN-PPI: self-attention with deep neural network effect on protein-protein interaction prediction. BMC Genomics 23, 474 (2022). https://doi.org/10.1186/s12864-022-08687-2",
+      "supplied_citation_matches_verified_record": true,
+      "notes": "474 is an article number, not a page range. This verifies the identity of SDNN-PPI, not any historical comparison value in the CaPPI manuscript."
+    }
+  ]
+}

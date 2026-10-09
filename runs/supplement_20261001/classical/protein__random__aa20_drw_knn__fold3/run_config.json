@@ -1,0 +1,86 @@
+{
+  "code_sha256": "f14c1e559da9d478f375ea980ca6fb0c999765eb09fcc2e47a62829ef2a55297",
+  "original_classical_code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+  "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+  "base_seed": 20260930,
+  "negative_sampling": "random",
+  "protocol": "protein",
+  "graph": {
+    "method": "drw",
+    "dim": 64,
+    "walks_per_node": 10,
+    "walk_length": 20,
+    "window": 5,
+    "epochs": 5,
+    "negative_samples": 5,
+    "p": 1.0,
+    "q": 0.5
+  },
+  "environment": {
+    "python": "3.10.20",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "sklearn": "1.3.2",
+    "joblib": "1.3.2",
+    "xgboost": "2.1.1",
+    "torch": "2.11.0+cu128"
+  },
+  "feature_definition": "Full-sequence canonical AA20 plus raw DRW64; concat(abs(u-v),u*v); 168D.",
+  "selection": "Fixed prespecified settings; train-only fit/calibration; no validation/test tuning or early stopping.",
+  "threshold": 0.5,
+  "cpu_threads": 2,
+  "category": "feature-based classical controls; not published model reproductions",
+  "method": "aa20_drw_knn",
+  "model": {
+    "algorithm": "KNeighborsClassifier",
+    "n_neighbors": 5,
+    "weights": "uniform",
+    "metric": "minkowski",
+    "p": 2,
+    "algorithm_variant": "brute",
+    "n_jobs": 2,
+    "standardization": "StandardScaler fit on training pairs only"
+  },
+  "seed": 20260933,
+  "fold": 3,
+  "split_hash": "07bcdb691a5dc4dac42acd60954d778c5c0f4b24a1bfc77a33237c8ee964b36d",
+  "split_array_hashes": {
+    "train": "9344b77f1123b3fd18c4d5f91186de14a1d17d8c273133c912cbd269e6b4926e",
+    "val": "2e9e5d95ee8e258fb4fbdb5edbd17c915ecfc5dd8c94af52a7a946a75acfaa87",
+    "test": "14ee99035f10c12f73e43f1b9e8814c859dfb8ef832ffb86e5a04e088d6c163f"
+  },
+  "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+  "feature_proof": {
+    "graph_hash": "f7d2cc4d122fc55ccafbe3340aa80b087a396b11c5d4b4142187a06b29b2b7e8",
+    "graph_cache_sha256": "eef1942bba4c273a75b1de4e2a84196d04e17551ec7a53db924697862eed7cf7",
+    "graph_metadata_sha256": "30526d211330dd88bc6efb15d669ed3dd81a2b66b2524a855cd642970f48bb5f",
+    "graph_feature_hash": "d1923f35bce714a1c7551b11e057390e5282397cced693092ff05063ad2d8ec8",
+    "node_feature_hash": "30e0cc4679c6eabfb334663feff911516d3bde18963885db1a1b9e7125d568f0",
+    "feature_hashes": {
+      "train": "4fccba39ec8f8e916be415f6609b577d3a6f2c8579a7a0dfb74719f2df54d3cc",
+      "val": "de4cb63f1249c916932a36d7311553d26241452907e53947b42e1bce37580fdf",
+      "test": "dcd6eead68c3d1e814459064ce9c85c2cfda018a1d01df16f75a181699f35b78"
+    }
+  },
+  "original_control_replay": [
+    {
+      "method": "aa20_drw_lr",
+      "completed_sha256": "a3c4590f969e2eab8867b259b6d9bd1b68c765ca0f92a8015bf25fcf7c5d82a8",
+      "prediction_sha256": "1a67a54bb8ed97f9a84e3cb4bb267cf7aecb08f3dfa8cc978f45e0c277da904c",
+      "checkpoint_sha256": "6e3c8df238cf1654027b09b408abe561163f0b277dfb09d627381484b0c9e414",
+      "n": 1840,
+      "max_abs_prediction_difference": 3.3306690738754696e-16
+    },
+    {
+      "method": "aa20_drw_rf",
+      "completed_sha256": "b115d4866f9f93c41086fe1bf7e591fb263bed8b6e71361d2667c040203d51f3",
+      "prediction_sha256": "d323f0c558734ab43357436a49d161ec07a87dfb5a563d727d11d98316e3a8ee",
+      "checkpoint_sha256": "b03562d445618c1836c646f5c57972c69f293385f09a1aa6d3789732663682af",
+      "n": 1840,
+      "max_abs_prediction_difference": 5.551115123125783e-17
+    }
+  ],
+  "run_signature": "9886172f45b1da76ccb318a11fbfda62e254c139d4a8357083da3bdabba881df",
+  "campaign_signature": "3dc3ec118552a4f61f5ac60c28fe0b2d927a25fb4c8fb9163bb8a0bd8e402dd2",
+  "python_executable": "D:\\Anaconda\\envs\\arg_gpu\\python.exe"
+}

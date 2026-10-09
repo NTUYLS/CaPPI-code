@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this CaPPI software and data release. The final manuscript identifier and code archive DOI will be added when available; neither DOI is assigned here."
+type: software
+title: "CaPPI: code and data for retrospective STRING association prediction"
+version: "20261009"
+repository-code: "https://github.com/NTUYLS/CaPPI-code"
+url: "https://github.com/NTUYLS/CaPPI-code"
+authors:
+  - family-names: Si
+    given-names: Luyi
+  - family-names: Kong
+    given-names: Yuanyuan
+  - family-names: Wang
+    given-names: Jiawei
+  - family-names: Mei
+    given-names: Haijun
+  - family-names: Shi
+    given-names: Rongfeng
+  - family-names: Chen
+    given-names: Cong
+  - family-names: Zhao
+    given-names: Hui
+  - family-names: Gu
+    given-names: Weiwei

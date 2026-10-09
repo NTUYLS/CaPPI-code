@@ -1,0 +1,33 @@
+{
+  "schema": "cappi-missing-topology-selected-test-v1",
+  "name": "protein__random__concat_matched__lr0p0010__repeat2__fold0",
+  "run_signature": "4cc3d65878b0dc7d0127958d2abc14aea43c2adeca60efb9713f1819426ddb22",
+  "split_hash": "749e27d3067c1143aeb6a5729c540d59b7c0b5f33f937e72863bf4764bae3bdc",
+  "checkpoint_sha256": "b151ca565f84c491e5b20a55620f1455c2ca94dc0d8809f5a340d2161cc375bf",
+  "graph_hash": "02be7e062deb58d050e87d884cf28dba18c9c6487f637b3c7bdecdf34ffee9dc",
+  "selection_declaration_sha256": "5acb428fd8a88a6c4b5021a3a50a154304e4c9c17751e8cd1617fcdcb194748b",
+  "selection_rule": "Repeat-0 validation-selected learning rate; no retuning.",
+  "evaluation_partition": "test",
+  "test_evaluated": true,
+  "test_metrics": {
+    "n": 2015,
+    "positive_n": 1003,
+    "accuracy": 0.5022332506203474,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "precision": 0.0,
+    "f1": 0.0,
+    "mcc": 0.0,
+    "auroc": 0.5310195894529849,
+    "average_precision": 0.522741698065363,
+    "pr_trapezoid_area": 0.5219050953435559,
+    "threshold": 0.5
+  },
+  "elapsed_seconds": 0.046000000002095476,
+  "device": "cuda",
+  "artifact_sha256": {
+    "test_predictions.csv": "7d22559138ed2f53fc44bf3bb152067e38347051b389c0fe3044d416513290fe",
+    "test_metrics.json": "59f03e9192f20cc2c2a191035adb47e19152b2e2477fefd6750998b53e89fb4a",
+    "selection_frozen.json": "5acb428fd8a88a6c4b5021a3a50a154304e4c9c17751e8cd1617fcdcb194748b"
+  }
+}

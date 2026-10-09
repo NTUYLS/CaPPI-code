@@ -1,0 +1,94 @@
+{
+  "name": "protein__random__aa20_drw_lr__fold1",
+  "method": "aa20_drw_lr",
+  "protocol": "protein",
+  "fold": 1,
+  "run_signature": "9c7d3071e1d16398b20e4be8bc896118c95e78cd88fc099c2db9c4cb0908beb7",
+  "campaign_signature": "19f5ba2f1a69444a483088ef360a695038aeb26174578253bcf0af82d60bce16",
+  "config": {
+    "code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "protocol": "protein",
+    "negative_sampling": "random",
+    "base_seed": 20260930,
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2"
+    },
+    "control_category": "feature-based controls; not published deep-model reproductions",
+    "selection": "Fixed hyperparameters; training pairs only; no validation/test model or threshold tuning.",
+    "feature_definition": "Full-sequence canonical AA20 frequencies plus raw 64D DRW; pair = concat(abs(u-v), u*v), 168 dimensions.",
+    "aa20_unknown_policy": "Unknown residues count toward full sequence length but have no AA20 bin.",
+    "unseen_topology": "All-zero for nodes absent from the training graph.",
+    "heuristic_metrics": "Raw degree-product/common-neighbor ranking scores; only AUROC/AP; no classifier threshold.",
+    "method": "aa20_drw_lr",
+    "model": {
+      "algorithm": "LogisticRegression",
+      "C": 1.0,
+      "penalty": "l2",
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "class_weight": null,
+      "standardization": "StandardScaler fitted only on training pairs"
+    },
+    "seed": 20260931,
+    "fold": 1,
+    "split_hash": "d9933562c9040c15cc34343378711f2c772e8a17e1fc171819803b259343070c",
+    "split_array_hashes": {
+      "train": "fb4f9555863dd57ee18b83d6c346c1f9a9d77d196742a995859e935dcf834fd9",
+      "val": "0ec4e506b101cb8140d3916eea975d6cec3596182bedabe3d5b213925e144c16",
+      "test": "5e1ff483798ed8548866acadfc59fdfdeb5155e69c003c10ca5ef53c0f0063bd"
+    },
+    "prepared_artifact_hashes": {
+      "train": "fa792e85f2fef0f16b759c3745f05168a0aabb6608e77a38fbc1fe1c9d1dcea9",
+      "val": "b990e1ca436bbaba8e68ae943168c45c3da804943ffbd775625a7fcacc772996",
+      "test": "5850f74fd8ec8cb2373dc89529d549fe8028f7dd22f3865f056a77cb499145e3",
+      "graph": "cd6d94c09ac5119507a49860f4a5774d0d628e122f5b8b63af495da7ccfd6ebb"
+    },
+    "graph_hash": "09482c590f65585681d3c5c171b756b643b34b345a63d1a4a8dd39d3021ef896"
+  },
+  "split_hash": "d9933562c9040c15cc34343378711f2c772e8a17e1fc171819803b259343070c",
+  "split_array_hashes": {
+    "train": "fb4f9555863dd57ee18b83d6c346c1f9a9d77d196742a995859e935dcf834fd9",
+    "val": "0ec4e506b101cb8140d3916eea975d6cec3596182bedabe3d5b213925e144c16",
+    "test": "5e1ff483798ed8548866acadfc59fdfdeb5155e69c003c10ca5ef53c0f0063bd"
+  },
+  "checkpoint_sha256": "4d5f4f7a464b6b6c08df74e631fffa068fccb88b3482cc3458182f8f03563c68",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": 0.5623422513881878,
+    "sensitivity": 0.9895337773549001,
+    "specificity": 0.07956989247311828,
+    "precision": 0.5485232067510548,
+    "f1": 0.7058025110281642,
+    "mcc": 0.17018266278394595,
+    "auroc": 0.6946615102871817,
+    "average_precision": 0.6887334079399168,
+    "pr_trapezoid_area": 0.6882464492686633,
+    "n": 1981,
+    "positive_n": 1051,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "elapsed_seconds": 0.6559999999590218,
+  "artifacts_sha256": {
+    "run_config.json": "49dfe49eae2620a7339545a64db5afeb8dfd6131f1cc6dd710d43e704e858733",
+    "model.joblib": "4d5f4f7a464b6b6c08df74e631fffa068fccb88b3482cc3458182f8f03563c68",
+    "test_predictions.csv": "ffcc15a4c6bbf4afdb3f164371d1cd9cfaff962643509d03e40795a5a081fcaf",
+    "metrics.json": "15d60e02ae9576ac7996fb03f58b2b3a456871d69cf4f0af833728834a6ad7db"
+  }
+}

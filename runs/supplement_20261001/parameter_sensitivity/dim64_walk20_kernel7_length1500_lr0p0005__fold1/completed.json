@@ -1,0 +1,48 @@
+{
+  "name": "dim64_walk20_kernel7_length1500_lr0p0005__fold1",
+  "config_name": "dim64_walk20_kernel7_length1500_lr0p0005",
+  "settings": {
+    "dim": 64,
+    "walk_length": 20,
+    "kernel": 7,
+    "max_length": 1500,
+    "learning_rate": 0.0005
+  },
+  "fold": 1,
+  "run_signature": "17a1c11c152e24e2baab8aa197639b44c7cbbf749306fe675a41f9c4ec4fbf9c",
+  "split_hash": "581959128e949421d0d88b75f0ac8a2b0843397fa822d9d9abe5da5a115faf06",
+  "graph_hash": "3d0fb36fedaa6bdb2b1f4cc0d3719710479d18b3ef02e39cfa7a82aca3ef4000",
+  "checkpoint_sha256": "880ea95082fd17b2592abb72780517bbec32a26cc1e0f574c48fee74dc29ff1a",
+  "evaluation_partition": "validation",
+  "test_evaluated": false,
+  "test_labels_or_scores_loaded": false,
+  "baseline_reused": true,
+  "best_epoch": 259,
+  "epochs_in_history": 279,
+  "best_validation_bce": 0.29647597670555115,
+  "elapsed_seconds": 0.43799999996554106,
+  "validation_metrics": {
+    "n": 4742,
+    "positive_n": 2371,
+    "accuracy": 0.869886123998313,
+    "sensitivity": 0.9072121467735133,
+    "specificity": 0.8325601012231126,
+    "precision": 0.8441915227629513,
+    "f1": 0.8745680016263467,
+    "mcc": 0.7418422527182956,
+    "auroc": 0.945257443511601,
+    "average_precision": 0.9412262712976099,
+    "pr_trapezoid_area": 0.9412110019928108,
+    "threshold": 0.5
+  },
+  "artifact_sha256": {
+    "best.pt": "880ea95082fd17b2592abb72780517bbec32a26cc1e0f574c48fee74dc29ff1a",
+    "topology.npz": "86bb13fb2996967e464dbeb89861b7bd99b5fb36c10460ab0d217beb7e1f6aa8",
+    "run_config.json": "821e8f63871350fed93c375eea0858c4f95906da41b1d8a7729832b2cebdb7f9",
+    "history.json": "9c842bcfe53cf9500ff694e5a98b1a241ad92e345293d493952862fad32782bc",
+    "validation_predictions.csv": "018ebfe3d7458c51f8bf87f09b58b06af1e9bb6b5a2584f8fe3a1c5c9076dfd7",
+    "validation_metrics.json": "e81da939ada94c8d563ce2f8b00496e35ef39e0133e3274ce00d2c5f4e08bbd8",
+    "parameters.json": "8c3690d4f202566c6b9c9cce1d644c37cfa3a3197fee13fc28e1848d25a66a98",
+    "source_provenance.json": "7897f2374bf87f9fcbb72d620b4199e1d852beb7946a639b171e98b31a406950"
+  }
+}

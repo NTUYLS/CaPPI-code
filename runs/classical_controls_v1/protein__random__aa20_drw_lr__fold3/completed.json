@@ -1,0 +1,94 @@
+{
+  "name": "protein__random__aa20_drw_lr__fold3",
+  "method": "aa20_drw_lr",
+  "protocol": "protein",
+  "fold": 3,
+  "run_signature": "f7e6080aeff466d1f91b8c9ec26bde04645d2988079d9fd00668c27b9e4d7e24",
+  "campaign_signature": "19f5ba2f1a69444a483088ef360a695038aeb26174578253bcf0af82d60bce16",
+  "config": {
+    "code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "protocol": "protein",
+    "negative_sampling": "random",
+    "base_seed": 20260930,
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2"
+    },
+    "control_category": "feature-based controls; not published deep-model reproductions",
+    "selection": "Fixed hyperparameters; training pairs only; no validation/test model or threshold tuning.",
+    "feature_definition": "Full-sequence canonical AA20 frequencies plus raw 64D DRW; pair = concat(abs(u-v), u*v), 168 dimensions.",
+    "aa20_unknown_policy": "Unknown residues count toward full sequence length but have no AA20 bin.",
+    "unseen_topology": "All-zero for nodes absent from the training graph.",
+    "heuristic_metrics": "Raw degree-product/common-neighbor ranking scores; only AUROC/AP; no classifier threshold.",
+    "method": "aa20_drw_lr",
+    "model": {
+      "algorithm": "LogisticRegression",
+      "C": 1.0,
+      "penalty": "l2",
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "class_weight": null,
+      "standardization": "StandardScaler fitted only on training pairs"
+    },
+    "seed": 20260933,
+    "fold": 3,
+    "split_hash": "07bcdb691a5dc4dac42acd60954d778c5c0f4b24a1bfc77a33237c8ee964b36d",
+    "split_array_hashes": {
+      "train": "9344b77f1123b3fd18c4d5f91186de14a1d17d8c273133c912cbd269e6b4926e",
+      "val": "2e9e5d95ee8e258fb4fbdb5edbd17c915ecfc5dd8c94af52a7a946a75acfaa87",
+      "test": "14ee99035f10c12f73e43f1b9e8814c859dfb8ef832ffb86e5a04e088d6c163f"
+    },
+    "prepared_artifact_hashes": {
+      "train": "bcf88344bd080e08c8aed5c4b794c02d53633859ae1d9aaad4cf9bdc22ebc7b8",
+      "val": "d2777b044e04c58aba6927820d598e5746aa833bc147a29aad139257c318dde2",
+      "test": "b424d99e27c2bbf3a74f867a5c7713624cd6e4cd48c54ac1adb3b251264942fd",
+      "graph": "c2e848bbcf623218b456f714b679438cc68f76dd5a34f50619ff5f2c0dca4616"
+    },
+    "graph_hash": "f7d2cc4d122fc55ccafbe3340aa80b087a396b11c5d4b4142187a06b29b2b7e8"
+  },
+  "split_hash": "07bcdb691a5dc4dac42acd60954d778c5c0f4b24a1bfc77a33237c8ee964b36d",
+  "split_array_hashes": {
+    "train": "9344b77f1123b3fd18c4d5f91186de14a1d17d8c273133c912cbd269e6b4926e",
+    "val": "2e9e5d95ee8e258fb4fbdb5edbd17c915ecfc5dd8c94af52a7a946a75acfaa87",
+    "test": "14ee99035f10c12f73e43f1b9e8814c859dfb8ef832ffb86e5a04e088d6c163f"
+  },
+  "checkpoint_sha256": "6e3c8df238cf1654027b09b408abe561163f0b277dfb09d627381484b0c9e414",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": 0.4945652173913043,
+    "sensitivity": 0.9988839285714286,
+    "specificity": 0.015889830508474576,
+    "precision": 0.4906798245614035,
+    "f1": 0.6580882352941178,
+    "mcc": 0.07953505875364254,
+    "auroc": 0.7758635366222761,
+    "average_precision": 0.7602609373758604,
+    "pr_trapezoid_area": 0.7599762794571433,
+    "n": 1840,
+    "positive_n": 896,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "elapsed_seconds": 0.8439999999245629,
+  "artifacts_sha256": {
+    "run_config.json": "2430d77705f7248e2d5ab70f0eec92bb28460d3bf6b0e0cb2f6d4f42c259e8b7",
+    "model.joblib": "6e3c8df238cf1654027b09b408abe561163f0b277dfb09d627381484b0c9e414",
+    "test_predictions.csv": "1a67a54bb8ed97f9a84e3cb4bb267cf7aecb08f3dfa8cc978f45e0c277da904c",
+    "metrics.json": "be80e8b2382c865bb155d130dd1a7092a141aea26a6485965a965e6dcdf066f5"
+  }
+}

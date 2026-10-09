@@ -1,0 +1,11 @@
+{
+  "selected_before_test": true,
+  "run_signature": "56e9961c6065c3beca568345d0f4c79f3bfc8b81c9ef2fa74f3ab3d455960d57",
+  "checkpoint_sha256": "44a5bf14d974833bf96fa0079b854d187e8b4788415dd0a3d38dbeb8c300666a",
+  "selection_rule": "per condition-family-fold: minimum best validation BCE, ties choose lower LR",
+  "selection_registry_sha256": "182240cfbb4813b92a2be213f1a1c7f033eb6ddb31c08352532fa8a216b288be",
+  "selection_signature": "a992c2a6338f4c0b95d1608e879e95702da39cd7a704154f748cf0cf4a4e7bb9",
+  "repeat": 0,
+  "learning_rate": 0.001,
+  "test_status": "Previously inspected benchmark; adaptive comparison, not fresh blind test."
+}

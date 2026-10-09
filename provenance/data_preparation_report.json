@@ -1,0 +1,1373 @@
+{
+  "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+  "prepared_dir": "D:\\1.肝癌\\CaPPI_revised\\prepared",
+  "n_nodes": 582,
+  "n_positives": 23707,
+  "cleaning": {
+    "raw_interaction_rows": 23707,
+    "canonical_positive_count": 23707,
+    "self_loops_removed": 0,
+    "duplicate_undirected_rows_removed": 0,
+    "sequence_whitespace_or_case_normalizations": 0,
+    "distinct_sequences": 582,
+    "duplicate_sequence_groups": 0,
+    "proteins_in_duplicate_sequence_groups": 0,
+    "sequence_duplicates_policy": "Retained as distinct original IDs; protein-ID disjointness is not sequence-similarity OOD."
+  },
+  "all_twenty_folds_loaded_and_verified": true,
+  "every_split_contains_both_classes": true,
+  "outer_pair_test_union_counts": {
+    "random": 47414,
+    "degree_matched": 47414
+  },
+  "outer_protein_test_node_union_counts": {
+    "random": 582,
+    "degree_matched": 582
+  },
+  "degree_matching": {
+    "exact_bin_matches": 17527,
+    "fallback_count": 6180,
+    "exact_bin_match_fraction": 0.739317501159995,
+    "fallback_fraction": 0.26068249884000505,
+    "matching_is_exact": false,
+    "positive_endpoint_degree": {
+      "mean": 140.03176277048973,
+      "std": 59.177634023420154,
+      "quantiles_0_25_50_75_100": [
+        1.0,
+        99.0,
+        152.0,
+        185.0,
+        290.0
+      ]
+    },
+    "pools": {
+      "random": {
+        "count": 23707,
+        "endpoint_degree": {
+          "mean": 71.85675117054035,
+          "std": 65.6574123112598,
+          "quantiles_0_25_50_75_100": [
+            0.0,
+            16.0,
+            45.0,
+            125.0,
+            290.0
+          ]
+        },
+        "endpoint_bin_pair_total_variation": 0.6192685704644197,
+        "bin_pair_counts": [
+          {
+            "bins": [
+              0,
+              0
+            ],
+            "count": 1
+          },
+          {
+            "bins": [
+              0,
+              1
+            ],
+            "count": 12
+          },
+          {
+            "bins": [
+              0,
+              2
+            ],
+            "count": 25
+          },
+          {
+            "bins": [
+              0,
+              3
+            ],
+            "count": 20
+          },
+          {
+            "bins": [
+              0,
+              4
+            ],
+            "count": 46
+          },
+          {
+            "bins": [
+              0,
+              5
+            ],
+            "count": 47
+          },
+          {
+            "bins": [
+              0,
+              6
+            ],
+            "count": 51
+          },
+          {
+            "bins": [
+              0,
+              7
+            ],
+            "count": 79
+          },
+          {
+            "bins": [
+              0,
+              8
+            ],
+            "count": 3
+          },
+          {
+            "bins": [
+              1,
+              1
+            ],
+            "count": 24
+          },
+          {
+            "bins": [
+              1,
+              2
+            ],
+            "count": 154
+          },
+          {
+            "bins": [
+              1,
+              3
+            ],
+            "count": 114
+          },
+          {
+            "bins": [
+              1,
+              4
+            ],
+            "count": 297
+          },
+          {
+            "bins": [
+              1,
+              5
+            ],
+            "count": 225
+          },
+          {
+            "bins": [
+              1,
+              6
+            ],
+            "count": 336
+          },
+          {
+            "bins": [
+              1,
+              7
+            ],
+            "count": 507
+          },
+          {
+            "bins": [
+              1,
+              8
+            ],
+            "count": 9
+          },
+          {
+            "bins": [
+              2,
+              2
+            ],
+            "count": 220
+          },
+          {
+            "bins": [
+              2,
+              3
+            ],
+            "count": 344
+          },
+          {
+            "bins": [
+              2,
+              4
+            ],
+            "count": 818
+          },
+          {
+            "bins": [
+              2,
+              5
+            ],
+            "count": 688
+          },
+          {
+            "bins": [
+              2,
+              6
+            ],
+            "count": 984
+          },
+          {
+            "bins": [
+              2,
+              7
+            ],
+            "count": 1510
+          },
+          {
+            "bins": [
+              2,
+              8
+            ],
+            "count": 16
+          },
+          {
+            "bins": [
+              3,
+              3
+            ],
+            "count": 129
+          },
+          {
+            "bins": [
+              3,
+              4
+            ],
+            "count": 654
+          },
+          {
+            "bins": [
+              3,
+              5
+            ],
+            "count": 533
+          },
+          {
+            "bins": [
+              3,
+              6
+            ],
+            "count": 778
+          },
+          {
+            "bins": [
+              3,
+              7
+            ],
+            "count": 1174
+          },
+          {
+            "bins": [
+              3,
+              8
+            ],
+            "count": 13
+          },
+          {
+            "bins": [
+              4,
+              4
+            ],
+            "count": 726
+          },
+          {
+            "bins": [
+              4,
+              5
+            ],
+            "count": 1220
+          },
+          {
+            "bins": [
+              4,
+              6
+            ],
+            "count": 1769
+          },
+          {
+            "bins": [
+              4,
+              7
+            ],
+            "count": 2615
+          },
+          {
+            "bins": [
+              4,
+              8
+            ],
+            "count": 37
+          },
+          {
+            "bins": [
+              5,
+              5
+            ],
+            "count": 444
+          },
+          {
+            "bins": [
+              5,
+              6
+            ],
+            "count": 1305
+          },
+          {
+            "bins": [
+              5,
+              7
+            ],
+            "count": 2030
+          },
+          {
+            "bins": [
+              5,
+              8
+            ],
+            "count": 16
+          },
+          {
+            "bins": [
+              6,
+              6
+            ],
+            "count": 791
+          },
+          {
+            "bins": [
+              6,
+              7
+            ],
+            "count": 2203
+          },
+          {
+            "bins": [
+              6,
+              8
+            ],
+            "count": 10
+          },
+          {
+            "bins": [
+              7,
+              7
+            ],
+            "count": 726
+          },
+          {
+            "bins": [
+              7,
+              8
+            ],
+            "count": 4
+          }
+        ]
+      },
+      "degree_matched": {
+        "count": 23707,
+        "endpoint_degree": {
+          "mean": 122.7680642848104,
+          "std": 54.73587407701092,
+          "quantiles_0_25_50_75_100": [
+            1.0,
+            81.0,
+            128.0,
+            162.0,
+            290.0
+          ]
+        },
+        "endpoint_bin_pair_total_variation": 0.26068249884000505,
+        "bin_pair_counts": [
+          {
+            "bins": [
+              1,
+              1
+            ],
+            "count": 6
+          },
+          {
+            "bins": [
+              1,
+              3
+            ],
+            "count": 1
+          },
+          {
+            "bins": [
+              1,
+              4
+            ],
+            "count": 3
+          },
+          {
+            "bins": [
+              1,
+              5
+            ],
+            "count": 8
+          },
+          {
+            "bins": [
+              1,
+              7
+            ],
+            "count": 1
+          },
+          {
+            "bins": [
+              2,
+              2
+            ],
+            "count": 63
+          },
+          {
+            "bins": [
+              2,
+              3
+            ],
+            "count": 19
+          },
+          {
+            "bins": [
+              2,
+              4
+            ],
+            "count": 29
+          },
+          {
+            "bins": [
+              2,
+              5
+            ],
+            "count": 27
+          },
+          {
+            "bins": [
+              2,
+              6
+            ],
+            "count": 20
+          },
+          {
+            "bins": [
+              2,
+              7
+            ],
+            "count": 22
+          },
+          {
+            "bins": [
+              3,
+              3
+            ],
+            "count": 47
+          },
+          {
+            "bins": [
+              3,
+              4
+            ],
+            "count": 42
+          },
+          {
+            "bins": [
+              3,
+              5
+            ],
+            "count": 72
+          },
+          {
+            "bins": [
+              3,
+              6
+            ],
+            "count": 126
+          },
+          {
+            "bins": [
+              3,
+              7
+            ],
+            "count": 123
+          },
+          {
+            "bins": [
+              3,
+              8
+            ],
+            "count": 4
+          },
+          {
+            "bins": [
+              4,
+              4
+            ],
+            "count": 208
+          },
+          {
+            "bins": [
+              4,
+              5
+            ],
+            "count": 288
+          },
+          {
+            "bins": [
+              4,
+              6
+            ],
+            "count": 497
+          },
+          {
+            "bins": [
+              4,
+              7
+            ],
+            "count": 885
+          },
+          {
+            "bins": [
+              4,
+              8
+            ],
+            "count": 22
+          },
+          {
+            "bins": [
+              5,
+              5
+            ],
+            "count": 266
+          },
+          {
+            "bins": [
+              5,
+              6
+            ],
+            "count": 930
+          },
+          {
+            "bins": [
+              5,
+              7
+            ],
+            "count": 1567
+          },
+          {
+            "bins": [
+              5,
+              8
+            ],
+            "count": 102
+          },
+          {
+            "bins": [
+              6,
+              6
+            ],
+            "count": 1446
+          },
+          {
+            "bins": [
+              6,
+              7
+            ],
+            "count": 12160
+          },
+          {
+            "bins": [
+              6,
+              8
+            ],
+            "count": 58
+          },
+          {
+            "bins": [
+              7,
+              7
+            ],
+            "count": 4638
+          },
+          {
+            "bins": [
+              7,
+              8
+            ],
+            "count": 27
+          }
+        ]
+      }
+    },
+    "disclosure": "The degree-matched pool is pre-specified using the complete positive network, including held-out positives. This is a benchmark sampling design, not a deployable unknown-edge selection procedure. Full-network degrees must not enter graph construction, learned preprocessing, or model inputs.",
+    "interpretation": "Degree-bin matched with nearest-bin fallback; it is not exact degree matching. Report the fallback rate and endpoint-degree distribution differences."
+  },
+  "folds": [
+    {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "train_assigned_nodes_with_zero_training_degree": 7,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "train_assigned_nodes_with_zero_training_degree": 3,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "581959128e949421d0d88b75f0ac8a2b0843397fa822d9d9abe5da5a115faf06"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "train_assigned_nodes_with_zero_training_degree": 11,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "train_assigned_nodes_with_zero_training_degree": 8,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "pair",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 582,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "train_assigned_nodes_with_zero_training_degree": 8,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 22797,
+          "positives": 10996,
+          "negatives": 11801,
+          "assigned_nodes": 407,
+          "observed_nodes": 407,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 516,
+          "positives": 306,
+          "negatives": 210,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 2015,
+          "positives": 1003,
+          "negatives": 1012,
+          "assigned_nodes": 117,
+          "observed_nodes": 117,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 10996,
+      "train_assigned_nodes_with_zero_training_degree": 3,
+      "cross_partition_pairs_excluded": {
+        "positives": 11402,
+        "negatives": 10684
+      },
+      "split_hash": "749e27d3067c1143aeb6a5729c540d59b7c0b5f33f937e72863bf4764bae3bdc"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 22857,
+          "positives": 11265,
+          "negatives": 11592,
+          "assigned_nodes": 407,
+          "observed_nodes": 407,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 458,
+          "positives": 224,
+          "negatives": 234,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1981,
+          "positives": 1051,
+          "negatives": 930,
+          "assigned_nodes": 117,
+          "observed_nodes": 117,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11265,
+      "train_assigned_nodes_with_zero_training_degree": 7,
+      "cross_partition_pairs_excluded": {
+        "positives": 11167,
+        "negatives": 10951
+      },
+      "split_hash": "d9933562c9040c15cc34343378711f2c772e8a17e1fc171819803b259343070c"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 23720,
+          "positives": 12067,
+          "negatives": 11653,
+          "assigned_nodes": 408,
+          "observed_nodes": 408,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 401,
+          "positives": 163,
+          "negatives": 238,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1937,
+          "positives": 1031,
+          "negatives": 906,
+          "assigned_nodes": 116,
+          "observed_nodes": 116,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 12067,
+      "train_assigned_nodes_with_zero_training_degree": 4,
+      "cross_partition_pairs_excluded": {
+        "positives": 10446,
+        "negatives": 10910
+      },
+      "split_hash": "6177d12a1e8030d2927a0a3234b3baadb13264cf41473ae37d31be973d972a07"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 23054,
+          "positives": 11482,
+          "negatives": 11572,
+          "assigned_nodes": 408,
+          "observed_nodes": 408,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 520,
+          "positives": 274,
+          "negatives": 246,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1840,
+          "positives": 896,
+          "negatives": 944,
+          "assigned_nodes": 116,
+          "observed_nodes": 116,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11482,
+      "train_assigned_nodes_with_zero_training_degree": 4,
+      "cross_partition_pairs_excluded": {
+        "positives": 11055,
+        "negatives": 10945
+      },
+      "split_hash": "07bcdb691a5dc4dac42acd60954d778c5c0f4b24a1bfc77a33237c8ee964b36d"
+    },
+    {
+      "negative_mode": "random",
+      "protocol": "protein",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 23549,
+          "positives": 11892,
+          "negatives": 11657,
+          "assigned_nodes": 408,
+          "observed_nodes": 408,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 517,
+          "positives": 298,
+          "negatives": 219,
+          "assigned_nodes": 58,
+          "observed_nodes": 58,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1722,
+          "positives": 719,
+          "negatives": 1003,
+          "assigned_nodes": 116,
+          "observed_nodes": 116,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11892,
+      "train_assigned_nodes_with_zero_training_degree": 3,
+      "cross_partition_pairs_excluded": {
+        "positives": 10798,
+        "negatives": 10828
+      },
+      "split_hash": "9c4cf64687786d721013ae094925e9b37748a72368a1d536bae6085d029a37e5"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 579,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 529,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 560,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "train_assigned_nodes_with_zero_training_degree": 7,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "9cabae29af8d3bafb5457ad9d0c93445a84fdfd1aa486a2b8417ef28743f5a21"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 33188,
+          "positives": 16594,
+          "negatives": 16594,
+          "assigned_nodes": 582,
+          "observed_nodes": 579,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 528,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9484,
+          "positives": 4742,
+          "negatives": 4742,
+          "assigned_nodes": 582,
+          "observed_nodes": 559,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16594,
+      "train_assigned_nodes_with_zero_training_degree": 3,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "ef6cd6ca09260f3a2bac2e8059102261651975f2349e08cfec9726e79027ef44"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 575,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 535,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 565,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "train_assigned_nodes_with_zero_training_degree": 11,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "c12043856aca5415f9a11e8c73db86464f5537b2fae6fdc3516d0a65ce55a443"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 579,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 543,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 563,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "train_assigned_nodes_with_zero_training_degree": 8,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "9d4fdfb548d1e0df1457daee7e76f6d3aaf021c50beda085cdc5a4de588b4536"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "pair",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 33190,
+          "positives": 16595,
+          "negatives": 16595,
+          "assigned_nodes": 582,
+          "observed_nodes": 577,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 4742,
+          "positives": 2371,
+          "negatives": 2371,
+          "assigned_nodes": 582,
+          "observed_nodes": 539,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 9482,
+          "positives": 4741,
+          "negatives": 4741,
+          "assigned_nodes": 582,
+          "observed_nodes": 562,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 16595,
+      "train_assigned_nodes_with_zero_training_degree": 8,
+      "cross_partition_pairs_excluded": {
+        "positives": 0,
+        "negatives": 0
+      },
+      "split_hash": "22c851218ef7bd8e7da80026bcfb46daee62f692afee93605c1e18168631021e"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 0,
+      "counts": {
+        "train": {
+          "pairs": 22558,
+          "positives": 10996,
+          "negatives": 11562,
+          "assigned_nodes": 407,
+          "observed_nodes": 404,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 534,
+          "positives": 306,
+          "negatives": 228,
+          "assigned_nodes": 58,
+          "observed_nodes": 55,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1932,
+          "positives": 1003,
+          "negatives": 929,
+          "assigned_nodes": 117,
+          "observed_nodes": 114,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 10996,
+      "train_assigned_nodes_with_zero_training_degree": 3,
+      "cross_partition_pairs_excluded": {
+        "positives": 11402,
+        "negatives": 10988
+      },
+      "split_hash": "7cb9a39a3bf1cf81d3925963baabfdf81f8e0b14c83fefe4ff20e03c38ac3895"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 1,
+      "counts": {
+        "train": {
+          "pairs": 22723,
+          "positives": 11265,
+          "negatives": 11458,
+          "assigned_nodes": 407,
+          "observed_nodes": 404,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 442,
+          "positives": 224,
+          "negatives": 218,
+          "assigned_nodes": 58,
+          "observed_nodes": 56,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 2082,
+          "positives": 1051,
+          "negatives": 1031,
+          "assigned_nodes": 117,
+          "observed_nodes": 112,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11265,
+      "train_assigned_nodes_with_zero_training_degree": 7,
+      "cross_partition_pairs_excluded": {
+        "positives": 11167,
+        "negatives": 11000
+      },
+      "split_hash": "1fc7f023acaeb8e8678094e63f7d342722a310ea85df209453f6e2078cfa1957"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 2,
+      "counts": {
+        "train": {
+          "pairs": 23692,
+          "positives": 12067,
+          "negatives": 11625,
+          "assigned_nodes": 408,
+          "observed_nodes": 406,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 326,
+          "positives": 163,
+          "negatives": 163,
+          "assigned_nodes": 58,
+          "observed_nodes": 52,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 2074,
+          "positives": 1031,
+          "negatives": 1043,
+          "assigned_nodes": 116,
+          "observed_nodes": 114,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 12067,
+      "train_assigned_nodes_with_zero_training_degree": 4,
+      "cross_partition_pairs_excluded": {
+        "positives": 10446,
+        "negatives": 10876
+      },
+      "split_hash": "967d1b3aabcb6808c4842eb2414342ea636dde17c383b9b6220cdb9257890bb2"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 3,
+      "counts": {
+        "train": {
+          "pairs": 23117,
+          "positives": 11482,
+          "negatives": 11635,
+          "assigned_nodes": 408,
+          "observed_nodes": 405,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 530,
+          "positives": 274,
+          "negatives": 256,
+          "assigned_nodes": 58,
+          "observed_nodes": 53,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1773,
+          "positives": 896,
+          "negatives": 877,
+          "assigned_nodes": 116,
+          "observed_nodes": 115,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11482,
+      "train_assigned_nodes_with_zero_training_degree": 4,
+      "cross_partition_pairs_excluded": {
+        "positives": 11055,
+        "negatives": 10939
+      },
+      "split_hash": "700bc8c9ba7203cc9455c5b26ca5e5c89c0ad1bc1387adf8de14644108efde41"
+    },
+    {
+      "negative_mode": "degree_matched",
+      "protocol": "protein",
+      "fold": 4,
+      "counts": {
+        "train": {
+          "pairs": 24125,
+          "positives": 11892,
+          "negatives": 12233,
+          "assigned_nodes": 408,
+          "observed_nodes": 406,
+          "has_both_classes": true
+        },
+        "validation": {
+          "pairs": 478,
+          "positives": 298,
+          "negatives": 180,
+          "assigned_nodes": 58,
+          "observed_nodes": 55,
+          "has_both_classes": true
+        },
+        "test": {
+          "pairs": 1583,
+          "positives": 719,
+          "negatives": 864,
+          "assigned_nodes": 116,
+          "observed_nodes": 111,
+          "has_both_classes": true
+        }
+      },
+      "train_graph_edges": 11892,
+      "train_assigned_nodes_with_zero_training_degree": 3,
+      "cross_partition_pairs_excluded": {
+        "positives": 10798,
+        "negatives": 10430
+      },
+      "split_hash": "38fcc264077d94ba25f25d166174a58ff107ee83ac1e4c6d3f4755b2ff1c198e"
+    }
+  ],
+  "protocol_problems": [],
+  "ready_for_formal_training_from_data_protocol_checks": true,
+  "scope": "Read-only source ingestion and split/negative/graph validation only. Model training and scientific data provenance certification are outside this check."
+}

@@ -1,0 +1,89 @@
+{
+  "name": "pair__random__degree_product__fold4",
+  "method": "degree_product",
+  "protocol": "pair",
+  "fold": 4,
+  "run_signature": "a1c6b3082d8c2c8ff1d5ac1a8706bce344376d1c04082d89834f58f8eadad7e6",
+  "campaign_signature": "0c7568012e2953d3c8e3eca47271649cf3c5c8141ab74efb83a4356a91eb3a03",
+  "config": {
+    "code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "protocol": "pair",
+    "negative_sampling": "random",
+    "base_seed": 20260930,
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2"
+    },
+    "control_category": "feature-based controls; not published deep-model reproductions",
+    "selection": "Fixed hyperparameters; training pairs only; no validation/test model or threshold tuning.",
+    "feature_definition": "Product of two endpoint degrees in training adjacency.",
+    "aa20_unknown_policy": "Unknown residues count toward full sequence length but have no AA20 bin.",
+    "unseen_topology": "All-zero for nodes absent from the training graph.",
+    "heuristic_metrics": "Raw degree-product/common-neighbor ranking scores; only AUROC/AP; no classifier threshold.",
+    "method": "degree_product",
+    "model": {
+      "algorithm": "degree_product",
+      "calibration": "none",
+      "decision_threshold": null
+    },
+    "seed": 20260934,
+    "fold": 4,
+    "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883",
+    "split_array_hashes": {
+      "train": "f78d4888ca2c00088d149082ffebd36c0be23395a7a1f3d20e14e52d3f6149ff",
+      "val": "e6246b9808e00f88450637f896818fe852db633d2bdb18778b36adf052ee7c25",
+      "test": "0fabe5ea06248b80211707c018e389e6e9675a5b5d4268de2b89b1fb9825e787"
+    },
+    "prepared_artifact_hashes": {
+      "train": "3b0f31743a7d65bc22a9baaa2188d7d9c21fb16a1b9787e22f5038c814b86a3a",
+      "val": "98b622514e9ca1e746889fd4d9f73f8570d051812775db4255b3236449bbd1fe",
+      "test": "bd30c2369e72b349239d4182433728242f06381e5afe9e00d0ca18a63dd55661",
+      "graph": "3455e57f3a057587431740de43ed8c7da34b686651cb54c6c7d8fc914efdc9fa"
+    },
+    "graph_hash": "095640006fe4f2f95b9878709fbab9f94fca77ce468a408bf178ba5911cc67c4"
+  },
+  "split_hash": "fee5ed2ef94000f4fa5429667997143fa245499905674710bf21a784bc7e2883",
+  "split_array_hashes": {
+    "train": "f78d4888ca2c00088d149082ffebd36c0be23395a7a1f3d20e14e52d3f6149ff",
+    "val": "e6246b9808e00f88450637f896818fe852db633d2bdb18778b36adf052ee7c25",
+    "test": "0fabe5ea06248b80211707c018e389e6e9675a5b5d4268de2b89b1fb9825e787"
+  },
+  "checkpoint_sha256": "5686ec09f7c9d5ba376fc915667bbed8362f1f0e1f74bd8d7de5138d091d4c0e",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": null,
+    "sensitivity": null,
+    "specificity": null,
+    "precision": null,
+    "f1": null,
+    "mcc": null,
+    "auroc": 0.883656534404979,
+    "average_precision": 0.8863905867868528,
+    "pr_trapezoid_area": null,
+    "n": 9482,
+    "positive_n": 4741,
+    "threshold": null,
+    "metric_scope": "ranking_only"
+  },
+  "elapsed_seconds": 0.23400000005494803,
+  "artifacts_sha256": {
+    "run_config.json": "d919356fd617ca49400efb70f500e21898071fa6d29bc99680663a7d49669426",
+    "heuristic.json": "5686ec09f7c9d5ba376fc915667bbed8362f1f0e1f74bd8d7de5138d091d4c0e",
+    "test_predictions.csv": "62ce0e0916db11548d199d3d6cb894e1d04cbc52942a89d8500b7842f9f9caf2",
+    "metrics.json": "96bbb08afe6b1db58256eb9dc3f039835e24e96894570516c5a718b8a37c7e9e"
+  }
+}

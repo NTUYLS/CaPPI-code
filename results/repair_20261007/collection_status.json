@@ -1,0 +1,20 @@
+{
+  "status": "complete_verified",
+  "evaluation_scope": "adaptive_same_benchmark_no_fresh_independent_test",
+  "fresh_independent_test": false,
+  "selected_test_evaluations": 225,
+  "contract_sha256": "e00eaee7a84dfb7929488601c3388f95bc695cceef22cf0a871c4e13ac16977f",
+  "selected_index_sha256": "a542b6a9004699647afee3d5ad53187448cc0f9467d032f8bc52106f410c2958",
+  "collector_sha256": "3a007e9b8dd5ff31526bafaab7b94e9ec4c5ad9d13f2da3b1d92f63cbc3b4625",
+  "verification_report": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\verification.json",
+  "verification_report_sha256": "c0e5a3eacd3b1b36d533d6b8b9903b3aead2c9c08d57d7d4203d64a8c0dd8da3",
+  "summary_definition": "average five folds per model repeat, then mean/sample SD of three repeat means",
+  "p_values_computed": false,
+  "files": {
+    "run_metrics.csv": "0cc2b183f3f6ba43aee3e7b2a2c1e602004f51ddb6cc7599d682dbe762f16874",
+    "seed_summary.csv": "3c01287836ef489cfbde106d9c5ee50adb7cb19a629ef15d5589e2cb4913c0d2",
+    "summary.csv": "121fb7ce78bd3a472e8c701b95f56d7fac01d2dd492a18193dbc83884d7faa17",
+    "paired_differences.csv": "13b38875592310c44cc939c301156cdc978d0c21844d1f9650cd173d829b4b20",
+    "RESULTS.md": "79ba90cfd60113e5260e621b40a70380e014542005b186c7ac3e0b85415190c9"
+  }
+}

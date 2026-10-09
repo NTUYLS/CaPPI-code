@@ -1,0 +1,48 @@
+{
+  "name": "dim64_walk20_kernel7_length1500_lr0p0005__fold2",
+  "config_name": "dim64_walk20_kernel7_length1500_lr0p0005",
+  "settings": {
+    "dim": 64,
+    "walk_length": 20,
+    "kernel": 7,
+    "max_length": 1500,
+    "learning_rate": 0.0005
+  },
+  "fold": 2,
+  "run_signature": "c3351c736fbb328eb7360801d40b305032e077f297a5cda2edea63dcb4c74d31",
+  "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+  "graph_hash": "c933ffa6d3d7ebb5bcb0ce4e2d629d4640d4b59825cb131802f75c2344274d47",
+  "checkpoint_sha256": "ef80b1c3f6cd687f2beb5434491c452b7d2351d15ac6da41eddfacc982f0b737",
+  "evaluation_partition": "validation",
+  "test_evaluated": false,
+  "test_labels_or_scores_loaded": false,
+  "baseline_reused": true,
+  "best_epoch": 257,
+  "epochs_in_history": 277,
+  "best_validation_bce": 0.31984415650367737,
+  "elapsed_seconds": 0.4219999999040738,
+  "validation_metrics": {
+    "n": 4742,
+    "positive_n": 2371,
+    "accuracy": 0.8635596794601434,
+    "sensitivity": 0.8827498945592577,
+    "specificity": 0.8443694643610291,
+    "precision": 0.8501218521527214,
+    "f1": 0.8661286985309331,
+    "mcc": 0.727655495597376,
+    "auroc": 0.9401235333241664,
+    "average_precision": 0.9341796727435419,
+    "pr_trapezoid_area": 0.93416027578966,
+    "threshold": 0.5
+  },
+  "artifact_sha256": {
+    "best.pt": "ef80b1c3f6cd687f2beb5434491c452b7d2351d15ac6da41eddfacc982f0b737",
+    "topology.npz": "8739c5af4876d1eef5029cc555161d89bf38ae4e5cec7b7e60a7c3457816f58a",
+    "run_config.json": "78878b7dfcc1189445d44744097f1dfe887c6536dd8ef33e556dbd58502b6634",
+    "history.json": "56a06c294fff707e860c4a904a50fce7667f054769edd80ac3b956f97a5e1aac",
+    "validation_predictions.csv": "9dc47ae1d4fae464512053ac1aabc7ec3a9ed96f50ead2ab574592537397f911",
+    "validation_metrics.json": "703a95fa7c60e1e1ce8d5fdcc434a006ce01496277e057a5bfce60f3a3e47a6c",
+    "parameters.json": "8c3690d4f202566c6b9c9cce1d644c37cfa3a3197fee13fc28e1848d25a66a98",
+    "source_provenance.json": "1da3852d3b194a3c337136141e8b66837d58585dcbbab39d611ab5e7818713d5"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "started_at": "2026-09-30T16:45:51.787488+08:00",
+  "python_executable": "D:\\Anaconda\\envs\\arg_gpu\\python.exe",
+  "python_version": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "scope": "Synthetic contract tests only; no manuscript-data experiment training.",
+  "entrypoint": "D:\\1.肝癌\\CaPPI_revised\\run_tests.py",
+  "entrypoint_sha256": "66dc37243bf1499d4773b562de9ae9fd9b5de06645f29f411103cc446aa1c45c",
+  "import_policy": "Import torch before unittest discovery and before NumPy/SciPy/sklearn.",
+  "cpu_only_requested": false,
+  "torch_cpu_threads": 2,
+  "test_source_sha256": {
+    "test_classical_contract.py": "4dba81e195c98e2fe7fdb64c8a31651faa20b0f2accde12d83b6e188b5f94ba7",
+    "test_data_protocol.py": "379a01be1c14cf174acc235a56449ccf35f09cc6a3976cecfb8868ea5ffe53cf",
+    "test_graph_contract.py": "d033c6de7aedd1c412538580659b83216a6f2bb4c57c1d73bb4ffa630a14c42f",
+    "test_model_contract.py": "a78c10498bbb79ab1ebe49f6cbfdcb1b0623236d1ea0d77c9006899fcb835fe7",
+    "test_runner_contract.py": "ecd973b0b9156d37b1c932a154d80a551950d0d3b735f19a41b4a0d5b2bd41ee"
+  },
+  "success": true,
+  "import_order_diagnostics": [
+    {
+      "order": [
+        "torch",
+        "numpy",
+        "scipy",
+        "sklearn",
+        "joblib"
+      ],
+      "returncode": 0,
+      "stdout": "torch\r\nnumpy\r\nscipy\r\nsklearn\r\njoblib\r\n{\"ok\": true, \"order\": [\"torch\", \"numpy\", \"scipy\", \"sklearn\", \"joblib\"]}\r\n",
+      "stderr": ""
+    },
+    {
+      "order": [
+        "numpy",
+        "scipy",
+        "sklearn",
+        "joblib",
+        "torch"
+      ],
+      "returncode": 1,
+      "stdout": "numpy\r\nscipy\r\nsklearn\r\njoblib\r\n",
+      "stderr": "Traceback (most recent call last):\r\n  File \"<string>\", line 1, in <module>\r\n  File \"<string>\", line 1, in <listcomp>\r\n  File \"D:\\Anaconda\\envs\\arg_gpu\\lib\\importlib\\__init__.py\", line 126, in import_module\r\n    return _bootstrap._gcd_import(name[level:], package, level)\r\n  File \"<frozen importlib._bootstrap>\", line 1050, in _gcd_import\r\n  File \"<frozen importlib._bootstrap>\", line 1027, in _find_and_load\r\n  File \"<frozen importlib._bootstrap>\", line 1006, in _find_and_load_unlocked\r\n  File \"<frozen importlib._bootstrap>\", line 688, in _load_unlocked\r\n  File \"<frozen importlib._bootstrap_external>\", line 883, in exec_module\r\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\r\n  File \"D:\\Anaconda\\envs\\arg_gpu\\lib\\site-packages\\torch\\__init__.py\", line 285, in <module>\r\n    _load_dll_libraries()\r\n  File \"D:\\Anaconda\\envs\\arg_gpu\\lib\\site-packages\\torch\\__init__.py\", line 268, in _load_dll_libraries\r\n    raise err\r\nOSError: [WinError 1114] 动态链接库(DLL)初始化例程失败。 Error loading \"D:\\Anaconda\\envs\\arg_gpu\\lib\\site-packages\\torch\\lib\\c10.dll\" or one of its dependencies.\r\n"
+    }
+  ],
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "sklearn": "1.3.2",
+    "cuda_available": true,
+    "compiled_cuda": "12.8"
+  },
+  "discovered_test_count": 41,
+  "tests_run": 41,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "unexpected_successes": 0,
+  "expected_test_count": 41,
+  "expected_count_matched": true,
+  "test_records": [
+    {
+      "test": "test_classical_contract.ClassicalFeatureContractTests.test_aa20_normalization_unknowns_and_full_sequence",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_classical_contract.ClassicalFeatureContractTests.test_heuristic_metrics_have_no_fake_probabilities_or_threshold",
+      "status": "passed",
+      "elapsed_seconds": 0.015000000013969839
+    },
+    {
+      "test": "test_classical_contract.ClassicalFeatureContractTests.test_heuristics_use_training_adjacency_and_give_unseen_nodes_zero",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_classical_contract.ClassicalFeatureContractTests.test_scaler_is_fit_only_on_training_pairs_and_hyperparameters_are_fixed",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_classical_contract.ClassicalFeatureContractTests.test_symmetric_pair_features_are_endpoint_order_invariant",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_classical_contract.ClassicalPipelineContractTests.test_injected_holdout_edge_is_rejected",
+      "status": "passed",
+      "elapsed_seconds": 0.2190000000409782
+    },
+    {
+      "test": "test_classical_contract.ClassicalPipelineContractTests.test_pair_and_protein_outputs_and_provenance",
+      "status": "passed",
+      "elapsed_seconds": 4.672000000020489
+    },
+    {
+      "test": "test_classical_contract.ClassicalPipelineContractTests.test_summary_rejects_incompatible_fold_campaigns",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_degree_matching_discloses_unavailable_exact_matches",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_existing_outputs_reject_changed_config_and_tampered_artifacts",
+      "status": "passed",
+      "elapsed_seconds": 0.25
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_manifest_fingerprint_rejects_altered_protocol_metadata",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_mapping_and_cleaning",
+      "status": "passed",
+      "elapsed_seconds": 0.20300000009592623
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_negative_pool_index_assignments_identical_across_modes",
+      "status": "passed",
+      "elapsed_seconds": 2.077999999979511
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_pair_outer_folds_cover_each_pair_once_and_graph_has_no_holdouts",
+      "status": "passed",
+      "elapsed_seconds": 2.093999999924563
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_protein_disjoint_and_same_assignments_across_negative_modes",
+      "status": "passed",
+      "elapsed_seconds": 2.094000000040978
+    },
+    {
+      "test": "test_data_protocol.DataProtocolTests.test_reproducibility_across_fresh_output_directories",
+      "status": "passed",
+      "elapsed_seconds": 0.29599999997299165
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_drw_visits_unseen_neighbor_whenever_one_exists",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_edge_order_orientation_and_duplicates_do_not_change_walks",
+      "status": "passed",
+      "elapsed_seconds": 0.015999999945051968
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_empty_training_graph_produces_no_walks_and_all_false_mask",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_isolated_nodes_never_enter_walks_and_mask_matches_train_degree",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_seed_determinism_and_independence_from_global_random_state",
+      "status": "passed",
+      "elapsed_seconds": 0.015000000013969839
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_three_methods_produce_distinct_walks_and_node2vec_bias_has_effect",
+      "status": "passed",
+      "elapsed_seconds": 0.0470000000204891
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_unsupported_method_nonpositive_bias_and_self_loop_are_rejected",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_graph_contract.GraphWalkContractTests.test_walk_steps_use_only_train_adjacency_and_exclude_held_out_edges",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_ablations_remove_modules_and_all_remaining_parameters_participate",
+      "status": "passed",
+      "elapsed_seconds": 0.06299999996554106
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_canonical_unknown_and_padding_are_distinct",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_capacity_match_is_actual_and_report_does_not_change_rng",
+      "status": "passed",
+      "elapsed_seconds": 0.03100000007543713
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_joint_training_gradients_and_one_optimizer_step",
+      "status": "passed",
+      "elapsed_seconds": 17.530999999959022
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_missing_topology_masks_values_and_projection_bias",
+      "status": "passed",
+      "elapsed_seconds": 0.01600000006146729
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_pair_score_is_strictly_symmetric_at_evaluation",
+      "status": "passed",
+      "elapsed_seconds": 0.015999999945051968
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_residual_matches_original_singleton_mha_effective_function",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_shape_and_index_contracts_fail_explicitly",
+      "status": "passed",
+      "elapsed_seconds": 0.015000000013969839
+    },
+    {
+      "test": "test_model_contract.ModelContractTests.test_trailing_padding_invariance_and_empty_sequence",
+      "status": "passed",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_checkpoint_replacement_failure_preserves_original_file",
+      "status": "passed",
+      "elapsed_seconds": 0.015999999945051968
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_checkpoint_resume_matches_uninterrupted_training",
+      "status": "passed",
+      "elapsed_seconds": 0.4690000000409782
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_completed_artifacts_are_verified_before_skipping",
+      "status": "passed",
+      "elapsed_seconds": 0.125
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_resume_after_early_stopping_performs_no_more_updates",
+      "status": "passed",
+      "elapsed_seconds": 0.18700000003445894
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_resume_rejects_changed_pair_chunk",
+      "status": "passed",
+      "elapsed_seconds": 0.0779999999795109
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_resume_rejects_checkpoint_signature_and_graph_mismatch",
+      "status": "passed",
+      "elapsed_seconds": 0.18799999996554106
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_resume_rejects_incompatible_best_checkpoint",
+      "status": "passed",
+      "elapsed_seconds": 0.125
+    },
+    {
+      "test": "test_runner_contract.RunnerContractTests.test_test_labels_and_scores_are_used_only_after_best_checkpoint_load",
+      "status": "passed",
+      "elapsed_seconds": 0.25
+    }
+  ],
+  "failure_details": [],
+  "cuda_peak_allocated_bytes": 49832448,
+  "elapsed_seconds": 43.10999999998603,
+  "log_sha256": "e1caf9895c48b8b7afca69a1f943308273586b5ddad5db36581ceff38968c024"
+}

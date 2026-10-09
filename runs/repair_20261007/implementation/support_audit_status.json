@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "validation_only_pilot_and_synthetic_support_tool_tests",
+  "pilot_run_count": 3,
+  "pilot_report": "pilot_independent_verification.json",
+  "unit_test_count": 9,
+  "unit_test_log": "support_unit_tests.log",
+  "unit_test_exit_code": 0,
+  "python": "D:/Anaconda/envs/arg_gpu/python.exe",
+  "test_labels_or_scores_loaded": false,
+  "synthetic_fixture_selected_runs": 225,
+  "synthetic_fixture_summary_rows": 15,
+  "synthetic_fixture_seed_rows": 45,
+  "synthetic_fixture_paired_rows": 240,
+  "synthetic_fixture_is_research_result": false,
+  "verifier_sha256": "7ca9bc2d74fabcd488665bd6314366f170ca5c2cfff19a4d31017a65377d37ca",
+  "collector_sha256": "42287b52e4d66d16fbdd032fd06c275c52700bf177520e828e08506fcf84088f",
+  "frozen_model_sha256_unchanged": "842730d6602b764a90dad0c1d3382b890ae4e173687eacfeb66e71069ca0fabb",
+  "frozen_trainer_sha256_unchanged": "84c6aa67ab89b66a8fc038a310a146009ff81e486df8f23d106e27e13edf1368",
+  "collector_report_addition": "Explicit descriptive repair-vs-sequence-only comparisons under protein/random and repair-vs-topology-only under pair/random; no naive significance claim."
+}

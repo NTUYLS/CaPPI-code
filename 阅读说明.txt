@@ -1,0 +1,21 @@
+CaPPI 代码与数据目录（2026-10-09）
+
+本目录为 CaPPI 代码与数据发布版本。GitHub 仓库：https://github.com/NTUYLS/CaPPI-code。代码 DOI 归档仍待完成。
+
+1. data/raw：原始 STRING 文件及实际使用的 CSV。
+2. prepared：固定的正负样本和训练/验证/测试划分。
+3. runs、results：实验参数、选择记录、逐样本预测、汇总结果及绘图材料。
+4. 根目录 Python 文件：修订实现；run_release.py 与 RUNNING.md 提供运行入口和说明。
+5. historical_baselines：保留的历史模型结果，不是本轮按新方案重跑。
+6. legacy：原始旧实现，供来源核对；正式修订实验使用根目录的新实现。
+7. provenance：来源和逐文件校验信息。
+
+数据实际属于 Candidatus Hepatoplasma crinochetorum Av（taxonomy 1427984），不是人类肝癌数据。旧 CSV 文件名保留是为了保证输入及校验一致。
+
+本目录约 1.2 GB。重复训练权重及优化器状态约 7 GB，未放入；完整原始数据、固定划分、实验记录和预测结果已经保留。重新训练会生成新的权重。
+
+README.md 与 RUNNING.md 说明运行环境、检查步骤和限制。请保留 .gitattributes，以免 Git 自动转换换行符后破坏校验。
+
+provenance 中注明 local 或 local_only 的历史记录保留首次本地整理时的审计状态；PUBLICATION_PREPARATION.json 记录仓库副本的发布准备，不是远端上传完成凭据。
+
+仍需按编辑要求将最终代码版本归档至能分配 DOI 的仓库，并在正文 Code Availability 中填写真实 DOI。

@@ -1,0 +1,49 @@
+{
+  "name": "dim64_walk20_kernel7_length1500_lr0p0001__fold3",
+  "config_name": "dim64_walk20_kernel7_length1500_lr0p0001",
+  "settings": {
+    "dim": 64,
+    "walk_length": 20,
+    "kernel": 7,
+    "max_length": 1500,
+    "learning_rate": 0.0001
+  },
+  "fold": 3,
+  "run_signature": "cd319c9804a1053c4ac38862c756d66fccb26d8053e63723e72b1afc439b9780",
+  "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad",
+  "graph_hash": "5647b6461a672abf8f91062c71df37eca0e4f210b2c3e2f6a680632ce2281965",
+  "checkpoint_sha256": "0af4d83abf21a108ba1d89114ce9c956474ff890ce013dec8297a6ce2d340e6d",
+  "evaluation_partition": "validation",
+  "test_evaluated": false,
+  "test_labels_or_scores_loaded": false,
+  "baseline_reused": false,
+  "best_epoch": 300,
+  "epochs_in_history": 300,
+  "best_validation_bce": 0.3936702609062195,
+  "elapsed_seconds": 49.01599999994505,
+  "validation_metrics": {
+    "n": 4742,
+    "positive_n": 2371,
+    "accuracy": 0.82686630113876,
+    "sensitivity": 0.8156895824546605,
+    "specificity": 0.8380430198228596,
+    "precision": 0.8343399482312338,
+    "f1": 0.8249093623373854,
+    "mcc": 0.6538959908099834,
+    "auroc": 0.904284887633344,
+    "average_precision": 0.9053520059008844,
+    "pr_trapezoid_area": 0.9053273117620392,
+    "threshold": 0.5
+  },
+  "artifact_sha256": {
+    "best.pt": "0af4d83abf21a108ba1d89114ce9c956474ff890ce013dec8297a6ce2d340e6d",
+    "topology.npz": "9a20526d77150857c204446d5e851b6dedaad2296430ef96d358e819783eb2bd",
+    "run_config.json": "e8cedb91cd3bb2091e894c8f03c4bc02cf09904d75f3ef41ed4a690823482201",
+    "history.json": "0735e75d63ca23a50d35bca7d29aef6ae302863ecebad98071c465fef6f60707",
+    "validation_predictions.csv": "1ee12a8b0c7b34da4fc4c4ff822d45f6da4079ef5da393deb94e0a5c03c713b6",
+    "validation_metrics.json": "6291ea82978e58795dac628f5a7388fa44566376a72db829b39df9b9d18ad6db",
+    "parameters.json": "8c3690d4f202566c6b9c9cce1d644c37cfa3a3197fee13fc28e1848d25a66a98",
+    "last.pt": "0af4d83abf21a108ba1d89114ce9c956474ff890ce013dec8297a6ce2d340e6d",
+    "first_step_gradient_norms.json": "f260062f0e2fd973aa06e5e64a16f3ff4108735a405b1bd398cffc1b9b3c7fc3"
+  }
+}

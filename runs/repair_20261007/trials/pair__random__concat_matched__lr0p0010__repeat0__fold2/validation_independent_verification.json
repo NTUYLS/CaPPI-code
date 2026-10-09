@@ -1,0 +1,81 @@
+{
+  "family": "concat_matched",
+  "negative": "random",
+  "protocol": "pair",
+  "fold": 2,
+  "repeat": 0,
+  "model_seed": 20260932,
+  "graph_seed": 20260932,
+  "learning_rate": 0.001,
+  "topology_dropout": 0.0,
+  "missing_policy": "original",
+  "run_dir": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold2",
+  "out": "D:\\1.肝癌\\CaPPI_revised\\runs\\repair_20261007\\trials\\pair__random__concat_matched__lr0p0010__repeat0__fold2",
+  "status": "validation_only",
+  "run_signature": "851a07cfd701663b241259e4845714366d8793e3cd4175ea676618697a8cdd56",
+  "checkpoint_sha256": "25f9a78e874dee1bf031fd6d5f61b81838525f02debe54dfd6d695fcbefefc15",
+  "completed_sha256": "d9758bb5195607bbcccf67ca0e85ebca37a292941bdfa7103966df291b84332f",
+  "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+  "best_validation_bce": 0.31815993785858154,
+  "best_epoch": 163,
+  "epochs_completed": 183,
+  "validation_metrics": {
+    "n": 4742,
+    "positive_n": 2371,
+    "accuracy": 0.8603964571910586,
+    "sensitivity": 0.8861239983129481,
+    "specificity": 0.8346689160691692,
+    "precision": 0.8427597272362616,
+    "f1": 0.8638980263157894,
+    "mcc": 0.7217490081813923,
+    "auroc": 0.9385256013324224,
+    "average_precision": 0.9333123740730116,
+    "pr_trapezoid_area": 0.9332929507127375,
+    "threshold": 0.5
+  },
+  "validation_bce_from_csv": 0.31815997819135705,
+  "validation_prediction_sha256": "e017b775cb68c296ceb0fe869c8d0ceecc73bb118f38648c88de496c86ca01dd",
+  "prepared": {
+    "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "split_array_hashes": {
+      "train": "e6e7ba920007cac19bbcfa81cc468474eb75386e68f7ef06b5fe5736356356dc",
+      "val": "6841d68dc1742a3ba615f9b77fb1673618f15a2e56e8312e3435e312b627029e"
+    },
+    "training_positive_edges": 16595
+  },
+  "topology": {
+    "graph_hash": "c933ffa6d3d7ebb5bcb0ce4e2d629d4640d4b59825cb131802f75c2344274d47",
+    "present_nodes": 571,
+    "fitting_nodes": 571,
+    "topology_sha256": "cf4feaec392d95389878dd16cae1b433bbbe7ceaef2d1aa2a6801796e4500018"
+  },
+  "mask": {
+    "trace_sha256": "c8079b3bcfcd2856b691f4e9c3c8c7592dc549c45590985f544b7dc814cc6dd9",
+    "node_mask_rng_verified": true,
+    "probability": 0.0,
+    "mask_seed": 20268851,
+    "totals_over_epochs": {
+      "positive": {
+        "pairs": 3036885,
+        "available_endpoints": 6073770,
+        "masked_endpoints": 0,
+        "masked_any_pairs": 0,
+        "masked_both_pairs": 0,
+        "effective_missing_endpoints": 0,
+        "effective_missing_any_pairs": 0,
+        "effective_missing_both_pairs": 0
+      },
+      "negative": {
+        "pairs": 3036885,
+        "available_endpoints": 5933592,
+        "masked_endpoints": 0,
+        "masked_any_pairs": 0,
+        "masked_both_pairs": 0,
+        "effective_missing_endpoints": 140178,
+        "effective_missing_any_pairs": 138531,
+        "effective_missing_both_pairs": 1647
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "pair__random__aa20_drw_rf__fold3",
+  "method": "aa20_drw_rf",
+  "protocol": "pair",
+  "fold": 3,
+  "run_signature": "2ae537d025eb522590eb51a91494f0d1f786ffd5bf2694a80ba97f642065b127",
+  "campaign_signature": "c815d00138b185e92ffe4a96e8d15bad1fd2e7105a0019af79798d7f1176805b",
+  "config": {
+    "code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "protocol": "pair",
+    "negative_sampling": "random",
+    "base_seed": 20260930,
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2"
+    },
+    "control_category": "feature-based controls; not published deep-model reproductions",
+    "selection": "Fixed hyperparameters; training pairs only; no validation/test model or threshold tuning.",
+    "feature_definition": "Full-sequence canonical AA20 frequencies plus raw 64D DRW; pair = concat(abs(u-v), u*v), 168 dimensions.",
+    "aa20_unknown_policy": "Unknown residues count toward full sequence length but have no AA20 bin.",
+    "unseen_topology": "All-zero for nodes absent from the training graph.",
+    "heuristic_metrics": "Raw degree-product/common-neighbor ranking scores; only AUROC/AP; no classifier threshold.",
+    "method": "aa20_drw_rf",
+    "model": {
+      "algorithm": "RandomForestClassifier",
+      "n_estimators": 200,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt",
+      "n_jobs": 4,
+      "criterion": "gini",
+      "max_depth": null,
+      "min_samples_split": 2,
+      "bootstrap": true,
+      "class_weight": null,
+      "standardization": "none"
+    },
+    "seed": 20260933,
+    "fold": 3,
+    "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad",
+    "split_array_hashes": {
+      "train": "0f53c4198633efec407c99445159be1e7d5f07aa4937234c32fe0487c89e1982",
+      "val": "60bde6f2ab3916098de0804aaae592bc614a67ba49e09f3bafe146bca5aeba4b",
+      "test": "489b6e0ddaf79b156eaf8fc82337b27a7a8407cdc736a25a0ef9343d4f38a12a"
+    },
+    "prepared_artifact_hashes": {
+      "train": "5154980a761a43d6b48a959789b61aa1877d54a8b990efe15a7d402b67a11a4c",
+      "val": "1835f3c53b3c0a9201edfbe590a284678654e8901ae96188d363ef9428b0d728",
+      "test": "e1170bf796c53da1f9ec91fab80eb2c94062ec4c41c9cf6a048d0d5ff11c8d81",
+      "graph": "bc47deb65f4f0b4f1f608e944c8957211234b6c4720c9fb7265383cc97409e04"
+    },
+    "graph_hash": "5647b6461a672abf8f91062c71df37eca0e4f210b2c3e2f6a680632ce2281965"
+  },
+  "split_hash": "80dc23631620ae92ec050d1194e73257e9b21d44753e149fd75417ebe41f00ad",
+  "split_array_hashes": {
+    "train": "0f53c4198633efec407c99445159be1e7d5f07aa4937234c32fe0487c89e1982",
+    "val": "60bde6f2ab3916098de0804aaae592bc614a67ba49e09f3bafe146bca5aeba4b",
+    "test": "489b6e0ddaf79b156eaf8fc82337b27a7a8407cdc736a25a0ef9343d4f38a12a"
+  },
+  "checkpoint_sha256": "bf645023534dc28b2881a245d8046b0e6a362bea8cc74d9a308facf7f7a39e1a",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": 0.8407508964353512,
+    "sensitivity": 0.8356886732756802,
+    "specificity": 0.8458131195950221,
+    "precision": 0.8442360963136586,
+    "f1": 0.839940640237439,
+    "mcc": 0.681536724026885,
+    "auroc": 0.9213747105329201,
+    "average_precision": 0.917353340829096,
+    "pr_trapezoid_area": 0.917348789800609,
+    "n": 9482,
+    "positive_n": 4741,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "elapsed_seconds": 70.67200000002049,
+  "artifacts_sha256": {
+    "run_config.json": "be8431e39457672558ab17fc3c75414f966f93102ba05e1bdab657479005fb97",
+    "model.joblib": "bf645023534dc28b2881a245d8046b0e6a362bea8cc74d9a308facf7f7a39e1a",
+    "test_predictions.csv": "ff88ef0f0b20440b9ae64eec653f277fa684a0ce2c6d962f8a79cd3f168ebb19",
+    "metrics.json": "0a8003c41ae522ea0145ef691c7b3a93b07340e038ddd059abbb83efc456823b"
+  }
+}

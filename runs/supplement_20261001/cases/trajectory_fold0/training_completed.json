@@ -1,0 +1,69 @@
+{
+  "run_signature": "94cd0ee5b8104ce2007d1f68f856267df0e924c2dc246ca7ba06700d73b8e723",
+  "split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da",
+  "graph_hash": "656109e031303b6e66bb12dad8da884e3ced1d43331a9cdcbc95ab36f658cb80",
+  "best_epoch": 283,
+  "epochs_completed": 600,
+  "best_validation_bce": 0.31255391240119934,
+  "trajectory": true,
+  "elapsed_seconds_this_invocation": 89.125,
+  "test_used_for_selection": false,
+  "artifacts": {
+    "best.pt": "829c690e63a3d7dc59a7ded13cec42952ad093d527e969b293caeadeccb41f62",
+    "last.pt": "822d946c72934953911e69b3c1147ad19534b9367092ca5fe76a51b375d0e972",
+    "history.json": "a6ceb15945201e5c1cd1aee65eefe6fac76b2a6cb4ea9926ce9bca59e76e73fd",
+    "split_arrays.npz": "f39f55fa989bf16f9af28c10f47fd235e3509dd3a099e08c73f8053d61bf70bd",
+    "topology.npz": "1be009ab0a270f22849df3f1daa84eab6953619e0c307c0ed59b7328502aed37",
+    "snapshot_epoch_50.pt": "3e6fdd7f7443dc5981a948c3b7d88bced1af20177eb608783f4740322d4706a2",
+    "validation_hidden_epoch_50.npz": "1a1405245d76a7a81b44700301cb09d421164aeec40e35dae836fbb2465ec714",
+    "snapshot_epoch_150.pt": "58ec056ffda000f3f47c2b71038acc20967138598ee040f7883abec5be6a8920",
+    "validation_hidden_epoch_150.npz": "05a30f2d3e9d243e61ff7e9a877bc60c54913a7643c87dbce462c71ef715d30e",
+    "snapshot_epoch_300.pt": "48e801154f8588d96684e9451eb73866fc409caf528ddbd13ec8568bb6032a70",
+    "validation_hidden_epoch_300.npz": "dfbb7bf2f6e497f26ad97fdaf42d6b7ee4db716e24d6f01941b7780aad771a9b",
+    "snapshot_epoch_600.pt": "822d946c72934953911e69b3c1147ad19534b9367092ca5fe76a51b375d0e972",
+    "validation_hidden_epoch_600.npz": "93d6357d8cff66f2d2f72edc40a64d97bb5e5c1f74e80709517b69c3f47af67b"
+  },
+  "config": {
+    "core_code_sha256": "76593480cfb156c8817d6bd12b522f09b50f4219c28720af2f2e93d89f381e91",
+    "supplement_code_sha256": "0be613bcddf9be6b9e0d372e0044b218d82bca4855a4fccc47857a0f70f62f97",
+    "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+    "split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da",
+    "model": {
+      "topo_dim": 64,
+      "seq_dim": 256,
+      "filters": 64,
+      "kernel": 7,
+      "max_length": 1500,
+      "fusion": "residual",
+      "dropout": 0.3,
+      "pair_dropout": [
+        0.4,
+        0.4,
+        0.1
+      ]
+    },
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "seed": 20260930,
+    "max_epochs": 600,
+    "early_stopping_patience": null,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "pair_chunk": 4096,
+    "torch_threads": 2,
+    "device": "cuda",
+    "torch": "2.11.0+cu128",
+    "numpy": "1.26.4",
+    "selection": "validation minimum BCE only; no test selection",
+    "purpose": "validation-only exploratory trajectory; not primary-model replacement"
+  }
+}

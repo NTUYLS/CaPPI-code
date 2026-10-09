@@ -1,0 +1,20 @@
+{
+  "sequence_encoder.conv.weight": 8.089054608717561e-05,
+  "sequence_encoder.conv.bias": 0.00011020122474292293,
+  "sequence_encoder.gate.weight": 2.8723109153361293e-06,
+  "sequence_encoder.gate.bias": 2.977401891257614e-06,
+  "sequence_encoder.projection.weight": 0.00010655653022695333,
+  "sequence_encoder.projection.bias": 0.0004630922921933234,
+  "pair_head.left.0.weight": 0.0005221576429903507,
+  "pair_head.left.0.bias": 0.0004328385111875832,
+  "pair_head.right.0.weight": 0.0008689718088135123,
+  "pair_head.right.0.bias": 0.0007203559507615864,
+  "pair_head.classifier.0.weight": 0.0011226953938603401,
+  "pair_head.classifier.0.bias": 0.002065962878987193,
+  "pair_head.classifier.3.weight": 0.0021229293197393417,
+  "pair_head.classifier.3.bias": 0.005536675453186035,
+  "pair_head.classifier.6.weight": 0.0032785176299512386,
+  "pair_head.classifier.6.bias": 0.01190812699496746,
+  "pair_head.classifier.9.weight": 0.008244852535426617,
+  "pair_head.classifier.9.bias": 0.03322305530309677
+}

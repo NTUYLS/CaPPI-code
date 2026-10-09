@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "figure": "trajectory_fold0/validation_trajectory.png",
+  "figure_sha256": "5258b83a1f55d69a6d5fde8bef96e419bc7930ca2022431cb4fb4b627d0d27f8",
+  "inspection": "Actual view_image inspection of the generated 3000x2400 PNG",
+  "checks": {
+    "four_epoch_panels_present": true,
+    "titles_axes_and_legend_readable": true,
+    "no_text_overlap_or_clipping": true,
+    "shared_joint_projection_axes": true,
+    "positive_and_unobserved_labels_explicit": true
+  },
+  "interpretation": "Descriptive fixed-validation trajectory only. Similar epoch300/600 panels reflect saved converged model representations; no claim of optimal epoch or independent generalization."
+}

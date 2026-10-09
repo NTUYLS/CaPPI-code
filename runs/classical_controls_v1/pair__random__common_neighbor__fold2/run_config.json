@@ -1,0 +1,54 @@
+{
+  "code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+  "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+  "protocol": "pair",
+  "negative_sampling": "random",
+  "base_seed": 20260930,
+  "graph": {
+    "method": "drw",
+    "dim": 64,
+    "walks_per_node": 10,
+    "walk_length": 20,
+    "window": 5,
+    "epochs": 5,
+    "negative_samples": 5,
+    "p": 1.0,
+    "q": 0.5
+  },
+  "environment": {
+    "python": "3.10.20",
+    "numpy": "1.26.4",
+    "sklearn": "1.3.2",
+    "joblib": "1.3.2"
+  },
+  "control_category": "feature-based controls; not published deep-model reproductions",
+  "selection": "Fixed hyperparameters; training pairs only; no validation/test model or threshold tuning.",
+  "feature_definition": "Number of shared neighbors in training adjacency.",
+  "aa20_unknown_policy": "Unknown residues count toward full sequence length but have no AA20 bin.",
+  "unseen_topology": "All-zero for nodes absent from the training graph.",
+  "heuristic_metrics": "Raw degree-product/common-neighbor ranking scores; only AUROC/AP; no classifier threshold.",
+  "method": "common_neighbor",
+  "model": {
+    "algorithm": "common_neighbor",
+    "calibration": "none",
+    "decision_threshold": null
+  },
+  "seed": 20260932,
+  "fold": 2,
+  "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+  "split_array_hashes": {
+    "train": "e6e7ba920007cac19bbcfa81cc468474eb75386e68f7ef06b5fe5736356356dc",
+    "val": "6841d68dc1742a3ba615f9b77fb1673618f15a2e56e8312e3435e312b627029e",
+    "test": "c647e7de9ae8f9c1f509312fc252aaad5f578899926f557b89c54e80824f4126"
+  },
+  "prepared_artifact_hashes": {
+    "train": "2fb7e4b9083602de9096a7cb474b0352f01792267f043f1fbeeade141324257c",
+    "val": "a0bc8cd980d3837f15043208795bd1ef732f348ccf1fb65bf10859e3e3aae3cd",
+    "test": "2b4555c4c040ce60ced18fa6f9517eba18acc4bf18e100a6c31255c962016cba",
+    "graph": "5af0721d076c0c28c9a326da6e4e6bd3083f6e98f0e63cf2f8185aae7001ab5a"
+  },
+  "graph_hash": "373bc96cee785a60dfcf141f07b95b74a1978c0a4e13ae79afe1e38b85c85b0f",
+  "run_signature": "52fbec67b5694d6a55cf043bb050504ce606bfef41f2f883e160323acc0ca8a1",
+  "campaign_signature": "0f95dc7bcc33060a1f08bb909b8318b73a9e4757e6e87a8831255343639e4391",
+  "python_executable": "D:\\Anaconda\\envs\\arg_gpu\\python.exe"
+}

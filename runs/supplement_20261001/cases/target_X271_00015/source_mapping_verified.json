@@ -1,0 +1,26 @@
+{
+  "method": "unique exact full-sequence join; complete positive edge-set equality",
+  "sources": {
+    "D:\\1.肝癌\\1427984.protein.sequences.v12.0.fa": "31b537d113931630a2200a7b2f7b5744dc7f90aa4724674f7bc688c539d0fcb2",
+    "D:\\1.肝癌\\1427984.protein.links.v12.0.txt": "899c7ff25c962b7c9765d36dd2e5206cd7136e8864280f6e3e84b9c5061dacc2",
+    "D:\\1.肝癌\\CaPPI_revised\\prepared\\nodes.csv": "9b8f7c1e625900e1e4cca960b8c129c3b8b54e2b761c95e728e80d56afae6b8c",
+    "D:\\1.肝癌\\CaPPI_revised\\prepared\\positives.npz": "d91a32da116465650be6ddd2599dedf259fb44492bb1cb5d18e4bb1216d334ee"
+  },
+  "n_mapped_nodes": 582,
+  "positive_edges_matched": 23707,
+  "targets": {
+    "X271_00001": {
+      "index": 0,
+      "node_id": 1,
+      "source_id": "1427984.X271_00001",
+      "sequence_sha256": "b40e3a07ef5c5d915820337edaa99f88e3c0ee0cc57ca7585d1d1bb376cc8151"
+    },
+    "X271_00015": {
+      "index": 14,
+      "node_id": 15,
+      "source_id": "1427984.X271_00015",
+      "sequence_sha256": "9128bde9081a5136525fba3d49545c53db6f5316f927bfdebc088fd5b554ad10"
+    }
+  },
+  "numeric_suffix_assumed": false
+}

@@ -1,0 +1,123 @@
+{
+  "prepared_date": "2026-10-09",
+  "status": "local package prepared for later user-managed GitHub upload; not publicly deposited",
+  "copied_source_files": 7126,
+  "copied_bytes": 1189493578,
+  "groups": {
+    "scientific_code": 25,
+    "tests": 13,
+    "legacy_code": 5,
+    "source_data": 4,
+    "historical_baseline_reports": 3,
+    "historical_output_records": 86,
+    "frozen_data": 86,
+    "environment_and_tests": 4,
+    "initial_audit": 9,
+    "earlier_aggregate_results": 8,
+    "current_aggregate_results": 22,
+    "classical_controls": 389,
+    "latest_campaign": 4745,
+    "earlier_fixed_controls": 393,
+    "strict_target_and_trajectory": 52,
+    "validation_sensitivity": 1278,
+    "campaign_provenance": 1,
+    "figure_code": 1,
+    "environment": 2
+  },
+  "original_training_sources_preserved": true,
+  "latest_training_sources_identical_to_frozen_campaign": [
+    {
+      "name": "cappi_data.py",
+      "snapshot_sha256": "b5b5047c9981c486ca48c46250c2bd70785142f5c4dbcc8d517392356cf620ac",
+      "working_sha256": "b5b5047c9981c486ca48c46250c2bd70785142f5c4dbcc8d517392356cf620ac",
+      "identical": true
+    },
+    {
+      "name": "cappi_graph.py",
+      "snapshot_sha256": "79dcbd7ea057df06a3ea1dbb32624fccbe9af4f1a6ef44d15db8d0c2acc25cda",
+      "working_sha256": "79dcbd7ea057df06a3ea1dbb32624fccbe9af4f1a6ef44d15db8d0c2acc25cda",
+      "identical": true
+    },
+    {
+      "name": "cappi_model.py",
+      "snapshot_sha256": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+      "working_sha256": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+      "identical": true
+    },
+    {
+      "name": "legacy_skipgram.py",
+      "snapshot_sha256": "ee9f98b422b386b4415b86a9ecf687a5a84ac2c117e6bbdda88178eee273e2b3",
+      "working_sha256": "ee9f98b422b386b4415b86a9ecf687a5a84ac2c117e6bbdda88178eee273e2b3",
+      "identical": true
+    },
+    {
+      "name": "run_experiments.py",
+      "snapshot_sha256": "d2695c5dde113ede82202869f814e4ad74206c826185a9297b491d1212edb8fd",
+      "working_sha256": "d2695c5dde113ede82202869f814e4ad74206c826185a9297b491d1212edb8fd",
+      "identical": true
+    },
+    {
+      "name": "cappi_missing_topology.py",
+      "snapshot_sha256": "842730d6602b764a90dad0c1d3382b890ae4e173687eacfeb66e71069ca0fabb",
+      "working_sha256": "842730d6602b764a90dad0c1d3382b890ae4e173687eacfeb66e71069ca0fabb",
+      "identical": true
+    },
+    {
+      "name": "run_missing_topology.py",
+      "snapshot_sha256": "84c6aa67ab89b66a8fc038a310a146009ff81e486df8f23d106e27e13edf1368",
+      "working_sha256": "84c6aa67ab89b66a8fc038a310a146009ff81e486df8f23d106e27e13edf1368",
+      "identical": true
+    }
+  ],
+  "source_release": {
+    "organism": "Candidatus Hepatoplasma crinochetorum Av",
+    "taxonomy_id": 1427984,
+    "release_label": "v12.0 from retained original filenames",
+    "raw_link_rows": 47414,
+    "unique_undirected_nonself_associations": 23707,
+    "raw_sequence_records": 582,
+    "observed_combined_score_range": [
+      150,
+      999
+    ],
+    "download_date": null,
+    "channel_filters": null,
+    "prospective_confidence_cutoff": null,
+    "interpretation": "Observed minimum score is not proof of an originally specified cutoff. Database associations are not independent physical-interaction or HCC-specific validation.",
+    "file_headers": {
+      "1427984.protein.links.v12.0.txt": [
+        "protein1 protein2 combined_score",
+        "1427984.X271_00001 1427984.X271_00155 175"
+      ],
+      "1427984.protein.sequences.v12.0.fa": [
+        ">1427984.X271_00001",
+        "MDVNNLIKTWKDIYSSTNINEDWRYNFFKLIESSSKLAEIDQKNNCIFVTVNATFEKHIINDNFYSFLADSTKRKLGENY"
+      ],
+      "肝癌 sequence.csv": [
+        "name,sequence",
+        "1,MDVNNLIKTWKDIYSSTNINEDWRYNFFKLIESSSKLAEIDQKNNCIFVTVNATFEKHIINDNFYSFLADSTKRKLGENYKLKIITEQEYEEIKEIEEKQEKIEIEIKSDSLNKRFTFDTFIVSDKNVLLYKAAMAIALSNDSSNLNWNPFFLHGKSGLGKTHILHSIGNEIKKNFPEKRIKYAEAKDFGDIVMRAFESDDINKNIQNIFNEYAKYDCLLIDDVQFIQSRKKTKEVFFNIFNFFINNNKQIVVTSDQDPKELKDFEERFITRFKGGLTVRIYPPDQKTTEEILKLKIRKNEKLDINKFTNESIKWIANNFGENVRFLEGALNRLILYVINSKNDEKINVNFISEVFEDLDIEEKSSFDSIINLVAKKYGINQKDILSKSRKKDIIIARNIAIFLTREILHYSLNDIGRKFNKDHSTIMYAINKIDKNLNENEEFKEVIDDLKLKL"
+      ],
+      "肝癌 interact.csv": [
+        "node1,node2",
+        "1,141"
+      ]
+    }
+  },
+  "excluded": {
+    "checkpoint_and_model_policy": "No .pt/.h5/.keras/.joblib checkpoint/model binaries are selected here; preserve source hashes and actual predictions, histories, run configs, topology and audit arrays. They can be retrained. This package is not a pretrained-model distribution.",
+    "excluded_file_count": 1096,
+    "docking": "User excluded; no docking source/data selected.",
+    "old_manuscripts_and_reviewer_documents": "Not required public code/data; excluded.",
+    "redundant_classical_shards": "Merged classical directory is selected; original shard copies excluded.",
+    "pilot_runs": "Not final experimental claims; pilot directory excluded.",
+    "plots": "Current relevant aggregated SVG/PNG/PDF retained, redundant archives/old TIFFs omitted."
+  },
+  "caveats": [
+    "Historical PASNVGA/SDNN-PPI values remain the original manuscript reports. Retained old output files do not establish comparability with new corrected runs.",
+    "Earlier fixed controls use five-fold summaries; latest campaign uses three seed means across five folds. Preserve these aggregation boundaries.",
+    "Original logs and manifests retain absolute Windows paths as archival provenance. Portable wrappers must resolve local equivalents without changing frozen originals.",
+    "Existing verification utilities may additionally require omitted checkpoints to recheck checkpoint bytes/weights; prediction-based metric recomputation can run from exported data.",
+    "STRING resource/data attribution must be preserved. No new software license is invented by this inventory."
+  ],
+  "copy_seconds": 18.75
+}

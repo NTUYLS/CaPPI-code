@@ -1,0 +1,71 @@
+{
+  "audit_date": "2026-09-30",
+  "status": "automated local audit; author verification pending",
+  "sources": [
+    {
+      "id": "E001",
+      "path": "D:\\1.肝癌\\CaPPI-code\\SR投稿\\CaPPI Manuscript_8.29.docx",
+      "sha256": "8d8dc91fd2ee80d01acd0acf9b2f95a38e40685f324ba0bceae0f7d72690968e"
+    },
+    {
+      "id": "E002",
+      "path": "D:\\1.肝癌\\CaPPI-code\\SR投稿\\Response letterV2.docx",
+      "sha256": "59268e192905eeac667f020c819d965d77940ede3b6a432338c607f569ae285b"
+    },
+    {
+      "id": "E003",
+      "path": "D:\\1.肝癌\\1427984.protein.sequences.v12.0.fa",
+      "sha256": "31b537d113931630a2200a7b2f7b5744dc7f90aa4724674f7bc688c539d0fcb2"
+    },
+    {
+      "id": "E004",
+      "path": "D:\\1.肝癌\\1427984.protein.links.v12.0.txt",
+      "sha256": "899c7ff25c962b7c9765d36dd2e5206cd7136e8864280f6e3e84b9c5061dacc2"
+    },
+    {
+      "id": "E005",
+      "path": "D:\\1.肝癌\\肝癌 sequence.csv",
+      "sha256": "bd8ee069993c3dcd74a25da6c36f61fd7f53b4cb60582e4e9d91983037425cba"
+    },
+    {
+      "id": "E006",
+      "path": "D:\\1.肝癌\\肝癌 interact.csv",
+      "sha256": "db52ed0c2f8ba2ab4462fdab2f1f4a730f5bde7c8fbc3ac88b7792c4efbf6678"
+    },
+    {
+      "id": "E007",
+      "path": "D:\\1.肝癌\\CaPPI-code\\CAM\\corss attention.py",
+      "sha256": "08470b03c6b0c15bfb3192df60cda9d81fe6e19ed028f94b84cb49627c9303b8"
+    },
+    {
+      "id": "E008",
+      "path": "D:\\1.肝癌\\CaPPI-code\\Cross attention\\corss attention.py",
+      "sha256": "08470b03c6b0c15bfb3192df60cda9d81fe6e19ed028f94b84cb49627c9303b8"
+    },
+    {
+      "id": "E009",
+      "path": "D:\\1.肝癌\\CaPPI-code\\DRW\\DRW.py",
+      "sha256": "8a2a508c609ad30506295813be31d631e4a818672e6d69743f967630b4054c44"
+    },
+    {
+      "id": "E010",
+      "path": "D:\\1.肝癌\\CaPPI-code\\GCNN\\Gated Convolutional Networks.py",
+      "sha256": "3d4c0a877560a352563d4ee459bf36593c9c98d7289019ee97ecc225d4dcae6a"
+    },
+    {
+      "id": "E011",
+      "path": "D:\\1.肝癌\\CaPPI-code\\MLP\\MLP.py",
+      "sha256": "be667fca062a6e16ec1dc8ae5f3f438bca33ed816118371c999f330190d709f2"
+    }
+  ],
+  "public_sources": [
+    {
+      "url": "https://www.kegg.jp/kegg-bin/show_organism?org=hcr",
+      "supports": "taxonomy 1427984 bacteria, 582 protein genes"
+    },
+    {
+      "url": "https://string-db.org/network/1427984.X271_00484",
+      "supports": "taxonomy and association semantics"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "contract_sha256": "e00eaee7a84dfb7929488601c3388f95bc695cceef22cf0a871c4e13ac16977f",
+  "training_sources_sha256": {
+    "cappi_data.py": "b5b5047c9981c486ca48c46250c2bd70785142f5c4dbcc8d517392356cf620ac",
+    "cappi_graph.py": "79dcbd7ea057df06a3ea1dbb32624fccbe9af4f1a6ef44d15db8d0c2acc25cda",
+    "cappi_model.py": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+    "legacy_skipgram.py": "ee9f98b422b386b4415b86a9ecf687a5a84ac2c117e6bbdda88178eee273e2b3",
+    "run_experiments.py": "d2695c5dde113ede82202869f814e4ad74206c826185a9297b491d1212edb8fd",
+    "cappi_missing_topology.py": "842730d6602b764a90dad0c1d3382b890ae4e173687eacfeb66e71069ca0fabb",
+    "run_missing_topology.py": "84c6aa67ab89b66a8fc038a310a146009ff81e486df8f23d106e27e13edf1368"
+  },
+  "protected_files_sha256": {
+    "D:\\1.肝癌\\CaPPI_revised\\cappi_data.py": "b5b5047c9981c486ca48c46250c2bd70785142f5c4dbcc8d517392356cf620ac",
+    "D:\\1.肝癌\\CaPPI_revised\\cappi_graph.py": "79dcbd7ea057df06a3ea1dbb32624fccbe9af4f1a6ef44d15db8d0c2acc25cda",
+    "D:\\1.肝癌\\CaPPI_revised\\cappi_model.py": "ff192d473e378137d53d76168d28bffb61850f8b878d55754539d98e187449ac",
+    "D:\\1.肝癌\\CaPPI_revised\\legacy_skipgram.py": "ee9f98b422b386b4415b86a9ecf687a5a84ac2c117e6bbdda88178eee273e2b3",
+    "D:\\1.肝癌\\CaPPI_revised\\run_experiments.py": "d2695c5dde113ede82202869f814e4ad74206c826185a9297b491d1212edb8fd",
+    "D:\\1.肝癌\\CaPPI_revised\\prepared\\manifest.json": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+    "D:\\1.肝癌\\CaPPI_revised\\results\\verified_summary.csv": "d48197e139f8deb7f8caf037e4b75645e6e82083fd0a5337e4939d2378d72513",
+    "D:\\1.肝癌\\CaPPI_revised\\results\\verified_fold_metrics.csv": "2235f5c35921e51b7f4a288ba91071b777d59c7ec123eba36f167ed0cba868cf",
+    "D:\\1.肝癌\\CaPPI_revised\\results\\verified_classical_summary.csv": "02240f1b7d06e44053bed079c6f051f4211b5b3fb424c060c0e0a8c624cb9248",
+    "D:\\1.肝癌\\CaPPI_revised\\results\\publication_style_20261001\\ablation_summary.csv": "1a5cac93451ac2c968ab5b3f0e9f63ffda4acf8248e4f60b6815177a552915f4",
+    "D:\\1.肝癌\\肝癌 sequence.csv": "bd8ee069993c3dcd74a25da6c36f61fd7f53b4cb60582e4e9d91983037425cba",
+    "D:\\1.肝癌\\肝癌 interact.csv": "db52ed0c2f8ba2ab4462fdab2f1f4a730f5bde7c8fbc3ac88b7792c4efbf6678"
+  },
+  "torch": "2.11.0+cu128",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\Anaconda\\envs\\arg_gpu\\python.exe",
+  "device": "NVIDIA GeForce RTX 5060"
+}

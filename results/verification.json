@@ -1,0 +1,2360 @@
+{
+  "status": "passed",
+  "verified_runs": 50,
+  "all_outer_tests_disjoint": true,
+  "no_new_selection_or_tuning": true,
+  "fold_sd_is_not_a_confidence_interval": true,
+  "campaign_config_sha256": "3703eebaba82d741e3a3d03dc22539e5e78b10969a1a9cb2356aabeb2a818d98",
+  "runs": [
+    {
+      "run": "pair__degree_matched__drw__residual__fold0",
+      "prediction_sha256": "092f55e813fccc1066948dd632b8c59117c0a6d816f92e97d33f456c8f314248",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__degree_matched__drw__residual__fold1",
+      "prediction_sha256": "c5f1829ddbfc4b65211748d008040b2e79f38a0ef055160edc44d3fb543387a1",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__degree_matched__drw__residual__fold2",
+      "prediction_sha256": "4d39757480d7bd7bdce20b3d3a9704a9ffcc990f6e8b15f064f20febc8ec9248",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__degree_matched__drw__residual__fold3",
+      "prediction_sha256": "e1dfc50fc518ae9c66af3ee77b91c149d8d39fd1d4a5068e59b8dc0c7defa344",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__degree_matched__drw__residual__fold4",
+      "prediction_sha256": "3e8416f941a3889b28c054c402d4d5c594a500230c89df6cb9792de71f7a3fe3",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__deepwalk__residual__fold0",
+      "prediction_sha256": "014e63338555f6854bdda1ab01851f93f5b53d023f1b831b443377a205af7a24",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__deepwalk__residual__fold1",
+      "prediction_sha256": "2138a06455741c5817e83613db318cf3d39db2a8f2f86561b1971cb30e69055d",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__deepwalk__residual__fold2",
+      "prediction_sha256": "18e033fcc85f153968c7e038f40b3c47d338f5b8df6ae424c698ed7ed675b69d",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__deepwalk__residual__fold3",
+      "prediction_sha256": "3c02df3f7924298cb033b1ef3b2145d169a342e311c52203fb4a34cae102c0fa",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__deepwalk__residual__fold4",
+      "prediction_sha256": "237565737d73b0c01acde4e5ec62bd33fc96560d82cd2fed83f029bfff659d4c",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_linear__fold0",
+      "prediction_sha256": "611f29793350a657aab325ac8e11334024db89ec0b2aa825d358a242e28cae4b",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_linear",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 267969,
+        "trainable": 267969,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 131328,
+            "trainable": 131328
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.9092838196286472,
+        "fusion_capacity_signed_difference": -1316352,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_linear__fold1",
+      "prediction_sha256": "d79237dbb1da604ea49fe9cfc64d0edd1fb335b64f9af0178df4c035f7c7609e",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_linear",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 267969,
+        "trainable": 267969,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 131328,
+            "trainable": 131328
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.9092838196286472,
+        "fusion_capacity_signed_difference": -1316352,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_linear__fold2",
+      "prediction_sha256": "c459429e78abded31e10ee7cc4d98b549386b38fa9fb29efce4e23a9fc1ae836",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_linear",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 267969,
+        "trainable": 267969,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 131328,
+            "trainable": 131328
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.9092838196286472,
+        "fusion_capacity_signed_difference": -1316352,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_linear__fold3",
+      "prediction_sha256": "fbdb340fe09260dca95b7f92e2bba1a3ea172bfa50c4fd962539b8bc3b8e6499",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_linear",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 267969,
+        "trainable": 267969,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 131328,
+            "trainable": 131328
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.9092838196286472,
+        "fusion_capacity_signed_difference": -1316352,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_linear__fold4",
+      "prediction_sha256": "5593a7852903e3c3732057abaf4f50ed5dc0eb0f607b963d1feb12c9694ee72b",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_linear",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 267969,
+        "trainable": 267969,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 131328,
+            "trainable": 131328
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.9092838196286472,
+        "fusion_capacity_signed_difference": -1316352,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_matched__fold0",
+      "prediction_sha256": "6f4ade4531fb6f02440041dc9e8e7dc728e7bf6d6966c9445ffa3ef1eb7cac17",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_matched",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584410,
+        "trainable": 1584410,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447769,
+            "trainable": 1447769
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 6.147767462422635e-05,
+        "fusion_capacity_signed_difference": 89,
+        "matched_hidden_width": 1881,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_matched__fold1",
+      "prediction_sha256": "847ae09fc5785f124ef704b2e9908b12e24d79126a31ab87efc7de8054269a82",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_matched",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584410,
+        "trainable": 1584410,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447769,
+            "trainable": 1447769
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 6.147767462422635e-05,
+        "fusion_capacity_signed_difference": 89,
+        "matched_hidden_width": 1881,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_matched__fold2",
+      "prediction_sha256": "c12da778c3038beecb22b8742d3bad6b7146d4775eb98599f29edad01f08b8cc",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_matched",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584410,
+        "trainable": 1584410,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447769,
+            "trainable": 1447769
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 6.147767462422635e-05,
+        "fusion_capacity_signed_difference": 89,
+        "matched_hidden_width": 1881,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_matched__fold3",
+      "prediction_sha256": "b75327e21a67dca3c53ea25e70f8216eca1a07900e5b509e4223494d56cad519",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_matched",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584410,
+        "trainable": 1584410,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447769,
+            "trainable": 1447769
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 6.147767462422635e-05,
+        "fusion_capacity_signed_difference": 89,
+        "matched_hidden_width": 1881,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__concat_matched__fold4",
+      "prediction_sha256": "509d480e3e91b390b60b5b9df7d35322cf575b6853087d4390d1a004ceabfb2e",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "concat_matched",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584410,
+        "trainable": 1584410,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447769,
+            "trainable": 1447769
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 6.147767462422635e-05,
+        "fusion_capacity_signed_difference": 89,
+        "matched_hidden_width": 1881,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__residual__fold0",
+      "prediction_sha256": "523e7381952f7391c2276edbf233c1ed9d972d1408f50703daa3d8961f03d5e2",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__residual__fold1",
+      "prediction_sha256": "a499abdaab1057a51177c7ce7ea9b72b71af5359673a8499e28256163e9123a4",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__residual__fold2",
+      "prediction_sha256": "56ef9f400c55481a0db3b8e39b1feeea43753e75c545c030629a84e5a7ff39a8",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__residual__fold3",
+      "prediction_sha256": "7e13abe3b803c8657748f04a1627d40d7bface3e7ca08b147e5475a17cf2cfb5",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__residual__fold4",
+      "prediction_sha256": "1108c2b97bb161493f90b0d7885e91210e21762390e92d33adfa4556b95a39ca",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__sequence_only__fold0",
+      "prediction_sha256": "b3383a9a5585fea7e4bd49bc771a0ca2ece20d0464854cdfb4ce23a5922dd8ca",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__sequence_only__fold1",
+      "prediction_sha256": "44a88667b73d820eef660c5e860b4e1f8cf412d8e883a7d7c00b0fcc4f48444c",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__sequence_only__fold2",
+      "prediction_sha256": "69924188a667cba0ec40feba7e819d8bc5a6cf70067a2c7176a86bd6a259a95d",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__sequence_only__fold3",
+      "prediction_sha256": "46305558c842e0eaa10c5378abc3030fec69305e2485f0d214c342b7e26b2408",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__sequence_only__fold4",
+      "prediction_sha256": "73b1381ffc60ae427e56704efc717c3e97f8164c24b0eb746fae956fa2ec70cb",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__topology_only__fold0",
+      "prediction_sha256": "ae57d51b1c5a78a71ab02092f18ef373ae39817b73128d5d63d9073d516f064f",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "topology_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 101057,
+        "trainable": 101057,
+        "modules": {
+          "sequence_encoder": {
+            "total": 0,
+            "trainable": 0
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__topology_only__fold1",
+      "prediction_sha256": "de55c8f7e0af9486f5e7859e3aeb13c946d1b235094df535772a2e89d304fd00",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "topology_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 101057,
+        "trainable": 101057,
+        "modules": {
+          "sequence_encoder": {
+            "total": 0,
+            "trainable": 0
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__topology_only__fold2",
+      "prediction_sha256": "0e1f09ae4121bc023645ee9cd66b25c75636c3e5b0b824842d27cfee79187ea6",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "topology_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 101057,
+        "trainable": 101057,
+        "modules": {
+          "sequence_encoder": {
+            "total": 0,
+            "trainable": 0
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__topology_only__fold3",
+      "prediction_sha256": "a3111ce3dc8515a7cd3d39e19033a3148d45f3963c0b6d3c36a7c3de0183de33",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "topology_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 101057,
+        "trainable": 101057,
+        "modules": {
+          "sequence_encoder": {
+            "total": 0,
+            "trainable": 0
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__drw__topology_only__fold4",
+      "prediction_sha256": "bddf27a298251b33de33eeb6cd012d5c9a1e06efb5074df022e84a91045f0c98",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "topology_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 101057,
+        "trainable": 101057,
+        "modules": {
+          "sequence_encoder": {
+            "total": 0,
+            "trainable": 0
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__node2vec__residual__fold0",
+      "prediction_sha256": "3c0ff88b15088d41f33e18bff3cfb5f89a40865f6c4d273fa223456e88191f57",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__node2vec__residual__fold1",
+      "prediction_sha256": "d4b3ad45ce2db4667ad983b8197a0217b35201e9befa2ee20173e60ad2d82f19",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__node2vec__residual__fold2",
+      "prediction_sha256": "52da0eacaf7cfffb850de3459ff40d0c1c409d344bc8a78f8fb8d8dab9625fde",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__node2vec__residual__fold3",
+      "prediction_sha256": "51a7b4ba48e1d4db5c6211877b937b7e597be14327667cb9f8357f44d2159e83",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "pair__random__node2vec__residual__fold4",
+      "prediction_sha256": "298c3d3b70a0c57e2c4e0288e44620fe657d0063e8fed5bee76d4d761ecdc142",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__residual__fold0",
+      "prediction_sha256": "4b253b92367ba4bc199ba67f4d4d974ccbe4791303aef2b927ee72da5af4dd8a",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__residual__fold1",
+      "prediction_sha256": "671ff266a87a6ea18d1f560a4481a2ebeecdc8e3af441c9147e47ac15929c2f1",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__residual__fold2",
+      "prediction_sha256": "37753a0b049b2083b941e8cb372f4d2edd0b5dd0fb44b9624a9893fa648d285e",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__residual__fold3",
+      "prediction_sha256": "164975cfea41130469eb947d45b485d7d3e6860c5d24c20e3bf215e266d0dc3a",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__residual__fold4",
+      "prediction_sha256": "37527e8d1e7a7794833fc426d6e1803aef610f78bc764d2607e58b83887a88fa",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "residual",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 1584321,
+        "trainable": 1584321,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 16640,
+            "trainable": 16640
+          },
+          "fusion": {
+            "total": 1447680,
+            "trainable": 1447680
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 0.0,
+        "fusion_capacity_signed_difference": 0,
+        "matched_hidden_width": null,
+        "capacity_match_applies": true,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__sequence_only__fold0",
+      "prediction_sha256": "36b195edf4e5f6604cddc4c8195a998cef871c85de64ad9783ec5de55df24a55",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__sequence_only__fold1",
+      "prediction_sha256": "0119dc26f11c8c6eebe2e13f178b3bcde0ca5c48cd71d2a1274cbf9e891536f6",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__sequence_only__fold2",
+      "prediction_sha256": "6e05ab12c8f3b48f28ae18147da468a5c5971b20fad016822cdfff8fda4ad311",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__sequence_only__fold3",
+      "prediction_sha256": "f3d07bae2ed7e9208d9fb7cf5bca5df88a495ef865c662b692a2e50b682669c5",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    },
+    {
+      "run": "protein__random__drw__sequence_only__fold4",
+      "prediction_sha256": "fef7fa6038e317a7572a1392cb34c257e0015027ba9b27aae5491fa9010128d6",
+      "parameters": {
+        "config": {
+          "topo_dim": 64,
+          "seq_dim": 256,
+          "filters": 64,
+          "kernel": 7,
+          "max_length": 1500,
+          "fusion": "sequence_only",
+          "dropout": 0.3,
+          "pair_dropout": [
+            0.4,
+            0.4,
+            0.1
+          ]
+        },
+        "total": 120001,
+        "trainable": 120001,
+        "modules": {
+          "sequence_encoder": {
+            "total": 35584,
+            "trainable": 35584
+          },
+          "topology_projection": {
+            "total": 0,
+            "trainable": 0
+          },
+          "fusion": {
+            "total": 0,
+            "trainable": 0
+          },
+          "pair_head": {
+            "total": 84417,
+            "trainable": 84417
+          }
+        },
+        "reference_residual_fusion_trainable": 1447680,
+        "fusion_capacity_relative_difference": 1.0,
+        "fusion_capacity_signed_difference": -1447680,
+        "matched_hidden_width": null,
+        "capacity_match_applies": false,
+        "pair_output": "mean_of_forward_and_reverse_binary_logits",
+        "topology": "fixed_train_graph_input_with_trainable_masked_projection"
+      }
+    }
+  ]
+}

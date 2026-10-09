@@ -1,0 +1,19 @@
+# New working runs and local environments; archived published runs remain included.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+work/
+local_runs/
+# Large retrainable optimizer/model binaries are not part of this code/data release.
+*.pt
+*.pth
+*.joblib
+*.h5
+*.keras
+# Desktop/task artifacts
+.DS_Store
+Thumbs.db
+~$*

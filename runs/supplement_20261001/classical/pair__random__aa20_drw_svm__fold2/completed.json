@@ -1,0 +1,126 @@
+{
+  "name": "pair__random__aa20_drw_svm__fold2",
+  "method": "aa20_drw_svm",
+  "protocol": "pair",
+  "fold": 2,
+  "config": {
+    "code_sha256": "f14c1e559da9d478f375ea980ca6fb0c999765eb09fcc2e47a62829ef2a55297",
+    "original_classical_code_sha256": "c586c0acb21adbf959ba525f4ae1d80c166d1ea12ba55ab61c895586b5566203",
+    "dataset_hash": "75f923c88076fc0765d1dcde106c10ada4754a346ed309adc8e052d33a6d9b4b",
+    "base_seed": 20260930,
+    "negative_sampling": "random",
+    "protocol": "pair",
+    "graph": {
+      "method": "drw",
+      "dim": 64,
+      "walks_per_node": 10,
+      "walk_length": 20,
+      "window": 5,
+      "epochs": 5,
+      "negative_samples": 5,
+      "p": 1.0,
+      "q": 0.5
+    },
+    "environment": {
+      "python": "3.10.20",
+      "numpy": "1.26.4",
+      "scipy": "1.11.4",
+      "sklearn": "1.3.2",
+      "joblib": "1.3.2",
+      "xgboost": "2.1.1",
+      "torch": "2.11.0+cu128"
+    },
+    "feature_definition": "Full-sequence canonical AA20 plus raw DRW64; concat(abs(u-v),u*v); 168D.",
+    "selection": "Fixed prespecified settings; train-only fit/calibration; no validation/test tuning or early stopping.",
+    "threshold": 0.5,
+    "cpu_threads": 2,
+    "category": "feature-based classical controls; not published model reproductions",
+    "method": "aa20_drw_svm",
+    "model": {
+      "algorithm": "SVC",
+      "C": 1.0,
+      "kernel": "rbf",
+      "gamma": "scale",
+      "probability": true,
+      "class_weight": null,
+      "cache_size": 1024,
+      "tol": 0.001,
+      "max_iter": -1,
+      "shrinking": true,
+      "calibration": "libsvm internal five-fold probability calibration on training pairs only",
+      "standardization": "StandardScaler fit on training pairs only"
+    },
+    "seed": 20260932,
+    "fold": 2,
+    "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+    "split_array_hashes": {
+      "train": "e6e7ba920007cac19bbcfa81cc468474eb75386e68f7ef06b5fe5736356356dc",
+      "val": "6841d68dc1742a3ba615f9b77fb1673618f15a2e56e8312e3435e312b627029e",
+      "test": "c647e7de9ae8f9c1f509312fc252aaad5f578899926f557b89c54e80824f4126"
+    },
+    "prepared_manifest_sha256": "ebef279a77d6c172559b96eb29388d3a41b98751867f3126e1a7db7c07a13d69",
+    "feature_proof": {
+      "graph_hash": "c933ffa6d3d7ebb5bcb0ce4e2d629d4640d4b59825cb131802f75c2344274d47",
+      "graph_cache_sha256": "aab91e2b903cf3a3e27a55673a26737a679d5d5d4cb5126f9ee39dce72bcc0e9",
+      "graph_metadata_sha256": "a300c11df14d4cac47f669cb5dcc89f42b8262a5b7019ffc740462c7517d35c1",
+      "graph_feature_hash": "a67834c450a1356c957b31f6a12d051134cc91df50bcf578c735223432d10eb1",
+      "node_feature_hash": "bba18f15c3f2d5b912046f175173ee52a1ce073f612401c6bca47b8a35fc99f6",
+      "feature_hashes": {
+        "train": "4b8ee2f3c03ec10cfc79a232972d6dcaf3cf0b560e6aca8d8c583c6b801af1b0",
+        "val": "3826f8f7cb7bfdeafd2d3fea8e2aff04fd57a6926e4ecb3f26bbac19a89bf5f8",
+        "test": "5e4f652d24568c04d92e47806bba6472bab25a2302ecfe13101261f4af4e8190"
+      }
+    },
+    "original_control_replay": [
+      {
+        "method": "aa20_drw_lr",
+        "completed_sha256": "bd2e8b820b897568a942a37cd841b3f5fac3d24c2cb7c7e12745560b5c5a2d57",
+        "prediction_sha256": "87f9490affa75512a6cc7e387a61c0df6c75131e3d4cfe9d38497625c1801469",
+        "checkpoint_sha256": "2ca8b67a2c62d0c49e47aceb898722debfd15987252b32dcff9f044482ff77ba",
+        "n": 9482,
+        "max_abs_prediction_difference": 1.1102230246251565e-16
+      },
+      {
+        "method": "aa20_drw_rf",
+        "completed_sha256": "6d3ccc98e70de6c08dd7c92e83933dc1ed723355a679e9840a7afa0ab3b748d4",
+        "prediction_sha256": "76ab28f2a93f419fa4f6c90b4f9ac8453b9ae9a9ee276dcf15ba84c752e6723b",
+        "checkpoint_sha256": "00d2afad613c4caef2f82583698854613cb162aca69b2b539b04d8f874e23497",
+        "n": 9482,
+        "max_abs_prediction_difference": 2.220446049250313e-16
+      }
+    ]
+  },
+  "run_signature": "d7a835e125aef29d25bf0e9a9b73c20ce7ad29ec5c358c0ad61664452298464b",
+  "campaign_signature": "ed0b331c52a8ee6b37b3fe4b61ff0191d47d833aa21c99dd0ba9460e68276ea2",
+  "split_hash": "46c8562878d754ecad9c4383a8e09d55af6423416efdea564b33df5eda02ec92",
+  "split_array_hashes": {
+    "train": "e6e7ba920007cac19bbcfa81cc468474eb75386e68f7ef06b5fe5736356356dc",
+    "val": "6841d68dc1742a3ba615f9b77fb1673618f15a2e56e8312e3435e312b627029e",
+    "test": "c647e7de9ae8f9c1f509312fc252aaad5f578899926f557b89c54e80824f4126"
+  },
+  "checkpoint_sha256": "be54236439f59f0dbe3e14193a6a31e307eaa9c89120cdc34a12e6ca324a8dae",
+  "test_evaluated": true,
+  "test_metrics": {
+    "accuracy": 0.8622653448639528,
+    "sensitivity": 0.8506644167897068,
+    "specificity": 0.8738662729381987,
+    "precision": 0.8708702224141655,
+    "f1": 0.8606487409304311,
+    "mcc": 0.7247257854009395,
+    "auroc": 0.9332344578017048,
+    "average_precision": 0.9269533406861212,
+    "pr_trapezoid_area": 0.9269439801586066,
+    "n": 9482,
+    "positive_n": 4741,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "elapsed_seconds": 814.265000000014,
+  "artifacts_sha256": {
+    "run_config.json": "caa2a9abaf70ff67ca388632a028d54dad98c7bc915154972251b5a182e2c772",
+    "model.joblib": "be54236439f59f0dbe3e14193a6a31e307eaa9c89120cdc34a12e6ca324a8dae",
+    "predictions.csv": "4add03aa732f5feb37561c127dd6c40b72f75d35e20796693c177e195a4ec643",
+    "test_predictions.csv": "55623eb54f122392ab44f5fed60a6fd0a047580cfb4ae202e770e3450df2924c",
+    "metrics.json": "76f5994443002d926d22c05ce17fb9ced31ef609ef4d6d0f5db46db05ba388cb"
+  }
+}

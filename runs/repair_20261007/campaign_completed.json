@@ -1,0 +1,9 @@
+{
+  "status": "completed_and_verified",
+  "training_runs": 300,
+  "test_evaluations": 225,
+  "verification": "D:\\1.肝癌\\CaPPI_revised\\results\\repair_20261007\\verification.json",
+  "protected_originals_unchanged": true,
+  "completed_at": "2026-10-07T07:11:59.093180+00:00",
+  "selection_signature": "a992c2a6338f4c0b95d1608e879e95702da39cd7a704154f748cf0cf4a4e7bb9"
+}

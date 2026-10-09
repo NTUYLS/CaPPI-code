@@ -1,0 +1,47 @@
+{
+  "train": {
+    "accuracy": 0.9175956613437782,
+    "sensitivity": 0.938113889725821,
+    "specificity": 0.8970774329617355,
+    "precision": 0.9011345218800648,
+    "f1": 0.919252457854802,
+    "mcc": 0.8358954393519761,
+    "auroc": 0.9719309106288707,
+    "average_precision": 0.9670306069789467,
+    "pr_trapezoid_area": 0.9670307387262849,
+    "n": 33190,
+    "positive_n": 16595,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "val": {
+    "accuracy": 0.8477435681147195,
+    "sensitivity": 0.8376212568536483,
+    "specificity": 0.8578658793757908,
+    "precision": 0.8549289711579854,
+    "f1": 0.8461866212185769,
+    "mcc": 0.6956297009256099,
+    "auroc": 0.9211977427943193,
+    "average_precision": 0.9157620979467663,
+    "pr_trapezoid_area": 0.9157414010882211,
+    "n": 4742,
+    "positive_n": 2371,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  },
+  "test": {
+    "accuracy": 0.8622653448639528,
+    "sensitivity": 0.8506644167897068,
+    "specificity": 0.8738662729381987,
+    "precision": 0.8708702224141655,
+    "f1": 0.8606487409304311,
+    "mcc": 0.7247257854009395,
+    "auroc": 0.9332344578017048,
+    "average_precision": 0.9269533406861212,
+    "pr_trapezoid_area": 0.9269439801586066,
+    "n": 9482,
+    "positive_n": 4741,
+    "threshold": 0.5,
+    "metric_scope": "classification_and_ranking"
+  }
+}

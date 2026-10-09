@@ -1,0 +1,1246 @@
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8679881906368621, "sensitivity": 0.8797975537747785, "specificity": 0.8561788274989456, "precision": 0.8594973217964565, "f1": 0.8695289704043351, "mcc": 0.7361817472885879, "auroc": 0.9407822377843053, "average_precision": 0.9360948606118835, "pr_trapezoid_area": 0.9360772847213057, "threshold": 0.5}
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.869886123998313, "sensitivity": 0.9072121467735133, "specificity": 0.8325601012231126, "precision": 0.8441915227629513, "f1": 0.8745680016263467, "mcc": 0.7418422527182956, "auroc": 0.945257443511601, "average_precision": 0.9412262712976099, "pr_trapezoid_area": 0.9412110019928108, "threshold": 0.5}
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8635596794601434, "sensitivity": 0.8827498945592577, "specificity": 0.8443694643610291, "precision": 0.8501218521527214, "f1": 0.8661286985309331, "mcc": 0.727655495597376, "auroc": 0.9401235333241664, "average_precision": 0.9341796727435419, "pr_trapezoid_area": 0.93416027578966, "threshold": 0.5}
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8599746942218474, "sensitivity": 0.8899198650358499, "specificity": 0.8300295234078447, "precision": 0.8396339037007561, "f1": 0.864045864045864, "mcc": 0.7212440486226331, "auroc": 0.9403399292128403, "average_precision": 0.9361359827144141, "pr_trapezoid_area": 0.9361185028349639, "threshold": 0.5}
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8667229017292282, "sensitivity": 0.8945592576971741, "specificity": 0.8388865457612822, "precision": 0.8473831402317219, "f1": 0.8703323758719738, "mcc": 0.7345850921315545, "auroc": 0.9399639713741949, "average_precision": 0.9352647670396596, "pr_trapezoid_area": 0.9352467072215385, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk10_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim32_walk10_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.690522 stale=0 elapsed=4.8s
+dim32_walk10_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.435371 stale=0 elapsed=13.4s
+dim32_walk10_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.398926 stale=0 elapsed=21.5s
+dim32_walk10_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.377754 stale=1 elapsed=29.7s
+dim32_walk10_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.361028 stale=0 elapsed=37.8s
+dim32_walk10_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.348895 stale=5 elapsed=45.5s
+dim32_walk10_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.335261 stale=1 elapsed=53.2s
+COMPLETE dim32_walk10_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.855335301560523, "sensitivity": 0.9013074652045551, "specificity": 0.809363137916491, "precision": 0.8254152182309772, "f1": 0.8616935483870968, "mcc": 0.7136937032194172, "auroc": 0.931114598032852, "average_precision": 0.9264194179192079, "pr_trapezoid_area": 0.9263997724453913, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk10_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim32_walk10_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.687723 stale=0 elapsed=2.9s
+dim32_walk10_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.419111 stale=0 elapsed=11.9s
+dim32_walk10_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.376712 stale=1 elapsed=20.3s
+dim32_walk10_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.349777 stale=6 elapsed=29.2s
+dim32_walk10_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.332062 stale=0 elapsed=37.3s
+dim32_walk10_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.319177 stale=0 elapsed=45.1s
+dim32_walk10_kernel7_length1500_lr0p0005__fold1 epoch=300 valBCE=0.313096 stale=9 elapsed=52.3s
+COMPLETE dim32_walk10_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8631379164909321, "sensitivity": 0.8979333614508647, "specificity": 0.8283424715309996, "precision": 0.8395110410094637, "f1": 0.8677399633177094, "mcc": 0.7280408842359307, "auroc": 0.9380426462664551, "average_precision": 0.9312251223659362, "pr_trapezoid_area": 0.9312043601223798, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk10_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim32_walk10_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.687430 stale=0 elapsed=2.8s
+dim32_walk10_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.431635 stale=0 elapsed=11.5s
+dim32_walk10_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.398311 stale=2 elapsed=19.6s
+dim32_walk10_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.379134 stale=3 elapsed=27.3s
+dim32_walk10_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.354125 stale=1 elapsed=35.0s
+dim32_walk10_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.340324 stale=19 elapsed=42.3s
+dim32_walk10_kernel7_length1500_lr0p0005__fold2 epoch=251 valBCE=0.342141 stale=20 elapsed=42.5s
+COMPLETE dim32_walk10_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8511176718684099, "sensitivity": 0.8840151834668916, "specificity": 0.8182201602699283, "precision": 0.8294420261179264, "f1": 0.8558595345038791, "mcc": 0.7037602797577083, "auroc": 0.928112093959753, "average_precision": 0.9213723881285659, "pr_trapezoid_area": 0.9213497901246723, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk10_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim32_walk10_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.690104 stale=0 elapsed=2.8s
+dim32_walk10_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.445903 stale=1 elapsed=11.7s
+dim32_walk10_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.400811 stale=0 elapsed=20.2s
+dim32_walk10_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.367111 stale=0 elapsed=28.3s
+dim32_walk10_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.345533 stale=1 elapsed=36.2s
+dim32_walk10_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.339215 stale=0 elapsed=43.7s
+dim32_walk10_kernel7_length1500_lr0p0005__fold3 epoch=300 valBCE=0.333237 stale=2 elapsed=51.6s
+COMPLETE dim32_walk10_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8536482496836778, "sensitivity": 0.8827498945592577, "specificity": 0.8245466048080978, "precision": 0.8341968911917098, "f1": 0.8577868852459015, "mcc": 0.7084975787559179, "auroc": 0.9334943302142559, "average_precision": 0.9295229994507408, "pr_trapezoid_area": 0.9295038090804703, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk10_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim32_walk10_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.688162 stale=0 elapsed=2.7s
+dim32_walk10_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.434540 stale=1 elapsed=11.6s
+dim32_walk10_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.391952 stale=0 elapsed=20.1s
+dim32_walk10_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.372265 stale=2 elapsed=28.0s
+dim32_walk10_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.348346 stale=1 elapsed=36.2s
+dim32_walk10_kernel7_length1500_lr0p0005__fold4 epoch=250 valBCE=0.337911 stale=1 elapsed=43.9s
+dim32_walk10_kernel7_length1500_lr0p0005__fold4 epoch=286 valBCE=0.325952 stale=20 elapsed=49.0s
+COMPLETE dim32_walk10_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8584985238296078, "sensitivity": 0.8878110501897933, "specificity": 0.8291859974694222, "precision": 0.8386454183266933, "f1": 0.8625281704568736, "mcc": 0.7182323552229103, "auroc": 0.9379832330097209, "average_precision": 0.9333985230616304, "pr_trapezoid_area": 0.9333798049420768, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk20_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim32_walk20_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.691040 stale=0 elapsed=3.7s
+dim32_walk20_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.432285 stale=0 elapsed=12.3s
+dim32_walk20_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.386096 stale=0 elapsed=20.8s
+dim32_walk20_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.362864 stale=1 elapsed=29.3s
+dim32_walk20_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.350529 stale=0 elapsed=36.9s
+dim32_walk20_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.340528 stale=8 elapsed=44.7s
+dim32_walk20_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.333948 stale=13 elapsed=52.3s
+COMPLETE dim32_walk20_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8593420497680304, "sensitivity": 0.8903416280050611, "specificity": 0.8283424715309996, "precision": 0.8383637807783956, "f1": 0.863571282470853, "mcc": 0.7200693676905846, "auroc": 0.9351760455710352, "average_precision": 0.9293674456675936, "pr_trapezoid_area": 0.929347584180453, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk20_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim32_walk20_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.689813 stale=0 elapsed=4.1s
+dim32_walk20_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.418571 stale=1 elapsed=13.3s
+dim32_walk20_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.371677 stale=1 elapsed=22.2s
+dim32_walk20_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.334415 stale=1 elapsed=30.6s
+dim32_walk20_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.311096 stale=0 elapsed=38.5s
+dim32_walk20_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.302450 stale=3 elapsed=46.0s
+dim32_walk20_kernel7_length1500_lr0p0005__fold1 epoch=275 valBCE=0.304992 stale=20 elapsed=49.5s
+COMPLETE dim32_walk20_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8669337832138339, "sensitivity": 0.8873892872205821, "specificity": 0.8464782792070856, "precision": 0.8525121555915721, "f1": 0.8696011572638975, "mcc": 0.7344824793790571, "auroc": 0.9437799389893449, "average_precision": 0.9385410023252763, "pr_trapezoid_area": 0.9385240971078527, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk20_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim32_walk20_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.690184 stale=0 elapsed=3.8s
+dim32_walk20_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.431534 stale=0 elapsed=12.4s
+dim32_walk20_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.387492 stale=1 elapsed=20.7s
+dim32_walk20_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.353666 stale=1 elapsed=28.7s
+dim32_walk20_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.331237 stale=2 elapsed=36.3s
+dim32_walk20_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.321055 stale=2 elapsed=43.6s
+dim32_walk20_kernel7_length1500_lr0p0005__fold2 epoch=298 valBCE=0.317580 stale=20 elapsed=50.4s
+COMPLETE dim32_walk20_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8663011387600169, "sensitivity": 0.8764234500210881, "specificity": 0.8561788274989456, "precision": 0.8590326581231914, "f1": 0.8676409185803758, "mcc": 0.7327524502776134, "auroc": 0.9421241057548856, "average_precision": 0.9374519803172773, "pr_trapezoid_area": 0.9374350412740455, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk20_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim32_walk20_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.691413 stale=0 elapsed=3.9s
+dim32_walk20_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.436020 stale=0 elapsed=13.0s
+dim32_walk20_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.379688 stale=1 elapsed=21.6s
+dim32_walk20_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.350638 stale=1 elapsed=29.8s
+dim32_walk20_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.334772 stale=1 elapsed=37.8s
+dim32_walk20_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.315970 stale=6 elapsed=45.3s
+dim32_walk20_kernel7_length1500_lr0p0005__fold3 epoch=300 valBCE=0.309241 stale=20 elapsed=52.6s
+COMPLETE dim32_walk20_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8673555461830451, "sensitivity": 0.897089835512442, "specificity": 0.8376212568536483, "precision": 0.8467356687898089, "f1": 0.8711857464673357, "mcc": 0.7360137056580229, "auroc": 0.9434090508447622, "average_precision": 0.9393186613264983, "pr_trapezoid_area": 0.9393025614221965, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk20_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim32_walk20_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690296 stale=0 elapsed=3.9s
+dim32_walk20_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.432433 stale=0 elapsed=12.9s
+dim32_walk20_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.383332 stale=1 elapsed=21.6s
+dim32_walk20_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.351119 stale=3 elapsed=30.0s
+dim32_walk20_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.330249 stale=2 elapsed=38.0s
+dim32_walk20_kernel7_length1500_lr0p0005__fold4 epoch=250 valBCE=0.324504 stale=10 elapsed=45.3s
+dim32_walk20_kernel7_length1500_lr0p0005__fold4 epoch=260 valBCE=0.324870 stale=20 elapsed=46.7s
+COMPLETE dim32_walk20_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8681990721214677, "sensitivity": 0.9046815689582455, "specificity": 0.83171657528469, "precision": 0.8431603773584906, "f1": 0.8728382502543236, "mcc": 0.7383662577231319, "auroc": 0.9398198853324146, "average_precision": 0.9353152773745952, "pr_trapezoid_area": 0.9352971939598463, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk30_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim32_walk30_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.690898 stale=0 elapsed=5.0s
+dim32_walk30_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.421333 stale=1 elapsed=13.8s
+dim32_walk30_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.389641 stale=0 elapsed=22.1s
+dim32_walk30_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.355761 stale=2 elapsed=30.7s
+dim32_walk30_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.342057 stale=0 elapsed=38.1s
+dim32_walk30_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.335520 stale=0 elapsed=46.0s
+dim32_walk30_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.331702 stale=7 elapsed=53.5s
+COMPLETE dim32_walk30_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.859552931252636, "sensitivity": 0.8844369464361029, "specificity": 0.8346689160691692, "precision": 0.8425070309361189, "f1": 0.862962962962963, "mcc": 0.7199980814111654, "auroc": 0.93555600579973, "average_precision": 0.930158080462798, "pr_trapezoid_area": 0.9301388258946734, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk30_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim32_walk30_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.690066 stale=0 elapsed=5.0s
+dim32_walk30_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.421249 stale=0 elapsed=14.0s
+dim32_walk30_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.374098 stale=1 elapsed=22.9s
+dim32_walk30_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.340043 stale=2 elapsed=31.2s
+dim32_walk30_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.316267 stale=0 elapsed=39.3s
+dim32_walk30_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.306916 stale=2 elapsed=46.7s
+dim32_walk30_kernel7_length1500_lr0p0005__fold1 epoch=281 valBCE=0.305314 stale=20 elapsed=51.2s
+COMPLETE dim32_walk30_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8688317165752847, "sensitivity": 0.9013074652045551, "specificity": 0.8363559679460143, "precision": 0.8463366336633663, "f1": 0.8729575163398693, "mcc": 0.7392243629627472, "auroc": 0.9430829894687335, "average_precision": 0.9368033092400545, "pr_trapezoid_area": 0.9367858467334083, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk30_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim32_walk30_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.690755 stale=0 elapsed=5.1s
+dim32_walk30_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.424118 stale=0 elapsed=14.4s
+dim32_walk30_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.385036 stale=0 elapsed=22.9s
+dim32_walk30_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.358850 stale=2 elapsed=31.1s
+dim32_walk30_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.335457 stale=1 elapsed=39.0s
+dim32_walk30_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.326940 stale=9 elapsed=46.1s
+dim32_walk30_kernel7_length1500_lr0p0005__fold2 epoch=261 valBCE=0.329126 stale=20 elapsed=47.6s
+COMPLETE dim32_walk30_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.863770560944749, "sensitivity": 0.8865457612821595, "specificity": 0.8409953606073387, "precision": 0.8479225494150867, "f1": 0.8668041237113401, "mcc": 0.7282970637838925, "auroc": 0.941150368726854, "average_precision": 0.9358491804468642, "pr_trapezoid_area": 0.9358316359565668, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk30_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim32_walk30_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.692176 stale=0 elapsed=4.8s
+dim32_walk30_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.428153 stale=0 elapsed=13.4s
+dim32_walk30_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.386668 stale=1 elapsed=21.5s
+dim32_walk30_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.338037 stale=0 elapsed=29.6s
+dim32_walk30_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.315090 stale=1 elapsed=37.3s
+dim32_walk30_kernel7_length1500_lr0p0005__fold3 epoch=237 valBCE=0.307913 stale=20 elapsed=42.5s
+COMPLETE dim32_walk30_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8610291016448756, "sensitivity": 0.8991986503584986, "specificity": 0.8228595529312527, "precision": 0.835423197492163, "f1": 0.8661385334145846, "mcc": 0.7241713980791884, "auroc": 0.9427380723884717, "average_precision": 0.9381596152918248, "pr_trapezoid_area": 0.9381429696464508, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk30_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim32_walk30_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690466 stale=0 elapsed=5.0s
+dim32_walk30_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.423836 stale=0 elapsed=13.8s
+dim32_walk30_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.386065 stale=0 elapsed=22.2s
+dim32_walk30_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.347579 stale=1 elapsed=30.7s
+dim32_walk30_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.335214 stale=6 elapsed=38.0s
+dim32_walk30_kernel7_length1500_lr0p0005__fold4 epoch=222 valBCE=0.335923 stale=20 elapsed=41.1s
+COMPLETE dim32_walk30_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8576549978911852, "sensitivity": 0.8920286798819064, "specificity": 0.8232813159004639, "precision": 0.834648776637727, "f1": 0.8623853211009176, "mcc": 0.717006360245061, "auroc": 0.9351888532191935, "average_precision": 0.9308252629947112, "pr_trapezoid_area": 0.9308058996239817, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk40_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim32_walk40_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.691001 stale=0 elapsed=6.0s
+dim32_walk40_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.417969 stale=0 elapsed=14.6s
+dim32_walk40_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.386625 stale=0 elapsed=23.0s
+dim32_walk40_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.360530 stale=1 elapsed=30.9s
+dim32_walk40_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.338551 stale=2 elapsed=38.5s
+dim32_walk40_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.331380 stale=1 elapsed=45.8s
+dim32_walk40_kernel7_length1500_lr0p0005__fold0 epoch=291 valBCE=0.323668 stale=20 elapsed=51.4s
+COMPLETE dim32_walk40_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8673555461830451, "sensitivity": 0.8802193167439899, "specificity": 0.8544917756221003, "precision": 0.858141447368421, "f1": 0.8690401832188216, "mcc": 0.7349543681189559, "auroc": 0.9427414521845134, "average_precision": 0.9382614120102606, "pr_trapezoid_area": 0.9382451742828196, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk40_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim32_walk40_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.690275 stale=0 elapsed=5.9s
+dim32_walk40_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.414673 stale=0 elapsed=14.3s
+dim32_walk40_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.374700 stale=1 elapsed=22.8s
+dim32_walk40_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.334767 stale=0 elapsed=31.0s
+dim32_walk40_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.319756 stale=4 elapsed=38.4s
+dim32_walk40_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.305337 stale=0 elapsed=45.5s
+dim32_walk40_kernel7_length1500_lr0p0005__fold1 epoch=283 valBCE=0.302167 stale=20 elapsed=50.1s
+COMPLETE dim32_walk40_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8660902572754112, "sensitivity": 0.8852804723745256, "specificity": 0.8469000421762969, "precision": 0.8525588952071487, "f1": 0.8686116283881647, "mcc": 0.7327203830377289, "auroc": 0.9449831463802117, "average_precision": 0.9400337333623642, "pr_trapezoid_area": 0.9400176560501848, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk40_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim32_walk40_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.691491 stale=0 elapsed=6.0s
+dim32_walk40_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.424749 stale=1 elapsed=14.5s
+dim32_walk40_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.390395 stale=0 elapsed=22.8s
+dim32_walk40_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.353514 stale=0 elapsed=31.2s
+dim32_walk40_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.328331 stale=3 elapsed=38.5s
+dim32_walk40_kernel7_length1500_lr0p0005__fold2 epoch=248 valBCE=0.327527 stale=20 elapsed=45.2s
+COMPLETE dim32_walk40_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8625052720371151, "sensitivity": 0.8894981020666386, "specificity": 0.8355124420075918, "precision": 0.843937575030012, "f1": 0.8661190965092402, "mcc": 0.7260693630755674, "auroc": 0.9394642952120209, "average_precision": 0.9335726542450121, "pr_trapezoid_area": 0.9335538537894479, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk40_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim32_walk40_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.692107 stale=0 elapsed=6.0s
+dim32_walk40_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.423543 stale=0 elapsed=14.6s
+dim32_walk40_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.388910 stale=1 elapsed=23.0s
+dim32_walk40_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.351153 stale=1 elapsed=31.4s
+dim32_walk40_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.335237 stale=7 elapsed=38.9s
+dim32_walk40_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.319672 stale=0 elapsed=46.5s
+dim32_walk40_kernel7_length1500_lr0p0005__fold3 epoch=300 valBCE=0.315885 stale=20 elapsed=53.7s
+COMPLETE dim32_walk40_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8618726275832982, "sensitivity": 0.8979333614508647, "specificity": 0.8258118937157317, "precision": 0.8375295043273013, "f1": 0.866680236108284, "mcc": 0.725634912852593, "auroc": 0.9402985711823291, "average_precision": 0.9353305474923732, "pr_trapezoid_area": 0.9353132742202694, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim32_walk40_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim32_walk40_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690577 stale=0 elapsed=6.0s
+dim32_walk40_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.420719 stale=0 elapsed=14.8s
+dim32_walk40_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.384224 stale=0 elapsed=23.4s
+dim32_walk40_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.352593 stale=0 elapsed=31.8s
+dim32_walk40_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.325148 stale=0 elapsed=39.5s
+dim32_walk40_kernel7_length1500_lr0p0005__fold4 epoch=220 valBCE=0.325386 stale=20 elapsed=42.2s
+COMPLETE dim32_walk40_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8608182201602699, "sensitivity": 0.8996204133277098, "specificity": 0.82201602699283, "precision": 0.8348336594911937, "f1": 0.8660170523751523, "mcc": 0.7238193113048742, "auroc": 0.939440992407733, "average_precision": 0.93446081056735, "pr_trapezoid_area": 0.9344425821678525, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk10_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim64_walk10_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.685488 stale=0 elapsed=3.1s
+dim64_walk10_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.432189 stale=2 elapsed=12.1s
+dim64_walk10_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.399752 stale=1 elapsed=20.6s
+dim64_walk10_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.377716 stale=3 elapsed=28.6s
+dim64_walk10_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.357690 stale=0 elapsed=36.4s
+dim64_walk10_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.338935 stale=0 elapsed=44.0s
+dim64_walk10_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.329949 stale=5 elapsed=51.3s
+COMPLETE dim64_walk10_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8568114719527625, "sensitivity": 0.8882328131590046, "specificity": 0.8253901307465205, "precision": 0.8357142857142857, "f1": 0.8611735841341239, "mcc": 0.7150362522067754, "auroc": 0.9339109345474034, "average_precision": 0.9285683644413716, "pr_trapezoid_area": 0.9285486035144593, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk10_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim64_walk10_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.688461 stale=0 elapsed=2.9s
+dim64_walk10_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.421878 stale=0 elapsed=11.9s
+dim64_walk10_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.377385 stale=0 elapsed=20.4s
+dim64_walk10_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.343430 stale=0 elapsed=28.7s
+dim64_walk10_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.324997 stale=0 elapsed=36.7s
+dim64_walk10_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.316826 stale=3 elapsed=44.2s
+dim64_walk10_kernel7_length1500_lr0p0005__fold1 epoch=300 valBCE=0.310799 stale=3 elapsed=51.5s
+COMPLETE dim64_walk10_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8618726275832982, "sensitivity": 0.8894981020666386, "specificity": 0.8342471530999578, "precision": 0.842925659472422, "f1": 0.8655858813872359, "mcc": 0.7248524675350669, "auroc": 0.9394038146512734, "average_precision": 0.9326608730194822, "pr_trapezoid_area": 0.9326415826544397, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk10_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim64_walk10_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.688510 stale=0 elapsed=2.8s
+dim64_walk10_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.435764 stale=0 elapsed=11.4s
+dim64_walk10_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.394077 stale=3 elapsed=19.5s
+dim64_walk10_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.369070 stale=0 elapsed=27.8s
+dim64_walk10_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.344476 stale=0 elapsed=35.6s
+dim64_walk10_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.340663 stale=1 elapsed=43.0s
+dim64_walk10_kernel7_length1500_lr0p0005__fold2 epoch=300 valBCE=0.325135 stale=4 elapsed=50.2s
+COMPLETE dim64_walk10_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8603964571910586, "sensitivity": 0.8848587094053142, "specificity": 0.835934204976803, "precision": 0.8435866505830317, "f1": 0.8637299300123507, "mcc": 0.7216571136379202, "auroc": 0.9366864586336978, "average_precision": 0.9308277394263939, "pr_trapezoid_area": 0.9308083164601277, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk10_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim64_walk10_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.690064 stale=0 elapsed=3.0s
+dim64_walk10_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.447221 stale=0 elapsed=11.5s
+dim64_walk10_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.403966 stale=2 elapsed=19.7s
+dim64_walk10_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.376534 stale=2 elapsed=28.0s
+dim64_walk10_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.352515 stale=1 elapsed=36.1s
+dim64_walk10_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.348750 stale=2 elapsed=43.5s
+dim64_walk10_kernel7_length1500_lr0p0005__fold3 epoch=286 valBCE=0.334008 stale=20 elapsed=48.5s
+COMPLETE dim64_walk10_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8479544495993252, "sensitivity": 0.8785322648671446, "specificity": 0.8173766343315056, "precision": 0.8279014308426074, "f1": 0.8524657253939021, "mcc": 0.6972139144402101, "auroc": 0.930445042648579, "average_precision": 0.9255205244901067, "pr_trapezoid_area": 0.9254999949740877, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk10_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim64_walk10_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.686434 stale=0 elapsed=2.7s
+dim64_walk10_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.441580 stale=1 elapsed=11.0s
+dim64_walk10_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.395319 stale=3 elapsed=18.9s
+dim64_walk10_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.365119 stale=0 elapsed=26.8s
+dim64_walk10_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.345878 stale=1 elapsed=34.5s
+dim64_walk10_kernel7_length1500_lr0p0005__fold4 epoch=250 valBCE=0.330671 stale=1 elapsed=42.0s
+dim64_walk10_kernel7_length1500_lr0p0005__fold4 epoch=296 valBCE=0.324191 stale=20 elapsed=48.4s
+COMPLETE dim64_walk10_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8597638127372417, "sensitivity": 0.8907633909742725, "specificity": 0.8287642345002109, "precision": 0.8387609213661636, "f1": 0.8639803640826345, "mcc": 0.720914519530597, "auroc": 0.9374829342535392, "average_precision": 0.9330123157920176, "pr_trapezoid_area": 0.9329942367237773, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk30_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim64_walk30_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.689896 stale=0 elapsed=5.2s
+dim64_walk30_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.425321 stale=1 elapsed=13.4s
+dim64_walk30_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.384245 stale=0 elapsed=21.5s
+dim64_walk30_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.355060 stale=2 elapsed=29.4s
+dim64_walk30_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.334493 stale=3 elapsed=36.9s
+dim64_walk30_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.326556 stale=7 elapsed=44.0s
+dim64_walk30_kernel7_length1500_lr0p0005__fold0 epoch=263 valBCE=0.321382 stale=20 elapsed=45.7s
+COMPLETE dim64_walk30_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8656684943062, "sensitivity": 0.9143821172501054, "specificity": 0.8169548713622944, "precision": 0.8332052267486548, "f1": 0.8719083048461692, "mcc": 0.7348328458807508, "auroc": 0.9398807216611662, "average_precision": 0.9339141994438792, "pr_trapezoid_area": 0.9338956938408508, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk30_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim64_walk30_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.690610 stale=0 elapsed=5.3s
+dim64_walk30_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.414757 stale=1 elapsed=13.8s
+dim64_walk30_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.373136 stale=1 elapsed=22.1s
+dim64_walk30_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.346142 stale=0 elapsed=30.0s
+dim64_walk30_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.324797 stale=2 elapsed=37.5s
+dim64_walk30_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.313667 stale=1 elapsed=44.4s
+dim64_walk30_kernel7_length1500_lr0p0005__fold1 epoch=286 valBCE=0.313636 stale=20 elapsed=49.5s
+COMPLETE dim64_walk30_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8648249683677773, "sensitivity": 0.8852804723745256, "specificity": 0.8443694643610291, "precision": 0.850486223662885, "f1": 0.8675346145897913, "mcc": 0.7302613157044648, "auroc": 0.9409606554385098, "average_precision": 0.9346426539622451, "pr_trapezoid_area": 0.9346246041000699, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk30_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim64_walk30_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.691524 stale=0 elapsed=5.2s
+dim64_walk30_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.423318 stale=0 elapsed=13.6s
+dim64_walk30_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.375231 stale=0 elapsed=22.1s
+dim64_walk30_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.344965 stale=0 elapsed=30.2s
+dim64_walk30_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.334330 stale=4 elapsed=37.7s
+dim64_walk30_kernel7_length1500_lr0p0005__fold2 epoch=224 valBCE=0.329700 stale=20 elapsed=41.0s
+COMPLETE dim64_walk30_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8654576128215943, "sensitivity": 0.8996204133277098, "specificity": 0.8312948123154787, "precision": 0.8420844848006317, "f1": 0.8699021207177814, "mcc": 0.7326273203664341, "auroc": 0.9384599621356112, "average_precision": 0.9321031276914975, "pr_trapezoid_area": 0.932083915551982, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk30_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim64_walk30_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.692324 stale=0 elapsed=5.2s
+dim64_walk30_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.427600 stale=0 elapsed=13.6s
+dim64_walk30_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.393550 stale=0 elapsed=21.8s
+dim64_walk30_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.355150 stale=3 elapsed=29.8s
+dim64_walk30_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.331117 stale=0 elapsed=37.4s
+dim64_walk30_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.318163 stale=4 elapsed=44.9s
+dim64_walk30_kernel7_length1500_lr0p0005__fold3 epoch=266 valBCE=0.318992 stale=20 elapsed=47.0s
+COMPLETE dim64_walk30_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8646140868831717, "sensitivity": 0.9076339097427246, "specificity": 0.8215942640236187, "precision": 0.8357281553398058, "f1": 0.8701981399110393, "mcc": 0.7319424256236297, "auroc": 0.9403042634703995, "average_precision": 0.9354839798413273, "pr_trapezoid_area": 0.9354665777448816, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk30_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim64_walk30_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690523 stale=0 elapsed=5.2s
+dim64_walk30_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.425973 stale=0 elapsed=13.6s
+dim64_walk30_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.382465 stale=0 elapsed=21.9s
+dim64_walk30_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.351119 stale=2 elapsed=29.7s
+dim64_walk30_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.336261 stale=5 elapsed=36.7s
+dim64_walk30_kernel7_length1500_lr0p0005__fold4 epoch=215 valBCE=0.333881 stale=20 elapsed=38.7s
+COMPLETE dim64_walk30_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8631379164909321, "sensitivity": 0.8996204133277098, "specificity": 0.8266554196541543, "precision": 0.8384433962264151, "f1": 0.8679552390640893, "mcc": 0.7282168933558036, "auroc": 0.9373424948338038, "average_precision": 0.9325977329570323, "pr_trapezoid_area": 0.9325783177035188, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk40_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim64_walk40_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.690263 stale=0 elapsed=6.6s
+dim64_walk40_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.423159 stale=0 elapsed=15.2s
+dim64_walk40_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.385559 stale=1 elapsed=23.5s
+dim64_walk40_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.359535 stale=1 elapsed=31.6s
+dim64_walk40_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.344016 stale=5 elapsed=39.0s
+dim64_walk40_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.336255 stale=13 elapsed=46.2s
+dim64_walk40_kernel7_length1500_lr0p0005__fold0 epoch=257 valBCE=0.336173 stale=20 elapsed=47.1s
+COMPLETE dim64_walk40_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8610291016448756, "sensitivity": 0.8958245466048081, "specificity": 0.8262336566849431, "precision": 0.8375394321766562, "f1": 0.8657020582840841, "mcc": 0.7238130045365351, "auroc": 0.9344627307222216, "average_precision": 0.928897294093757, "pr_trapezoid_area": 0.9288781319877892, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk40_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim64_walk40_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.691017 stale=0 elapsed=6.6s
+dim64_walk40_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.413620 stale=0 elapsed=15.4s
+dim64_walk40_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.376375 stale=1 elapsed=24.0s
+dim64_walk40_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.343337 stale=4 elapsed=32.2s
+dim64_walk40_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.320078 stale=4 elapsed=40.0s
+dim64_walk40_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.315929 stale=5 elapsed=47.0s
+dim64_walk40_kernel7_length1500_lr0p0005__fold1 epoch=265 valBCE=0.315211 stale=20 elapsed=49.0s
+COMPLETE dim64_walk40_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8633487979755378, "sensitivity": 0.8924504428511176, "specificity": 0.8342471530999578, "precision": 0.8433638899960143, "f1": 0.8672131147540982, "mcc": 0.7279316208684833, "auroc": 0.9388312060481983, "average_precision": 0.9333012308606801, "pr_trapezoid_area": 0.9332830920661984, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk40_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim64_walk40_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.692055 stale=0 elapsed=6.5s
+dim64_walk40_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.421920 stale=0 elapsed=15.2s
+dim64_walk40_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.387594 stale=0 elapsed=23.5s
+dim64_walk40_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.350659 stale=1 elapsed=31.9s
+dim64_walk40_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.331345 stale=8 elapsed=39.3s
+dim64_walk40_kernel7_length1500_lr0p0005__fold2 epoch=227 valBCE=0.329395 stale=20 elapsed=42.9s
+COMPLETE dim64_walk40_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8580767608603964, "sensitivity": 0.8882328131590046, "specificity": 0.8279207085617882, "precision": 0.837708830548926, "f1": 0.8622313203684747, "mcc": 0.7174596081262747, "auroc": 0.9363768515278725, "average_precision": 0.9309996573729511, "pr_trapezoid_area": 0.9309809657684517, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk40_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim64_walk40_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.692266 stale=0 elapsed=6.6s
+dim64_walk40_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.429138 stale=0 elapsed=14.9s
+dim64_walk40_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.395551 stale=0 elapsed=23.2s
+dim64_walk40_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.378737 stale=0 elapsed=31.2s
+dim64_walk40_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.345256 stale=2 elapsed=39.2s
+dim64_walk40_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.326788 stale=5 elapsed=46.6s
+dim64_walk40_kernel7_length1500_lr0p0005__fold3 epoch=290 valBCE=0.324998 stale=20 elapsed=52.3s
+COMPLETE dim64_walk40_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8597638127372417, "sensitivity": 0.8966680725432307, "specificity": 0.8228595529312527, "precision": 0.8350353495679497, "f1": 0.8647549318690257, "mcc": 0.7214955540920612, "auroc": 0.9403537152230105, "average_precision": 0.936209747165815, "pr_trapezoid_area": 0.9361926923273626, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim64_walk40_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim64_walk40_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690534 stale=0 elapsed=6.7s
+dim64_walk40_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.420985 stale=0 elapsed=15.4s
+dim64_walk40_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.383649 stale=0 elapsed=23.9s
+dim64_walk40_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.347711 stale=1 elapsed=31.8s
+dim64_walk40_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.330187 stale=2 elapsed=39.0s
+dim64_walk40_kernel7_length1500_lr0p0005__fold4 epoch=228 valBCE=0.332038 stale=20 elapsed=43.0s
+COMPLETE dim64_walk40_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8650358498523829, "sensitivity": 0.8983551244200759, "specificity": 0.83171657528469, "precision": 0.8422301304863582, "f1": 0.8693877551020409, "mcc": 0.7316981319048619, "auroc": 0.9406854688871097, "average_precision": 0.9364475248817087, "pr_trapezoid_area": 0.9364297671537153, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk10_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim128_walk10_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.687007 stale=0 elapsed=3.0s
+dim128_walk10_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.429333 stale=0 elapsed=11.4s
+dim128_walk10_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.396359 stale=5 elapsed=19.4s
+dim128_walk10_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.376988 stale=0 elapsed=27.3s
+dim128_walk10_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.362794 stale=0 elapsed=35.0s
+dim128_walk10_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.350723 stale=3 elapsed=42.5s
+dim128_walk10_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.333349 stale=0 elapsed=50.2s
+COMPLETE dim128_walk10_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8523829607760439, "sensitivity": 0.8760016870518769, "specificity": 0.8287642345002109, "precision": 0.8364881192106323, "f1": 0.8557890399670376, "mcc": 0.705553539108125, "auroc": 0.9317553362087688, "average_precision": 0.9272941725620033, "pr_trapezoid_area": 0.9272736459897419, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk10_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim128_walk10_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.687892 stale=0 elapsed=3.0s
+dim128_walk10_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.422648 stale=0 elapsed=11.4s
+dim128_walk10_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.384906 stale=1 elapsed=19.5s
+dim128_walk10_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.357870 stale=1 elapsed=27.4s
+dim128_walk10_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.340883 stale=0 elapsed=34.6s
+dim128_walk10_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.331837 stale=1 elapsed=41.9s
+dim128_walk10_kernel7_length1500_lr0p0005__fold1 epoch=300 valBCE=0.323402 stale=3 elapsed=49.4s
+COMPLETE dim128_walk10_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8576549978911852, "sensitivity": 0.881906368620835, "specificity": 0.8334036271615353, "precision": 0.8411102172164119, "f1": 0.8610253242742433, "mcc": 0.7161528723142615, "auroc": 0.9342396641834654, "average_precision": 0.9273614498921575, "pr_trapezoid_area": 0.9273404993487324, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk10_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim128_walk10_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.689990 stale=0 elapsed=2.8s
+dim128_walk10_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.436771 stale=0 elapsed=10.7s
+dim128_walk10_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.397063 stale=0 elapsed=18.6s
+dim128_walk10_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.371867 stale=0 elapsed=26.7s
+dim128_walk10_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.356186 stale=2 elapsed=34.1s
+dim128_walk10_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.345365 stale=15 elapsed=41.0s
+dim128_walk10_kernel7_length1500_lr0p0005__fold2 epoch=255 valBCE=0.342371 stale=20 elapsed=41.7s
+COMPLETE dim128_walk10_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8439477013918179, "sensitivity": 0.8802193167439899, "specificity": 0.8076760860396457, "precision": 0.820684231222965, "f1": 0.8494098494098494, "mcc": 0.6897126100227728, "auroc": 0.9262234995084178, "average_precision": 0.9209288973642055, "pr_trapezoid_area": 0.9209073192796394, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk10_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim128_walk10_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.688167 stale=0 elapsed=2.9s
+dim128_walk10_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.442963 stale=0 elapsed=11.2s
+dim128_walk10_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.398212 stale=1 elapsed=19.2s
+dim128_walk10_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.369816 stale=0 elapsed=26.8s
+dim128_walk10_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.350743 stale=2 elapsed=34.3s
+dim128_walk10_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.334864 stale=1 elapsed=41.7s
+dim128_walk10_kernel7_length1500_lr0p0005__fold3 epoch=300 valBCE=0.320078 stale=0 elapsed=49.1s
+COMPLETE dim128_walk10_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8612399831294812, "sensitivity": 0.8907633909742725, "specificity": 0.83171657528469, "precision": 0.8410991636798089, "f1": 0.865219172470299, "mcc": 0.7237427419992581, "auroc": 0.9373556582499665, "average_precision": 0.93331161164216, "pr_trapezoid_area": 0.9332939053401657, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk10_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim128_walk10_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.685531 stale=0 elapsed=2.9s
+dim128_walk10_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.431396 stale=0 elapsed=11.5s
+dim128_walk10_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.397435 stale=1 elapsed=19.2s
+dim128_walk10_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.372016 stale=1 elapsed=26.9s
+dim128_walk10_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.348813 stale=4 elapsed=34.5s
+dim128_walk10_kernel7_length1500_lr0p0005__fold4 epoch=250 valBCE=0.336799 stale=1 elapsed=41.8s
+dim128_walk10_kernel7_length1500_lr0p0005__fold4 epoch=300 valBCE=0.328169 stale=11 elapsed=48.9s
+COMPLETE dim128_walk10_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8576549978911852, "sensitivity": 0.8903416280050611, "specificity": 0.8249683677773092, "precision": 0.8357086302454474, "f1": 0.8621605064325097, "mcc": 0.7168434094926893, "auroc": 0.9359578457606952, "average_precision": 0.9322327169569256, "pr_trapezoid_area": 0.9322147235766463, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk20_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim128_walk20_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.688650 stale=0 elapsed=4.5s
+dim128_walk20_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.440458 stale=0 elapsed=12.7s
+dim128_walk20_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.394346 stale=0 elapsed=20.6s
+dim128_walk20_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.367522 stale=1 elapsed=28.3s
+dim128_walk20_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.337214 stale=1 elapsed=35.9s
+dim128_walk20_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.325055 stale=1 elapsed=43.0s
+dim128_walk20_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.317945 stale=0 elapsed=50.3s
+COMPLETE dim128_walk20_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8665120202446225, "sensitivity": 0.8835934204976803, "specificity": 0.8494306199915648, "precision": 0.8544045676998369, "f1": 0.868753887621812, "mcc": 0.7334521703342093, "auroc": 0.9413548463873805, "average_precision": 0.9375128757720208, "pr_trapezoid_area": 0.937496076892996, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk20_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim128_walk20_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.690354 stale=0 elapsed=4.5s
+dim128_walk20_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.424550 stale=0 elapsed=13.1s
+dim128_walk20_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.379129 stale=2 elapsed=21.6s
+dim128_walk20_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.334437 stale=0 elapsed=29.9s
+dim128_walk20_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.311084 stale=0 elapsed=37.9s
+dim128_walk20_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.303856 stale=2 elapsed=45.5s
+dim128_walk20_kernel7_length1500_lr0p0005__fold1 epoch=300 valBCE=0.300992 stale=10 elapsed=53.0s
+COMPLETE dim128_walk20_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8663011387600169, "sensitivity": 0.888654576128216, "specificity": 0.8439477013918179, "precision": 0.8506257569640694, "f1": 0.8692244224422443, "mcc": 0.7333355046204593, "auroc": 0.9457969656902673, "average_precision": 0.9415394381185092, "pr_trapezoid_area": 0.9415241010317302, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk20_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim128_walk20_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.691718 stale=0 elapsed=4.8s
+dim128_walk20_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.432893 stale=0 elapsed=14.0s
+dim128_walk20_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.387730 stale=1 elapsed=22.9s
+dim128_walk20_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.347459 stale=0 elapsed=31.4s
+dim128_walk20_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.330899 stale=0 elapsed=39.5s
+dim128_walk20_kernel7_length1500_lr0p0005__fold2 epoch=248 valBCE=0.329922 stale=20 elapsed=46.5s
+COMPLETE dim128_walk20_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8566005904681568, "sensitivity": 0.8755799240826655, "specificity": 0.8376212568536483, "precision": 0.8435595286468915, "f1": 0.8592715231788078, "mcc": 0.7137155485278015, "auroc": 0.9349291425759844, "average_precision": 0.9292795678457579, "pr_trapezoid_area": 0.9292588672045909, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk20_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim128_walk20_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.690202 stale=0 elapsed=4.9s
+dim128_walk20_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.448089 stale=1 elapsed=14.1s
+dim128_walk20_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.388251 stale=0 elapsed=23.1s
+dim128_walk20_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.353908 stale=1 elapsed=31.9s
+dim128_walk20_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.337814 stale=2 elapsed=40.1s
+dim128_walk20_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.314677 stale=0 elapsed=48.1s
+dim128_walk20_kernel7_length1500_lr0p0005__fold3 epoch=300 valBCE=0.315939 stale=17 elapsed=55.6s
+COMPLETE dim128_walk20_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8618726275832982, "sensitivity": 0.8882328131590046, "specificity": 0.8355124420075918, "precision": 0.84375, "f1": 0.8654201767002261, "mcc": 0.7247531590721354, "auroc": 0.941138628382709, "average_precision": 0.9364126854386005, "pr_trapezoid_area": 0.936395054311033, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk20_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim128_walk20_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.687886 stale=0 elapsed=5.0s
+dim128_walk20_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.439025 stale=0 elapsed=14.5s
+dim128_walk20_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.385692 stale=0 elapsed=23.7s
+dim128_walk20_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.351638 stale=0 elapsed=32.2s
+dim128_walk20_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.334198 stale=2 elapsed=40.6s
+dim128_walk20_kernel7_length1500_lr0p0005__fold4 epoch=250 valBCE=0.326824 stale=3 elapsed=48.5s
+dim128_walk20_kernel7_length1500_lr0p0005__fold4 epoch=279 valBCE=0.325046 stale=20 elapsed=53.0s
+COMPLETE dim128_walk20_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8717840573597638, "sensitivity": 0.9034162800506116, "specificity": 0.8401518346689161, "precision": 0.8496628322094407, "f1": 0.8757154538021258, "mcc": 0.7450606212234233, "auroc": 0.9417648690124467, "average_precision": 0.937307991543573, "pr_trapezoid_area": 0.9372904694514688, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk30_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim128_walk30_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.689857 stale=0 elapsed=6.5s
+dim128_walk30_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.424326 stale=0 elapsed=15.5s
+dim128_walk30_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.394523 stale=3 elapsed=24.7s
+dim128_walk30_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.368184 stale=0 elapsed=33.4s
+dim128_walk30_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.336951 stale=2 elapsed=41.6s
+dim128_walk30_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.326201 stale=2 elapsed=49.5s
+dim128_walk30_kernel7_length1500_lr0p0005__fold0 epoch=280 valBCE=0.321861 stale=20 elapsed=54.0s
+COMPLETE dim128_walk30_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.864403205398566, "sensitivity": 0.892872205820329, "specificity": 0.835934204976803, "precision": 0.8447725458898643, "f1": 0.8681566536805414, "mcc": 0.7299906628765997, "auroc": 0.9397229385512166, "average_precision": 0.9345159588020693, "pr_trapezoid_area": 0.9344978938335115, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk30_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim128_walk30_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.691023 stale=0 elapsed=6.4s
+dim128_walk30_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.422634 stale=1 elapsed=15.8s
+dim128_walk30_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.365475 stale=0 elapsed=25.0s
+dim128_walk30_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.338666 stale=8 elapsed=34.0s
+dim128_walk30_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.319317 stale=2 elapsed=41.9s
+dim128_walk30_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.304157 stale=1 elapsed=49.5s
+dim128_walk30_kernel7_length1500_lr0p0005__fold1 epoch=278 valBCE=0.307318 stale=20 elapsed=53.7s
+COMPLETE dim128_walk30_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8703078869675243, "sensitivity": 0.9072121467735133, "specificity": 0.8334036271615353, "precision": 0.844854673998429, "f1": 0.8749237339841367, "mcc": 0.742641379241301, "auroc": 0.9439754335077606, "average_precision": 0.938477832627802, "pr_trapezoid_area": 0.938461302773065, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk30_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim128_walk30_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.692502 stale=0 elapsed=6.6s
+dim128_walk30_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.428189 stale=0 elapsed=15.5s
+dim128_walk30_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.390019 stale=0 elapsed=23.8s
+dim128_walk30_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.357562 stale=1 elapsed=32.4s
+dim128_walk30_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.328929 stale=3 elapsed=40.1s
+dim128_walk30_kernel7_length1500_lr0p0005__fold2 epoch=239 valBCE=0.331725 stale=20 elapsed=45.7s
+COMPLETE dim128_walk30_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8631379164909321, "sensitivity": 0.8869675242513707, "specificity": 0.8393083087304934, "precision": 0.8466183574879227, "f1": 0.8663233779608651, "mcc": 0.7271020725522891, "auroc": 0.937806238427534, "average_precision": 0.932735930730222, "pr_trapezoid_area": 0.9327178550280177, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk30_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim128_walk30_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.691469 stale=0 elapsed=6.2s
+dim128_walk30_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.429997 stale=0 elapsed=14.9s
+dim128_walk30_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.392142 stale=0 elapsed=23.3s
+dim128_walk30_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.364283 stale=1 elapsed=32.1s
+dim128_walk30_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.334112 stale=2 elapsed=40.4s
+dim128_walk30_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.329348 stale=1 elapsed=47.9s
+dim128_walk30_kernel7_length1500_lr0p0005__fold3 epoch=277 valBCE=0.319666 stale=20 elapsed=51.7s
+COMPLETE dim128_walk30_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8633487979755378, "sensitivity": 0.9152256431885281, "specificity": 0.8114719527625475, "precision": 0.8291937332823844, "f1": 0.8700882117080996, "mcc": 0.7306408484067368, "auroc": 0.9404625802323555, "average_precision": 0.9355185029254901, "pr_trapezoid_area": 0.9355011910855889, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk30_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim128_walk30_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.689587 stale=0 elapsed=6.8s
+dim128_walk30_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.426200 stale=0 elapsed=16.6s
+dim128_walk30_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.386750 stale=1 elapsed=25.4s
+dim128_walk30_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.359943 stale=2 elapsed=33.5s
+dim128_walk30_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.342400 stale=1 elapsed=41.2s
+dim128_walk30_kernel7_length1500_lr0p0005__fold4 epoch=219 valBCE=0.346842 stale=20 elapsed=43.9s
+COMPLETE dim128_walk30_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8570223534373682, "sensitivity": 0.8966680725432307, "specificity": 0.8173766343315056, "precision": 0.8307932786244627, "f1": 0.8624746450304259, "mcc": 0.7162999936535824, "auroc": 0.934022823584786, "average_precision": 0.9300222799007161, "pr_trapezoid_area": 0.9300029148243169, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk40_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim128_walk40_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.690561 stale=0 elapsed=8.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.424049 stale=1 elapsed=17.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.387241 stale=0 elapsed=25.7s
+dim128_walk40_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.364085 stale=0 elapsed=34.2s
+dim128_walk40_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.338397 stale=2 elapsed=42.1s
+dim128_walk40_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.321619 stale=5 elapsed=50.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold0 epoch=278 valBCE=0.320984 stale=20 elapsed=54.1s
+COMPLETE dim128_walk40_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8646140868831717, "sensitivity": 0.9029945170814002, "specificity": 0.8262336566849431, "precision": 0.8386212299255777, "f1": 0.8696181965881397, "mcc": 0.7313861046788108, "auroc": 0.9398024527001991, "average_precision": 0.9349099614301156, "pr_trapezoid_area": 0.9348923879936659, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk40_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim128_walk40_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.691014 stale=0 elapsed=8.2s
+dim128_walk40_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.417687 stale=0 elapsed=17.4s
+dim128_walk40_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.363284 stale=0 elapsed=26.5s
+dim128_walk40_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.335257 stale=0 elapsed=35.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.322728 stale=2 elapsed=43.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold1 epoch=237 valBCE=0.314835 stale=20 elapsed=48.3s
+COMPLETE dim128_walk40_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8597638127372417, "sensitivity": 0.8852804723745256, "specificity": 0.8342471530999578, "precision": 0.8422953451043339, "f1": 0.8632531359243266, "mcc": 0.7204664283938989, "auroc": 0.9409204536540131, "average_precision": 0.9352858297795299, "pr_trapezoid_area": 0.9352681709323476, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk40_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim128_walk40_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.692728 stale=0 elapsed=8.2s
+dim128_walk40_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.428077 stale=0 elapsed=17.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.386014 stale=0 elapsed=25.8s
+dim128_walk40_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.355147 stale=1 elapsed=34.2s
+dim128_walk40_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.337750 stale=2 elapsed=42.1s
+dim128_walk40_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.327712 stale=8 elapsed=49.6s
+dim128_walk40_kernel7_length1500_lr0p0005__fold2 epoch=262 valBCE=0.329877 stale=20 elapsed=51.4s
+COMPLETE dim128_walk40_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8625052720371151, "sensitivity": 0.9051033319274567, "specificity": 0.8199072121467735, "precision": 0.8340458608628061, "f1": 0.8681229773462783, "mcc": 0.7276561555458051, "auroc": 0.9407950454324635, "average_precision": 0.935750433112601, "pr_trapezoid_area": 0.9357330796696073, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk40_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim128_walk40_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.691727 stale=0 elapsed=8.5s
+dim128_walk40_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.428794 stale=0 elapsed=17.7s
+dim128_walk40_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.391444 stale=0 elapsed=27.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.364250 stale=2 elapsed=35.7s
+dim128_walk40_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.338944 stale=1 elapsed=43.6s
+dim128_walk40_kernel7_length1500_lr0p0005__fold3 epoch=242 valBCE=0.327731 stale=20 elapsed=49.8s
+COMPLETE dim128_walk40_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8513285533530156, "sensitivity": 0.9093209616195698, "specificity": 0.7933361450864614, "precision": 0.8148148148148148, "f1": 0.8594777755630854, "mcc": 0.7074315718813682, "auroc": 0.9359839057670172, "average_precision": 0.932016103283424, "pr_trapezoid_area": 0.931998339084424, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim128_walk40_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim128_walk40_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690045 stale=0 elapsed=8.4s
+dim128_walk40_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.425812 stale=0 elapsed=17.5s
+dim128_walk40_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.389413 stale=0 elapsed=26.8s
+dim128_walk40_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.359071 stale=0 elapsed=36.0s
+dim128_walk40_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.332342 stale=8 elapsed=44.1s
+dim128_walk40_kernel7_length1500_lr0p0005__fold4 epoch=243 valBCE=0.328858 stale=20 elapsed=50.6s
+COMPLETE dim128_walk40_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8667229017292282, "sensitivity": 0.9021509911429777, "specificity": 0.8312948123154787, "precision": 0.8424576604962584, "f1": 0.8712830957230142, "mcc": 0.7352939337123267, "auroc": 0.9392341133131766, "average_precision": 0.9340665718793786, "pr_trapezoid_area": 0.9340479203568932, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk10_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim256_walk10_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.686176 stale=0 elapsed=3.7s
+dim256_walk10_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.432132 stale=0 elapsed=12.5s
+dim256_walk10_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.402601 stale=1 elapsed=20.9s
+dim256_walk10_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.399191 stale=14 elapsed=29.0s
+dim256_walk10_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.380371 stale=2 elapsed=36.9s
+dim256_walk10_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.366120 stale=6 elapsed=44.8s
+dim256_walk10_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.357399 stale=19 elapsed=52.2s
+COMPLETE dim256_walk10_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8445803458456348, "sensitivity": 0.8814846056516238, "specificity": 0.8076760860396457, "precision": 0.8208955223880597, "f1": 0.8501118568232662, "mcc": 0.6910455658771559, "auroc": 0.9217826253935462, "average_precision": 0.9179513229655588, "pr_trapezoid_area": 0.9179289172641609, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk10_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim256_walk10_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.688043 stale=0 elapsed=3.7s
+dim256_walk10_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.430345 stale=1 elapsed=12.8s
+dim256_walk10_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.382835 stale=0 elapsed=21.5s
+dim256_walk10_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.356979 stale=0 elapsed=29.6s
+dim256_walk10_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.340411 stale=3 elapsed=37.3s
+dim256_walk10_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.329705 stale=0 elapsed=44.9s
+dim256_walk10_kernel7_length1500_lr0p0005__fold1 epoch=299 valBCE=0.326674 stale=20 elapsed=52.2s
+COMPLETE dim256_walk10_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8580767608603964, "sensitivity": 0.8810628426824125, "specificity": 0.8350906790383804, "precision": 0.8423387096774193, "f1": 0.8612657184085755, "mcc": 0.7169114970727312, "auroc": 0.9327415251169543, "average_precision": 0.9266218573302596, "pr_trapezoid_area": 0.9266009937577672, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk10_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim256_walk10_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.689438 stale=0 elapsed=3.6s
+dim256_walk10_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.442392 stale=0 elapsed=12.3s
+dim256_walk10_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.405765 stale=0 elapsed=20.2s
+dim256_walk10_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.379865 stale=0 elapsed=28.2s
+dim256_walk10_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.369147 stale=3 elapsed=35.9s
+dim256_walk10_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.350814 stale=3 elapsed=43.2s
+dim256_walk10_kernel7_length1500_lr0p0005__fold2 epoch=300 valBCE=0.341698 stale=5 elapsed=50.4s
+COMPLETE dim256_walk10_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8530156052298609, "sensitivity": 0.8806410797132012, "specificity": 0.8253901307465205, "precision": 0.8345323741007195, "f1": 0.8569669608044326, "mcc": 0.7071113232247681, "auroc": 0.9291825998849802, "average_precision": 0.923529071909295, "pr_trapezoid_area": 0.9235079461928453, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk10_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim256_walk10_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.687983 stale=0 elapsed=3.5s
+dim256_walk10_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.446540 stale=0 elapsed=11.8s
+dim256_walk10_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.400046 stale=0 elapsed=20.0s
+dim256_walk10_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.370910 stale=2 elapsed=27.8s
+dim256_walk10_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.354780 stale=1 elapsed=35.3s
+dim256_walk10_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.338571 stale=1 elapsed=42.5s
+dim256_walk10_kernel7_length1500_lr0p0005__fold3 epoch=279 valBCE=0.337324 stale=20 elapsed=46.5s
+COMPLETE dim256_walk10_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8496415014761703, "sensitivity": 0.8899198650358499, "specificity": 0.809363137916491, "precision": 0.8235753317720531, "f1": 0.8554632069734442, "mcc": 0.7015630648890893, "auroc": 0.9291765518289054, "average_precision": 0.924280831460742, "pr_trapezoid_area": 0.9242601157934202, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk10_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim256_walk10_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.687498 stale=0 elapsed=3.5s
+dim256_walk10_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.435637 stale=0 elapsed=11.8s
+dim256_walk10_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.404307 stale=0 elapsed=19.7s
+dim256_walk10_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.387245 stale=3 elapsed=27.8s
+dim256_walk10_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.353650 stale=0 elapsed=35.7s
+dim256_walk10_kernel7_length1500_lr0p0005__fold4 epoch=250 valBCE=0.348242 stale=2 elapsed=43.0s
+dim256_walk10_kernel7_length1500_lr0p0005__fold4 epoch=300 valBCE=0.337163 stale=2 elapsed=50.5s
+COMPLETE dim256_walk10_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.849852382960776, "sensitivity": 0.8755799240826655, "specificity": 0.8241248418388866, "precision": 0.8327316486161251, "f1": 0.8536184210526314, "mcc": 0.7006328874037038, "auroc": 0.9318441003258657, "average_precision": 0.9282277213242659, "pr_trapezoid_area": 0.9282086961685987, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk20_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim256_walk20_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.688217 stale=0 elapsed=5.7s
+dim256_walk20_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.443341 stale=1 elapsed=14.3s
+dim256_walk20_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.396246 stale=1 elapsed=22.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.376188 stale=5 elapsed=30.4s
+dim256_walk20_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.344457 stale=0 elapsed=38.1s
+dim256_walk20_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.335637 stale=6 elapsed=45.3s
+dim256_walk20_kernel7_length1500_lr0p0005__fold0 epoch=300 valBCE=0.323937 stale=15 elapsed=52.6s
+COMPLETE dim256_walk20_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8608182201602699, "sensitivity": 0.8882328131590046, "specificity": 0.8334036271615353, "precision": 0.8420631747301079, "f1": 0.8645320197044335, "mcc": 0.7227235981635368, "auroc": 0.9399419137579222, "average_precision": 0.935440408953702, "pr_trapezoid_area": 0.9354229448097873, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk20_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim256_walk20_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.690058 stale=0 elapsed=5.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.430796 stale=1 elapsed=13.9s
+dim256_walk20_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.373246 stale=0 elapsed=21.9s
+dim256_walk20_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.342111 stale=3 elapsed=29.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.324119 stale=4 elapsed=36.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.311969 stale=6 elapsed=43.6s
+dim256_walk20_kernel7_length1500_lr0p0005__fold1 epoch=300 valBCE=0.302723 stale=5 elapsed=50.6s
+COMPLETE dim256_walk20_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8692534795444959, "sensitivity": 0.8949810206663855, "specificity": 0.8435259384226065, "precision": 0.8511833132771761, "f1": 0.8725328947368421, "mcc": 0.7394865496346507, "auroc": 0.9436673384159536, "average_precision": 0.9393315599138313, "pr_trapezoid_area": 0.9393156603965587, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk20_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim256_walk20_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.691393 stale=0 elapsed=5.2s
+dim256_walk20_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.437651 stale=0 elapsed=13.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.397707 stale=0 elapsed=21.3s
+dim256_walk20_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.365647 stale=0 elapsed=29.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.340578 stale=5 elapsed=36.9s
+dim256_walk20_kernel7_length1500_lr0p0005__fold2 epoch=250 valBCE=0.333804 stale=1 elapsed=44.2s
+dim256_walk20_kernel7_length1500_lr0p0005__fold2 epoch=282 valBCE=0.326146 stale=20 elapsed=48.5s
+COMPLETE dim256_walk20_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8570223534373682, "sensitivity": 0.8806410797132012, "specificity": 0.8334036271615353, "precision": 0.8409182440596054, "f1": 0.8603213844252163, "mcc": 0.7148426940215773, "auroc": 0.9354627056405772, "average_precision": 0.930526765322426, "pr_trapezoid_area": 0.9305082087240595, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk20_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim256_walk20_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.688596 stale=0 elapsed=5.6s
+dim256_walk20_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.439373 stale=0 elapsed=13.8s
+dim256_walk20_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.386873 stale=2 elapsed=21.7s
+dim256_walk20_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.349406 stale=3 elapsed=29.6s
+dim256_walk20_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.334698 stale=4 elapsed=36.8s
+dim256_walk20_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.324716 stale=1 elapsed=43.8s
+dim256_walk20_kernel7_length1500_lr0p0005__fold3 epoch=300 valBCE=0.323369 stale=3 elapsed=50.7s
+COMPLETE dim256_walk20_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.863770560944749, "sensitivity": 0.8873892872205821, "specificity": 0.8401518346689161, "precision": 0.8473620620217479, "f1": 0.8669138854552947, "mcc": 0.7283541920775078, "auroc": 0.9401041439679267, "average_precision": 0.935603020586098, "pr_trapezoid_area": 0.9355849723050774, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk20_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim256_walk20_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.689376 stale=0 elapsed=5.4s
+dim256_walk20_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.440890 stale=0 elapsed=13.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.388932 stale=1 elapsed=21.6s
+dim256_walk20_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.356308 stale=4 elapsed=29.1s
+dim256_walk20_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.330541 stale=0 elapsed=36.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold4 epoch=250 valBCE=0.320342 stale=0 elapsed=43.5s
+dim256_walk20_kernel7_length1500_lr0p0005__fold4 epoch=287 valBCE=0.318320 stale=20 elapsed=48.5s
+COMPLETE dim256_walk20_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8707296499367355, "sensitivity": 0.9042598059890342, "specificity": 0.8371994938844369, "precision": 0.8474308300395257, "f1": 0.8749234850030606, "mcc": 0.7431321471136049, "auroc": 0.9411428086567605, "average_precision": 0.9370406823305293, "pr_trapezoid_area": 0.9370231608794012, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk30_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim256_walk30_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.689163 stale=0 elapsed=7.4s
+dim256_walk30_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.425665 stale=0 elapsed=15.6s
+dim256_walk30_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.384823 stale=2 elapsed=23.8s
+dim256_walk30_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.354816 stale=0 elapsed=32.0s
+dim256_walk30_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.330081 stale=1 elapsed=39.4s
+dim256_walk30_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.321259 stale=3 elapsed=46.6s
+dim256_walk30_kernel7_length1500_lr0p0005__fold0 epoch=278 valBCE=0.318964 stale=20 elapsed=50.5s
+COMPLETE dim256_walk30_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8606073386756643, "sensitivity": 0.8991986503584986, "specificity": 0.82201602699283, "precision": 0.8347689898198903, "f1": 0.865786802030457, "mcc": 0.7233725177557223, "auroc": 0.9394995162444559, "average_precision": 0.934192064908026, "pr_trapezoid_area": 0.9341742282623536, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk30_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim256_walk30_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.690859 stale=0 elapsed=7.7s
+dim256_walk30_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.420070 stale=0 elapsed=16.1s
+dim256_walk30_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.370110 stale=1 elapsed=24.4s
+dim256_walk30_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.337430 stale=1 elapsed=32.2s
+dim256_walk30_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.318986 stale=2 elapsed=39.7s
+dim256_walk30_kernel7_length1500_lr0p0005__fold1 epoch=232 valBCE=0.316173 stale=20 elapsed=44.1s
+COMPLETE dim256_walk30_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8597638127372417, "sensitivity": 0.8894981020666386, "specificity": 0.8300295234078447, "precision": 0.8395700636942676, "f1": 0.8638132295719845, "mcc": 0.7208033190887412, "auroc": 0.9388411675523214, "average_precision": 0.9332317826861448, "pr_trapezoid_area": 0.9332134880511037, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk30_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim256_walk30_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.692531 stale=0 elapsed=7.5s
+dim256_walk30_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.434030 stale=0 elapsed=15.9s
+dim256_walk30_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.390748 stale=0 elapsed=24.0s
+dim256_walk30_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.363137 stale=1 elapsed=31.8s
+dim256_walk30_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.352700 stale=1 elapsed=39.2s
+dim256_walk30_kernel7_length1500_lr0p0005__fold2 epoch=230 valBCE=0.334267 stale=20 elapsed=43.5s
+COMPLETE dim256_walk30_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.854702657106706, "sensitivity": 0.883171657528469, "specificity": 0.8262336566849431, "precision": 0.8355945730247406, "f1": 0.8587246257945458, "mcc": 0.7105580410639124, "auroc": 0.9329215437271785, "average_precision": 0.9274622305177613, "pr_trapezoid_area": 0.9274422969273078, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk30_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim256_walk30_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.689636 stale=0 elapsed=7.7s
+dim256_walk30_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.420106 stale=0 elapsed=15.8s
+dim256_walk30_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.374943 stale=0 elapsed=23.8s
+dim256_walk30_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.345040 stale=1 elapsed=31.7s
+dim256_walk30_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.325386 stale=3 elapsed=39.2s
+dim256_walk30_kernel7_length1500_lr0p0005__fold3 epoch=233 valBCE=0.322189 stale=20 elapsed=43.6s
+COMPLETE dim256_walk30_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8606073386756643, "sensitivity": 0.9008857022353437, "specificity": 0.8203289751159848, "precision": 0.8337236533957846, "f1": 0.8660044597607947, "mcc": 0.7235662490713768, "auroc": 0.9372700960449093, "average_precision": 0.9323626551638016, "pr_trapezoid_area": 0.9323443859095404, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk30_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim256_walk30_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690241 stale=0 elapsed=7.5s
+dim256_walk30_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.429896 stale=0 elapsed=16.1s
+dim256_walk30_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.379841 stale=0 elapsed=24.4s
+dim256_walk30_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.353617 stale=1 elapsed=32.6s
+dim256_walk30_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.335172 stale=12 elapsed=39.4s
+dim256_walk30_kernel7_length1500_lr0p0005__fold4 epoch=245 valBCE=0.334540 stale=20 elapsed=45.6s
+COMPLETE dim256_walk30_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8641923239139604, "sensitivity": 0.8941374947279629, "specificity": 0.8342471530999578, "precision": 0.8436132113012336, "f1": 0.8681408681408681, "mcc": 0.7296944768431678, "auroc": 0.9380325958203307, "average_precision": 0.9328453547025499, "pr_trapezoid_area": 0.9328263521220259, "threshold": 0.5}
+GRAPH drw: 5750 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk40_kernel7_length1500_lr0p0005__fold0 train=33188 val=4742
+dim256_walk40_kernel7_length1500_lr0p0005__fold0 epoch=1 valBCE=0.690139 stale=0 elapsed=10.1s
+dim256_walk40_kernel7_length1500_lr0p0005__fold0 epoch=50 valBCE=0.421213 stale=1 elapsed=18.3s
+dim256_walk40_kernel7_length1500_lr0p0005__fold0 epoch=100 valBCE=0.384063 stale=1 elapsed=26.5s
+dim256_walk40_kernel7_length1500_lr0p0005__fold0 epoch=150 valBCE=0.356670 stale=0 elapsed=34.2s
+dim256_walk40_kernel7_length1500_lr0p0005__fold0 epoch=200 valBCE=0.329360 stale=3 elapsed=41.5s
+dim256_walk40_kernel7_length1500_lr0p0005__fold0 epoch=250 valBCE=0.323397 stale=0 elapsed=48.5s
+dim256_walk40_kernel7_length1500_lr0p0005__fold0 epoch=288 valBCE=0.322348 stale=20 elapsed=53.7s
+COMPLETE dim256_walk40_kernel7_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8650358498523829, "sensitivity": 0.8996204133277098, "specificity": 0.8304512863770561, "precision": 0.8414201183431953, "f1": 0.8695474928658785, "mcc": 0.7318244574809933, "auroc": 0.9402589030498391, "average_precision": 0.9358480587556807, "pr_trapezoid_area": 0.9358312328988977, "threshold": 0.5}
+GRAPH drw: 5790 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk40_kernel7_length1500_lr0p0005__fold1 train=33188 val=4742
+dim256_walk40_kernel7_length1500_lr0p0005__fold1 epoch=1 valBCE=0.691546 stale=0 elapsed=9.8s
+dim256_walk40_kernel7_length1500_lr0p0005__fold1 epoch=50 valBCE=0.410406 stale=0 elapsed=18.1s
+dim256_walk40_kernel7_length1500_lr0p0005__fold1 epoch=100 valBCE=0.366043 stale=0 elapsed=26.1s
+dim256_walk40_kernel7_length1500_lr0p0005__fold1 epoch=150 valBCE=0.333853 stale=0 elapsed=33.8s
+dim256_walk40_kernel7_length1500_lr0p0005__fold1 epoch=200 valBCE=0.320783 stale=5 elapsed=40.7s
+dim256_walk40_kernel7_length1500_lr0p0005__fold1 epoch=250 valBCE=0.309759 stale=18 elapsed=47.4s
+dim256_walk40_kernel7_length1500_lr0p0005__fold1 epoch=252 valBCE=0.311479 stale=20 elapsed=47.7s
+COMPLETE dim256_walk40_kernel7_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.864403205398566, "sensitivity": 0.8840151834668916, "specificity": 0.8447912273302404, "precision": 0.8506493506493507, "f1": 0.8670113753877973, "mcc": 0.7293676997039606, "auroc": 0.9410309196193779, "average_precision": 0.9345425731758351, "pr_trapezoid_area": 0.9345242957436797, "threshold": 0.5}
+GRAPH drw: 5710 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk40_kernel7_length1500_lr0p0005__fold2 train=33190 val=4742
+dim256_walk40_kernel7_length1500_lr0p0005__fold2 epoch=1 valBCE=0.692806 stale=0 elapsed=9.5s
+dim256_walk40_kernel7_length1500_lr0p0005__fold2 epoch=50 valBCE=0.433730 stale=1 elapsed=17.8s
+dim256_walk40_kernel7_length1500_lr0p0005__fold2 epoch=100 valBCE=0.393426 stale=0 elapsed=25.8s
+dim256_walk40_kernel7_length1500_lr0p0005__fold2 epoch=150 valBCE=0.373479 stale=0 elapsed=33.3s
+dim256_walk40_kernel7_length1500_lr0p0005__fold2 epoch=200 valBCE=0.352969 stale=2 elapsed=40.8s
+dim256_walk40_kernel7_length1500_lr0p0005__fold2 epoch=224 valBCE=0.343637 stale=20 elapsed=43.9s
+COMPLETE dim256_walk40_kernel7_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8469000421762969, "sensitivity": 0.8865457612821595, "specificity": 0.8072543230704344, "precision": 0.8214146150840171, "f1": 0.8527383367139959, "mcc": 0.6959914291554301, "auroc": 0.9287537215556811, "average_precision": 0.9230228729244287, "pr_trapezoid_area": 0.9230022691319963, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk40_kernel7_length1500_lr0p0005__fold3 train=33190 val=4742
+dim256_walk40_kernel7_length1500_lr0p0005__fold3 epoch=1 valBCE=0.689953 stale=0 elapsed=9.7s
+dim256_walk40_kernel7_length1500_lr0p0005__fold3 epoch=50 valBCE=0.424735 stale=1 elapsed=17.7s
+dim256_walk40_kernel7_length1500_lr0p0005__fold3 epoch=100 valBCE=0.383546 stale=1 elapsed=25.4s
+dim256_walk40_kernel7_length1500_lr0p0005__fold3 epoch=150 valBCE=0.342998 stale=0 elapsed=33.2s
+dim256_walk40_kernel7_length1500_lr0p0005__fold3 epoch=200 valBCE=0.321677 stale=4 elapsed=40.4s
+dim256_walk40_kernel7_length1500_lr0p0005__fold3 epoch=250 valBCE=0.318284 stale=11 elapsed=47.1s
+dim256_walk40_kernel7_length1500_lr0p0005__fold3 epoch=259 valBCE=0.311450 stale=20 elapsed=48.3s
+COMPLETE dim256_walk40_kernel7_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8654576128215943, "sensitivity": 0.9008857022353437, "specificity": 0.8300295234078447, "precision": 0.8412760929499803, "f1": 0.870061099796334, "mcc": 0.7327569793694434, "auroc": 0.9432011044461929, "average_precision": 0.938169028493658, "pr_trapezoid_area": 0.938152358307212, "threshold": 0.5}
+GRAPH drw: 5740 walks; gensim 3.1 Word2Vec, workers=1
+START dim256_walk40_kernel7_length1500_lr0p0005__fold4 train=33190 val=4742
+dim256_walk40_kernel7_length1500_lr0p0005__fold4 epoch=1 valBCE=0.690676 stale=0 elapsed=9.7s
+dim256_walk40_kernel7_length1500_lr0p0005__fold4 epoch=50 valBCE=0.428289 stale=0 elapsed=18.3s
+dim256_walk40_kernel7_length1500_lr0p0005__fold4 epoch=100 valBCE=0.389697 stale=0 elapsed=28.1s
+dim256_walk40_kernel7_length1500_lr0p0005__fold4 epoch=150 valBCE=0.346192 stale=0 elapsed=37.2s
+dim256_walk40_kernel7_length1500_lr0p0005__fold4 epoch=200 valBCE=0.330925 stale=1 elapsed=44.4s
+dim256_walk40_kernel7_length1500_lr0p0005__fold4 epoch=228 valBCE=0.330937 stale=20 elapsed=48.1s
+COMPLETE dim256_walk40_kernel7_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8654576128215943, "sensitivity": 0.9046815689582455, "specificity": 0.8262336566849431, "precision": 0.83887368009386, "f1": 0.8705357142857144, "mcc": 0.7331747133371648, "auroc": 0.9382262225567232, "average_precision": 0.9327108375733172, "pr_trapezoid_area": 0.9326920964709732, "threshold": 0.5}
+START dim64_walk20_kernel3_length1000_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel3_length1000_lr0p0005__fold0 epoch=1 valBCE=0.691987 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1000_lr0p0005__fold0 epoch=50 valBCE=0.429528 stale=0 elapsed=7.6s
+dim64_walk20_kernel3_length1000_lr0p0005__fold0 epoch=100 valBCE=0.390753 stale=3 elapsed=14.2s
+dim64_walk20_kernel3_length1000_lr0p0005__fold0 epoch=150 valBCE=0.358664 stale=0 elapsed=20.8s
+dim64_walk20_kernel3_length1000_lr0p0005__fold0 epoch=200 valBCE=0.339612 stale=4 elapsed=27.2s
+dim64_walk20_kernel3_length1000_lr0p0005__fold0 epoch=250 valBCE=0.322079 stale=1 elapsed=33.0s
+dim64_walk20_kernel3_length1000_lr0p0005__fold0 epoch=299 valBCE=0.321519 stale=20 elapsed=38.4s
+COMPLETE dim64_walk20_kernel3_length1000_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8646140868831717, "sensitivity": 0.8835934204976803, "specificity": 0.845634753268663, "precision": 0.851279967492889, "f1": 0.8671357615894039, "mcc": 0.7297541001801117, "auroc": 0.9412182314736923, "average_precision": 0.9367155132052241, "pr_trapezoid_area": 0.9366980631262086, "threshold": 0.5}
+START dim64_walk20_kernel3_length1000_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel3_length1000_lr0p0005__fold1 epoch=1 valBCE=0.689739 stale=0 elapsed=0.4s
+dim64_walk20_kernel3_length1000_lr0p0005__fold1 epoch=50 valBCE=0.421492 stale=0 elapsed=7.5s
+dim64_walk20_kernel3_length1000_lr0p0005__fold1 epoch=100 valBCE=0.374454 stale=0 elapsed=14.2s
+dim64_walk20_kernel3_length1000_lr0p0005__fold1 epoch=150 valBCE=0.335696 stale=0 elapsed=21.0s
+dim64_walk20_kernel3_length1000_lr0p0005__fold1 epoch=200 valBCE=0.318063 stale=1 elapsed=27.0s
+dim64_walk20_kernel3_length1000_lr0p0005__fold1 epoch=250 valBCE=0.303503 stale=1 elapsed=32.9s
+dim64_walk20_kernel3_length1000_lr0p0005__fold1 epoch=298 valBCE=0.298802 stale=20 elapsed=38.3s
+COMPLETE dim64_walk20_kernel3_length1000_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8705187684521299, "sensitivity": 0.8865457612821595, "specificity": 0.8544917756221003, "precision": 0.8590110339190846, "f1": 0.8725612287256124, "mcc": 0.7414185229863793, "auroc": 0.9458827057793268, "average_precision": 0.9410649213258353, "pr_trapezoid_area": 0.9410489668569778, "threshold": 0.5}
+START dim64_walk20_kernel3_length1000_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel3_length1000_lr0p0005__fold2 epoch=1 valBCE=0.689494 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1000_lr0p0005__fold2 epoch=50 valBCE=0.432463 stale=0 elapsed=7.7s
+dim64_walk20_kernel3_length1000_lr0p0005__fold2 epoch=100 valBCE=0.400345 stale=1 elapsed=14.3s
+dim64_walk20_kernel3_length1000_lr0p0005__fold2 epoch=150 valBCE=0.357763 stale=0 elapsed=21.4s
+dim64_walk20_kernel3_length1000_lr0p0005__fold2 epoch=200 valBCE=0.338159 stale=4 elapsed=27.3s
+dim64_walk20_kernel3_length1000_lr0p0005__fold2 epoch=249 valBCE=0.325429 stale=20 elapsed=33.1s
+COMPLETE dim64_walk20_kernel3_length1000_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8654576128215943, "sensitivity": 0.8937157317587516, "specificity": 0.8371994938844369, "precision": 0.8459081836327346, "f1": 0.86915504511895, "mcc": 0.732085332187111, "auroc": 0.9363507025795493, "average_precision": 0.9303749720488491, "pr_trapezoid_area": 0.9303553311334478, "threshold": 0.5}
+START dim64_walk20_kernel3_length1000_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel3_length1000_lr0p0005__fold3 epoch=1 valBCE=0.687648 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1000_lr0p0005__fold3 epoch=50 valBCE=0.437769 stale=3 elapsed=7.3s
+dim64_walk20_kernel3_length1000_lr0p0005__fold3 epoch=100 valBCE=0.385762 stale=0 elapsed=14.3s
+dim64_walk20_kernel3_length1000_lr0p0005__fold3 epoch=150 valBCE=0.350170 stale=0 elapsed=20.8s
+dim64_walk20_kernel3_length1000_lr0p0005__fold3 epoch=200 valBCE=0.332633 stale=2 elapsed=27.1s
+dim64_walk20_kernel3_length1000_lr0p0005__fold3 epoch=250 valBCE=0.318838 stale=1 elapsed=33.3s
+dim64_walk20_kernel3_length1000_lr0p0005__fold3 epoch=269 valBCE=0.314875 stale=20 elapsed=35.3s
+COMPLETE dim64_walk20_kernel3_length1000_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8627161535217208, "sensitivity": 0.8840151834668916, "specificity": 0.84141712357655, "precision": 0.8478964401294499, "f1": 0.8655791864546769, "mcc": 0.726091386963516, "auroc": 0.9416908692675324, "average_precision": 0.9376279002682587, "pr_trapezoid_area": 0.937610833330683, "threshold": 0.5}
+START dim64_walk20_kernel3_length1000_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel3_length1000_lr0p0005__fold4 epoch=1 valBCE=0.691175 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1000_lr0p0005__fold4 epoch=50 valBCE=0.441743 stale=0 elapsed=7.4s
+dim64_walk20_kernel3_length1000_lr0p0005__fold4 epoch=100 valBCE=0.380263 stale=3 elapsed=14.1s
+dim64_walk20_kernel3_length1000_lr0p0005__fold4 epoch=150 valBCE=0.357013 stale=2 elapsed=20.7s
+dim64_walk20_kernel3_length1000_lr0p0005__fold4 epoch=200 valBCE=0.333767 stale=0 elapsed=27.2s
+dim64_walk20_kernel3_length1000_lr0p0005__fold4 epoch=250 valBCE=0.328504 stale=5 elapsed=33.2s
+dim64_walk20_kernel3_length1000_lr0p0005__fold4 epoch=284 valBCE=0.323019 stale=20 elapsed=37.0s
+COMPLETE dim64_walk20_kernel3_length1000_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.872838464782792, "sensitivity": 0.9021509911429777, "specificity": 0.8435259384226065, "precision": 0.8521912350597609, "f1": 0.876459741856177, "mcc": 0.7469616494318266, "auroc": 0.9424279316306396, "average_precision": 0.9373215355603338, "pr_trapezoid_area": 0.9373043057881953, "threshold": 0.5}
+START dim64_walk20_kernel3_length1500_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel3_length1500_lr0p0005__fold0 epoch=1 valBCE=0.691987 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1500_lr0p0005__fold0 epoch=50 valBCE=0.429702 stale=0 elapsed=8.2s
+dim64_walk20_kernel3_length1500_lr0p0005__fold0 epoch=100 valBCE=0.383215 stale=0 elapsed=15.2s
+dim64_walk20_kernel3_length1500_lr0p0005__fold0 epoch=150 valBCE=0.358252 stale=1 elapsed=22.6s
+dim64_walk20_kernel3_length1500_lr0p0005__fold0 epoch=200 valBCE=0.340480 stale=4 elapsed=29.4s
+dim64_walk20_kernel3_length1500_lr0p0005__fold0 epoch=250 valBCE=0.323009 stale=5 elapsed=36.1s
+dim64_walk20_kernel3_length1500_lr0p0005__fold0 epoch=295 valBCE=0.322539 stale=20 elapsed=41.8s
+COMPLETE dim64_walk20_kernel3_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8663011387600169, "sensitivity": 0.8949810206663855, "specificity": 0.8376212568536483, "precision": 0.8464299960111688, "f1": 0.8700287002870029, "mcc": 0.7338104425612865, "auroc": 0.941730003748016, "average_precision": 0.9370787252797033, "pr_trapezoid_area": 0.9370612532204438, "threshold": 0.5}
+START dim64_walk20_kernel3_length1500_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel3_length1500_lr0p0005__fold1 epoch=1 valBCE=0.689739 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1500_lr0p0005__fold1 epoch=50 valBCE=0.421659 stale=0 elapsed=8.3s
+dim64_walk20_kernel3_length1500_lr0p0005__fold1 epoch=100 valBCE=0.374330 stale=0 elapsed=15.7s
+dim64_walk20_kernel3_length1500_lr0p0005__fold1 epoch=150 valBCE=0.336236 stale=0 elapsed=23.3s
+dim64_walk20_kernel3_length1500_lr0p0005__fold1 epoch=200 valBCE=0.316871 stale=1 elapsed=30.0s
+dim64_walk20_kernel3_length1500_lr0p0005__fold1 epoch=250 valBCE=0.298943 stale=0 elapsed=36.7s
+dim64_walk20_kernel3_length1500_lr0p0005__fold1 epoch=298 valBCE=0.295908 stale=20 elapsed=42.9s
+COMPLETE dim64_walk20_kernel3_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8732602277520034, "sensitivity": 0.9042598059890342, "specificity": 0.8422606495149726, "precision": 0.8514694201747418, "f1": 0.8770709756596441, "mcc": 0.7479593784109946, "auroc": 0.9465563524956503, "average_precision": 0.9417660487200927, "pr_trapezoid_area": 0.9417513382211424, "threshold": 0.5}
+START dim64_walk20_kernel3_length1500_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel3_length1500_lr0p0005__fold2 epoch=1 valBCE=0.689494 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1500_lr0p0005__fold2 epoch=50 valBCE=0.432499 stale=0 elapsed=8.2s
+dim64_walk20_kernel3_length1500_lr0p0005__fold2 epoch=100 valBCE=0.396471 stale=0 elapsed=15.5s
+dim64_walk20_kernel3_length1500_lr0p0005__fold2 epoch=150 valBCE=0.358650 stale=0 elapsed=23.3s
+dim64_walk20_kernel3_length1500_lr0p0005__fold2 epoch=200 valBCE=0.337311 stale=0 elapsed=30.2s
+dim64_walk20_kernel3_length1500_lr0p0005__fold2 epoch=250 valBCE=0.330934 stale=5 elapsed=36.7s
+dim64_walk20_kernel3_length1500_lr0p0005__fold2 epoch=280 valBCE=0.321104 stale=20 elapsed=40.5s
+COMPLETE dim64_walk20_kernel3_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8610291016448756, "sensitivity": 0.8894981020666386, "specificity": 0.8325601012231126, "precision": 0.8415802075019952, "f1": 0.8648759483288907, "mcc": 0.7232314900721868, "auroc": 0.9397400154154276, "average_precision": 0.9349484026462663, "pr_trapezoid_area": 0.9349304024844687, "threshold": 0.5}
+START dim64_walk20_kernel3_length1500_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel3_length1500_lr0p0005__fold3 epoch=1 valBCE=0.687648 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1500_lr0p0005__fold3 epoch=50 valBCE=0.438669 stale=2 elapsed=8.0s
+dim64_walk20_kernel3_length1500_lr0p0005__fold3 epoch=100 valBCE=0.385769 stale=0 elapsed=15.8s
+dim64_walk20_kernel3_length1500_lr0p0005__fold3 epoch=150 valBCE=0.351467 stale=0 elapsed=22.8s
+dim64_walk20_kernel3_length1500_lr0p0005__fold3 epoch=200 valBCE=0.334765 stale=2 elapsed=29.7s
+dim64_walk20_kernel3_length1500_lr0p0005__fold3 epoch=250 valBCE=0.317432 stale=7 elapsed=36.1s
+dim64_walk20_kernel3_length1500_lr0p0005__fold3 epoch=291 valBCE=0.312936 stale=20 elapsed=41.2s
+COMPLETE dim64_walk20_kernel3_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8627161535217208, "sensitivity": 0.8755799240826655, "specificity": 0.849852382960776, "precision": 0.8536184210526315, "f1": 0.8644597126795752, "mcc": 0.7256725104274421, "auroc": 0.9432662099909973, "average_precision": 0.939416601188716, "pr_trapezoid_area": 0.9394000131757313, "threshold": 0.5}
+START dim64_walk20_kernel3_length1500_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel3_length1500_lr0p0005__fold4 epoch=1 valBCE=0.691175 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length1500_lr0p0005__fold4 epoch=50 valBCE=0.441841 stale=0 elapsed=8.1s
+dim64_walk20_kernel3_length1500_lr0p0005__fold4 epoch=100 valBCE=0.380069 stale=3 elapsed=15.3s
+dim64_walk20_kernel3_length1500_lr0p0005__fold4 epoch=150 valBCE=0.356991 stale=2 elapsed=22.3s
+dim64_walk20_kernel3_length1500_lr0p0005__fold4 epoch=200 valBCE=0.333734 stale=0 elapsed=29.2s
+dim64_walk20_kernel3_length1500_lr0p0005__fold4 epoch=250 valBCE=0.327473 stale=14 elapsed=35.3s
+dim64_walk20_kernel3_length1500_lr0p0005__fold4 epoch=256 valBCE=0.326354 stale=20 elapsed=36.0s
+COMPLETE dim64_walk20_kernel3_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8673555461830451, "sensitivity": 0.8979333614508647, "specificity": 0.8367777309152257, "precision": 0.8461844197138315, "f1": 0.871291180683446, "mcc": 0.736088872093846, "auroc": 0.9396094485578143, "average_precision": 0.934826371840895, "pr_trapezoid_area": 0.9348080643436376, "threshold": 0.5}
+START dim64_walk20_kernel3_length2000_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel3_length2000_lr0p0005__fold0 epoch=1 valBCE=0.691987 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length2000_lr0p0005__fold0 epoch=50 valBCE=0.429330 stale=0 elapsed=8.8s
+dim64_walk20_kernel3_length2000_lr0p0005__fold0 epoch=100 valBCE=0.386170 stale=1 elapsed=16.4s
+dim64_walk20_kernel3_length2000_lr0p0005__fold0 epoch=150 valBCE=0.357731 stale=0 elapsed=24.3s
+dim64_walk20_kernel3_length2000_lr0p0005__fold0 epoch=200 valBCE=0.338587 stale=5 elapsed=31.7s
+dim64_walk20_kernel3_length2000_lr0p0005__fold0 epoch=250 valBCE=0.322095 stale=0 elapsed=39.0s
+dim64_walk20_kernel3_length2000_lr0p0005__fold0 epoch=300 valBCE=0.317515 stale=20 elapsed=46.2s
+COMPLETE dim64_walk20_kernel3_length2000_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8639814424293547, "sensitivity": 0.8848587094053142, "specificity": 0.8431041754533952, "precision": 0.8493927125506073, "f1": 0.8667630654823384, "mcc": 0.7285982960393906, "auroc": 0.9415999705424092, "average_precision": 0.9367782446854497, "pr_trapezoid_area": 0.9367605817902006, "threshold": 0.5}
+START dim64_walk20_kernel3_length2000_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel3_length2000_lr0p0005__fold1 epoch=1 valBCE=0.689739 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length2000_lr0p0005__fold1 epoch=50 valBCE=0.421509 stale=0 elapsed=9.0s
+dim64_walk20_kernel3_length2000_lr0p0005__fold1 epoch=100 valBCE=0.374623 stale=0 elapsed=17.4s
+dim64_walk20_kernel3_length2000_lr0p0005__fold1 epoch=150 valBCE=0.336812 stale=0 elapsed=25.6s
+dim64_walk20_kernel3_length2000_lr0p0005__fold1 epoch=200 valBCE=0.314436 stale=0 elapsed=33.4s
+dim64_walk20_kernel3_length2000_lr0p0005__fold1 epoch=250 valBCE=0.301484 stale=10 elapsed=40.9s
+dim64_walk20_kernel3_length2000_lr0p0005__fold1 epoch=299 valBCE=0.299682 stale=20 elapsed=47.9s
+COMPLETE dim64_walk20_kernel3_length2000_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8688317165752847, "sensitivity": 0.8873892872205821, "specificity": 0.8502741459299874, "precision": 0.8556323708824726, "f1": 0.8712215320910973, "mcc": 0.7381720367989493, "auroc": 0.9451615640344162, "average_precision": 0.9405713590174821, "pr_trapezoid_area": 0.9405553874895217, "threshold": 0.5}
+START dim64_walk20_kernel3_length2000_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel3_length2000_lr0p0005__fold2 epoch=1 valBCE=0.689494 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length2000_lr0p0005__fold2 epoch=50 valBCE=0.432488 stale=0 elapsed=8.9s
+dim64_walk20_kernel3_length2000_lr0p0005__fold2 epoch=100 valBCE=0.396527 stale=0 elapsed=17.0s
+dim64_walk20_kernel3_length2000_lr0p0005__fold2 epoch=150 valBCE=0.360214 stale=2 elapsed=25.1s
+dim64_walk20_kernel3_length2000_lr0p0005__fold2 epoch=200 valBCE=0.336148 stale=3 elapsed=32.5s
+dim64_walk20_kernel3_length2000_lr0p0005__fold2 epoch=250 valBCE=0.329085 stale=7 elapsed=39.6s
+dim64_walk20_kernel3_length2000_lr0p0005__fold2 epoch=273 valBCE=0.324775 stale=20 elapsed=42.8s
+COMPLETE dim64_walk20_kernel3_length2000_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.864403205398566, "sensitivity": 0.8890763390974272, "specificity": 0.8397300716997048, "precision": 0.8472668810289389, "f1": 0.8676682444947519, "mcc": 0.7296953761576188, "auroc": 0.9374819558915272, "average_precision": 0.9320611812078053, "pr_trapezoid_area": 0.9320419967428952, "threshold": 0.5}
+START dim64_walk20_kernel3_length2000_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel3_length2000_lr0p0005__fold3 epoch=1 valBCE=0.687648 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length2000_lr0p0005__fold3 epoch=50 valBCE=0.438056 stale=3 elapsed=8.7s
+dim64_walk20_kernel3_length2000_lr0p0005__fold3 epoch=100 valBCE=0.385549 stale=0 elapsed=17.2s
+dim64_walk20_kernel3_length2000_lr0p0005__fold3 epoch=150 valBCE=0.350444 stale=0 elapsed=25.3s
+dim64_walk20_kernel3_length2000_lr0p0005__fold3 epoch=200 valBCE=0.330676 stale=3 elapsed=33.0s
+dim64_walk20_kernel3_length2000_lr0p0005__fold3 epoch=250 valBCE=0.313870 stale=1 elapsed=40.2s
+dim64_walk20_kernel3_length2000_lr0p0005__fold3 epoch=300 valBCE=0.311231 stale=17 elapsed=47.3s
+COMPLETE dim64_walk20_kernel3_length2000_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8656684943062, "sensitivity": 0.8882328131590046, "specificity": 0.8431041754533952, "precision": 0.8498789346246973, "f1": 0.868632707774799, "mcc": 0.732082846302866, "auroc": 0.9441631011300793, "average_precision": 0.9394221656611811, "pr_trapezoid_area": 0.9394041318604298, "threshold": 0.5}
+START dim64_walk20_kernel3_length2000_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel3_length2000_lr0p0005__fold4 epoch=1 valBCE=0.691175 stale=0 elapsed=0.5s
+dim64_walk20_kernel3_length2000_lr0p0005__fold4 epoch=50 valBCE=0.441718 stale=0 elapsed=8.9s
+dim64_walk20_kernel3_length2000_lr0p0005__fold4 epoch=100 valBCE=0.379786 stale=0 elapsed=16.8s
+dim64_walk20_kernel3_length2000_lr0p0005__fold4 epoch=150 valBCE=0.357084 stale=2 elapsed=24.8s
+dim64_walk20_kernel3_length2000_lr0p0005__fold4 epoch=200 valBCE=0.333631 stale=1 elapsed=32.2s
+dim64_walk20_kernel3_length2000_lr0p0005__fold4 epoch=250 valBCE=0.326454 stale=5 elapsed=39.2s
+dim64_walk20_kernel3_length2000_lr0p0005__fold4 epoch=284 valBCE=0.323843 stale=20 elapsed=43.9s
+COMPLETE dim64_walk20_kernel3_length2000_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8732602277520034, "sensitivity": 0.8979333614508647, "specificity": 0.8485870940531421, "precision": 0.8557073954983923, "f1": 0.8763119983535707, "mcc": 0.7474310276614498, "auroc": 0.9418376235693456, "average_precision": 0.9363968312492007, "pr_trapezoid_area": 0.9363785374903032, "threshold": 0.5}
+START dim64_walk20_kernel5_length1000_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel5_length1000_lr0p0005__fold0 epoch=1 valBCE=0.688258 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold0 epoch=50 valBCE=0.429563 stale=0 elapsed=7.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold0 epoch=100 valBCE=0.387675 stale=2 elapsed=14.0s
+dim64_walk20_kernel5_length1000_lr0p0005__fold0 epoch=150 valBCE=0.349245 stale=0 elapsed=20.6s
+dim64_walk20_kernel5_length1000_lr0p0005__fold0 epoch=200 valBCE=0.332467 stale=1 elapsed=26.7s
+dim64_walk20_kernel5_length1000_lr0p0005__fold0 epoch=250 valBCE=0.322576 stale=9 elapsed=32.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold0 epoch=261 valBCE=0.323005 stale=20 elapsed=33.7s
+COMPLETE dim64_walk20_kernel5_length1000_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8627161535217208, "sensitivity": 0.8890763390974272, "specificity": 0.8363559679460143, "precision": 0.844551282051282, "f1": 0.8662420382165605, "mcc": 0.7264425603753338, "auroc": 0.9380227232582088, "average_precision": 0.9325469035642097, "pr_trapezoid_area": 0.9325281047852965, "threshold": 0.5}
+START dim64_walk20_kernel5_length1000_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel5_length1000_lr0p0005__fold1 epoch=1 valBCE=0.691049 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold1 epoch=50 valBCE=0.416901 stale=0 elapsed=7.6s
+dim64_walk20_kernel5_length1000_lr0p0005__fold1 epoch=100 valBCE=0.370043 stale=0 elapsed=14.4s
+dim64_walk20_kernel5_length1000_lr0p0005__fold1 epoch=150 valBCE=0.339701 stale=1 elapsed=21.0s
+dim64_walk20_kernel5_length1000_lr0p0005__fold1 epoch=200 valBCE=0.322469 stale=2 elapsed=27.2s
+dim64_walk20_kernel5_length1000_lr0p0005__fold1 epoch=250 valBCE=0.312074 stale=14 elapsed=33.1s
+dim64_walk20_kernel5_length1000_lr0p0005__fold1 epoch=281 valBCE=0.307879 stale=20 elapsed=36.7s
+COMPLETE dim64_walk20_kernel5_length1000_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8603964571910586, "sensitivity": 0.8781105018979334, "specificity": 0.8426824124841839, "precision": 0.8480651731160896, "f1": 0.8628263572316619, "mcc": 0.7212456920945991, "auroc": 0.9416930038755587, "average_precision": 0.9367090956208165, "pr_trapezoid_area": 0.9366922316882232, "threshold": 0.5}
+START dim64_walk20_kernel5_length1000_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel5_length1000_lr0p0005__fold2 epoch=1 valBCE=0.691903 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold2 epoch=50 valBCE=0.432553 stale=0 elapsed=7.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold2 epoch=100 valBCE=0.393286 stale=0 elapsed=14.4s
+dim64_walk20_kernel5_length1000_lr0p0005__fold2 epoch=150 valBCE=0.357668 stale=0 elapsed=21.0s
+dim64_walk20_kernel5_length1000_lr0p0005__fold2 epoch=200 valBCE=0.338239 stale=1 elapsed=27.0s
+dim64_walk20_kernel5_length1000_lr0p0005__fold2 epoch=249 valBCE=0.334180 stale=20 elapsed=32.7s
+COMPLETE dim64_walk20_kernel5_length1000_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8561788274989456, "sensitivity": 0.873471109236609, "specificity": 0.8388865457612822, "precision": 0.8442723196086425, "f1": 0.8586235489220565, "mcc": 0.71278406020805, "auroc": 0.9331642664481776, "average_precision": 0.9269560230164043, "pr_trapezoid_area": 0.9269336877239166, "threshold": 0.5}
+START dim64_walk20_kernel5_length1000_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel5_length1000_lr0p0005__fold3 epoch=1 valBCE=0.689525 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold3 epoch=50 valBCE=0.432564 stale=0 elapsed=7.6s
+dim64_walk20_kernel5_length1000_lr0p0005__fold3 epoch=100 valBCE=0.389677 stale=1 elapsed=14.4s
+dim64_walk20_kernel5_length1000_lr0p0005__fold3 epoch=150 valBCE=0.359578 stale=2 elapsed=21.3s
+dim64_walk20_kernel5_length1000_lr0p0005__fold3 epoch=200 valBCE=0.333920 stale=0 elapsed=27.8s
+dim64_walk20_kernel5_length1000_lr0p0005__fold3 epoch=250 valBCE=0.320400 stale=14 elapsed=33.9s
+dim64_walk20_kernel5_length1000_lr0p0005__fold3 epoch=272 valBCE=0.318226 stale=20 elapsed=36.4s
+COMPLETE dim64_walk20_kernel5_length1000_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8597638127372417, "sensitivity": 0.8857022353437368, "specificity": 0.8338253901307465, "precision": 0.8420208500400962, "f1": 0.8633093525179857, "mcc": 0.7204977830014248, "auroc": 0.9407980694605009, "average_precision": 0.9379079349304797, "pr_trapezoid_area": 0.9378918597894379, "threshold": 0.5}
+START dim64_walk20_kernel5_length1000_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel5_length1000_lr0p0005__fold4 epoch=1 valBCE=0.694324 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1000_lr0p0005__fold4 epoch=50 valBCE=0.444219 stale=0 elapsed=7.9s
+dim64_walk20_kernel5_length1000_lr0p0005__fold4 epoch=100 valBCE=0.393898 stale=1 elapsed=15.0s
+dim64_walk20_kernel5_length1000_lr0p0005__fold4 epoch=150 valBCE=0.356458 stale=0 elapsed=21.7s
+dim64_walk20_kernel5_length1000_lr0p0005__fold4 epoch=200 valBCE=0.341408 stale=2 elapsed=28.1s
+dim64_walk20_kernel5_length1000_lr0p0005__fold4 epoch=250 valBCE=0.330277 stale=1 elapsed=34.0s
+dim64_walk20_kernel5_length1000_lr0p0005__fold4 epoch=276 valBCE=0.332009 stale=20 elapsed=37.0s
+COMPLETE dim64_walk20_kernel5_length1000_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8639814424293547, "sensitivity": 0.8835934204976803, "specificity": 0.8443694643610291, "precision": 0.8502435064935064, "f1": 0.8665977249224405, "mcc": 0.7285235241255995, "auroc": 0.9389911237661743, "average_precision": 0.9336559742533814, "pr_trapezoid_area": 0.9336367128557961, "threshold": 0.5}
+START dim64_walk20_kernel5_length1500_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel5_length1500_lr0p0005__fold0 epoch=1 valBCE=0.688258 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold0 epoch=50 valBCE=0.429459 stale=0 elapsed=8.4s
+dim64_walk20_kernel5_length1500_lr0p0005__fold0 epoch=100 valBCE=0.383749 stale=0 elapsed=16.0s
+dim64_walk20_kernel5_length1500_lr0p0005__fold0 epoch=150 valBCE=0.352379 stale=2 elapsed=23.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold0 epoch=200 valBCE=0.329441 stale=0 elapsed=30.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold0 epoch=250 valBCE=0.322070 stale=1 elapsed=37.3s
+dim64_walk20_kernel5_length1500_lr0p0005__fold0 epoch=300 valBCE=0.319454 stale=3 elapsed=43.9s
+COMPLETE dim64_walk20_kernel5_length1500_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8681990721214677, "sensitivity": 0.883171657528469, "specificity": 0.8532264867144664, "precision": 0.8574938574938575, "f1": 0.8701433617286516, "mcc": 0.7367285354476559, "auroc": 0.9410787704159691, "average_precision": 0.9355298939636598, "pr_trapezoid_area": 0.9355117507655692, "threshold": 0.5}
+START dim64_walk20_kernel5_length1500_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel5_length1500_lr0p0005__fold1 epoch=1 valBCE=0.691048 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold1 epoch=50 valBCE=0.415926 stale=0 elapsed=8.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold1 epoch=100 valBCE=0.369664 stale=0 elapsed=16.2s
+dim64_walk20_kernel5_length1500_lr0p0005__fold1 epoch=150 valBCE=0.340888 stale=1 elapsed=23.8s
+dim64_walk20_kernel5_length1500_lr0p0005__fold1 epoch=200 valBCE=0.319254 stale=1 elapsed=30.8s
+dim64_walk20_kernel5_length1500_lr0p0005__fold1 epoch=250 valBCE=0.307445 stale=0 elapsed=37.7s
+dim64_walk20_kernel5_length1500_lr0p0005__fold1 epoch=280 valBCE=0.308126 stale=20 elapsed=41.7s
+COMPLETE dim64_walk20_kernel5_length1500_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8627161535217208, "sensitivity": 0.8835934204976803, "specificity": 0.8418388865457613, "precision": 0.8481781376518218, "f1": 0.865523652137988, "mcc": 0.7260655093787671, "auroc": 0.9419157146463106, "average_precision": 0.9371871339685998, "pr_trapezoid_area": 0.9371705101616942, "threshold": 0.5}
+START dim64_walk20_kernel5_length1500_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel5_length1500_lr0p0005__fold2 epoch=1 valBCE=0.691903 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold2 epoch=50 valBCE=0.432969 stale=0 elapsed=8.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold2 epoch=100 valBCE=0.396043 stale=0 elapsed=16.0s
+dim64_walk20_kernel5_length1500_lr0p0005__fold2 epoch=150 valBCE=0.359794 stale=0 elapsed=23.8s
+dim64_walk20_kernel5_length1500_lr0p0005__fold2 epoch=200 valBCE=0.346553 stale=1 elapsed=30.7s
+dim64_walk20_kernel5_length1500_lr0p0005__fold2 epoch=250 valBCE=0.334926 stale=7 elapsed=37.3s
+dim64_walk20_kernel5_length1500_lr0p0005__fold2 epoch=274 valBCE=0.335028 stale=20 elapsed=40.3s
+COMPLETE dim64_walk20_kernel5_length1500_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8578658793757908, "sensitivity": 0.8827498945592577, "specificity": 0.8329818641923239, "precision": 0.8408999598232222, "f1": 0.8613168724279835, "mcc": 0.7166197912931072, "auroc": 0.9343625820289841, "average_precision": 0.9282118654016679, "pr_trapezoid_area": 0.9281898625277293, "threshold": 0.5}
+START dim64_walk20_kernel5_length1500_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel5_length1500_lr0p0005__fold3 epoch=1 valBCE=0.689526 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold3 epoch=50 valBCE=0.432369 stale=0 elapsed=8.4s
+dim64_walk20_kernel5_length1500_lr0p0005__fold3 epoch=100 valBCE=0.389353 stale=1 elapsed=16.1s
+dim64_walk20_kernel5_length1500_lr0p0005__fold3 epoch=150 valBCE=0.357748 stale=1 elapsed=23.3s
+dim64_walk20_kernel5_length1500_lr0p0005__fold3 epoch=200 valBCE=0.332339 stale=0 elapsed=30.4s
+dim64_walk20_kernel5_length1500_lr0p0005__fold3 epoch=250 valBCE=0.322733 stale=8 elapsed=37.1s
+dim64_walk20_kernel5_length1500_lr0p0005__fold3 epoch=300 valBCE=0.315632 stale=19 elapsed=43.8s
+COMPLETE dim64_walk20_kernel5_length1500_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8616617460986925, "sensitivity": 0.8857022353437368, "specificity": 0.8376212568536483, "precision": 0.8450704225352113, "f1": 0.8649093904448104, "mcc": 0.7241610271948022, "auroc": 0.9420009210833633, "average_precision": 0.9383359163449244, "pr_trapezoid_area": 0.9383192568305959, "threshold": 0.5}
+START dim64_walk20_kernel5_length1500_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel5_length1500_lr0p0005__fold4 epoch=1 valBCE=0.694325 stale=0 elapsed=0.6s
+dim64_walk20_kernel5_length1500_lr0p0005__fold4 epoch=50 valBCE=0.443222 stale=0 elapsed=8.6s
+dim64_walk20_kernel5_length1500_lr0p0005__fold4 epoch=100 valBCE=0.391028 stale=0 elapsed=16.6s
+dim64_walk20_kernel5_length1500_lr0p0005__fold4 epoch=150 valBCE=0.354786 stale=0 elapsed=24.0s
+dim64_walk20_kernel5_length1500_lr0p0005__fold4 epoch=200 valBCE=0.341284 stale=2 elapsed=30.8s
+dim64_walk20_kernel5_length1500_lr0p0005__fold4 epoch=250 valBCE=0.330646 stale=3 elapsed=37.5s
+dim64_walk20_kernel5_length1500_lr0p0005__fold4 epoch=282 valBCE=0.328312 stale=20 elapsed=41.8s
+COMPLETE dim64_walk20_kernel5_length1500_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8639814424293547, "sensitivity": 0.8869675242513707, "specificity": 0.8409953606073387, "precision": 0.847983870967742, "f1": 0.8670377241805813, "mcc": 0.7287333592152733, "auroc": 0.9396516070663353, "average_precision": 0.9349236983656822, "pr_trapezoid_area": 0.9349051728066247, "threshold": 0.5}
+START dim64_walk20_kernel5_length2000_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel5_length2000_lr0p0005__fold0 epoch=1 valBCE=0.688258 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length2000_lr0p0005__fold0 epoch=50 valBCE=0.429359 stale=0 elapsed=9.2s
+dim64_walk20_kernel5_length2000_lr0p0005__fold0 epoch=100 valBCE=0.390102 stale=3 elapsed=17.5s
+dim64_walk20_kernel5_length2000_lr0p0005__fold0 epoch=150 valBCE=0.351165 stale=2 elapsed=25.9s
+dim64_walk20_kernel5_length2000_lr0p0005__fold0 epoch=200 valBCE=0.329588 stale=0 elapsed=33.7s
+dim64_walk20_kernel5_length2000_lr0p0005__fold0 epoch=250 valBCE=0.322488 stale=9 elapsed=41.2s
+dim64_walk20_kernel5_length2000_lr0p0005__fold0 epoch=277 valBCE=0.319544 stale=20 elapsed=45.1s
+COMPLETE dim64_walk20_kernel5_length2000_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8688317165752847, "sensitivity": 0.8962463095740194, "specificity": 0.84141712357655, "precision": 0.8496601359456217, "f1": 0.8723316912972086, "mcc": 0.7387747359368942, "auroc": 0.9411710922131101, "average_precision": 0.9357575769724906, "pr_trapezoid_area": 0.935739829818969, "threshold": 0.5}
+START dim64_walk20_kernel5_length2000_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel5_length2000_lr0p0005__fold1 epoch=1 valBCE=0.691048 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length2000_lr0p0005__fold1 epoch=50 valBCE=0.416652 stale=0 elapsed=9.1s
+dim64_walk20_kernel5_length2000_lr0p0005__fold1 epoch=100 valBCE=0.371983 stale=1 elapsed=17.6s
+dim64_walk20_kernel5_length2000_lr0p0005__fold1 epoch=150 valBCE=0.339464 stale=0 elapsed=26.0s
+dim64_walk20_kernel5_length2000_lr0p0005__fold1 epoch=200 valBCE=0.316963 stale=2 elapsed=33.7s
+dim64_walk20_kernel5_length2000_lr0p0005__fold1 epoch=250 valBCE=0.307120 stale=3 elapsed=41.1s
+dim64_walk20_kernel5_length2000_lr0p0005__fold1 epoch=300 valBCE=0.306773 stale=3 elapsed=48.3s
+COMPLETE dim64_walk20_kernel5_length2000_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8681990721214677, "sensitivity": 0.8907633909742725, "specificity": 0.845634753268663, "precision": 0.8523002421307506, "f1": 0.8711074448339865, "mcc": 0.7371491635783184, "auroc": 0.9446467677320555, "average_precision": 0.9398456708751526, "pr_trapezoid_area": 0.9398296048620904, "threshold": 0.5}
+START dim64_walk20_kernel5_length2000_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel5_length2000_lr0p0005__fold2 epoch=1 valBCE=0.691903 stale=0 elapsed=0.6s
+dim64_walk20_kernel5_length2000_lr0p0005__fold2 epoch=50 valBCE=0.432921 stale=0 elapsed=9.0s
+dim64_walk20_kernel5_length2000_lr0p0005__fold2 epoch=100 valBCE=0.394231 stale=0 elapsed=17.4s
+dim64_walk20_kernel5_length2000_lr0p0005__fold2 epoch=150 valBCE=0.359363 stale=1 elapsed=25.4s
+dim64_walk20_kernel5_length2000_lr0p0005__fold2 epoch=200 valBCE=0.342086 stale=2 elapsed=33.0s
+dim64_walk20_kernel5_length2000_lr0p0005__fold2 epoch=240 valBCE=0.338679 stale=20 elapsed=38.7s
+COMPLETE dim64_walk20_kernel5_length2000_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8542808941374948, "sensitivity": 0.8945592576971741, "specificity": 0.8140025305778152, "precision": 0.8278688524590164, "f1": 0.8599229677680923, "mcc": 0.7108721043508263, "auroc": 0.9328900582587896, "average_precision": 0.9261727012284986, "pr_trapezoid_area": 0.9261498046177038, "threshold": 0.5}
+START dim64_walk20_kernel5_length2000_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel5_length2000_lr0p0005__fold3 epoch=1 valBCE=0.689526 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length2000_lr0p0005__fold3 epoch=50 valBCE=0.433493 stale=0 elapsed=9.1s
+dim64_walk20_kernel5_length2000_lr0p0005__fold3 epoch=100 valBCE=0.391911 stale=1 elapsed=17.2s
+dim64_walk20_kernel5_length2000_lr0p0005__fold3 epoch=150 valBCE=0.358250 stale=0 elapsed=25.2s
+dim64_walk20_kernel5_length2000_lr0p0005__fold3 epoch=200 valBCE=0.334109 stale=0 elapsed=33.1s
+dim64_walk20_kernel5_length2000_lr0p0005__fold3 epoch=250 valBCE=0.320004 stale=0 elapsed=40.4s
+dim64_walk20_kernel5_length2000_lr0p0005__fold3 epoch=300 valBCE=0.316107 stale=20 elapsed=47.6s
+COMPLETE dim64_walk20_kernel5_length2000_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8584985238296078, "sensitivity": 0.883171657528469, "specificity": 0.8338253901307465, "precision": 0.8416398713826366, "f1": 0.8619057419222063, "mcc": 0.717871608488398, "auroc": 0.9418233928491698, "average_precision": 0.9385106631901938, "pr_trapezoid_area": 0.9384944383841013, "threshold": 0.5}
+START dim64_walk20_kernel5_length2000_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel5_length2000_lr0p0005__fold4 epoch=1 valBCE=0.694325 stale=0 elapsed=0.5s
+dim64_walk20_kernel5_length2000_lr0p0005__fold4 epoch=50 valBCE=0.443708 stale=0 elapsed=9.1s
+dim64_walk20_kernel5_length2000_lr0p0005__fold4 epoch=100 valBCE=0.390541 stale=0 elapsed=17.6s
+dim64_walk20_kernel5_length2000_lr0p0005__fold4 epoch=150 valBCE=0.359244 stale=3 elapsed=25.7s
+dim64_walk20_kernel5_length2000_lr0p0005__fold4 epoch=200 valBCE=0.345156 stale=1 elapsed=33.7s
+dim64_walk20_kernel5_length2000_lr0p0005__fold4 epoch=250 valBCE=0.330758 stale=0 elapsed=41.2s
+dim64_walk20_kernel5_length2000_lr0p0005__fold4 epoch=300 valBCE=0.327388 stale=13 elapsed=48.6s
+COMPLETE dim64_walk20_kernel5_length2000_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8646140868831717, "sensitivity": 0.8823281315900464, "specificity": 0.8469000421762969, "precision": 0.8521384928716904, "f1": 0.8669705760464153, "mcc": 0.7296862502232662, "auroc": 0.9406468680586327, "average_precision": 0.9355359703265763, "pr_trapezoid_area": 0.935517301276455, "threshold": 0.5}
+START dim64_walk20_kernel7_length1000_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel7_length1000_lr0p0005__fold0 epoch=1 valBCE=0.688678 stale=0 elapsed=0.4s
+dim64_walk20_kernel7_length1000_lr0p0005__fold0 epoch=50 valBCE=0.429283 stale=0 elapsed=7.6s
+dim64_walk20_kernel7_length1000_lr0p0005__fold0 epoch=100 valBCE=0.388214 stale=2 elapsed=14.7s
+dim64_walk20_kernel7_length1000_lr0p0005__fold0 epoch=150 valBCE=0.357864 stale=1 elapsed=21.5s
+dim64_walk20_kernel7_length1000_lr0p0005__fold0 epoch=200 valBCE=0.330137 stale=0 elapsed=28.3s
+dim64_walk20_kernel7_length1000_lr0p0005__fold0 epoch=250 valBCE=0.319315 stale=7 elapsed=34.4s
+dim64_walk20_kernel7_length1000_lr0p0005__fold0 epoch=290 valBCE=0.317744 stale=20 elapsed=39.3s
+COMPLETE dim64_walk20_kernel7_length1000_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8635596794601434, "sensitivity": 0.8852804723745256, "specificity": 0.8418388865457613, "precision": 0.8484236054971706, "f1": 0.8664602683178534, "mcc": 0.7278064309621364, "auroc": 0.9390279457546293, "average_precision": 0.9339688841926256, "pr_trapezoid_area": 0.9339506437427894, "threshold": 0.5}
+START dim64_walk20_kernel7_length1000_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel7_length1000_lr0p0005__fold1 epoch=1 valBCE=0.690081 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1000_lr0p0005__fold1 epoch=50 valBCE=0.418828 stale=0 elapsed=7.9s
+dim64_walk20_kernel7_length1000_lr0p0005__fold1 epoch=100 valBCE=0.368040 stale=1 elapsed=15.2s
+dim64_walk20_kernel7_length1000_lr0p0005__fold1 epoch=150 valBCE=0.338618 stale=2 elapsed=21.9s
+dim64_walk20_kernel7_length1000_lr0p0005__fold1 epoch=200 valBCE=0.311562 stale=0 elapsed=28.2s
+dim64_walk20_kernel7_length1000_lr0p0005__fold1 epoch=250 valBCE=0.300969 stale=13 elapsed=34.7s
+dim64_walk20_kernel7_length1000_lr0p0005__fold1 epoch=282 valBCE=0.299797 stale=20 elapsed=38.5s
+COMPLETE dim64_walk20_kernel7_length1000_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8707296499367355, "sensitivity": 0.8924504428511176, "specificity": 0.8490088570223534, "precision": 0.8552950687146321, "f1": 0.8734778121775025, "mcc": 0.7421599220599976, "auroc": 0.945083117189447, "average_precision": 0.941132424771926, "pr_trapezoid_area": 0.9411170484153715, "threshold": 0.5}
+START dim64_walk20_kernel7_length1000_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel7_length1000_lr0p0005__fold2 epoch=1 valBCE=0.690665 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1000_lr0p0005__fold2 epoch=50 valBCE=0.430575 stale=0 elapsed=7.9s
+dim64_walk20_kernel7_length1000_lr0p0005__fold2 epoch=100 valBCE=0.387811 stale=0 elapsed=14.9s
+dim64_walk20_kernel7_length1000_lr0p0005__fold2 epoch=150 valBCE=0.347523 stale=1 elapsed=22.2s
+dim64_walk20_kernel7_length1000_lr0p0005__fold2 epoch=200 valBCE=0.332340 stale=2 elapsed=28.5s
+dim64_walk20_kernel7_length1000_lr0p0005__fold2 epoch=250 valBCE=0.319482 stale=6 elapsed=34.6s
+dim64_walk20_kernel7_length1000_lr0p0005__fold2 epoch=278 valBCE=0.323392 stale=20 elapsed=37.9s
+COMPLETE dim64_walk20_kernel7_length1000_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8654576128215943, "sensitivity": 0.8920286798819064, "specificity": 0.8388865457612822, "precision": 0.8470164197036444, "f1": 0.8689400164338538, "mcc": 0.7319495007021308, "auroc": 0.9407322523796877, "average_precision": 0.9350037290681494, "pr_trapezoid_area": 0.93498492165103, "threshold": 0.5}
+START dim64_walk20_kernel7_length1000_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel7_length1000_lr0p0005__fold3 epoch=1 valBCE=0.691325 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1000_lr0p0005__fold3 epoch=50 valBCE=0.436718 stale=1 elapsed=7.7s
+dim64_walk20_kernel7_length1000_lr0p0005__fold3 epoch=100 valBCE=0.397591 stale=1 elapsed=14.5s
+dim64_walk20_kernel7_length1000_lr0p0005__fold3 epoch=150 valBCE=0.361651 stale=0 elapsed=21.6s
+dim64_walk20_kernel7_length1000_lr0p0005__fold3 epoch=200 valBCE=0.338548 stale=0 elapsed=27.9s
+dim64_walk20_kernel7_length1000_lr0p0005__fold3 epoch=250 valBCE=0.323484 stale=1 elapsed=34.3s
+dim64_walk20_kernel7_length1000_lr0p0005__fold3 epoch=278 valBCE=0.317169 stale=20 elapsed=37.6s
+COMPLETE dim64_walk20_kernel7_length1000_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8566005904681568, "sensitivity": 0.8907633909742725, "specificity": 0.8224377899620413, "precision": 0.8337939202526649, "f1": 0.861337683523654, "mcc": 0.7148717823079285, "auroc": 0.9388695400506719, "average_precision": 0.9347786290459156, "pr_trapezoid_area": 0.9347616269089551, "threshold": 0.5}
+START dim64_walk20_kernel7_length1000_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel7_length1000_lr0p0005__fold4 epoch=1 valBCE=0.688841 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1000_lr0p0005__fold4 epoch=50 valBCE=0.432190 stale=0 elapsed=7.8s
+dim64_walk20_kernel7_length1000_lr0p0005__fold4 epoch=100 valBCE=0.381733 stale=3 elapsed=14.6s
+dim64_walk20_kernel7_length1000_lr0p0005__fold4 epoch=150 valBCE=0.350973 stale=1 elapsed=21.3s
+dim64_walk20_kernel7_length1000_lr0p0005__fold4 epoch=200 valBCE=0.335338 stale=10 elapsed=27.4s
+dim64_walk20_kernel7_length1000_lr0p0005__fold4 epoch=250 valBCE=0.326589 stale=6 elapsed=33.6s
+dim64_walk20_kernel7_length1000_lr0p0005__fold4 epoch=264 valBCE=0.327127 stale=20 elapsed=35.2s
+COMPLETE dim64_walk20_kernel7_length1000_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8681990721214677, "sensitivity": 0.9038380430198228, "specificity": 0.8325601012231126, "precision": 0.8437007874015748, "f1": 0.8727346772551415, "mcc": 0.7382759544544696, "auroc": 0.9416842875594511, "average_precision": 0.936354271906644, "pr_trapezoid_area": 0.9363360714095978, "threshold": 0.5}
+START dim64_walk20_kernel7_length2000_lr0p0005__fold0 train=33188 val=4742
+dim64_walk20_kernel7_length2000_lr0p0005__fold0 epoch=1 valBCE=0.688678 stale=0 elapsed=0.6s
+dim64_walk20_kernel7_length2000_lr0p0005__fold0 epoch=50 valBCE=0.429335 stale=0 elapsed=9.6s
+dim64_walk20_kernel7_length2000_lr0p0005__fold0 epoch=100 valBCE=0.388134 stale=2 elapsed=18.1s
+dim64_walk20_kernel7_length2000_lr0p0005__fold0 epoch=150 valBCE=0.357048 stale=0 elapsed=26.7s
+dim64_walk20_kernel7_length2000_lr0p0005__fold0 epoch=200 valBCE=0.330902 stale=1 elapsed=35.1s
+dim64_walk20_kernel7_length2000_lr0p0005__fold0 epoch=250 valBCE=0.318973 stale=3 elapsed=43.1s
+dim64_walk20_kernel7_length2000_lr0p0005__fold0 epoch=300 valBCE=0.312489 stale=20 elapsed=50.6s
+COMPLETE dim64_walk20_kernel7_length2000_lr0p0005__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8665120202446225, "sensitivity": 0.8835934204976803, "specificity": 0.8494306199915648, "precision": 0.8544045676998369, "f1": 0.868753887621812, "mcc": 0.7334521703342093, "auroc": 0.941923363658405, "average_precision": 0.936296353400046, "pr_trapezoid_area": 0.9362781873079818, "threshold": 0.5}
+START dim64_walk20_kernel7_length2000_lr0p0005__fold1 train=33188 val=4742
+dim64_walk20_kernel7_length2000_lr0p0005__fold1 epoch=1 valBCE=0.690080 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length2000_lr0p0005__fold1 epoch=50 valBCE=0.418727 stale=0 elapsed=9.5s
+dim64_walk20_kernel7_length2000_lr0p0005__fold1 epoch=100 valBCE=0.365934 stale=0 elapsed=18.4s
+dim64_walk20_kernel7_length2000_lr0p0005__fold1 epoch=150 valBCE=0.338259 stale=1 elapsed=26.8s
+dim64_walk20_kernel7_length2000_lr0p0005__fold1 epoch=200 valBCE=0.311812 stale=0 elapsed=35.1s
+dim64_walk20_kernel7_length2000_lr0p0005__fold1 epoch=250 valBCE=0.301615 stale=14 elapsed=42.7s
+dim64_walk20_kernel7_length2000_lr0p0005__fold1 epoch=256 valBCE=0.302418 stale=20 elapsed=43.7s
+COMPLETE dim64_walk20_kernel7_length2000_lr0p0005__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8694643610291016, "sensitivity": 0.9051033319274567, "specificity": 0.8338253901307465, "precision": 0.8448818897637795, "f1": 0.8739564243534922, "mcc": 0.7408129852257909, "auroc": 0.9432708349750544, "average_precision": 0.9391853904407031, "pr_trapezoid_area": 0.9391693318536927, "threshold": 0.5}
+START dim64_walk20_kernel7_length2000_lr0p0005__fold2 train=33190 val=4742
+dim64_walk20_kernel7_length2000_lr0p0005__fold2 epoch=1 valBCE=0.690667 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length2000_lr0p0005__fold2 epoch=50 valBCE=0.430733 stale=0 elapsed=9.5s
+dim64_walk20_kernel7_length2000_lr0p0005__fold2 epoch=100 valBCE=0.387795 stale=0 elapsed=18.0s
+dim64_walk20_kernel7_length2000_lr0p0005__fold2 epoch=150 valBCE=0.345891 stale=1 elapsed=27.1s
+dim64_walk20_kernel7_length2000_lr0p0005__fold2 epoch=200 valBCE=0.330529 stale=0 elapsed=35.1s
+dim64_walk20_kernel7_length2000_lr0p0005__fold2 epoch=250 valBCE=0.320704 stale=6 elapsed=42.8s
+dim64_walk20_kernel7_length2000_lr0p0005__fold2 epoch=278 valBCE=0.323417 stale=20 elapsed=47.0s
+COMPLETE dim64_walk20_kernel7_length2000_lr0p0005__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8669337832138339, "sensitivity": 0.8937157317587516, "specificity": 0.8401518346689161, "precision": 0.8482786228983187, "f1": 0.8704046005339905, "mcc": 0.7349226036609053, "auroc": 0.940444880774137, "average_precision": 0.9345556574569106, "pr_trapezoid_area": 0.9345367092511421, "threshold": 0.5}
+START dim64_walk20_kernel7_length2000_lr0p0005__fold3 train=33190 val=4742
+dim64_walk20_kernel7_length2000_lr0p0005__fold3 epoch=1 valBCE=0.691325 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length2000_lr0p0005__fold3 epoch=50 valBCE=0.435075 stale=0 elapsed=9.9s
+dim64_walk20_kernel7_length2000_lr0p0005__fold3 epoch=100 valBCE=0.397989 stale=0 elapsed=18.5s
+dim64_walk20_kernel7_length2000_lr0p0005__fold3 epoch=150 valBCE=0.364895 stale=0 elapsed=27.2s
+dim64_walk20_kernel7_length2000_lr0p0005__fold3 epoch=200 valBCE=0.345393 stale=1 elapsed=35.2s
+dim64_walk20_kernel7_length2000_lr0p0005__fold3 epoch=250 valBCE=0.320006 stale=0 elapsed=43.3s
+dim64_walk20_kernel7_length2000_lr0p0005__fold3 epoch=296 valBCE=0.317055 stale=20 elapsed=50.2s
+COMPLETE dim64_walk20_kernel7_length2000_lr0p0005__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8616617460986925, "sensitivity": 0.8861239983129481, "specificity": 0.8371994938844369, "precision": 0.8447929232006434, "f1": 0.8649650061753809, "mcc": 0.7241907255055782, "auroc": 0.9408453866050857, "average_precision": 0.9371143362918781, "pr_trapezoid_area": 0.9370971530903767, "threshold": 0.5}
+START dim64_walk20_kernel7_length2000_lr0p0005__fold4 train=33190 val=4742
+dim64_walk20_kernel7_length2000_lr0p0005__fold4 epoch=1 valBCE=0.688842 stale=0 elapsed=0.6s
+dim64_walk20_kernel7_length2000_lr0p0005__fold4 epoch=50 valBCE=0.432399 stale=0 elapsed=9.6s
+dim64_walk20_kernel7_length2000_lr0p0005__fold4 epoch=100 valBCE=0.378664 stale=0 elapsed=18.0s
+dim64_walk20_kernel7_length2000_lr0p0005__fold4 epoch=150 valBCE=0.348742 stale=1 elapsed=26.5s
+dim64_walk20_kernel7_length2000_lr0p0005__fold4 epoch=200 valBCE=0.335551 stale=11 elapsed=34.3s
+dim64_walk20_kernel7_length2000_lr0p0005__fold4 epoch=250 valBCE=0.326254 stale=10 elapsed=41.8s
+dim64_walk20_kernel7_length2000_lr0p0005__fold4 epoch=260 valBCE=0.325319 stale=20 elapsed=43.2s
+COMPLETE dim64_walk20_kernel7_length2000_lr0p0005__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8663011387600169, "sensitivity": 0.8958245466048081, "specificity": 0.8367777309152257, "precision": 0.8458781362007168, "f1": 0.8701351904956984, "mcc": 0.7338827453897906, "auroc": 0.9399863847584717, "average_precision": 0.9354835822504759, "pr_trapezoid_area": 0.9354656316032078, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0001__fold0 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0001__fold0 epoch=1 valBCE=0.692568 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold0 epoch=50 valBCE=0.522005 stale=0 elapsed=8.9s
+dim64_walk20_kernel7_length1500_lr0p0001__fold0 epoch=100 valBCE=0.455831 stale=0 elapsed=17.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold0 epoch=150 valBCE=0.418684 stale=1 elapsed=25.6s
+dim64_walk20_kernel7_length1500_lr0p0001__fold0 epoch=200 valBCE=0.404968 stale=0 elapsed=32.8s
+dim64_walk20_kernel7_length1500_lr0p0001__fold0 epoch=250 valBCE=0.391706 stale=1 elapsed=40.7s
+dim64_walk20_kernel7_length1500_lr0p0001__fold0 epoch=300 valBCE=0.377998 stale=0 elapsed=48.5s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0001__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8296077604386335, "sensitivity": 0.84141712357655, "specificity": 0.817798397300717, "precision": 0.8220024721878862, "f1": 0.8315964985410587, "mcc": 0.6593994676286893, "auroc": 0.9113120172561712, "average_precision": 0.9078683713718774, "pr_trapezoid_area": 0.9078435111205764, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0001__fold1 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0001__fold1 epoch=1 valBCE=0.692412 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold1 epoch=50 valBCE=0.547742 stale=0 elapsed=8.6s
+dim64_walk20_kernel7_length1500_lr0p0001__fold1 epoch=100 valBCE=0.447882 stale=0 elapsed=17.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold1 epoch=150 valBCE=0.410150 stale=1 elapsed=27.1s
+dim64_walk20_kernel7_length1500_lr0p0001__fold1 epoch=200 valBCE=0.395138 stale=0 elapsed=35.0s
+dim64_walk20_kernel7_length1500_lr0p0001__fold1 epoch=250 valBCE=0.378605 stale=0 elapsed=43.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold1 epoch=300 valBCE=0.360446 stale=0 elapsed=51.9s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0001__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8369886123998312, "sensitivity": 0.8506959088991987, "specificity": 0.8232813159004639, "precision": 0.8279967159277504, "f1": 0.8391928437695028, "mcc": 0.6742306347791637, "auroc": 0.9186615616329824, "average_precision": 0.9155623120480381, "pr_trapezoid_area": 0.9155401364090971, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0001__fold2 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0001__fold2 epoch=1 valBCE=0.694469 stale=0 elapsed=0.6s
+dim64_walk20_kernel7_length1500_lr0p0001__fold2 epoch=50 valBCE=0.526781 stale=0 elapsed=8.9s
+dim64_walk20_kernel7_length1500_lr0p0001__fold2 epoch=100 valBCE=0.456888 stale=0 elapsed=17.4s
+dim64_walk20_kernel7_length1500_lr0p0001__fold2 epoch=150 valBCE=0.419737 stale=0 elapsed=25.8s
+dim64_walk20_kernel7_length1500_lr0p0001__fold2 epoch=200 valBCE=0.410759 stale=0 elapsed=33.3s
+dim64_walk20_kernel7_length1500_lr0p0001__fold2 epoch=250 valBCE=0.397024 stale=0 elapsed=41.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold2 epoch=300 valBCE=0.379006 stale=0 elapsed=50.0s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0001__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8287642345002109, "sensitivity": 0.8397300716997048, "specificity": 0.817798397300717, "precision": 0.8217086256706562, "f1": 0.8306216103462661, "mcc": 0.6576866611220057, "auroc": 0.9114208822655164, "average_precision": 0.9090716928692895, "pr_trapezoid_area": 0.9090468050599567, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0001__fold3 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0001__fold3 epoch=1 valBCE=0.694082 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold3 epoch=50 valBCE=0.533052 stale=0 elapsed=8.9s
+dim64_walk20_kernel7_length1500_lr0p0001__fold3 epoch=100 valBCE=0.464077 stale=0 elapsed=17.6s
+dim64_walk20_kernel7_length1500_lr0p0001__fold3 epoch=150 valBCE=0.430092 stale=0 elapsed=25.6s
+dim64_walk20_kernel7_length1500_lr0p0001__fold3 epoch=200 valBCE=0.416266 stale=0 elapsed=33.2s
+dim64_walk20_kernel7_length1500_lr0p0001__fold3 epoch=250 valBCE=0.404874 stale=0 elapsed=41.0s
+dim64_walk20_kernel7_length1500_lr0p0001__fold3 epoch=300 valBCE=0.393670 stale=0 elapsed=48.9s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0001__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.82686630113876, "sensitivity": 0.8156895824546605, "specificity": 0.8380430198228596, "precision": 0.8343399482312338, "f1": 0.8249093623373854, "mcc": 0.6538959908099834, "auroc": 0.904284887633344, "average_precision": 0.9053520059008844, "pr_trapezoid_area": 0.9053273117620392, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0001__fold4 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0001__fold4 epoch=1 valBCE=0.694225 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0001__fold4 epoch=50 valBCE=0.519794 stale=0 elapsed=8.8s
+dim64_walk20_kernel7_length1500_lr0p0001__fold4 epoch=100 valBCE=0.456324 stale=0 elapsed=17.3s
+dim64_walk20_kernel7_length1500_lr0p0001__fold4 epoch=150 valBCE=0.423674 stale=0 elapsed=25.3s
+dim64_walk20_kernel7_length1500_lr0p0001__fold4 epoch=200 valBCE=0.403571 stale=0 elapsed=33.4s
+dim64_walk20_kernel7_length1500_lr0p0001__fold4 epoch=250 valBCE=0.385013 stale=3 elapsed=41.4s
+dim64_walk20_kernel7_length1500_lr0p0001__fold4 epoch=300 valBCE=0.372634 stale=3 elapsed=49.1s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0001__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8403627161535218, "sensitivity": 0.84141712357655, "specificity": 0.8393083087304934, "precision": 0.8396464646464646, "f1": 0.8405308615967979, "mcc": 0.6807269459391456, "auroc": 0.9153574552341567, "average_precision": 0.9136386130063271, "pr_trapezoid_area": 0.9136155963331966, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0010__fold0 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0010__fold0 epoch=1 valBCE=0.684772 stale=0 elapsed=0.6s
+dim64_walk20_kernel7_length1500_lr0p0010__fold0 epoch=50 valBCE=0.415865 stale=1 elapsed=8.4s
+dim64_walk20_kernel7_length1500_lr0p0010__fold0 epoch=100 valBCE=0.383773 stale=3 elapsed=16.4s
+dim64_walk20_kernel7_length1500_lr0p0010__fold0 epoch=150 valBCE=0.333730 stale=0 elapsed=23.9s
+dim64_walk20_kernel7_length1500_lr0p0010__fold0 epoch=200 valBCE=0.316444 stale=9 elapsed=31.3s
+dim64_walk20_kernel7_length1500_lr0p0010__fold0 epoch=236 valBCE=0.315329 stale=20 elapsed=36.2s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0010__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8705187684521299, "sensitivity": 0.8962463095740194, "specificity": 0.8447912273302404, "precision": 0.8523866827115925, "f1": 0.8737664473684211, "mcc": 0.7420204841279733, "auroc": 0.9431731766578477, "average_precision": 0.9378544069164875, "pr_trapezoid_area": 0.9378373435247788, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0010__fold1 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0010__fold1 epoch=1 valBCE=0.688211 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold1 epoch=50 valBCE=0.397750 stale=0 elapsed=8.6s
+dim64_walk20_kernel7_length1500_lr0p0010__fold1 epoch=100 valBCE=0.347607 stale=2 elapsed=16.2s
+dim64_walk20_kernel7_length1500_lr0p0010__fold1 epoch=150 valBCE=0.318745 stale=7 elapsed=23.3s
+dim64_walk20_kernel7_length1500_lr0p0010__fold1 epoch=200 valBCE=0.302841 stale=2 elapsed=30.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold1 epoch=241 valBCE=0.298854 stale=20 elapsed=36.1s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0010__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.874103753690426, "sensitivity": 0.8975115984816533, "specificity": 0.8506959088991987, "precision": 0.8573730862207897, "f1": 0.8769833092932208, "mcc": 0.7490287841130047, "auroc": 0.9465572419156614, "average_precision": 0.9414080735085706, "pr_trapezoid_area": 0.9413920974201799, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0010__fold2 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0010__fold2 epoch=1 valBCE=0.687264 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold2 epoch=50 valBCE=0.410192 stale=0 elapsed=8.4s
+dim64_walk20_kernel7_length1500_lr0p0010__fold2 epoch=100 valBCE=0.347719 stale=1 elapsed=16.1s
+dim64_walk20_kernel7_length1500_lr0p0010__fold2 epoch=150 valBCE=0.329680 stale=7 elapsed=23.3s
+dim64_walk20_kernel7_length1500_lr0p0010__fold2 epoch=189 valBCE=0.323118 stale=20 elapsed=28.5s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0010__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8625052720371151, "sensitivity": 0.8827498945592577, "specificity": 0.8422606495149726, "precision": 0.8483988650182408, "f1": 0.8652335675899132, "mcc": 0.725605559283231, "auroc": 0.938443596807409, "average_precision": 0.9328372017200162, "pr_trapezoid_area": 0.932817770344369, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0010__fold3 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0010__fold3 epoch=1 valBCE=0.688967 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold3 epoch=50 valBCE=0.422341 stale=0 elapsed=8.3s
+dim64_walk20_kernel7_length1500_lr0p0010__fold3 epoch=100 valBCE=0.371986 stale=1 elapsed=15.8s
+dim64_walk20_kernel7_length1500_lr0p0010__fold3 epoch=150 valBCE=0.333948 stale=2 elapsed=23.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold3 epoch=200 valBCE=0.311044 stale=0 elapsed=30.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold3 epoch=240 valBCE=0.310847 stale=20 elapsed=35.8s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0010__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8629270350063264, "sensitivity": 0.8937157317587516, "specificity": 0.8321383382539013, "precision": 0.841875248311482, "f1": 0.8670212765957447, "mcc": 0.7272341337238565, "auroc": 0.9440565486127627, "average_precision": 0.9394762932650867, "pr_trapezoid_area": 0.9394581599331941, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0010__fold4 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0010__fold4 epoch=1 valBCE=0.684186 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold4 epoch=50 valBCE=0.411420 stale=0 elapsed=8.5s
+dim64_walk20_kernel7_length1500_lr0p0010__fold4 epoch=100 valBCE=0.354032 stale=0 elapsed=16.2s
+dim64_walk20_kernel7_length1500_lr0p0010__fold4 epoch=150 valBCE=0.327039 stale=0 elapsed=23.6s
+dim64_walk20_kernel7_length1500_lr0p0010__fold4 epoch=195 valBCE=0.319256 stale=20 elapsed=29.7s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0010__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8715731758751581, "sensitivity": 0.9004639392661324, "specificity": 0.8426824124841839, "precision": 0.8512759170653907, "f1": 0.8751793400286944, "mcc": 0.7443900400089156, "auroc": 0.941756152696339, "average_precision": 0.935851373808386, "pr_trapezoid_area": 0.9358317000644643, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0050__fold0 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0050__fold0 epoch=1 valBCE=0.667654 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold0 epoch=50 valBCE=0.455360 stale=2 elapsed=7.9s
+dim64_walk20_kernel7_length1500_lr0p0050__fold0 epoch=100 valBCE=0.381967 stale=0 elapsed=15.8s
+dim64_walk20_kernel7_length1500_lr0p0050__fold0 epoch=150 valBCE=0.360010 stale=0 elapsed=23.3s
+dim64_walk20_kernel7_length1500_lr0p0050__fold0 epoch=200 valBCE=0.346109 stale=0 elapsed=31.1s
+dim64_walk20_kernel7_length1500_lr0p0050__fold0 epoch=250 valBCE=0.341945 stale=1 elapsed=38.4s
+dim64_walk20_kernel7_length1500_lr0p0050__fold0 epoch=300 valBCE=0.326552 stale=0 elapsed=45.8s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0050__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.8521720792914382, "sensitivity": 0.8903416280050611, "specificity": 0.8140025305778152, "precision": 0.8271943573667712, "f1": 0.8576071501117204, "mcc": 0.7064055109767784, "auroc": 0.9343551109008916, "average_precision": 0.9296951121008298, "pr_trapezoid_area": 0.9296764014503529, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0050__fold1 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0050__fold1 epoch=1 valBCE=0.687706 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold1 epoch=50 valBCE=0.421805 stale=2 elapsed=7.9s
+dim64_walk20_kernel7_length1500_lr0p0050__fold1 epoch=100 valBCE=0.330361 stale=0 elapsed=15.3s
+dim64_walk20_kernel7_length1500_lr0p0050__fold1 epoch=150 valBCE=0.308428 stale=8 elapsed=22.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold1 epoch=200 valBCE=0.302862 stale=3 elapsed=29.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold1 epoch=227 valBCE=0.304126 stale=20 elapsed=33.2s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0050__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.8656684943062, "sensitivity": 0.8979333614508647, "specificity": 0.8334036271615353, "precision": 0.8435023771790808, "f1": 0.8698672114402451, "mcc": 0.7328644358680929, "auroc": 0.9444898740421169, "average_precision": 0.9397513377055252, "pr_trapezoid_area": 0.9397354136674524, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0050__fold2 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0050__fold2 epoch=1 valBCE=0.671164 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold2 epoch=50 valBCE=0.438043 stale=9 elapsed=7.8s
+dim64_walk20_kernel7_length1500_lr0p0050__fold2 epoch=100 valBCE=0.370623 stale=0 elapsed=15.8s
+dim64_walk20_kernel7_length1500_lr0p0050__fold2 epoch=150 valBCE=0.326224 stale=0 elapsed=23.6s
+dim64_walk20_kernel7_length1500_lr0p0050__fold2 epoch=200 valBCE=0.310969 stale=2 elapsed=30.8s
+dim64_walk20_kernel7_length1500_lr0p0050__fold2 epoch=234 valBCE=0.308606 stale=20 elapsed=35.3s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0050__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.8633487979755378, "sensitivity": 0.9021509911429777, "specificity": 0.8245466048080978, "precision": 0.8371819960861057, "f1": 0.8684531059683313, "mcc": 0.7288957763753935, "auroc": 0.941076635807943, "average_precision": 0.9359535934898889, "pr_trapezoid_area": 0.9359358119533967, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0050__fold3 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0050__fold3 epoch=1 valBCE=0.683733 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold3 epoch=50 valBCE=0.425370 stale=1 elapsed=8.1s
+dim64_walk20_kernel7_length1500_lr0p0050__fold3 epoch=100 valBCE=0.358378 stale=0 elapsed=15.3s
+dim64_walk20_kernel7_length1500_lr0p0050__fold3 epoch=150 valBCE=0.331846 stale=0 elapsed=22.4s
+dim64_walk20_kernel7_length1500_lr0p0050__fold3 epoch=200 valBCE=0.329899 stale=13 elapsed=29.3s
+dim64_walk20_kernel7_length1500_lr0p0050__fold3 epoch=250 valBCE=0.322581 stale=19 elapsed=36.0s
+dim64_walk20_kernel7_length1500_lr0p0050__fold3 epoch=251 valBCE=0.320657 stale=20 elapsed=36.2s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0050__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.8622943905525094, "sensitivity": 0.8983551244200759, "specificity": 0.8262336566849431, "precision": 0.8379228953579858, "f1": 0.8670873193568084, "mcc": 0.7264806411892509, "auroc": 0.9419137579222864, "average_precision": 0.9371338041809992, "pr_trapezoid_area": 0.9371164058595364, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0050__fold4 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0050__fold4 epoch=1 valBCE=0.671774 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold4 epoch=50 valBCE=0.431437 stale=0 elapsed=8.1s
+dim64_walk20_kernel7_length1500_lr0p0050__fold4 epoch=100 valBCE=0.375592 stale=0 elapsed=15.4s
+dim64_walk20_kernel7_length1500_lr0p0050__fold4 epoch=150 valBCE=0.355582 stale=0 elapsed=22.5s
+dim64_walk20_kernel7_length1500_lr0p0050__fold4 epoch=200 valBCE=0.343372 stale=1 elapsed=29.7s
+dim64_walk20_kernel7_length1500_lr0p0050__fold4 epoch=250 valBCE=0.329721 stale=8 elapsed=36.7s
+dim64_walk20_kernel7_length1500_lr0p0050__fold4 epoch=300 valBCE=0.317267 stale=16 elapsed=43.3s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0050__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.8660902572754112, "sensitivity": 0.9076339097427246, "specificity": 0.8245466048080978, "precision": 0.838006230529595, "f1": 0.8714314638590809, "mcc": 0.734720979901006, "auroc": 0.939997413566608, "average_precision": 0.9349392022041603, "pr_trapezoid_area": 0.93492132628079, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0100__fold0 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0100__fold0 epoch=1 valBCE=0.660758 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0100__fold0 epoch=50 valBCE=0.527089 stale=1 elapsed=7.6s
+dim64_walk20_kernel7_length1500_lr0p0100__fold0 epoch=91 valBCE=0.504374 stale=20 elapsed=13.1s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0100__fold0 {"n": 4742, "positive_n": 2371, "accuracy": 0.7654997891185154, "sensitivity": 0.8000843525938423, "specificity": 0.7309152256431886, "precision": 0.7483234714003945, "f1": 0.773338768854464, "mcc": 0.5322744032169674, "auroc": 0.8437938317299166, "average_precision": 0.8323857870011235, "pr_trapezoid_area": 0.832243073664422, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0100__fold1 train=33188 val=4742
+dim64_walk20_kernel7_length1500_lr0p0100__fold1 epoch=1 valBCE=0.689463 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0100__fold1 epoch=50 valBCE=0.562699 stale=2 elapsed=7.7s
+dim64_walk20_kernel7_length1500_lr0p0100__fold1 epoch=100 valBCE=0.501610 stale=1 elapsed=14.9s
+dim64_walk20_kernel7_length1500_lr0p0100__fold1 epoch=150 valBCE=0.473975 stale=4 elapsed=21.8s
+dim64_walk20_kernel7_length1500_lr0p0100__fold1 epoch=166 valBCE=0.453858 stale=20 elapsed=23.9s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0100__fold1 {"n": 4742, "positive_n": 2371, "accuracy": 0.7992408266554196, "sensitivity": 0.83171657528469, "specificity": 0.7667650780261493, "precision": 0.780990099009901, "f1": 0.8055555555555556, "mcc": 0.5997480680641156, "auroc": 0.8825219362104411, "average_precision": 0.8711436392014814, "pr_trapezoid_area": 0.8710952119846243, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0100__fold2 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0100__fold2 epoch=1 valBCE=0.663945 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0100__fold2 epoch=36 valBCE=0.547561 stale=20 elapsed=5.4s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0100__fold2 {"n": 4742, "positive_n": 2371, "accuracy": 0.7539013074652046, "sensitivity": 0.8532264867144664, "specificity": 0.6545761282159427, "precision": 0.7118226600985221, "f1": 0.7761365816228659, "mcc": 0.518128700490749, "auroc": 0.7833693044433112, "average_precision": 0.7085087821783431, "pr_trapezoid_area": 0.7081710149069206, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0100__fold3 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0100__fold3 epoch=1 valBCE=0.682900 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0100__fold3 epoch=50 valBCE=0.507059 stale=0 elapsed=8.0s
+dim64_walk20_kernel7_length1500_lr0p0100__fold3 epoch=100 valBCE=0.458094 stale=0 elapsed=15.3s
+dim64_walk20_kernel7_length1500_lr0p0100__fold3 epoch=149 valBCE=0.453740 stale=20 elapsed=22.1s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0100__fold3 {"n": 4742, "positive_n": 2371, "accuracy": 0.7986081822016027, "sensitivity": 0.8426824124841839, "specificity": 0.7545339519190215, "precision": 0.7744186046511627, "f1": 0.807109674813169, "mcc": 0.5995502046581971, "auroc": 0.8838952896494102, "average_precision": 0.8717022422355799, "pr_trapezoid_area": 0.8716454884261421, "threshold": 0.5}
+START dim64_walk20_kernel7_length1500_lr0p0100__fold4 train=33190 val=4742
+dim64_walk20_kernel7_length1500_lr0p0100__fold4 epoch=1 valBCE=0.682731 stale=0 elapsed=0.5s
+dim64_walk20_kernel7_length1500_lr0p0100__fold4 epoch=47 valBCE=0.589314 stale=20 elapsed=6.8s
+COMPLETE dim64_walk20_kernel7_length1500_lr0p0100__fold4 {"n": 4742, "positive_n": 2371, "accuracy": 0.7496836777730915, "sensitivity": 0.7726697595951075, "specificity": 0.7266975959510755, "precision": 0.7387096774193549, "f1": 0.7553081838796124, "mcc": 0.49989588488463704, "auroc": 0.7793792773320103, "average_precision": 0.7494435799639125, "pr_trapezoid_area": 0.7490813185106123, "threshold": 0.5}
+VERIFIED 140 VALIDATION RUNS; 135 NEW TRAININGS + 5 REUSED BASELINES
+REQUESTED RUNS FINISHED D:\1.肝癌\CaPPI_revised\runs\supplement_20261001\parameter_sensitivity

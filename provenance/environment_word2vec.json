@@ -1,0 +1,8 @@
+{
+  "python": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+  "executable": "D:\\Anaconda\\envs\\tf\\python.exe",
+  "gensim": "3.1.0",
+  "numpy": "1.19.5",
+  "scipy": "1.2.1",
+  "role": "Isolated Word2Vec helper only"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "dim64_walk20_kernel7_length1500_lr0p0005__fold0",
+  "config_name": "dim64_walk20_kernel7_length1500_lr0p0005",
+  "settings": {
+    "dim": 64,
+    "walk_length": 20,
+    "kernel": 7,
+    "max_length": 1500,
+    "learning_rate": 0.0005
+  },
+  "fold": 0,
+  "run_signature": "b3f7d03fe0767e90c5e574ae3c3471b77eaef8c88915690e1c53801b326ae390",
+  "split_hash": "49362c6da2a31f710ee9df981af39435a1a9b0064aa9f81273321459769e52da",
+  "graph_hash": "656109e031303b6e66bb12dad8da884e3ced1d43331a9cdcbc95ab36f658cb80",
+  "checkpoint_sha256": "acb77863b5831192a263ba4274784b2838d8211f20bfb1a841fc1b8784255755",
+  "evaluation_partition": "validation",
+  "test_evaluated": false,
+  "test_labels_or_scores_loaded": false,
+  "baseline_reused": true,
+  "best_epoch": 256,
+  "epochs_in_history": 276,
+  "best_validation_bce": 0.3142322599887848,
+  "elapsed_seconds": 0.625,
+  "validation_metrics": {
+    "n": 4742,
+    "positive_n": 2371,
+    "accuracy": 0.8679881906368621,
+    "sensitivity": 0.8797975537747785,
+    "specificity": 0.8561788274989456,
+    "precision": 0.8594973217964565,
+    "f1": 0.8695289704043351,
+    "mcc": 0.7361817472885879,
+    "auroc": 0.9407822377843053,
+    "average_precision": 0.9360948606118835,
+    "pr_trapezoid_area": 0.9360772847213057,
+    "threshold": 0.5
+  },
+  "artifact_sha256": {
+    "best.pt": "acb77863b5831192a263ba4274784b2838d8211f20bfb1a841fc1b8784255755",
+    "topology.npz": "1be009ab0a270f22849df3f1daa84eab6953619e0c307c0ed59b7328502aed37",
+    "run_config.json": "9c22d9d0fd59af73ea294fe000a962e3fa0cddb1349a847ea0863b0af5b04372",
+    "history.json": "e56feb92718d5f31a1909b5abe27cd3746b30d2f2d80dc6568e8c00d5183e3c3",
+    "validation_predictions.csv": "b69a99372b10ae5bc8d7467585574ec3ef02e69469ec21044c7279838afbe30b",
+    "validation_metrics.json": "e6cbd8dc057316ef4e5ee8320ee53a43865c8494f6a532962e0c7f33c4cd09fd",
+    "parameters.json": "8c3690d4f202566c6b9c9cce1d644c37cfa3a3197fee13fc28e1848d25a66a98",
+    "source_provenance.json": "dbb081195fe35c1586fa689d386e11a5f495288b716a9dfa1a504f2f15e05d0d"
+  }
+}
